@@ -60,12 +60,23 @@ is redistributed under the original dataset's terms.
 ## Reproducing the paper
 
 ```bash
-# Production 64-d CNN pipeline, single seed (≈154 min on MPS is the frozen
-# transformer reference; the lightweight CNN trains in ≈20 min):
+# Production CNN pipeline (≈20–21 min/run on MPS; 150-d word embeddings, 64-d hidden):
 python main.py --config experiments/configs/defaults.yaml
+
+# Production BERT pipeline (frozen DistilBERT projected to 64-d, ≈154 min/run):
+python experiments/scripts/run_sparse_bert.py
 
 # Three-seed headline runs use experiments/scripts/m_seed789_run.sh etc.
 ```
+
+**Pipeline naming.** The paper distinguishes the production **CNN** pipeline
+(`main.py`, ~21 min) from the production **BERT** pipeline (frozen DistilBERT,
+64-d head, ~154 min); their GT ranges are not interchangeable. The Table 1
+Sparse BERT row is a single August-2026 run at the script's default
+`lambda_rule=3.0` (no override recorded) — a prior-heavy point, not the
+validation-selected λ=1.0 recipe. Its provenance and the controlled
+three-seed λ=1.0 estimate (P@1 0.417→0.607, paired CI +0.19 [+0.14,+0.24])
+are documented in `experiments/sparse_bert/PROVENANCE_lambda.md`.
 
 Terminal-GT analyses were run once, after GT was opened, under the dated
 frozen protocol `experiments/icicml_runs/ABLATION_PROTOCOL_2026-10-22.md`
@@ -84,7 +95,8 @@ frozen protocol `experiments/icicml_runs/ABLATION_PROTOCOL_2026-10-22.md`
 The frozen-encoder (replication) pipeline — attention head trained on cached
 DistilBERT <[BOS_never_used_51bce0c785ca2f68081bfa7d91973934]> vectors, ≈80 s/run — supports the bracket and loss-term
 conclusions only; its magnitudes are not interchangeable with the production
-pipeline (see the manuscript footnote). Regenerate its embedding cache with
+CNN grid or the production BERT row (see the manuscript footnote). Regenerate
+its embedding cache with
 `experiments/scripts/icicml_cache_bert.py` (~680 MB; not shipped).
 
 ## Not included
