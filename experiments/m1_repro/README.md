@@ -5,7 +5,7 @@
 ## 来源与版本
 
 - 代码：`ai2tale_src/`（作者 GitHub 发布版，git 快照保留于该目录）
-- 环境：`/Users/miafiles/.venvs/ai2tale_tf`（Python 3.9.6，`tensorflow==2.15.1`、`tensorflow-probability==0.23.0`；作者标注环境为 TF 2.9 / Py3.9，2.15 为 Apple Silicon arm64 上可用的最接近 Keras-2 API 版本）
+- 环境：`$HOME/.venvs/ai2tale_tf`（Python 3.9.6，`tensorflow==2.15.1`、`tensorflow-probability==0.23.0`；作者标注环境为 TF 2.9 / Py3.9，2.15 为 Apple Silicon arm64 上可用的最接近 Keras-2 API 版本）
 - 数据：`phishingdata/` 原始 .mat（x_y_tr_m.mat / x_y_te_m.mat，键与 shape 已核对一致；X_*_len 为 0/1 mask）
 
 ## 对参考代码的补丁（最小化）
@@ -17,7 +17,7 @@
 ## 运行
 
 ```bash
-/Users/miafiles/.venvs/ai2tale_tf/bin/python experiments/m1_repro/ai2tale.py \
+"$HOME/.venvs/ai2tale_tf/bin/python" experiments/m1_repro/ai2tale.py \
   --train --data phishingdata/ --home experiments/m1_repro/runs/ai2tale
 ```
 
