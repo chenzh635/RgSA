@@ -1,0 +1,1416 @@
+{
+ "annotator": "agent_pass_c",
+ "batch": "production_chunk_5",
+ "exported_at": "2026-09-14T22:12:06+08:00",
+ "n_emails": 25,
+ "annotations": [
+  {
+   "email_id": 7507,
+   "sentence_idx": 0,
+   "sentence_text": "investment assistance investment assistance",
+   "label": "Y",
+   "confidence": "low",
+   "reason": "[scenario]自称NEPA财务总监,提议经外国人转移$65.5M并分成;标题直接展开投资交易提议(判例1 v1.3①)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 1,
+   "sentence_text": "i am mr chunks anthony , the financial controller and contract award committee chairman in the national electric power authority \\ ( nepal \\ ) in lagos , nigeria",
+   "label": "N",
+   "confidence": "high",
+   "reason": "骗子自我介绍,纯铺垫(判例9)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 2,
+   "sentence_text": "my colleagues have assigned me to seek for assistance of a reliable foreigner through whom we can transfer the sum of us 65 , 500 , 000 00 \\ ( sixty five million , five hundred thousand u s",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "提出转移$65.5M的交易提议+巨额金额诱饵(§1.1/判例11)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 3,
+   "sentence_text": "dollars \\ ) which arose from deliberate over inflated contract value for the general expansion of the kanji dam thermal station on behalf of national electric power authority \\ ( nepal \\ ) for increased energy generation to nigeria and some other west african countries",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "资金来源背景叙事(判例4)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 4,
+   "sentence_text": "the contract was awarded in 1998 during the late general sunni apache regime to an expatriate firm with the consideration of 10 commission agreement on the total contract value",
+   "label": "N",
+   "confidence": "high",
+   "reason": "合同背景叙事"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 5,
+   "sentence_text": "the contract has been completed , and the contractor has long been paid , we are now left with this us 65 , 500 , 000 00 representing the 10 our own share as agreed presently in the federal government account",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "报告$65.5M巨额资金=金额诱饵(判例11)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 6,
+   "sentence_text": "the favorable political economic climate in this country now presented an opportunity for this money to be transferred out of the country",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "背景叙事,无核心行为"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 7,
+   "sentence_text": "i got your contact from a commercial attached to your embassy",
+   "label": "N",
+   "confidence": "high",
+   "reason": "获取联系方式的背景铺垫"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 8,
+   "sentence_text": "this assurance gave me courage to link you up for this particular transaction , and i hope it will be of mutual benefit to all of us",
+   "label": "N",
+   "confidence": "low",
+   "reason": "过渡句泛称互利,无具体提议(判例12b)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 9,
+   "sentence_text": "our contact in the federal ministry of finance have given us a go a head advice to begin the process of the remittance , hence we have set in motion the machinery for the take off of the transaction and further action will commence immediately we hear from you",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "流程叙事+泛化催促(判例4/12b)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 10,
+   "sentence_text": "we have agreed that after the transfer of the money into your account , you shall be entitled to 30 of the total amount transferred , 10 for incidental expenses from you and us , while the remaining 60 will be for us",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "提出30%分成比例=金额诱饵(判例11)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 11,
+   "sentence_text": "we decided to give you this percentage in order to motivate you and also to let you feel satisfied at the end of this transaction",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "解释分成动机,叙事"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 12,
+   "sentence_text": "the nature of your business is not particularly relevant for the success of this transaction",
+   "label": "N",
+   "confidence": "high",
+   "reason": "叙事细节"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 13,
+   "sentence_text": "all we require is your willingness to co operate and assurance that our own share will be given to us when this money is transferred into your account",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "仅要求'合作意愿',非索取信息/资金"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 14,
+   "sentence_text": "all necessary precautions have been taken to ensure a no risk situation on the sides of both parties , and it is believed that the conclusion of this transaction will not last more than fourteen \\ ( 14 \\ ) working days",
+   "label": "N",
+   "confidence": "high",
+   "reason": "无风险合法性保证(判例4)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 15,
+   "sentence_text": "however , we are going to retrieve the whole documents that will be related to this transaction so that both parties will be protected after the transfer of the money into your account",
+   "label": "N",
+   "confidence": "high",
+   "reason": "流程叙事"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 16,
+   "sentence_text": "since we have no knowledge of business , our plan is to invest this money into real estate , stocks , and we can also invest in some other profitable business in your country based on your advice because many of our years has been spent as civil servant ,",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "投资计划叙事"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 17,
+   "sentence_text": "please note that this business is strictly confidential and must not be disclosed to a third party",
+   "label": "N",
+   "confidence": "high",
+   "reason": "泛化保密要求(判例12b)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 18,
+   "sentence_text": "this is necessary to avoid disclosure that may jeopardize the transaction",
+   "label": "N",
+   "confidence": "high",
+   "reason": "保密理由泛化叙述"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 19,
+   "sentence_text": "finally , if this proposal is acceptable to you or if you have any questions , feel free to contact me on the above e mail address",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "礼貌邀请回复,泛化(判例12b)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 20,
+   "sentence_text": "you should also send to me your private telephone fax numbers and e mail address for easy and confidential communication",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "索取私人电话/传真/邮箱=§1.3索取"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 21,
+   "sentence_text": "i will oblige you with further information if so required",
+   "label": "N",
+   "confidence": "high",
+   "reason": "套话"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 22,
+   "sentence_text": "please reply this mail through chuksanths zwallet com mail to chuksanths zwallet com",
+   "label": "Y",
+   "confidence": "low",
+   "reason": "引导经指定匿名邮箱回复以推进交易(§1.4)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 23,
+   "sentence_text": "best regards mr chunks anthonynepa investment assistance",
+   "label": "N",
+   "confidence": "high",
+   "reason": "签名档(§2)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 24,
+   "sentence_text": "i am mr chunks anthony , the financial controller and contract award committee chairman in the national electric power authority \\ ( nepal \\ ) in lagos , nigeria",
+   "label": "N",
+   "confidence": "high",
+   "reason": "骗子自我介绍,纯铺垫(判例9)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 25,
+   "sentence_text": "my colleagues have assigned me to seek for assistance of a reliable foreigner through whom we can transfer the sum of us 65 , 500 , 000 00 \\ ( sixty five million , five hundred thousand u s",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "提出转移$65.5M的交易提议+巨额金额诱饵(§1.1/判例11)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 26,
+   "sentence_text": "dollars \\ ) which arose from deliberate over inflated contract value for the general expansion of the kanji dam thermal station on behalf of national electric power authority \\ ( nepal \\ ) for increased energy generation to nigeria and some other west african countries",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "资金来源背景叙事(判例4)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 27,
+   "sentence_text": "the contract was awarded in 1998 during the late general sunni apache regime to an expatriate firm with the consideration of 10 commission agreement on the total contract value",
+   "label": "N",
+   "confidence": "high",
+   "reason": "合同背景叙事"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 28,
+   "sentence_text": "the contract has been completed , and the contractor has long been paid , we are now left with this us 65 , 500 , 000 00 representing the 10 our own share as agreed presently in the federal government account",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "报告$65.5M巨额资金=金额诱饵(判例11)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 29,
+   "sentence_text": "the favorable political economic climate in this country now presented an opportunity for this money to be transferred out of the country",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "背景叙事,无核心行为"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 30,
+   "sentence_text": "i got your contact from a commercial attached to your embassy",
+   "label": "N",
+   "confidence": "high",
+   "reason": "获取联系方式的背景铺垫"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 31,
+   "sentence_text": "this assurance gave me courage to link you up for this particular transaction , and i hope it will be of mutual benefit to all of us",
+   "label": "N",
+   "confidence": "low",
+   "reason": "过渡句泛称互利,无具体提议(判例12b)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 32,
+   "sentence_text": "our contact in the federal ministry of finance have given us a go a head advice to begin the process of the remittance , hence we have set in motion the machinery for the take off of the transaction and further action will commence immediately we hear from you",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "流程叙事+泛化催促(判例4/12b)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 33,
+   "sentence_text": "we have agreed that after the transfer of the money into your account , you shall be entitled to 30 of the total amount transferred , 10 for incidental expenses from you and us , while the remaining 60 will be for us",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "提出30%分成比例=金额诱饵(判例11)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 34,
+   "sentence_text": "we decided to give you this percentage in order to motivate you and also to let you feel satisfied at the end of this transaction",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "解释分成动机,叙事"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 35,
+   "sentence_text": "the nature of your business is not particularly relevant for the success of this transaction",
+   "label": "N",
+   "confidence": "high",
+   "reason": "叙事细节"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 36,
+   "sentence_text": "all we require is your willingness to co operate and assurance that our own share will be given to us when this money is transferred into your account",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "仅要求'合作意愿',非索取信息/资金"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 37,
+   "sentence_text": "all necessary precautions have been taken to ensure a no risk situation on the sides of both parties , and it is believed that the conclusion of this transaction will not last more than fourteen \\ ( 14 \\ ) working days",
+   "label": "N",
+   "confidence": "high",
+   "reason": "无风险合法性保证(判例4)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 38,
+   "sentence_text": "however , we are going to retrieve the whole documents that will be related to this transaction so that both parties will be protected after the transfer of the money into your account",
+   "label": "N",
+   "confidence": "high",
+   "reason": "流程叙事"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 39,
+   "sentence_text": "since we have no knowledge of business , our plan is to invest this money into real estate , stocks , and we can also invest in some other profitable business in your country based on your advice because many of our years has been spent as civil servant ,",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "投资计划叙事"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 40,
+   "sentence_text": "please note that this business is strictly confidential and must not be disclosed to a third party",
+   "label": "N",
+   "confidence": "high",
+   "reason": "泛化保密要求(判例12b)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 41,
+   "sentence_text": "this is necessary to avoid disclosure that may jeopardize the transaction",
+   "label": "N",
+   "confidence": "high",
+   "reason": "保密理由泛化叙述"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 42,
+   "sentence_text": "finally , if this proposal is acceptable to you or if you have any questions , feel free to contact me on the above e mail address",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "礼貌邀请回复,泛化(判例12b)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 43,
+   "sentence_text": "you should also send to me your private telephone fax numbers and e mail address for easy and confidential communication",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "索取私人电话/传真/邮箱=§1.3索取"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 44,
+   "sentence_text": "i will oblige you with further information if so required",
+   "label": "N",
+   "confidence": "high",
+   "reason": "套话"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 45,
+   "sentence_text": "please reply this mail through chuksanths zwallet com mail to chuksanths zwallet com",
+   "label": "Y",
+   "confidence": "low",
+   "reason": "引导经指定匿名邮箱回复以推进交易(§1.4)"
+  },
+  {
+   "email_id": 7507,
+   "sentence_idx": 46,
+   "sentence_text": "best regards mr chunks anthonynepa",
+   "label": "N",
+   "confidence": "high",
+   "reason": "签名档(§2)"
+  },
+  {
+   "email_id": 5764,
+   "sentence_idx": 0,
+   "sentence_text": "twitter 172 773 a color 0084b4 a hover color 215e88 h1 , h2 margin 0 0 16px 0 color 000 h2 font 20px georgia , serif h3 margin 14px 0 4px 0 color 000 font normal 18px georgia , serif line height 22px p , ul margin 4px 0 15px",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario]自称Twitter服务通知:1条未读消息,链接指向官方twitter.com;此句为CSS模板代码非交际句"
+  },
+  {
+   "email_id": 5764,
+   "sentence_idx": 1,
+   "sentence_text": "display block height 0 clear both visibility hidden user display inline block hi , you have 1 unread message \\ ( s \\ ) http twitter com account message 48bf 1cdaa the twitter team please do not reply to this message it was sent from an unmonitored email address",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "官方twitter.com链接的消息通知,无索取(判例8/判例5 v1.3)"
+  },
+  {
+   "email_id": 5764,
+   "sentence_idx": 2,
+   "sentence_text": "this message is a service email related to your use of twitter",
+   "label": "N",
+   "confidence": "high",
+   "reason": "服务邮件套话"
+  },
+  {
+   "email_id": 5764,
+   "sentence_idx": 3,
+   "sentence_text": "for general inquiries or to request support with your twitter account , please visit us at twitter support",
+   "label": "N",
+   "confidence": "high",
+   "reason": "指向官方支持渠道(判例8)"
+  },
+  {
+   "email_id": 7976,
+   "sentence_idx": 0,
+   "sentence_text": "letter from daniel kamila letter from daniel kabilajohannesburg , south africainvestment offergreetings , in appreciation of your esteemed contact received through a reliable source and the choice of your country i wish to introduce myself , i am daniel kamila the son of the late democratic republic of congo president",
+   "label": "Y",
+   "confidence": "low",
+   "reason": "[scenario]自称刚果(金)已故总统之子,求共同投资$12M并分成;标题'investment offer'同句叠加提议(判例1 v1.3①/判例2)"
+  },
+  {
+   "email_id": 7976,
+   "sentence_idx": 1,
+   "sentence_text": "i know this letter might come to you as a surprise , but i honestly do not intend to surprise you",
+   "label": "N",
+   "confidence": "high",
+   "reason": "礼貌前言"
+  },
+  {
+   "email_id": 7976,
+   "sentence_idx": 2,
+   "sentence_text": "i write this letter in respect of my intention to invest the sum of twelve a million united states dollars with you",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "提出共同投资$12M=交易提议+金额诱饵(§1.1/判例11)"
+  },
+  {
+   "email_id": 7976,
+   "sentence_idx": 3,
+   "sentence_text": "furthermore , i inherited this money from my mother",
+   "label": "N",
+   "confidence": "high",
+   "reason": "继承背景叙事"
+  },
+  {
+   "email_id": 7976,
+   "sentence_idx": 4,
+   "sentence_text": "this money was got through the smuggling and sale of diamond and timber when my father was the head of state",
+   "label": "N",
+   "confidence": "high",
+   "reason": "资金来源叙事"
+  },
+  {
+   "email_id": 7976,
+   "sentence_idx": 5,
+   "sentence_text": "my mother though not her legal wife used her privilege position to engage in the business of diamond and timber since she knows that her survival will depend on how much she can get out of the privilege situation",
+   "label": "N",
+   "confidence": "high",
+   "reason": "家庭背景叙事"
+  },
+  {
+   "email_id": 7976,
+   "sentence_idx": 6,
+   "sentence_text": "when my father was assassinated on 16th jan 01 by one of his bodyguards lt rashidi karaoke through the conspiracy of some top army officers that wanted to topple him i escaped to south africa because of the fear that i might be arrested by my half brother lt general",
+   "label": "N",
+   "confidence": "high",
+   "reason": "身世叙事(判例4)"
+  },
+  {
+   "email_id": 7976,
+   "sentence_idx": 7,
+   "sentence_text": "actually his mother and my mother are not in the best of relationship because of who among them will be the first lady tussle and this ultimately affected us their children",
+   "label": "N",
+   "confidence": "high",
+   "reason": "身世叙事"
+  },
+  {
+   "email_id": 7976,
+   "sentence_idx": 8,
+   "sentence_text": "considering the relationship between south africa and the democratic republic of congo new government , my mother advised me to leave for south africa for security reason , while the funds were deposited with a security company in europe",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "资金存放背景叙事,无金额"
+  },
+  {
+   "email_id": 7976,
+   "sentence_idx": 9,
+   "sentence_text": "on getting to south africa where i have been living since then as a political refugee i am seeking for a reliable foreigner who can assist me in moving this money out for safe banking and profitable investment",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "寻求外国人协助转移资金=交易提议(§1.1)"
+  },
+  {
+   "email_id": 7976,
+   "sentence_idx": 10,
+   "sentence_text": "honestly i contacted you because i do n't want to invest this money in south africa due to my status here as a political refugee",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "解释性叙事"
+  },
+  {
+   "email_id": 7976,
+   "sentence_idx": 11,
+   "sentence_text": "and moreover i would n't want to take risk because this money is all that i and my mother is depending on because my half brother has seized all my father 's assets and money and left i and my mother empty handed without knowing about these funds deposited at",
+   "label": "N",
+   "confidence": "high",
+   "reason": "叙事"
+  },
+  {
+   "email_id": 7976,
+   "sentence_idx": 12,
+   "sentence_text": "i will be honored if i can be given the privilege of investing this money with your help",
+   "label": "Y",
+   "confidence": "low",
+   "reason": "重申购资提议(§1.1)"
+  },
+  {
+   "email_id": 7976,
+   "sentence_idx": 13,
+   "sentence_text": "in view of this plight , i expect you to be trustworthy and kind enough to respond to this distress call to save my mother and i from a hopeless future",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "奉承+泛化催促回复(判例12b)"
+  },
+  {
+   "email_id": 7976,
+   "sentence_idx": 14,
+   "sentence_text": "and if you agree , i hereby agree to compensate your sincere and candid effort in this regard with 20 of the total money and annual 5 of the after tax returns on investment for the first three years",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "承诺20%分成+5%年回报=金额诱饵(判例11)"
+  },
+  {
+   "email_id": 7976,
+   "sentence_idx": 15,
+   "sentence_text": "thereafter , the term shall be varied 5 for expenses , which may arise during the transaction , fax and phone bills inclusive",
+   "label": "N",
+   "confidence": "low",
+   "reason": "费用条款细节,非诱饵核心"
+  },
+  {
+   "email_id": 7976,
+   "sentence_idx": 16,
+   "sentence_text": "when the money is moved into your discrete account , you will be allowed to draw 20 your favor , while the remaining 70 will be invested meaningfully for our future if possible in your area of business and deterrents sectors of the economy in your country which are dividends",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "提出20/70资金分配安排=金额诱饵(判例11/§1.1)"
+  },
+  {
+   "email_id": 7976,
+   "sentence_idx": 17,
+   "sentence_text": "whatever your decision is please reach me immediately and keep this letter tight secret for the interest of my family",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "泛化催促+保密(判例12b)"
+  },
+  {
+   "email_id": 7976,
+   "sentence_idx": 18,
+   "sentence_text": "best regards , daniel kamila email dankabila4eva100 teenmail co za",
+   "label": "N",
+   "confidence": "high",
+   "reason": "签名档(§2)"
+  },
+  {
+   "email_id": 6713,
+   "sentence_idx": 0,
+   "sentence_text": "!",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario]发件人与意图无法辨识;仅一个感叹号,无命题内容,不实施任何行为"
+  },
+  {
+   "email_id": 6713,
+   "sentence_idx": 1,
+   "sentence_text": "o60y7d jose monkey org , 24 0fef6t0en0dfde36r30eb0aenf6 , ae b1 f2ne1 w28d9ccx9era0z7af4 15gb sb0w28s47 a7ne57fq4d c8k62 sb0w28s47 a7ne57fq4dae b1 c8k62 22220c aenf6ff4eb0",
+   "label": "?",
+   "confidence": "high",
+   "reason": "乱码,语义无法解读(garbled)"
+  },
+  {
+   "email_id": 7688,
+   "sentence_idx": 0,
+   "sentence_text": "is it a microchip bonanza \\ ?",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "[scenario]股票推销(ISIE),宣称目标价85;好奇式营销钩子(判例12c)"
+  },
+  {
+   "email_id": 7688,
+   "sentence_idx": 1,
+   "sentence_text": "tsunami stocks symbol isie current 24 short target 85 rating strong a merger and acquisition mania is now underway in the market",
+   "label": "Y",
+   "confidence": "low",
+   "reason": "给出'现价24目标85强评级'=投资提议/暴利诱饵(§1.1/1.2)"
+  },
+  {
+   "email_id": 7688,
+   "sentence_idx": 2,
+   "sentence_text": "many companies are running out of cash as well as credit and some are closing their doors",
+   "label": "N",
+   "confidence": "high",
+   "reason": "市场背景叙事"
+  },
+  {
+   "email_id": 7688,
+   "sentence_idx": 3,
+   "sentence_text": "its capitalism at its finest",
+   "label": "N",
+   "confidence": "high",
+   "reason": "评论套话"
+  },
+  {
+   "email_id": 7688,
+   "sentence_idx": 4,
+   "sentence_text": "the strongest companies like isie , those with world class management , strong balance sheets , and access to capital will survive and prosper",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "公司吹捧营销(判例12c)"
+  },
+  {
+   "email_id": 7688,
+   "sentence_idx": 5,
+   "sentence_text": "isomers growth through acquisition business",
+   "label": "N",
+   "confidence": "low",
+   "reason": "碎片化公司描述标题,无核心行为"
+  },
+  {
+   "email_id": 7171,
+   "sentence_idx": 0,
+   "sentence_text": "barclay card online security notification",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "[scenario]自称Barclaycard系统错误,要求重新登录管理账户;品牌+安全通知,无具体提议/威胁(判例1)"
+  },
+  {
+   "email_id": 7171,
+   "sentence_idx": 1,
+   "sentence_text": "barclay card system error var domain https statse webtrendslive com var did dcspe7z2q10000gskbelwijvj 8w1g var gpc wt fpc var convert true var fandom barclaycard co uk if \\ ( \\ ( type of \\ ( convert \\ ) ! undefined \\ ) gconvert \\ ( document cookie index \\ (",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "'系统错误'pretext+模板JS代码,句内无索取(判例9)"
+  },
+  {
+   "email_id": 7171,
+   "sentence_idx": 2,
+   "sentence_text": "if you would like to continue managing your account , you will need to log in again",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "把继续管理账户绑定到重新登录=假登录索取(判例9但书/§1.4)"
+  },
+  {
+   "email_id": 7171,
+   "sentence_idx": 3,
+   "sentence_text": "log in copy barclay card 2013 cancel confirm",
+   "label": "Y",
+   "confidence": "low",
+   "reason": "'log in'登录CTA服务于欺骗性登录,混签名碎片(§1.4)"
+  },
+  {
+   "email_id": 5781,
+   "sentence_idx": 0,
+   "sentence_text": "errors on your internet banking account dear valued customer , hsbc bank plc is sending you this notification message because we seem to be having some errors with our internal security server",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "[scenario]自称HSBC,称内部安全服务器出错,后引导点击登录;纯pretext无句内索取(判例9)"
+  },
+  {
+   "email_id": 5781,
+   "sentence_idx": 1,
+   "sentence_text": "please do not be left out",
+   "label": "N",
+   "confidence": "high",
+   "reason": "泛化催促(判例12b)"
+  },
+  {
+   "email_id": 5781,
+   "sentence_idx": 2,
+   "sentence_text": "to get started , click the link below click here to log on",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "引导点击链接登录=欺骗性引导(§1.4/判例5 v1.3)"
+  },
+  {
+   "email_id": 5954,
+   "sentence_idx": 0,
+   "sentence_text": "car advert job opening hello , we are currently seeking to employ individuals worldwide",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "[scenario]车身广告招聘:声称全球雇佣,开车贴广告赚钱;直接展开雇佣交易提议(§1.1)"
+  },
+  {
+   "email_id": 5954,
+   "sentence_idx": 1,
+   "sentence_text": "how would you like to make money by simply driving your car advertising for hennessy , johnnie walker , pepsi , coke , apple product",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "抛出'开车即赚钱'好处+品牌背书=提议/诱饵(§1.1/1.2)"
+  },
+  {
+   "email_id": 5954,
+   "sentence_idx": 2,
+   "sentence_text": "how it works here 's the basic premise of the paid to drive concept auto wrap seeks people regular citizens , professional drivers to go about their normal routine as they usually do , only with an advert for auto wrap plastered on your car",
+   "label": "N",
+   "confidence": "low",
+   "reason": "运作方式说明,流程细节(判例4)"
+  },
+  {
+   "email_id": 5954,
+   "sentence_idx": 3,
+   "sentence_text": "the ads are type",
+   "label": "N",
+   "confidence": "low",
+   "reason": "截断碎片,无核心行为"
+  },
+  {
+   "email_id": 5121,
+   "sentence_idx": 0,
+   "sentence_text": "important information about your service mail update to make sure emails from bt go into your inbox and not the junk folder , add ebilling bt com to your address book",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "[scenario]自称BT服务邮件更新,请求将ebilling地址加入通讯录;貌似合法投递通知,无敏感索取(判例8)"
+  },
+  {
+   "email_id": 5121,
+   "sentence_idx": 1,
+   "sentence_text": "click here thanks for choosing bt , warren buckley managing director , customer service",
+   "label": "N",
+   "confidence": "low",
+   "reason": "'click here'无可见欺骗目标/索取,疑合法账单通知(判例8)"
+  },
+  {
+   "email_id": 6165,
+   "sentence_idx": 0,
+   "sentence_text": "message from natwest new page 1 we detect irregular activity on your natwest internet banking account on 07 06 2011",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "[scenario]自称NatWest,称检测到异常活动须验证方可继续用账户;'检测到异常活动'纯pretext(判例9)"
+  },
+  {
+   "email_id": 6165,
+   "sentence_idx": 1,
+   "sentence_text": "for your protection , you must verify this activity before you can continue using your account",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "把继续用账户绑定到验证=索取(判例9但书/§1.3)"
+  },
+  {
+   "email_id": 6165,
+   "sentence_idx": 2,
+   "sentence_text": "please visit http www natwest com verify activity personal ashx to review your account activity",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "给出验证URL=钓鱼链接引导(判例5 v1.3/§1.4)"
+  },
+  {
+   "email_id": 6165,
+   "sentence_idx": 3,
+   "sentence_text": "we will review the activity on your account with you and upon verification , and we will remove any restrictions placed on your account",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "解除账户限制绑定在验证上=绑定施压(判例12a)"
+  },
+  {
+   "email_id": 6165,
+   "sentence_idx": 4,
+   "sentence_text": "please disregard this notice if you have already accessed the website or spoken with one of our representatives",
+   "label": "N",
+   "confidence": "high",
+   "reason": "套话"
+  },
+  {
+   "email_id": 6165,
+   "sentence_idx": 5,
+   "sentence_text": "want to confirm this email is from natwest online banking \\ ?",
+   "label": "N",
+   "confidence": "high",
+   "reason": "套话问句"
+  },
+  {
+   "email_id": 6165,
+   "sentence_idx": 6,
+   "sentence_text": "sign in to internet banking and select alerts history to verify this alert",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "指向真实网银界面的核实步骤,无欺骗目标(判例10)"
+  },
+  {
+   "email_id": 6165,
+   "sentence_idx": 7,
+   "sentence_text": "natwest online banking",
+   "label": "N",
+   "confidence": "high",
+   "reason": "签名/品牌"
+  },
+  {
+   "email_id": 7153,
+   "sentence_idx": 0,
+   "sentence_text": "onto were respect",
+   "label": "?",
+   "confidence": "high",
+   "reason": "[scenario]严重乱码的德语网银(Sparkasse)邮件;garbled无法解读(§3)"
+  },
+  {
+   "email_id": 7153,
+   "sentence_idx": 1,
+   "sentence_text": "new page 2 online banking is ja so sequel online banking bam online banking haven she per kick allies i 'm grief mit them comfortable online banking haven she schneider und problemlosen gang eu iprem girokonto",
+   "label": "N",
+   "confidence": "low",
+   "reason": "重度乱码,仅辨'网银/支票账户'广告碎片,无核心行为"
+  },
+  {
+   "email_id": 7153,
+   "sentence_idx": 2,
+   "sentence_text": "bam online banking erlangen she berweisungen und dauerauftrge sequel per mausklick",
+   "label": "N",
+   "confidence": "low",
+   "reason": "乱码中可辨'转账/委托点击完成'功能描述,无索取"
+  },
+  {
+   "email_id": 7153,
+   "sentence_idx": 3,
+   "sentence_text": "online banking baited abel noah view meir",
+   "label": "?",
+   "confidence": "medium",
+   "reason": "乱码,命题无法恢复(garbled)"
+  },
+  {
+   "email_id": 7153,
+   "sentence_idx": 4,
+   "sentence_text": "klicken she bitter hear die fertile on online banking auf linen black sparkasse de 2013 all recite vorbehalten",
+   "label": "Y",
+   "confidence": "low",
+   "reason": "可辨'点击…网银…sparkasse'登录引导CTA(§1.4),重度乱码"
+  },
+  {
+   "email_id": 6264,
+   "sentence_idx": 0,
+   "sentence_text": "cornell university office 365 web access help desk this is your final warning",
+   "label": "N",
+   "confidence": "low",
+   "reason": "[scenario]自称Cornell O365帮助台,称邮箱超配额须验证否则永久停用;'最后警告'泛化无具体后果(判例12b)"
+  },
+  {
+   "email_id": 6264,
+   "sentence_idx": 1,
+   "sentence_text": "your cornell university office 365 web access email has exceeded its quota limit cornell university online validate to sign in for upgrade and advance mailbox features or you will be deactivated permanently , and may not be able to send or receive new mail until you re validate your cornell",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "把永久停用绑定到验证/重新登录=索取+绑定施压(§1.3/§1.5/判例12a)"
+  },
+  {
+   "email_id": 4395,
+   "sentence_idx": 0,
+   "sentence_text": "lloyds bank on line banking important verify your data id 8986 lloyds tsb bank electronic banking client details verification form dear lloyds bank client , security and confidentiality are at the heart of the lloyds group",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "[scenario]自称Lloyds,强制客户资料确认,引导至确认页;标题直接展开'验证资料'索取(判例1 v1.3②)"
+  },
+  {
+   "email_id": 4395,
+   "sentence_idx": 1,
+   "sentence_text": "your details \\ ( and your money \\ ) is protected by a number of technologies , including secure sockets layer \\ ( ssl \\ ) encryption",
+   "label": "N",
+   "confidence": "high",
+   "reason": "SSL安全背书叙事"
+  },
+  {
+   "email_id": 4395,
+   "sentence_idx": 2,
+   "sentence_text": "we would like to inform you that lloyds bank carries out customer details confirmation procedure that is compulsory for all our customers",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "宣布强制性客户资料确认程序=索取(判例9但书/§1.3)"
+  },
+  {
+   "email_id": 4395,
+   "sentence_idx": 3,
+   "sentence_text": "this procedure is attributed to a routine banking software update",
+   "label": "N",
+   "confidence": "high",
+   "reason": "'软件更新'纯pretext(判例9)"
+  },
+  {
+   "email_id": 4395,
+   "sentence_idx": 4,
+   "sentence_text": "please visit our customer confirmation page using the link below and follow the instructions on the screen",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "引导经链接访问确认页=欺骗性引导(§1.4)"
+  },
+  {
+   "email_id": 4395,
+   "sentence_idx": 5,
+   "sentence_text": "http www2 lloydstsb co uk customer confirm ibc \\ ? ole 28aolscpddwcjjtlctoldbhrokhovp lloyds customer service",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "钓鱼URL本身(判例5 v1.3)"
+  },
+  {
+   "email_id": 7539,
+   "sentence_idx": 0,
+   "sentence_text": "update your email account now \\ ( do not ignore \\ ) dear \\ ( jose monkey org \\ ) , 1969mb 2000mb your email account storage limit is almost full therefore you may not be able to receive or send multiple emails soon",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "[scenario]自称邮件管理员,称存储将满须立即升级邮箱配额;标题直接展开'立即更新账户'索取+后果(判例1 v1.3②)"
+  },
+  {
+   "email_id": 7539,
+   "sentence_idx": 1,
+   "sentence_text": "to prevent this and to continue using your mailbox safely , please upgrade your mailbox quota below upgrade mailbox quota here jose monkey org this service is free of charge and once the upgrade is completed , your mailbox will continue to work effectively",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "把继续用邮箱绑定到点击升级配额=索取+引导(§1.3/1.4)"
+  },
+  {
+   "email_id": 7539,
+   "sentence_idx": 2,
+   "sentence_text": "failure to update your email account , it will be permanently disabled",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "不更新即永久停用=绑定施压(§1.5/判例12a)"
+  },
+  {
+   "email_id": 7539,
+   "sentence_idx": 3,
+   "sentence_text": "thank you , mail administrator 2017",
+   "label": "N",
+   "confidence": "high",
+   "reason": "签名档"
+  },
+  {
+   "email_id": 4704,
+   "sentence_idx": 0,
+   "sentence_text": "protect yourself from online fraud !",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "[scenario]自称HSBC网银帮助台的反欺诈提醒;泛化安全口号,无提议/索取/威胁(判例1/12b)"
+  },
+  {
+   "email_id": 4704,
+   "sentence_idx": 1,
+   "sentence_text": "new page 1 dear customer protect yourself from online fraud hsbc internet banking helpdesk",
+   "label": "N",
+   "confidence": "high",
+   "reason": "问候+口号+签名,无核心行为(§2)"
+  },
+  {
+   "email_id": 7351,
+   "sentence_idx": 0,
+   "sentence_text": "free secure loan for you",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "[scenario]自称UK贷款公司,提供3%年利率各类贷款,求回复;标题直接展开贷款交易提议(判例1 v1.3①)"
+  },
+  {
+   "email_id": 7351,
+   "sentence_idx": 1,
+   "sentence_text": "if you need a loan of any kind auto , mortgage , business , marriage , personal , mortgage at an interest rate of 3 per year , please return to us",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "提出3%利率贷款提议+回复渠道引导(§1.1/1.4)"
+  },
+  {
+   "email_id": 7351,
+   "sentence_idx": 2,
+   "sentence_text": "thank you",
+   "label": "N",
+   "confidence": "high",
+   "reason": "套话"
+  },
+  {
+   "email_id": 7351,
+   "sentence_idx": 3,
+   "sentence_text": "mr vance mercury director of administration uk comic finance email comicloanuk crisnee eu",
+   "label": "N",
+   "confidence": "high",
+   "reason": "签名档(§2)"
+  },
+  {
+   "email_id": 5626,
+   "sentence_idx": 0,
+   "sentence_text": "account alert issue with your online banking dear valued customer we believe that invention of security measures is the best way to beat online fraud",
+   "label": "N",
+   "confidence": "low",
+   "reason": "[scenario]自称Barclays,要求下载附件更新网银资料否则冻结资金;'账户有问题'弱pretext无句内索取(判例9)"
+  },
+  {
+   "email_id": 5626,
+   "sentence_idx": 1,
+   "sentence_text": "barclays bank have employed some industrial leading models to start performing an extra security check with your online banking activities to ensure a safe and secure online and mobile banking",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "安全检查pretext叙事,无句内索取(判例9)"
+  },
+  {
+   "email_id": 5626,
+   "sentence_idx": 2,
+   "sentence_text": "you are requested to follow the provided steps and update your online banking details , for the safety of your accounts by downloading the attached form and follow the instructions on your screen",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "要求下载附件更新网银资料=索取+附件引导(§1.3/1.4)"
+  },
+  {
+   "email_id": 5626,
+   "sentence_idx": 3,
+   "sentence_text": "if you choose to ignore our request , you leave us no choice but to temporary hold on your funds",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "不照做即冻结资金=绑定施压(§1.5/判例12a)"
+  },
+  {
+   "email_id": 5626,
+   "sentence_idx": 4,
+   "sentence_text": "thank you for your patience as we work together to protect your account",
+   "label": "N",
+   "confidence": "high",
+   "reason": "套话"
+  },
+  {
+   "email_id": 5626,
+   "sentence_idx": 5,
+   "sentence_text": "sincerely , barclays online bank customer service",
+   "label": "N",
+   "confidence": "high",
+   "reason": "签名档"
+  },
+  {
+   "email_id": 5626,
+   "sentence_idx": 6,
+   "sentence_text": "important please update your records on or before 48 hours , a failure to update your records will result in a temporary hold on your funds",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "48小时不更新即冻结资金=绑定施压(§1.5/判例12a)"
+  },
+  {
+   "email_id": 5626,
+   "sentence_idx": 7,
+   "sentence_text": "2014 barclays bank plc",
+   "label": "N",
+   "confidence": "high",
+   "reason": "版权页脚"
+  },
+  {
+   "email_id": 5626,
+   "sentence_idx": 8,
+   "sentence_text": "all rights reserved",
+   "label": "N",
+   "confidence": "high",
+   "reason": "版权页脚"
+  },
+  {
+   "email_id": 5049,
+   "sentence_idx": 0,
+   "sentence_text": "your accounts have been limited until we hear from you paypal your accounts has been limited until we hear from you dear customer please be aware that your paypal account expire in less than 48 h it is indispensable to perform an audit of your data is present , otherwise",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "[scenario]自称PayPal,称账户被限制且48h过期,须确认资料;账户限制威胁+资料审计索取(判例1 v1.3③/§1.3)"
+  },
+  {
+   "email_id": 5049,
+   "sentence_idx": 1,
+   "sentence_text": "just click the link below",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "引导点击链接完成确认=欺骗性引导(§1.4)"
+  },
+  {
+   "email_id": 5049,
+   "sentence_idx": 2,
+   "sentence_text": "click here to confirm your account information",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "点击确认账户信息=索取+引导(§1.3/1.4)"
+  },
+  {
+   "email_id": 5049,
+   "sentence_idx": 3,
+   "sentence_text": "you must confirm your information to save it thanks you for helping , the team need assistance \\ ?",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "'必须确认你的信息'=索取(§1.3)"
+  },
+  {
+   "email_id": 5049,
+   "sentence_idx": 4,
+   "sentence_text": "we 're happy to help by phone at 1 518 741 2708 , monday to friday 9 00am to 5 00 pm est , or by emailcopyright 2016",
+   "label": "N",
+   "confidence": "high",
+   "reason": "联系电话+版权页脚"
+  },
+  {
+   "email_id": 5049,
+   "sentence_idx": 5,
+   "sentence_text": "all rights reserved",
+   "label": "N",
+   "confidence": "high",
+   "reason": "版权页脚"
+  },
+  {
+   "email_id": 5049,
+   "sentence_idx": 6,
+   "sentence_text": "email id 18460",
+   "label": "N",
+   "confidence": "high",
+   "reason": "页脚编号"
+  },
+  {
+   "email_id": 4952,
+   "sentence_idx": 0,
+   "sentence_text": "re re invoice 63844310 payment i just saw this , i must have missed it",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "[scenario]自称会计师,就发票63844310请求确认后将付款;貌似正常商务往来,无敏感索取(判例8)"
+  },
+  {
+   "email_id": 4952,
+   "sentence_idx": 1,
+   "sentence_text": "please confirm you have indeed sent this , and we will remit the payment",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "请求确认发票已发出,非索取个人信息(判例8)"
+  },
+  {
+   "email_id": 4952,
+   "sentence_idx": 2,
+   "sentence_text": "invoice 63844310 thanks brandon wallace senior accountant tel number redacted fax number redacted",
+   "label": "N",
+   "confidence": "high",
+   "reason": "附件名+签名档(§2)"
+  },
+  {
+   "email_id": 7324,
+   "sentence_idx": 0,
+   "sentence_text": "western union you have \\ ( 1 \\ ) new message alert as part of our security measures , we regularly screen activity in the western union system",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "[scenario]自称Western Union,称账户有未决问题须点击解决;通知标题+安全pretext,无句内索取(判例9)"
+  },
+  {
+   "email_id": 7324,
+   "sentence_idx": 1,
+   "sentence_text": "your account has open issues click to resolve best regards , western union customer service 2001 2011 western union holdings , inc , all rights reserved",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "账户问题前提+点击解决CTA=欺骗性引导(§1.4/判例1 v1.3③)"
+  },
+  {
+   "email_id": 7324,
+   "sentence_idx": 2,
+   "sentence_text": "do not reply to this email",
+   "label": "N",
+   "confidence": "high",
+   "reason": "套话"
+  },
+  {
+   "email_id": 7324,
+   "sentence_idx": 3,
+   "sentence_text": "if you have questions please contact us",
+   "label": "N",
+   "confidence": "high",
+   "reason": "套话"
+  },
+  {
+   "email_id": 5646,
+   "sentence_idx": 0,
+   "sentence_text": "your account has been placed on suspension status",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "[scenario]自称HSBC,称账户被暂停须确认身份后恢复;标题直接陈述账户停用威胁(判例1 v1.3③)"
+  },
+  {
+   "email_id": 5646,
+   "sentence_idx": 1,
+   "sentence_text": "dear hsbc account holder , we are currently engaged in customer information update , therefore online access to your account has been temporarily suspended pending confirmation of your identity",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "把恢复访问绑定到身份确认=索取(判例9但书/§1.3)"
+  },
+  {
+   "email_id": 5646,
+   "sentence_idx": 2,
+   "sentence_text": "log on best regards , colette nu gent head of customer communications",
+   "label": "Y",
+   "confidence": "low",
+   "reason": "'log on'登录CTA服务于欺骗性身份确认,混签名(§1.4)"
+  },
+  {
+   "email_id": 5074,
+   "sentence_idx": 0,
+   "sentence_text": "can i confide in you \\ ?",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "[scenario]自称尼日利亚律师,求收件人冒充已故客户继承人分$9.6M;泛化信任钩子,无具体提议(判例12b)"
+  },
+  {
+   "email_id": 5074,
+   "sentence_idx": 1,
+   "sentence_text": "please respond barrister anthony njabalagos nigeria private email tonynjaba2k2 centrum czdear friend , i am barrister anthony nasa , a solicitor at law",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "自我介绍+私人邮箱(判例9)"
+  },
+  {
+   "email_id": 5074,
+   "sentence_idx": 2,
+   "sentence_text": "i am the personal attorney to mr andrew deceiver , a national of your country , who used to work with shell development company in nigeria",
+   "label": "N",
+   "confidence": "high",
+   "reason": "身份背景叙事"
+  },
+  {
+   "email_id": 5074,
+   "sentence_idx": 3,
+   "sentence_text": "on the 16th of march 2001 , my client , his wife and their only son were involved in a car accident along lagos ibadan express road , all occupants of the vehicle unfortunately lost their lives",
+   "label": "N",
+   "confidence": "high",
+   "reason": "事故叙事(判例4)"
+  },
+  {
+   "email_id": 5074,
+   "sentence_idx": 4,
+   "sentence_text": "since then i have made several inquiries to your embassy here to locate any of my clients extended relatives , this has also proved unsuccessful",
+   "label": "N",
+   "confidence": "high",
+   "reason": "寻亲过程叙事"
+  },
+  {
+   "email_id": 5074,
+   "sentence_idx": 5,
+   "sentence_text": "after these several unsuccessful attempts , i decided to contact you , hoping that you will be willing to assist me in recovering the fund valued at us 9 6 million left behind by my client before it gets confiscated or declared unserviceable by the bank where this huge amount",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "提出协助转移$9.6M基金=提议+金额诱饵(§1.1/判例11)"
+  },
+  {
+   "email_id": 5074,
+   "sentence_idx": 6,
+   "sentence_text": "the said bank has issued me a notice to provide the next of kin or have the account confiscated within the next twenty one official working days",
+   "label": "N",
+   "confidence": "low",
+   "reason": "银行通知期限叙事,泛化紧迫(判例12b)"
+  },
+  {
+   "email_id": 5074,
+   "sentence_idx": 7,
+   "sentence_text": "since i have been unsuccessful in locating the relatives for over 2 years now , i seek your consent to present you as the next of kin to the deceased so that the proceeds of this account can be paid to you",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "请求冒充next of kin收款=核心交易提议(§1.1)"
+  },
+  {
+   "email_id": 5074,
+   "sentence_idx": 8,
+   "sentence_text": "therefore , on receipt of your positive response , we shall then discuss on how we can share the funds when it gets into your account",
+   "label": "Y",
+   "confidence": "low",
+   "reason": "提出到款后分成安排(§1.1)"
+  },
+  {
+   "email_id": 5074,
+   "sentence_idx": 9,
+   "sentence_text": "i will give you necessary information and some documents you need to back up your claim",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "承诺提供文件,流程叙事"
+  },
+  {
+   "email_id": 5074,
+   "sentence_idx": 10,
+   "sentence_text": "i need your sincere and honest cooperation to enable us see this transaction through i assure you that this transaction will be executed under legitimate arrangement that will protect you from any breach of the law",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "泛化合作请求+合法性保证(判例4/12b)"
+  },
+  {
+   "email_id": 5074,
+   "sentence_idx": 11,
+   "sentence_text": "if you wish to assist me , then you should reply",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "泛化催促回复(判例12b)"
+  },
+  {
+   "email_id": 5074,
+   "sentence_idx": 12,
+   "sentence_text": "remember to email me your telephone and fax number and your contact address",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "索取电话/传真/联系地址=§1.3"
+  },
+  {
+   "email_id": 5074,
+   "sentence_idx": 13,
+   "sentence_text": "please reply to my private email address tonynjaba2k2 centrum cz best wishes , barrister anthony njabalagos nigeria ill portal official do 10 festival super bock super rock",
+   "label": "Y",
+   "confidence": "low",
+   "reason": "引导至私人邮箱回复以推进交易,混签名(§1.4)"
+  },
+  {
+   "email_id": 5074,
+   "sentence_idx": 14,
+   "sentence_text": "ganha um dos 50 passes de 3 dias que demos para officer !",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "无关葡语活动赠品广告(判例12c)"
+  },
+  {
+   "email_id": 5074,
+   "sentence_idx": 15,
+   "sentence_text": "concorre aqua http www iol pt passatempos sbsr",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "合法门户iol.pt促销链接,与骗局索取无关(判例5 v1.3)"
+  },
+  {
+   "email_id": 4914,
+   "sentence_idx": 0,
+   "sentence_text": "your order with amazon com \\ ( 6694 049080 61152 \\ ) amazon com your confirmation dear customer , your order has been successfully confirmed",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "[scenario]Amazon订单确认通知附订单摘要;貌似合法程序通知,无索取(判例8)"
+  },
+  {
+   "email_id": 4914,
+   "sentence_idx": 1,
+   "sentence_text": "for your reference , here s a summary of your order you just confirmed order 097 62331 566273 status confirmed order details sold by amazon com , llc because you only pay for items when we ship them to you , you wo n't be charged for any items that",
+   "label": "N",
+   "confidence": "high",
+   "reason": "订单摘要细节"
+  },
+  {
+   "email_id": 4914,
+   "sentence_idx": 2,
+   "sentence_text": "thank you for visiting amazon com !",
+   "label": "N",
+   "confidence": "high",
+   "reason": "致谢套话"
+  },
+  {
+   "email_id": 4914,
+   "sentence_idx": 3,
+   "sentence_text": "amazon com earth 's biggest selection http www amazon com",
+   "label": "N",
+   "confidence": "high",
+   "reason": "官方amazon.com域名页脚(判例5 v1.3)"
+  },
+  {
+   "email_id": 5990,
+   "sentence_idx": 0,
+   "sentence_text": "why is everyone talking about cbd \\ ?",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario]CBD产品广告;'为什么人人都在谈论X'从众营销钩子(判例12c)"
+  },
+  {
+   "email_id": 5990,
+   "sentence_idx": 1,
+   "sentence_text": "what is essential cbd extract \\ ?",
+   "label": "N",
+   "confidence": "high",
+   "reason": "产品设问营销(判例12c)"
+  },
+  {
+   "email_id": 4174,
+   "sentence_idx": 0,
+   "sentence_text": "reactivate your google ads google account",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "[scenario]自称Google Ads,称付款失败广告将停,要求登录更新支付信息;标题含账户停用前提的重新激活要求(判例1 v1.3③)"
+  },
+  {
+   "email_id": 4174,
+   "sentence_idx": 1,
+   "sentence_text": "dear advertiser , we were unable to process your payment",
+   "label": "N",
+   "confidence": "high",
+   "reason": "'无法处理付款'纯pretext(判例9)"
+  },
+  {
+   "email_id": 4174,
+   "sentence_idx": 2,
+   "sentence_text": "your ads will be suspended soon unless we can process your payment",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "广告被停绑定在不付款上=绑定施压(§1.5/判例12a)"
+  },
+  {
+   "email_id": 4174,
+   "sentence_idx": 3,
+   "sentence_text": "to prevent your ads from being suspended , please update your payment information",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "要求更新支付信息以防停用=索取(§1.3)"
+  },
+  {
+   "email_id": 4174,
+   "sentence_idx": 4,
+   "sentence_text": "please sign in to your account at http adwords google com select login , and update your payment information",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "给出登录URL更新支付信息=钓鱼链接引导(判例5 v1.3/§1.4)"
+  },
+  {
+   "email_id": 4174,
+   "sentence_idx": 5,
+   "sentence_text": "we look forward to providing you with the most effective advertising available grow your business with google ads",
+   "label": "N",
+   "confidence": "high",
+   "reason": "营销结尾套话"
+  }
+ ]
+}

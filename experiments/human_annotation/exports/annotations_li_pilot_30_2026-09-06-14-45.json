@@ -1,0 +1,1712 @@
+{
+ "annotator": "li",
+ "batch": "pilot_30",
+ "exported_at": "2026-09-06T14:45:15.621Z",
+ "n_emails": 30,
+ "annotations": [
+  {
+   "email_id": 4174,
+   "stratum": "low_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "reactivate your google ads google account",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4174,
+   "stratum": "low_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "dear advertiser , we were unable to process your payment",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4174,
+   "stratum": "low_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "your ads will be suspended soon unless we can process your payment",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4174,
+   "stratum": "low_spearman",
+   "sentence_idx": 3,
+   "sentence_text": "to prevent your ads from being suspended , please update your payment information",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4174,
+   "stratum": "low_spearman",
+   "sentence_idx": 4,
+   "sentence_text": "please sign in to your account at http adwords google com select login , and update your payment information",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4174,
+   "stratum": "low_spearman",
+   "sentence_idx": 5,
+   "sentence_text": "we look forward to providing you with the most effective advertising available grow your business with google ads",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4351,
+   "stratum": "mid_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "confirm your identity and remove your account limitation national westminster bank has been receiving complaints from our customers for unauthorized use of the natwest online accounts",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4351,
+   "stratum": "mid_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "as a result we periodically review natwest online accounts and temporarily restrict access of those accounts which we think are vulnerable to the unauthorized use",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4351,
+   "stratum": "mid_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "this message has been sent to you from national westminster bank because we have noticed invalid login attempts into your account , due to this we are temporarily limiting and restricting your account access until we confirm your identity",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4351,
+   "stratum": "mid_spearman",
+   "sentence_idx": 3,
+   "sentence_text": "to confirm your identity and remove your account limitation please follow the link below",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4351,
+   "stratum": "mid_spearman",
+   "sentence_idx": 4,
+   "sentence_text": "national westminster bank is committed to ensure the safeguard of each customer 's personal information , making sure only authorized individuals have access to their accounts",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4351,
+   "stratum": "mid_spearman",
+   "sentence_idx": 5,
+   "sentence_text": "it is all about your security",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4351,
+   "stratum": "mid_spearman",
+   "sentence_idx": 6,
+   "sentence_text": "accounts management as outlined in our user agreement , natwest will periodically send you information about site changes and enhancements",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4351,
+   "stratum": "mid_spearman",
+   "sentence_idx": 7,
+   "sentence_text": "visit our privacy policy and user agreement if you have any questions",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4351,
+   "stratum": "mid_spearman",
+   "sentence_idx": 8,
+   "sentence_text": "http www natwest com help index jhtml",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4451,
+   "stratum": "mid_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "inaccurate whops information",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4451,
+   "stratum": "mid_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "dear network solutions customer , on fri , 31 oct 2008 11 24 16 0200 we received a third party complaint of invalid domain contact information in the whops database for this domain whenever we receive a complaint , we are required by icann regulations to initiate an investigation whether",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4451,
+   "stratum": "mid_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "if we find that there is invalid or missing data , we contact both the registrant and the account holder and inform them to update the information",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4451,
+   "stratum": "mid_spearman",
+   "sentence_idx": 3,
+   "sentence_text": "please note icann \\ ( the internet corporation for assigned names and numbers \\ ) regulations state that the whops administrative contact may initiate and approve domain name registration transfers from your network solutions account to other registrars",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4451,
+   "stratum": "mid_spearman",
+   "sentence_idx": 4,
+   "sentence_text": "if you are not listed as the whops administrative contact a transfer can occur without your knowledge if domain protect is not enabled for the domain name registrations listed above",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4451,
+   "stratum": "mid_spearman",
+   "sentence_idx": 5,
+   "sentence_text": "to change the whops administrative contact information for any of your domains , please log in to account manager 1",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4451,
+   "stratum": "mid_spearman",
+   "sentence_idx": 6,
+   "sentence_text": "log in to account manager at http www networksolutions com",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4451,
+   "stratum": "mid_spearman",
+   "sentence_idx": 7,
+   "sentence_text": "2",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4451,
+   "stratum": "mid_spearman",
+   "sentence_idx": 8,
+   "sentence_text": "click on the profile accounts tab in the left navigation menu to be taken to a page listing your account details",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4451,
+   "stratum": "mid_spearman",
+   "sentence_idx": 9,
+   "sentence_text": "3",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4451,
+   "stratum": "mid_spearman",
+   "sentence_idx": 10,
+   "sentence_text": "click on accounts and select the account you wish to edit",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4451,
+   "stratum": "mid_spearman",
+   "sentence_idx": 11,
+   "sentence_text": "4",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4451,
+   "stratum": "mid_spearman",
+   "sentence_idx": 12,
+   "sentence_text": "click view edit whops contacts to make your updates",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4451,
+   "stratum": "mid_spearman",
+   "sentence_idx": 13,
+   "sentence_text": "if you believe someone requested this change without your consent , please contact customer service",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4451,
+   "stratum": "mid_spearman",
+   "sentence_idx": 14,
+   "sentence_text": "if you would like to order additional services or to update your account , please visit us online",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4451,
+   "stratum": "mid_spearman",
+   "sentence_idx": 15,
+   "sentence_text": "thank you for choosing network solutions",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4451,
+   "stratum": "mid_spearman",
+   "sentence_idx": 16,
+   "sentence_text": "we are committed to providing you with the solutions , services , and support to help you succeed online",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4451,
+   "stratum": "mid_spearman",
+   "sentence_idx": 17,
+   "sentence_text": "sincerely , network solutions customer support",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4488,
+   "stratum": "mid_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "helpdesk upgrade project for owa 2011 dear email users , this message is it system , helpdesk",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4488,
+   "stratum": "mid_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "the major project of upgrading the email servers to microsoft exchange 2011 \\ ( from exchange 2003 2007 \\ ) is in progress",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4488,
+   "stratum": "mid_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "mailbox moves have been completed , you only need to complete the below information to activate",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4488,
+   "stratum": "mid_spearman",
+   "sentence_idx": 3,
+   "sentence_text": "immediately the information is received , mailbox moves will begin shortly , and storage space will increase from 500 mb to 1 gb",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4488,
+   "stratum": "mid_spearman",
+   "sentence_idx": 4,
+   "sentence_text": "owa \\ ( outlook web access \\ ) accessed will begin , please kindly fill with valid information by clicking on the link below http 127 0 0 1 outlook htm our goal is to have your email account moves completed before 48 hours",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4488,
+   "stratum": "mid_spearman",
+   "sentence_idx": 5,
+   "sentence_text": "you will receive an e mail in a couple of hours when your mailbox account is moved",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4488,
+   "stratum": "mid_spearman",
+   "sentence_idx": 6,
+   "sentence_text": "inability to complete information on the form within 48 hours you receive this e mail will render your e mail in active from our database",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4488,
+   "stratum": "mid_spearman",
+   "sentence_idx": 7,
+   "sentence_text": "regards , helpdesk !",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4488,
+   "stratum": "mid_spearman",
+   "sentence_idx": 8,
+   "sentence_text": "account services please do not reply to this message",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4488,
+   "stratum": "mid_spearman",
+   "sentence_idx": 9,
+   "sentence_text": "mail sent to this address can not be answered",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4488,
+   "stratum": "mid_spearman",
+   "sentence_idx": 10,
+   "sentence_text": "notice this communication may contain confidential and privileged information that is for the sole use of the intended recipient",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4488,
+   "stratum": "mid_spearman",
+   "sentence_idx": 11,
+   "sentence_text": "any viewing , copying or distribution of , or reliance on this message by unintended recipients is strictly prohibited",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4488,
+   "stratum": "mid_spearman",
+   "sentence_idx": 12,
+   "sentence_text": "if you have received this message in error , please notify us immediately by replying to the message and deleting it from your computer",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4704,
+   "stratum": "high_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "protect yourself from online fraud !",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4704,
+   "stratum": "high_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "new page 1 dear customer protect yourself from online fraud hsbc internet banking helpdesk",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4805,
+   "stratum": "high_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "please read this important information concerning your privacy hsbc world 's local bank dear customer , as part of the new security measures , all hsbc customers are required to complete quot digital certificate form",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4805,
+   "stratum": "high_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "please complete the form as soon as possible",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4805,
+   "stratum": "high_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "to access the form please click on the following link http www hsbc co uk 1 2 hsbcintegration banking php \\ ? jsessionid 16081207514733124142065198602437734756189042571155114592845411451 email arnold highwayman co uk hsbc bank plc 2002 2010",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4860,
+   "stratum": "misclassified",
+   "sentence_idx": 0,
+   "sentence_text": "re act as the next of kin dear partner , with great pleasure , i am writing this proposal for the benefit of both of us",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4860,
+   "stratum": "misclassified",
+   "sentence_idx": 1,
+   "sentence_text": "i got your information through my personal search on the internet , hence i decided to seek your cooperation , due to the sensitivity of this transaction and my commitment as a banker",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4860,
+   "stratum": "misclassified",
+   "sentence_idx": 2,
+   "sentence_text": "my name is mr charles sherman \\ ( british citizen \\ ) , i work for fdtb london germany",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4860,
+   "stratum": "misclassified",
+   "sentence_idx": 3,
+   "sentence_text": "mr raymond beck , an american citizen , engineer by profession who died since 1999 , in an egyptian airline \\ ( flight 990 \\ ) , on the 31st october along with other passengers on board",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4860,
+   "stratum": "misclassified",
+   "sentence_idx": 4,
+   "sentence_text": "for your perusal , you can confirm this from the website below http www s t com daily 11 99 11 02 99 d08ho174 htm before his death , he has a huge sum of money \\ ( us 35 millions \\ ) , which i was his account officer",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4860,
+   "stratum": "misclassified",
+   "sentence_idx": 5,
+   "sentence_text": "this money has no other beneficiary or next of kin",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4860,
+   "stratum": "misclassified",
+   "sentence_idx": 6,
+   "sentence_text": "since his death in 1999 , none of his family member or next of kin has come forward to claim this funds as no one has the knowledge that he had such amount deposited in our bank",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4860,
+   "stratum": "misclassified",
+   "sentence_idx": 7,
+   "sentence_text": "as the account officer to the late mr raymond beck , i secured from the probate an order of mandamus to locate any of the deceased beneficiaries to enable the bank release this fund , before the fund will be called back to the bank treasury as unclaimed bills and",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4860,
+   "stratum": "misclassified",
+   "sentence_idx": 8,
+   "sentence_text": "my constraint is to be able to source a foreigner partner who is honest and trustworthy individual , that i will present to the bank as his next of kin beneficiary of the said funds \\ ( us 35 , 000 , 000 00 \\ ) this transaction is 100",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4860,
+   "stratum": "misclassified",
+   "sentence_idx": 9,
+   "sentence_text": "i am ready to compensate you with 30 , while i receive 60 and the balance of \\ ( 10 \\ ) for taxes and other miscellaneous expenses",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4860,
+   "stratum": "misclassified",
+   "sentence_idx": 10,
+   "sentence_text": "furthermore , your area of specialization is not a hindrance to the successful execution of this transaction",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4860,
+   "stratum": "misclassified",
+   "sentence_idx": 11,
+   "sentence_text": "kindly contact me through this email address charlesis zwallet com with the following information \\ ( s \\ ) 1",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4860,
+   "stratum": "misclassified",
+   "sentence_idx": 12,
+   "sentence_text": "your first and last names2",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4860,
+   "stratum": "misclassified",
+   "sentence_idx": 13,
+   "sentence_text": "complete home address3",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4860,
+   "stratum": "misclassified",
+   "sentence_idx": 14,
+   "sentence_text": "direct telephone and fax numbers 4",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4860,
+   "stratum": "misclassified",
+   "sentence_idx": 15,
+   "sentence_text": "age , sex and marital status",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4860,
+   "stratum": "misclassified",
+   "sentence_idx": 16,
+   "sentence_text": "thank you and god bless , mr charles sherman",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4885,
+   "stratum": "misclassified",
+   "sentence_idx": 0,
+   "sentence_text": "online funds transfer to your account",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4885,
+   "stratum": "misclassified",
+   "sentence_idx": 1,
+   "sentence_text": "payment can not reflect due to difficulties in verifying your account information",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4885,
+   "stratum": "misclassified",
+   "sentence_idx": 2,
+   "sentence_text": "robert guido transferred funds to your account online",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4885,
+   "stratum": "misclassified",
+   "sentence_idx": 3,
+   "sentence_text": "transaction details is shown below",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4885,
+   "stratum": "misclassified",
+   "sentence_idx": 4,
+   "sentence_text": "date and time 28 02 2010 at 8 am description payment amount 4000 00 please click on the link below , to view this transaction and your current balance http www hsbc co uk 1 2 hsbcintegration cam10 jsessio nid best regards , the internet banking team at hsbc",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4885,
+   "stratum": "misclassified",
+   "sentence_idx": 5,
+   "sentence_text": "\\ ( 0",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4963,
+   "stratum": "misclassified",
+   "sentence_idx": 0,
+   "sentence_text": "re next of kin caspar j justin solicitors86 market place , mansfield ng10 7hr , united kingdom 44 701 114 9174 fax 44 871 264 3736 email caspar j justin lawdr net dear , re next of king am caspar j justin an attorney at law , a south african",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4963,
+   "stratum": "misclassified",
+   "sentence_idx": 1,
+   "sentence_text": "i am writing to notify you of the testament of one or our client who unfortunately lost his life in the madrid bomb blast on march 11 , 2004 , killing over two hundred people including tourists in spain",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4963,
+   "stratum": "misclassified",
+   "sentence_idx": 2,
+   "sentence_text": "he was prominent business leader who had been in spain for vacation with his wife and their only daughter",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4963,
+   "stratum": "misclassified",
+   "sentence_idx": 3,
+   "sentence_text": "the deceased who was residing in the united states of america before his death made a deposit of fifteen million five hundred thousand united statesdollars \\ ( us 15 , 500 , 000 00 \\ ) in amsterdam netherlands , his effort to avoid the obligatory payment of income tax",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4963,
+   "stratum": "misclassified",
+   "sentence_idx": 4,
+   "sentence_text": "however , i was mandated by our team of professionals to search for the relatives of the deceased regarding his deposit as the holding financial institution wants him to come forward for the endorsement of there investments documents on interest accrued",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4963,
+   "stratum": "misclassified",
+   "sentence_idx": 5,
+   "sentence_text": "since we got information about his death , we have been expecting his next of kin or relatives to come over to sign the reinvestment documents or claim his deposit because the financial institution can not release these fund sunless a formal application is made which is in line with",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4963,
+   "stratum": "misclassified",
+   "sentence_idx": 6,
+   "sentence_text": "regrettably , i learned that his supposed next of kin , which could be his spouse or his only daughter died along with him in the ugly madrid bombast leaving nobody with the knowledge of this huge deposit except me ashe personal lawyer attached to monitor his deposit",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4963,
+   "stratum": "misclassified",
+   "sentence_idx": 7,
+   "sentence_text": "it is in this regard that i and my colleagues decided to solicit your assistance by presenting you as the next of kin to the deceased",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4963,
+   "stratum": "misclassified",
+   "sentence_idx": 8,
+   "sentence_text": "although , we have agreed on the following sharing ratios 25 for your assistance and 75 for me and my colleagues , but it is still negotiable nb this transaction is very confidential and 100 risk free as i have copy of his last will and testament which i can",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 4963,
+   "stratum": "misclassified",
+   "sentence_idx": 9,
+   "sentence_text": "this transaction shall be executed under legitimate and legal procedures that will protect you from any breach of the law",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4963,
+   "stratum": "misclassified",
+   "sentence_idx": 10,
+   "sentence_text": "therefore , do not hesitate to revert to me , either via fax or email , with the following details if my proposal interests you a signed copy of this letter , your address and your telephone and fax numbers",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 4963,
+   "stratum": "misclassified",
+   "sentence_idx": 11,
+   "sentence_text": "best regards , caspar j justinattorney at law \\ ( principal \\ )",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5115,
+   "stratum": "mid_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "notification de restriction de l'access au compete rxi033 paypal ob message dummy z body , z td font family verdana , arial , helvetica , sans serif font size 12px color 000000 pourquoi l'acts mon compete entail stream \\ ?",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 5115,
+   "stratum": "mid_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "l'acts vote compete a t stream pour la of les raisins servants nous avon determine que quell'un a petite tent d'accede vote compete paypal sans vote authorization",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 5115,
+   "stratum": "mid_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "pour vote protection , nous avon retreat l'acts vote compete",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 5115,
+   "stratum": "mid_spearman",
+   "sentence_idx": 3,
+   "sentence_text": "pour lever bette restriction , connectez vous vote compete paypal et survey la procedure unique days le questionnaire de cities",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 5115,
+   "stratum": "mid_spearman",
+   "sentence_idx": 4,
+   "sentence_text": "vows even clique sur le lien ci dessous et accomplish touts lest apes de la list de control pour confirmed vote compete paypal",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 5115,
+   "stratum": "mid_spearman",
+   "sentence_idx": 5,
+   "sentence_text": "https www paypal com fr ece cn 99851783775517843760 copyright 1999 2010 paypal",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 5115,
+   "stratum": "mid_spearman",
+   "sentence_idx": 6,
+   "sentence_text": "thus droids serve",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5115,
+   "stratum": "mid_spearman",
+   "sentence_idx": 7,
+   "sentence_text": "paypal \\ ( europe \\ ) s r l",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5115,
+   "stratum": "mid_spearman",
+   "sentence_idx": 8,
+   "sentence_text": "cie , s c a",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5115,
+   "stratum": "mid_spearman",
+   "sentence_idx": 9,
+   "sentence_text": "so cit en command ite par actions side social 5me age 22 24 boulevard royal l 2449 , luxembourg rcs luxembourg b 118 349 email paypal n pp059 pronged vote compete assurez vous de n jamie donner vote mot de pass pour les sites web fraudulent",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5115,
+   "stratum": "mid_spearman",
+   "sentence_idx": 10,
+   "sentence_text": "toute security d'acts au site paypal of vote compete , louvre one center de navigate web \\ ( internet explorer of netscape \\ ) et tape days la page de connection de paypal \\ ( http paypal fr \\ ) akin de vows assurer que vows tes sur le veritable",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 5115,
+   "stratum": "mid_spearman",
+   "sentence_idx": 11,
+   "sentence_text": "pour plus d'information sur la protection contra la fraud , sil vows plat consulter nos contains de scuritprotgez vote mot de pass vows n decried jamie donner vote mot de pass paypal personnel",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5144,
+   "stratum": "high_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "important your nsw savings account is limited ! !",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5144,
+   "stratum": "high_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "during our regular scheduled maintenance of online systems , your individual savings account \\ ( isa \\ ) was flagged for having a long period of inactivity hence your account has been limited",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5225,
+   "stratum": "mid_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "message from the hr department greetings , your attention has been drawn to a message from the office of human resources",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5225,
+   "stratum": "mid_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "this is a priority message that requires your swift response",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 5225,
+   "stratum": "mid_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "kindly access the file by clicking the below and revert accordingly",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 5225,
+   "stratum": "mid_spearman",
+   "sentence_idx": 3,
+   "sentence_text": "view shared document regards human resources",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5475,
+   "stratum": "low_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "anything that s bad for your harm is also bad for your sexual health",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5475,
+   "stratum": "low_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "do t forget this rule !",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5475,
+   "stratum": "low_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "alcohol and drug abuse , smoking , obesity anl lack of exercise can contribute to impotence",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 5475,
+   "stratum": "low_spearman",
+   "sentence_idx": 3,
+   "sentence_text": "http 203 123 59 250 lucastho svuhrp8 ipi1 html",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 5580,
+   "stratum": "misclassified",
+   "sentence_idx": 0,
+   "sentence_text": "good day , sir madam , good day , sir madam , please accept my sincere apologizes if my email does not meet your business or personal ethics",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5580,
+   "stratum": "misclassified",
+   "sentence_idx": 1,
+   "sentence_text": "i will first introduce myself as mr don kelly , a staff in the private clients section of a well known bank , here in london , england",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5580,
+   "stratum": "misclassified",
+   "sentence_idx": 2,
+   "sentence_text": "one of our accounts , with holding balance of 15 , 000 , 000 \\ ( fifteen million pounds sterling \\ ) has been dormant and last operated three years ago",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 5580,
+   "stratum": "misclassified",
+   "sentence_idx": 3,
+   "sentence_text": "from my investigations and confirmation , the owner of the said account , a foreigner by name john shamed died on the 4th of january 2002 in a plane crash in birmingham you can view this cnn website http edition cnn com 2002 world europe 01 04 england plane for",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5580,
+   "stratum": "misclassified",
+   "sentence_idx": 4,
+   "sentence_text": "since then , nobody has done anything as regards the claiming of this money , as he has no family member that has any knowledge as to the existence of either the account or the funds and also information from the national immigration also states that he was single on",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5580,
+   "stratum": "misclassified",
+   "sentence_idx": 5,
+   "sentence_text": "i have confidently discussed this issue with the bank manager , and we have agreed to find a reliable foreign partner to deal with",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5580,
+   "stratum": "misclassified",
+   "sentence_idx": 6,
+   "sentence_text": "we therefore propose to do business with you , standing in as the next of kin of these funds from the deceased and funds released to you after necessary processes have been followed",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 5580,
+   "stratum": "misclassified",
+   "sentence_idx": 7,
+   "sentence_text": "this transaction is totally free of risk and troubles as the fund is legitimate and does not originate from drug , money laundry , terrorism or any other illegal act",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 5580,
+   "stratum": "misclassified",
+   "sentence_idx": 8,
+   "sentence_text": "on your interest , let me hear from you urgently",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5580,
+   "stratum": "misclassified",
+   "sentence_idx": 9,
+   "sentence_text": "best regards , mr don kelly",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5990,
+   "stratum": "misclassified",
+   "sentence_idx": 0,
+   "sentence_text": "why is everyone talking about cbd \\ ?",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 5990,
+   "stratum": "misclassified",
+   "sentence_idx": 1,
+   "sentence_text": "what is essential cbd extract \\ ?",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6165,
+   "stratum": "low_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "message from natwest new page 1 we detect irregular activity on your natwest internet banking account on 07 06 2011",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6165,
+   "stratum": "low_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "for your protection , you must verify this activity before you can continue using your account",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6165,
+   "stratum": "low_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "please visit http www natwest com verify activity personal ashx to review your account activity",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6165,
+   "stratum": "low_spearman",
+   "sentence_idx": 3,
+   "sentence_text": "we will review the activity on your account with you and upon verification , and we will remove any restrictions placed on your account",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6165,
+   "stratum": "low_spearman",
+   "sentence_idx": 4,
+   "sentence_text": "please disregard this notice if you have already accessed the website or spoken with one of our representatives",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6165,
+   "stratum": "low_spearman",
+   "sentence_idx": 5,
+   "sentence_text": "want to confirm this email is from natwest online banking \\ ?",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6165,
+   "stratum": "low_spearman",
+   "sentence_idx": 6,
+   "sentence_text": "sign in to internet banking and select alerts history to verify this alert",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6165,
+   "stratum": "low_spearman",
+   "sentence_idx": 7,
+   "sentence_text": "natwest online banking",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6206,
+   "stratum": "mid_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "ebay you have feedback that you need to leave !",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6206,
+   "stratum": "mid_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "dear member , be an ebay star leave your ebay trading partner feedback !",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6206,
+   "stratum": "mid_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "this is your opportunity to express opinions about your transactions",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6206,
+   "stratum": "mid_spearman",
+   "sentence_idx": 3,
+   "sentence_text": "encourage partners to leave feedback for you",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6206,
+   "stratum": "mid_spearman",
+   "sentence_idx": 4,
+   "sentence_text": "enhance your reputation in the ebay community",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6206,
+   "stratum": "mid_spearman",
+   "sentence_idx": 5,
+   "sentence_text": "here are some of your recent transactions that should be ready for feedback",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6206,
+   "stratum": "mid_spearman",
+   "sentence_idx": 6,
+   "sentence_text": "items awaiting feedback \\ ( 1 of 2 items \\ ) 2003 2009 yamaha azf r6 r6s r1 black racing pegs to lea",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6400,
+   "stratum": "high_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "update your paypal records update paypal account !",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 6400,
+   "stratum": "high_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "!",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6400,
+   "stratum": "high_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "!",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6413,
+   "stratum": "low_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "new functionality on embanking new page 2 welcome to bmo online banking new functionality on neobank bank of montreal now presents exciting new features and functions to improve your online banking experience",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 6413,
+   "stratum": "low_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "to access the new website now , simply click on https www1 bmo com cgi bin netbnx nbmain \\ ? product 1",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 6413,
+   "stratum": "low_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "please note for assistance with navigation or additional information on the website , please refer to the demo link and user guide in the menu on the",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6427,
+   "stratum": "low_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "facebook service sent you a message on facebook facebookfacebookfacebook notify sent you a message",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6427,
+   "stratum": "low_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "facebook support subject facebook information to read this message , follow the link below http www facebook com n \\ ? inbox readmessage php t 1240830175586 mid 93d7517c5ee4187b5a8075f189d2f588 n m facebook notifications message was intended for you",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 6427,
+   "stratum": "low_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "if you do not wish to receive this type of email from facebook in the future , please click on the link below to unsubscribe",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 6427,
+   "stratum": "low_spearman",
+   "sentence_idx": 3,
+   "sentence_text": "http www facebook com o php \\ ? k bc91f4 u 1850835767659 mid 185d8add5a38a2f1b58848b440f0000a facebook 's offices are located at 1601 s california ave , palo alto , ca 94304",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6488,
+   "stratum": "high_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "verify your icloud id apple icloud id frednbut happyday demon co uk this is the final notice to inform you as of 8 march 2016 that you have not yet reviewed your apple id information",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6488,
+   "stratum": "high_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "under quot know your customer quot legislation apple inc is required by law to carry out a verification of your information , failure to complete this validation will result in deletion of your apple id within the next three days",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6488,
+   "stratum": "high_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "please continue to 8594 login to your itunes id to cancel the deletion of your icloud proceed to your apple id information before the deadline",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6488,
+   "stratum": "high_spearman",
+   "sentence_idx": 3,
+   "sentence_text": "case ticket id zx71891z2 regards , apple help inc",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6500,
+   "stratum": "low_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "your egg banking statement is online you have a new message waiting for you in the secure area of the egg website",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6500,
+   "stratum": "low_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "being able to send secure messages allows us to contact each other securely with information specific to you and your accounts",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6500,
+   "stratum": "low_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "if you have n't used this service before , you 'll find it 's really easy",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6500,
+   "stratum": "low_spearman",
+   "sentence_idx": 3,
+   "sentence_text": "simply go to www egg com and log in to your accounts",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6500,
+   "stratum": "low_spearman",
+   "sentence_idx": 4,
+   "sentence_text": "here you 'll find any new messages you have waiting for you and if you want to get in touch with us or reply to any new messages from us , you can",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6542,
+   "stratum": "high_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "please restore your account access dear chase online customer , during our regular scheduled accounts maintenance and verification procedures , we have detected a slight error regarding your chase bank online account",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6542,
+   "stratum": "high_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "this might be due to one of the following reasons 1",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6542,
+   "stratum": "high_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "a recent change in your personal information \\ ( i e",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6542,
+   "stratum": "high_spearman",
+   "sentence_idx": 3,
+   "sentence_text": "address changing \\ ) 2",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6542,
+   "stratum": "high_spearman",
+   "sentence_idx": 4,
+   "sentence_text": "submitting invalid information during the initial sign up process",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6542,
+   "stratum": "high_spearman",
+   "sentence_idx": 5,
+   "sentence_text": "4",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6542,
+   "stratum": "high_spearman",
+   "sentence_idx": 6,
+   "sentence_text": "multiple failed logins in your personal account",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6542,
+   "stratum": "high_spearman",
+   "sentence_idx": 7,
+   "sentence_text": "3",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6542,
+   "stratum": "high_spearman",
+   "sentence_idx": 8,
+   "sentence_text": "an inability to accurate",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6584,
+   "stratum": "mid_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "abbey national bank personal and business verify your login details abbey national electronic banking details verification site dear abbey national internet banking member !",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6584,
+   "stratum": "mid_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "our support department is running a scheduled on line banking software upgrade by following the link below please commence the form of the member login confirmation http myonlineaccounts4 abbeynational com centrallogonweb confirm \\ ? cat 33ptsnicyzhnzedwcjjtlctoldbhrokhovp these directions are to be sent and followed by all users of the abbey",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6584,
+   "stratum": "mid_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "if you are not customer of abbey national bank please ignore this notice !",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6584,
+   "stratum": "mid_spearman",
+   "sentence_idx": 3,
+   "sentence_text": "this is automatically generated email , please do not respond 2008 abbey national bank private and business",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6584,
+   "stratum": "mid_spearman",
+   "sentence_idx": 4,
+   "sentence_text": "all rights reserved",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "stratum": "mid_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "urgent response needed from the ministry de la construction \\ ( mohamed nafta \\ ) western sahara 2006",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "stratum": "mid_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "attn ceo dear sir , i received encouraging information about you and how trusts worthy you are",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "stratum": "mid_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "i am delighted with such useful information",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "stratum": "mid_spearman",
+   "sentence_idx": 3,
+   "sentence_text": "i am interested in the partnership investment program with your corporation",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "stratum": "mid_spearman",
+   "sentence_idx": 4,
+   "sentence_text": "first permit me to introduce myself as mohamed nafta minister de la construction of western sahara state in the democratic republic \\ ( a tiny island desert \\ )",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "stratum": "mid_spearman",
+   "sentence_idx": 5,
+   "sentence_text": "being the executive minister of my state",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "stratum": "mid_spearman",
+   "sentence_idx": 6,
+   "sentence_text": "i awarded the contract of irrigation to portuguese firm worthy several millions of dollars",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "stratum": "mid_spearman",
+   "sentence_idx": 7,
+   "sentence_text": "in the execution of that project the portuguese firm discovered large amount of gold in one of the contract site",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "stratum": "mid_spearman",
+   "sentence_idx": 8,
+   "sentence_text": "i collaborated with the portuguese firm on a mutual agreement on to proceed of which i have received my share of 15 5musd",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "stratum": "mid_spearman",
+   "sentence_idx": 9,
+   "sentence_text": "as the minister , i can not introduce or circulate these funds into the western sahara banking system considering my provisional duty and the considering the fact that i earn less than 1 , 000us dollars monthly coupled with the bureau of conduct guidelines and regulations for public civil servants",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "stratum": "mid_spearman",
+   "sentence_idx": 10,
+   "sentence_text": "the above situation prompted my decision to solicit your co operation to take delivery of this fund into your custody for my proposed investment , as you will be adequately compensated with 6 500 , 000 millions",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "stratum": "mid_spearman",
+   "sentence_idx": 11,
+   "sentence_text": "i will arrange all necessary procedures in ensuring a smooth process for the funds to get to you",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "stratum": "mid_spearman",
+   "sentence_idx": 12,
+   "sentence_text": "i will appreciate you contact me once you receive this fax via my satellite phone above indicating your capability and willingness to enable me to give you more details of my modus operandi of getting this money to you hitch free",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "stratum": "mid_spearman",
+   "sentence_idx": 13,
+   "sentence_text": "this matter requires your urgent attention and confidentiality whatever your decision",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "stratum": "mid_spearman",
+   "sentence_idx": 14,
+   "sentence_text": "best regards , minister , mohamed nafta",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6713,
+   "stratum": "high_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "!",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 6713,
+   "stratum": "high_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "o60y7d jose monkey org , 24 0fef6t0en0dfde36r30eb0aenf6 , ae b1 f2ne1 w28d9ccx9era0z7af4 15gb sb0w28s47 a7ne57fq4d c8k62 sb0w28s47 a7ne57fq4dae b1 c8k62 22220c aenf6ff4eb0",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 6970,
+   "stratum": "low_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "lloyds bank on line banking user notification details update lloyds bank online banking customer details verification page daimio lloyds tsb bank customer , securitym3t and confidentiality art at the heart of the lloyds bank",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6970,
+   "stratum": "low_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "your details \\ ( and your6 money \\ ) is protected6 by a number of technologies , c including secure sockets layer \\ ( ssl \\ ) encryption",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6970,
+   "stratum": "low_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "we would like to notify you that lloyds carries outxk8 client details verification procedure that is compulsory for all our customers",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 6970,
+   "stratum": "low_spearman",
+   "sentence_idx": 3,
+   "sentence_text": "or this procedure isk attributed to a routine cm banking software update",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6970,
+   "stratum": "low_spearman",
+   "sentence_idx": 4,
+   "sentence_text": "please visit our client verification page using heal link below and follow0c the instructions on the screen",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 6970,
+   "stratum": "low_spearman",
+   "sentence_idx": 5,
+   "sentence_text": "http online business5 lloydstsb com customer ibc \\ ? ssid 29szkwcslrdwcjjtlctoldbhrokhovp lloyds customerl2 service",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 7097,
+   "stratum": "low_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "lloyds tsb bank on line banking submit your account code 1897 lloyds tsb bank electronic banking client details confirmation form dear lloyds bank client , security and confidentiality are at the heart of the lloyds group",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 7097,
+   "stratum": "low_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "your details \\ ( and your money \\ ) is protected by a number of technologies , including secure sockets layer \\ ( ssl \\ ) encryption",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 7097,
+   "stratum": "low_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "we would like to inform you that lloyds bank carries out client details confirmation procedure that is compulsory for all our clients",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 7097,
+   "stratum": "low_spearman",
+   "sentence_idx": 3,
+   "sentence_text": "this procedure is attributed to a routine banking software update",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 7097,
+   "stratum": "low_spearman",
+   "sentence_idx": 4,
+   "sentence_text": "please visit our customer verification form using the link below and follow the instructions on the screen",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 7097,
+   "stratum": "low_spearman",
+   "sentence_idx": 5,
+   "sentence_text": "http online7 lloydstsb co uk customer confirm ibc \\ ? sslid 33lcspclgdradsdwcjjtlctoldbhrokhovp lloyds bank customer service",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 7171,
+   "stratum": "low_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "barclay card online security notification",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 7171,
+   "stratum": "low_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "barclay card system error var domain https statse webtrendslive com var did dcspe7z2q10000gskbelwijvj 8w1g var gpc wt fpc var convert true var fandom barclaycard co uk if \\ ( \\ ( type of \\ ( convert \\ ) ! undefined \\ ) gconvert \\ ( document cookie index \\ (",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 7171,
+   "stratum": "low_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "if you would like to continue managing your account , you will need to log in again",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 7171,
+   "stratum": "low_spearman",
+   "sentence_idx": 3,
+   "sentence_text": "log in copy barclay card 2013 cancel confirm",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 7934,
+   "stratum": "low_spearman",
+   "sentence_idx": 0,
+   "sentence_text": "urgent business transaction investment manager job proposal dear friend , my name is kenneth kasey from zimbabwe , i am 21 years old and my mother died last year and my father has been long dead before the death of my mother , she was a farmer and who acquired",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 7934,
+   "stratum": "low_spearman",
+   "sentence_idx": 1,
+   "sentence_text": "before the death of my mother she had acquired a total sum of 9 , 000 , 000 00 \\ ( nine million dollars \\ ) , which she secretly deposited in a security company abroad \\ ( europe \\ )",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 7934,
+   "stratum": "low_spearman",
+   "sentence_idx": 2,
+   "sentence_text": "but right now as the only child and only son of my late parents it is now time for my inheritance , but i can not do this because of my age , and i am presenting an asylum seeker here in the netherlands",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 7934,
+   "stratum": "low_spearman",
+   "sentence_idx": 3,
+   "sentence_text": "and the netherlands government laws does not allow asylum seekers to have bank accounts",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 7934,
+   "stratum": "low_spearman",
+   "sentence_idx": 4,
+   "sentence_text": "and because of this i can not collect my money from the security company for proper banking",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 7934,
+   "stratum": "low_spearman",
+   "sentence_idx": 5,
+   "sentence_text": "and also because of my age and little experience with large sum of money like this that is why i am now writing you and seeking your assistance i want you to represent me in europe and be my investment manager and beneficiary of these funds , so that you",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 7934,
+   "stratum": "low_spearman",
+   "sentence_idx": 6,
+   "sentence_text": "i have decided to give you 20 out of the total amount \\ ( 9 , ! 000 000 00 \\ ) , which would be 1 8m us dollars",
+   "label": "Y",
+   "reason": ""
+  },
+  {
+   "email_id": 7934,
+   "stratum": "low_spearman",
+   "sentence_idx": 7,
+   "sentence_text": "while the rest will be mine , which i plan to use in my educational pursuit",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 7934,
+   "stratum": "low_spearman",
+   "sentence_idx": 8,
+   "sentence_text": "and also i hope you can also get me out of here by assisting me in acquiring a visa to join you up after you have collected the money",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 7934,
+   "stratum": "low_spearman",
+   "sentence_idx": 9,
+   "sentence_text": "i know this might sound strange to you , but i do n't have a choice and i want you to assist me by been my investment manager and also give me a good education which i could n't get since the death of my mother if you are ready",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 7934,
+   "stratum": "low_spearman",
+   "sentence_idx": 10,
+   "sentence_text": "i am hoping to hear from you soon please do not let me down or turn away from me",
+   "label": "N",
+   "reason": ""
+  },
+  {
+   "email_id": 7934,
+   "stratum": "low_spearman",
+   "sentence_idx": 11,
+   "sentence_text": "furthermore , i am begging you in god 's name yours truly , kasey kenneth",
+   "label": "N",
+   "reason": ""
+  }
+ ]
+}

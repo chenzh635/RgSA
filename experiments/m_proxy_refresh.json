@@ -1,0 +1,60 @@
+{
+ "AI2TALE seed123": {
+  "spearman": 0.43255320032883127,
+  "entropy": 1.477995767749846,
+  "n_spearman": 2988,
+  "n_entropy": 8000
+ },
+ "AI2TALE seed456": {
+  "spearman": 0.41231465337624523,
+  "entropy": 1.4777137461677194,
+  "n_spearman": 2920,
+  "n_entropy": 8000
+ },
+ "AI2TALE seed789": {
+  "spearman": 0.45831412612122746,
+  "entropy": 1.478115828603506,
+  "n_spearman": 2724,
+  "n_entropy": 8000
+ },
+ "Ours seed123": {
+  "spearman": 0.5475438068793598,
+  "entropy": 0.5737468380800099,
+  "n_spearman": 3121,
+  "n_entropy": 8000
+ },
+ "Ours seed456": {
+  "spearman": 0.5079590041986243,
+  "entropy": 0.5096226238914797,
+  "n_spearman": 3121,
+  "n_entropy": 8000
+ },
+ "Ours seed789": {
+  "spearman": 0.5478018935570795,
+  "entropy": 0.4561309288418754,
+  "n_spearman": 3121,
+  "n_entropy": 8000
+ },
+ "__summary__": {
+  "AI2TALE": {
+   "spearman": {
+    "mean": 0.43439399327543465,
+    "std": 0.018824262043230084
+   },
+   "entropy": {
+    "mean": 1.4779417808403572,
+    "std": 0.0001685299401474461
+   }
+  },
+  "Ours": {
+   "spearman": {
+    "mean": 0.5344349015450213,
+    "std": 0.0187215830421471
+   },
+   "entropy": {
+    "mean": 0.5131667969377883,
+    "std": 0.04808184964838541
+   }
+  }
+ }
+}

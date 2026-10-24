@@ -1,0 +1,114 @@
+[
+  {
+    "sentences": [
+      "your lloyds tsb account welcome to lloyds tsb online internet banking service is under review",
+      "proceed to log in for more information",
+      "we may record telephone calls with us",
+      "thank you for your time and co operation"
+    ],
+    "sparse_attn": [
+      0.9982625842094421,
+      1.4464480955211911e-05,
+      0.0008869285229593515,
+      0.0008360880892723799
+    ],
+    "abmil_attn": [
+      0.7445203065872192,
+      0.06943861395120621,
+      0.08721611648797989,
+      0.09882499277591705
+    ],
+    "rule_scores": [
+      1.0,
+      0.2857142984867096,
+      0.7142857313156128,
+      0.7142857313156128
+    ],
+    "entropy": 0.014055490493774414
+  },
+  {
+    "sentences": [
+      "update your account information paypal dear cust mer , recently , we have detected different l gins t y ur acc unt from different c untry followed by s me illegals buys and we think that we will suspend your account",
+      "what d you need t d \\ ?",
+      "pen y ur acc unt , and remember to update y ur information after logging in",
+      "we will give y u 3 days to update y ur information r we will suspend y ur acc unt forever"
+    ],
+    "sparse_attn": [
+      0.9942827224731445,
+      0.0017234028782695532,
+      0.00012336224608588964,
+      0.003802503691986203
+    ],
+    "abmil_attn": [
+      0.6665893197059631,
+      0.09240436553955078,
+      0.08011125773191452,
+      0.09638752043247223
+    ],
+    "rule_scores": [
+      1.0,
+      0.8571428656578064,
+      0.5714285969734192,
+      1.0
+    ],
+    "entropy": 0.03890053555369377
+  },
+  {
+    "sentences": [
+      "bank of the west customer service important security update dear bank of the west customer , as part of the new security measures , all bank of the west redirect users are required to complete redirect customer form",
+      "please complete the form as soon as possible",
+      "to access the form please click on the following link http cib bankofthewest com k1 wt ac webdirect index",
+      "php \\ ? sid 52721646816571046470547849341219418717186125503 91806061831822578547 email serdar darkhardware com sincerely ,"
+    ],
+    "sparse_attn": [
+      0.9832444190979004,
+      0.0011668161023408175,
+      0.012089759111404419,
+      0.0034990182612091303
+    ],
+    "abmil_attn": [
+      0.8659564256668091,
+      0.035034678876399994,
+      0.04260091483592987,
+      0.05640805512666702
+    ],
+    "rule_scores": [
+      1.0,
+      0.7142857313156128,
+      1.0,
+      0.2857142984867096
+    ],
+    "entropy": 0.09766346216201782
+  },
+  {
+    "sentences": [
+      "you have 24 hours to confirm your paypal personal information confirm dear paypal member , this e mail was sent to you because we have detected an error in your billing information during our regular schedule account maintenance and verification",
+      "this might be due to either following reasons a recent change in your personal information \\ ( i e",
+      "change of address \\ )",
+      "submitting invalid information during the initial sign up process",
+      "an inability to accurately verify your selected option of payment due an internal"
+    ],
+    "sparse_attn": [
+      0.9756891131401062,
+      0.019409237429499626,
+      1.7494589599209576e-07,
+      0.0010546882404014468,
+      0.0038467792328447104
+    ],
+    "abmil_attn": [
+      0.7822791934013367,
+      0.06557014584541321,
+      0.0328894667327404,
+      0.03153397515416145,
+      0.08772724121809006
+    ],
+    "rule_scores": [
+      1.0,
+      0.7142857313156128,
+      0.0,
+      0.5714285969734192,
+      0.48571428656578064
+    ],
+    "entropy": 0.12914647161960602
+  }
+]

@@ -1,0 +1,127 @@
+{
+ "draw_seed": 20261013,
+ "lambda_grid": [
+  1.0,
+  2.0,
+  3.0,
+  3.5
+ ],
+ "fractions": {
+  "0.1": {
+   "candidates": [
+    {
+     "lambda": 1.0,
+     "val_auprc": 0.9944496321768084,
+     "val_acc": 0.9655,
+     "best_epoch": 9
+    },
+    {
+     "lambda": 2.0,
+     "val_auprc": 0.9936981340919437,
+     "val_acc": 0.963,
+     "best_epoch": 9
+    },
+    {
+     "lambda": 3.0,
+     "val_auprc": 0.9934483492642512,
+     "val_acc": 0.9615,
+     "best_epoch": 9
+    },
+    {
+     "lambda": 3.5,
+     "val_auprc": 0.9933083702371529,
+     "val_acc": 0.963,
+     "best_epoch": 9
+    }
+   ],
+   "selected_lambda": 1.0
+  },
+  "0.25": {
+   "candidates": [
+    {
+     "lambda": 1.0,
+     "val_auprc": 0.9947069929622726,
+     "val_acc": 0.967,
+     "best_epoch": 6
+    },
+    {
+     "lambda": 2.0,
+     "val_auprc": 0.9943812311186574,
+     "val_acc": 0.95,
+     "best_epoch": 7
+    },
+    {
+     "lambda": 3.0,
+     "val_auprc": 0.9951995952996558,
+     "val_acc": 0.951,
+     "best_epoch": 7
+    },
+    {
+     "lambda": 3.5,
+     "val_auprc": 0.9949439639819168,
+     "val_acc": 0.954,
+     "best_epoch": 7
+    }
+   ],
+   "selected_lambda": 3.0
+  },
+  "0.5": {
+   "candidates": [
+    {
+     "lambda": 1.0,
+     "val_auprc": 0.9972580053874041,
+     "val_acc": 0.9755,
+     "best_epoch": 8
+    },
+    {
+     "lambda": 2.0,
+     "val_auprc": 0.9979166035998559,
+     "val_acc": 0.9775,
+     "best_epoch": 8
+    },
+    {
+     "lambda": 3.0,
+     "val_auprc": 0.9975755480085298,
+     "val_acc": 0.978,
+     "best_epoch": 8
+    },
+    {
+     "lambda": 3.5,
+     "val_auprc": 0.9973029204368832,
+     "val_acc": 0.978,
+     "best_epoch": 9
+    }
+   ],
+   "selected_lambda": 2.0
+  },
+  "1.0": {
+   "candidates": [
+    {
+     "lambda": 1.0,
+     "val_auprc": 0.9985178572747258,
+     "val_acc": 0.978,
+     "best_epoch": 7
+    },
+    {
+     "lambda": 2.0,
+     "val_auprc": 0.9984578499651215,
+     "val_acc": 0.9775,
+     "best_epoch": 8
+    },
+    {
+     "lambda": 3.0,
+     "val_auprc": 0.9976959757614451,
+     "val_acc": 0.976,
+     "best_epoch": 7
+    },
+    {
+     "lambda": 3.5,
+     "val_auprc": 0.9980574178987129,
+     "val_acc": 0.98,
+     "best_epoch": 8
+    }
+   ],
+   "selected_lambda": 1.0
+  }
+ }
+}

@@ -1,0 +1,29 @@
+# Ablation @ lambda_rule=3.0: No L1 sparsity
+data_dir: "phishingdata"
+vocab_file: "phishingdata/ind_word.pickle"
+keywords_file: "phishingdata/kwords_stem.json"
+max_sentences: 100
+max_tokens_per_sentence: 50
+batch_size: 32
+num_workers: 0
+
+hidden_dim: 64
+classifier_hidden: [128, 64]
+attention_hidden: 64
+use_sparse: true
+
+device: "mps"
+epochs: 10
+lr: 0.001
+weight_decay: 0.0001
+warmup_epochs: 2
+
+temperature_init: 1.0
+temperature_min: 0.1
+temperature_decay: 0.95
+lambda_sparse: 0.0
+lambda_rule: 3.0
+
+log_interval: 50
+save_dir: "experiments/ablation3_no_l1"
+seed: 42

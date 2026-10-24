@@ -1,0 +1,1419 @@
+{
+ "metadata": {
+  "batch": "production_chunk_10",
+  "n": 25,
+  "note": "Blinded supplement emails (spec failure-mode strata). Sentences: idx/text only."
+ },
+ "emails": [
+  {
+   "email_idx": 6604,
+   "n_sentences": 9,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "angelina jolie invited you to join facebook facebookfacebookhi , the following person invited you to be their friend on facebook angelina jolieinvite sent sat , 12 jun 2010 23 37 19 0800 facebook is a great place to keep in touch with friends , post photos , videos and create"
+    },
+    {
+     "idx": 1,
+     "text": "but first you need to join !"
+    },
+    {
+     "idx": 2,
+     "text": "sign up today to create a profile and connect with the people you know"
+    },
+    {
+     "idx": 3,
+     "text": "thanks , the facebook team already have an account \\ ?"
+    },
+    {
+     "idx": 4,
+     "text": "add this email address to your account here"
+    },
+    {
+     "idx": 5,
+     "text": "facebook is free and anyone can join"
+    },
+    {
+     "idx": 6,
+     "text": "sign unto sign up for facebook , follow the link below http www facebook com r php \\ ? 3890689678225421060310943321475047312326this message was intended for nanae030128 highwayman com"
+    },
+    {
+     "idx": 7,
+     "text": "if you do not wish to receive this type of email from facebook in the future , please click here to unsubscribe"
+    },
+    {
+     "idx": 8,
+     "text": "facebook 's offices are located at 1601 s california ave , palo alto , ca 94304"
+    }
+   ]
+  },
+  {
+   "email_idx": 6619,
+   "n_sentences": 6,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "your account has been temporarily limited !"
+    },
+    {
+     "idx": 1,
+     "text": "new page 4 dear natwest member , we recently noticed that a transaction may have been made without your knowledge or consent"
+    },
+    {
+     "idx": 2,
+     "text": "please log in to your natwest account by following the link below"
+    },
+    {
+     "idx": 3,
+     "text": "during our investigation your account access will be limited"
+    },
+    {
+     "idx": 4,
+     "text": "please verify your account details in order to lift the limit on your account"
+    },
+    {
+     "idx": 5,
+     "text": "https www nwolb com default aspxrefereridenttomyaccou update sincerely , account review depart me"
+    }
+   ]
+  },
+  {
+   "email_idx": 6752,
+   "n_sentences": 16,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "online access suspended our value customer , your access to online services has been suspended"
+    },
+    {
+     "idx": 1,
+     "text": "due to a miss match access code between your security information"
+    },
+    {
+     "idx": 2,
+     "text": "to enable you continue accessing your online account it will only take you few minutes to re activate your account"
+    },
+    {
+     "idx": 3,
+     "text": "click on the link below , and you will be taken straight to where you can activate your account"
+    },
+    {
+     "idx": 4,
+     "text": "http www abbeynational co uk logon \\ ? action prepare important notice you are strictly advised to match your details correctly to avoid service denial"
+    },
+    {
+     "idx": 5,
+     "text": "thank you"
+    },
+    {
+     "idx": 6,
+     "text": "abbey national plc online banking customer services abbey national plc"
+    },
+    {
+     "idx": 7,
+     "text": "registered office abbey national house , 2 triton square , regent 's place , london , nw1 3an , united kingdom"
+    },
+    {
+     "idx": 8,
+     "text": "registered number 2294747"
+    },
+    {
+     "idx": 9,
+     "text": "registered in england"
+    },
+    {
+     "idx": 10,
+     "text": "telephone 0870 607 6000"
+    },
+    {
+     "idx": 11,
+     "text": "calls may be recorded or monitored"
+    },
+    {
+     "idx": 12,
+     "text": "authorized and regulated by the financial services authority"
+    },
+    {
+     "idx": 13,
+     "text": "fsa registration number 106054"
+    },
+    {
+     "idx": 14,
+     "text": "for more information visit www fsa gov uk register"
+    },
+    {
+     "idx": 15,
+     "text": "abbey and the flame logo are registered trademarks"
+    }
+   ]
+  },
+  {
+   "email_idx": 6789,
+   "n_sentences": 21,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "getting started with your paypal anti fraud protection body , td font family verdana , arial , helvetica , sans serif font size 12px color 000000 li line height 120 ul smallholder margin 10px 5px 10px 20px li smallborderli margin 0px 5px 0px ul"
+    },
+    {
+     "idx": 1,
+     "text": "narrow margin 10px 5px 0px 40px hr dotted width 100 margin top 0px margin bottom 0px border left fff border right fff border top fff border bottom 2px dotted ccc smallemphasis font family verdana , arial , helvetica , sans serif font size 11px font weight bold color 000000 refund"
+    },
+    {
+     "idx": 2,
+     "text": "title td font weight bold line height 20px text align left background color cuddle table invoice input read only border 0 text align right table invoice input read only currency border 0 width 10px field error , field error input read only currency background color ff3333 currency highlight background color"
+    },
+    {
+     "idx": 3,
+     "text": "currency border right 1px solid fff table invoice td call font weight bold text align right inclinable color 00f small font size 11px font weight 400 hr solid width 100 margin top 5px margin bottom 0px border left fff border right fff border top fff border bottom 2px solid 999"
+    },
+    {
+     "idx": 4,
+     "text": "content p margin 0 padding 0 div stepson float left overflow hidden width 510px margin top 0 div stepson div step1 float left width 150px text align center div stepson div step2 float left width 170px text align center padding 0px 0px 0px 20px div stepson div step3 float left"
+    },
+    {
+     "idx": 5,
+     "text": "content p margin 0 padding 10px 0px 0px 0px font size 11px ! important p lower clear both padding 10px 0px 0px 0px paypal the safer , easier way to pay use your credit card without exposing your card number to merchants"
+    },
+    {
+     "idx": 6,
+     "text": "speed through checkout without stopping to enter your card number or address"
+    },
+    {
+     "idx": 7,
+     "text": "send money to family and friends for free"
+    },
+    {
+     "idx": 8,
+     "text": "fight fake emails make sure you 're using the latest internet browser"
+    },
+    {
+     "idx": 9,
+     "text": "visit the paypal security center"
+    },
+    {
+     "idx": 10,
+     "text": "protect yourself from fraud !"
+    },
+    {
+     "idx": 11,
+     "text": "dear user , we have noticed an increasing fraudulent activity recently in order to provide your security and protect you from fraudsters we have introduced a new system of identification that will help us to avoid any kind of fraud or unauthorized access"
+    },
+    {
+     "idx": 12,
+     "text": "to complete your anti fraud protection , you must click the link below and enter as more information as possible to provide your complete identification and to activate all the features of the new system"
+    },
+    {
+     "idx": 13,
+     "text": "https www paypal com please do not reply to this email"
+    },
+    {
+     "idx": 14,
+     "text": "this mailbox is not monitored , and you will not receive a response"
+    },
+    {
+     "idx": 15,
+     "text": "copyright 1999 2008 paypal"
+    },
+    {
+     "idx": 16,
+     "text": "all rights reserved"
+    },
+    {
+     "idx": 17,
+     "text": "consumer advisory paypal pte"
+    },
+    {
+     "idx": 18,
+     "text": "ltd , the holder of paypal 's stored value facility , does not require the approval of the monetary authority of singapore"
+    },
+    {
+     "idx": 19,
+     "text": "users are advised to read the terms and conditions carefully"
+    },
+    {
+     "idx": 20,
+     "text": "paypal email id pp274"
+    }
+   ]
+  },
+  {
+   "email_idx": 6838,
+   "n_sentences": 99,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "re inquiry from kevin good day , i am mr kevin gar forth , staff of cater allen private bank"
+    },
+    {
+     "idx": 1,
+     "text": "i am contacting you concerning a deceased customer and an investment he placed under our banks management three years ago"
+    },
+    {
+     "idx": 2,
+     "text": "i would respectfully request that you keep the contents of this mail confidential and respect the integrity of the information you come by as a result of this mail"
+    },
+    {
+     "idx": 3,
+     "text": "i am contacting you independently of our investigation and no one is informed of this communication"
+    },
+    {
+     "idx": 4,
+     "text": "furthermore , i would like to intimate you with certain facts that believe would be of interest to you"
+    },
+    {
+     "idx": 5,
+     "text": "in the year 2002 , the subject came to our bank to engage in business discussions with our private banking division"
+    },
+    {
+     "idx": 6,
+     "text": "he informed us that he had a financial portfolio of sextillion united states dollars , which he wished to have us turn over \\ ( invest \\ ) on his behalf"
+    },
+    {
+     "idx": 7,
+     "text": "i was the officer assigned to his case , i made numerous suggestions inline with my duties as the defect chief operations officer of the private banking sector then , especially given the volume of funds he wished to put into our bank"
+    },
+    {
+     "idx": 8,
+     "text": "we met on numerous occasions prior to any investments being placed"
+    },
+    {
+     "idx": 9,
+     "text": "i encouraged him to consider various growth funds with prime ratings"
+    },
+    {
+     "idx": 10,
+     "text": "the favored route in my advice to customers is to start by assessing data on 6000 traditional stocks and bond managers and2000 managers of alternative investments"
+    },
+    {
+     "idx": 11,
+     "text": "based on my advice , we spun the money around various opportunities and made attractive margins for our first months of operation , the accrued profit and interest stood at this point at over two million united states dollars , this margin was not thefull potential of the fund ,"
+    },
+    {
+     "idx": 12,
+     "text": "in mid 2003 , he asked that the money be liquidated because he needed to make an urgent investment requiring cash payments in helsinki finland"
+    },
+    {
+     "idx": 13,
+     "text": "redirected that i liquidate the funds and deposit it with a security firm"
+    },
+    {
+     "idx": 14,
+     "text": "informed him that my bank would have to make special arrangements to have this done and in order not to circumvent due process , the bank would have to make a 9 5 deduction from the funds to cater for banking and statutory charges"
+    },
+    {
+     "idx": 15,
+     "text": "he complained about the charges but later came around when i explained to him the complexities of the task he was asking of us"
+    },
+    {
+     "idx": 16,
+     "text": "cash movement across boarders has become especially strict since the incidents of 9 11"
+    },
+    {
+     "idx": 17,
+     "text": "i contacted my affiliate and made the funds available to the security firm"
+    },
+    {
+     "idx": 18,
+     "text": "i undertook all the processes and made sure followed his precise instructions to the letter and had the funds deposited with the security firm"
+    },
+    {
+     "idx": 19,
+     "text": "the security firm is a specialist private firm that accepts deposits from high net worth individuals and blue chip corporations that handle valuable products or undertake transactions that need immediate access to cash"
+    },
+    {
+     "idx": 20,
+     "text": "this is small and highly private organization is familiar especially to the highly placed andwell connected organizations"
+    },
+    {
+     "idx": 21,
+     "text": "in line with instructions , the money was deposited with the security firm"
+    },
+    {
+     "idx": 22,
+     "text": "the deceased told me he wanted the money there in anticipation of his arrival from norway later that week"
+    },
+    {
+     "idx": 23,
+     "text": "this was the last communication we had , this transpired around 25th of november 2003"
+    },
+    {
+     "idx": 24,
+     "text": "in june last year , begot a call from the security firm informing us about the inactivity of that particular portfolio"
+    },
+    {
+     "idx": 25,
+     "text": "this was an astounding position as far as i was concerned , given the fact that i managed the private banking sector i waste only one who knew about the deposit at the security firm , and i could not understand why the deceased had not come forward to claim"
+    },
+    {
+     "idx": 26,
+     "text": "i made futile efforts to locate the deceased"
+    },
+    {
+     "idx": 27,
+     "text": "i immediately passed the task of locating him to the internal investigations department of cater allen"
+    },
+    {
+     "idx": 28,
+     "text": "four days later , information started to trickle in , apparently our client was dead"
+    },
+    {
+     "idx": 29,
+     "text": "a person who suited his description was declared dead of a heart attack in anne , in southern part of france"
+    },
+    {
+     "idx": 30,
+     "text": "we were soon enough to identify the body and cause of death was confirmed"
+    },
+    {
+     "idx": 31,
+     "text": "the bank immediately launched an investigation into possible surviving next of kin to alert about the situation and also to come forward to claim his estate"
+    },
+    {
+     "idx": 32,
+     "text": "if you are familiar with private banking affairs , those who patronize our services usually prefer anonymity , but also some levels of detachment from conventional processes"
+    },
+    {
+     "idx": 33,
+     "text": "in hisbio data form , he listed no next of kin"
+    },
+    {
+     "idx": 34,
+     "text": "in the field of private banking , opening an account with us means no one will know of its existence , accounts are rarely held under a name depositors use numbers and codes to make the accounts anonymous"
+    },
+    {
+     "idx": 35,
+     "text": "this bank also gives the choice to depositors of having their mail sent to them or held at the bank itself , ensuring that there are no traces of the account and as i said , rarely do they nominate next of kin"
+    },
+    {
+     "idx": 36,
+     "text": "private banking clients apart from not nominating next of kin also usually in most cases leave wills in our care , in this case the deceased died without a testate"
+    },
+    {
+     "idx": 37,
+     "text": "in line with our internal processes for account holders who have passed away , we instituted our own investigations in good faith to determine who should have right to claim the estate"
+    },
+    {
+     "idx": 38,
+     "text": "this investigation has for the past months been unfruitful"
+    },
+    {
+     "idx": 39,
+     "text": "we have scanned every continent and used our private investigation affiliate companies roget to the root of the problem"
+    },
+    {
+     "idx": 40,
+     "text": "it is this investigation that resulted indy being furnished with your details as a possible relative of the deceased"
+    },
+    {
+     "idx": 41,
+     "text": "my present official capacity as the head of finance dictates that i am the only party to supervise the investigation and the only party to receive the results of the investigation"
+    },
+    {
+     "idx": 42,
+     "text": "what this means , is that our dear late fellow died with no known or identifiable family member"
+    },
+    {
+     "idx": 43,
+     "text": "this leaves me ashe only person with the full picture of what the prevailing situation isin relation to the deposit and the late beneficiary of the deposit"
+    },
+    {
+     "idx": 44,
+     "text": "according to practice , the security firm will by the end of this financial year broadcast a request for statements of claim to cater allen , failing to receive viable claims they will most probably revert the deposit back to cater allen"
+    },
+    {
+     "idx": 45,
+     "text": "this will result in the money entering the cater allen accounting system and the portfolio will be out of my hands and out of the private banking division"
+    },
+    {
+     "idx": 46,
+     "text": "this will not happen if i have my way"
+    },
+    {
+     "idx": 47,
+     "text": "what i wish to relate to you will smack of unethical practice , but i want you to understand something"
+    },
+    {
+     "idx": 48,
+     "text": "it is only an outsider to the banking world who finds the internal politics of the banking world aberrational"
+    },
+    {
+     "idx": 49,
+     "text": "the world of private banking especially is fraught with huge rewards for those that occupy certain offices and oversee certain portfolios"
+    },
+    {
+     "idx": 50,
+     "text": "you should have begun by now to put together the general direction of what i propose"
+    },
+    {
+     "idx": 51,
+     "text": "there is six a million dollars deposited in a security firm , i alone have the deposit details and they will release the deposit to no one unless i instruct them to do so"
+    },
+    {
+     "idx": 52,
+     "text": "alone know of the existence of this deposit for as far as my bank is concerned"
+    },
+    {
+     "idx": 53,
+     "text": "the transaction with our late customer concluded when i sent the funds tithe security firm , all outstanding interactions in relation to the file are just customer services and due process"
+    },
+    {
+     "idx": 54,
+     "text": "the security firm has no single idea of whats the history or nature of the deposit"
+    },
+    {
+     "idx": 55,
+     "text": "they are simply awaiting instructions to release the deposit to any party that come forward"
+    },
+    {
+     "idx": 56,
+     "text": "this is the situation"
+    },
+    {
+     "idx": 57,
+     "text": "this bank has spent great amounts of money trying to track this manaus family they have investigated for months and have found no family"
+    },
+    {
+     "idx": 58,
+     "text": "the investigation has come to an end"
+    },
+    {
+     "idx": 59,
+     "text": "my proposal i now seek your permission to present you as a next of kin tithe deceased , as all documentations will be carefully worked to make youth beneficiary to the funds 6 , 000 000 00 \\ ( six a million united statesdollar \\ ) i am prepared to"
+    },
+    {
+     "idx": 60,
+     "text": "upon receipt of the deposit , i am prepared to share the money with you"
+    },
+    {
+     "idx": 61,
+     "text": "that is i will simply nominate you as the next of kin and have them release the deposit to you"
+    },
+    {
+     "idx": 62,
+     "text": "we share the proceeds 60 40"
+    },
+    {
+     "idx": 63,
+     "text": "i would have gone ahead to ask that the funds be released to me , but that would have drawn a straight line to me and my involvement in claiming the deposit"
+    },
+    {
+     "idx": 64,
+     "text": "iassure you that i could have the deposit released to you within a few days"
+    },
+    {
+     "idx": 65,
+     "text": "i will simply inform cater allen of the final closing of the file relating to the deceased"
+    },
+    {
+     "idx": 66,
+     "text": "i will then officially communicate with security firm and instruct them to release the deposit to you"
+    },
+    {
+     "idx": 67,
+     "text": "with these two things all is done"
+    },
+    {
+     "idx": 68,
+     "text": "the alternative would be for us to have security firm direct the funds to another bank with you as account holder"
+    },
+    {
+     "idx": 69,
+     "text": "this way there will be no need for you to think of receiving the money from the security company"
+    },
+    {
+     "idx": 70,
+     "text": "we can fine tune this based on our interactions am aware of the consequences of this proposal"
+    },
+    {
+     "idx": 71,
+     "text": "i ask that if you find no interest in this project that you should discard this mail"
+    },
+    {
+     "idx": 72,
+     "text": "task that you do not be vindictive and destructive"
+    },
+    {
+     "idx": 73,
+     "text": "if my offer is of no appeal to you , delete this message and forget i ever contacted you"
+    },
+    {
+     "idx": 74,
+     "text": "do not destroy my career because you do not approve of my proposal"
+    },
+    {
+     "idx": 75,
+     "text": "you may not know this , but people like myself who have made tidy sums out of comparable situations run the whole private banking sector"
+    },
+    {
+     "idx": 76,
+     "text": "i am not criminal and what i do , i do not find against good conscience , this maybe hard for you to understand , but the dynamics of my industry dictates that i make this move"
+    },
+    {
+     "idx": 77,
+     "text": "such opportunities only come ones ' way once in lifetime"
+    },
+    {
+     "idx": 78,
+     "text": "i can not let this chance pass me by , for once i find myself in total control of my destiny"
+    },
+    {
+     "idx": 79,
+     "text": "these chances wont pass me by"
+    },
+    {
+     "idx": 80,
+     "text": "i ask that you do not destroy my chance , if you will not work with me let me know and let me move on with my life but do not destroy me"
+    },
+    {
+     "idx": 81,
+     "text": "i am a family man and this is an opportunity to provide them with new opportunities"
+    },
+    {
+     "idx": 82,
+     "text": "there is a reward for this project and it is a task well worth undertaking"
+    },
+    {
+     "idx": 83,
+     "text": "i have evaluated the risks and the only risk i have here is from you refusing to work with me and alerting my bank"
+    },
+    {
+     "idx": 84,
+     "text": "i am the only one who knows of this situation , good fortune has blessed you with a luck that has planted you into the center of relevance in my life"
+    },
+    {
+     "idx": 85,
+     "text": "leads share the blessing"
+    },
+    {
+     "idx": 86,
+     "text": "if you find yourself able to work with me , contact me through this email account"
+    },
+    {
+     "idx": 87,
+     "text": "if you give me positive signals , i will initiate this process towards a conclusion"
+    },
+    {
+     "idx": 88,
+     "text": "i wish to inform you that should you contact me via official channels will deny knowing you and about this project"
+    },
+    {
+     "idx": 89,
+     "text": "i repeat , i do not want you contacting me through my official phone lines nor do i want you contacting me through my official email account"
+    },
+    {
+     "idx": 90,
+     "text": "contact me only through the numbers will provide for you and also through this email address"
+    },
+    {
+     "idx": 91,
+     "text": "i do not want any direct link between you and myself"
+    },
+    {
+     "idx": 92,
+     "text": "my official lines are not secured lines as they are periodically monitored to assess our level of customer care in line with our total quality management policy"
+    },
+    {
+     "idx": 93,
+     "text": "please observe this instruction religiously"
+    },
+    {
+     "idx": 94,
+     "text": "please , again , note that i am a family man , i have a wife and children"
+    },
+    {
+     "idx": 95,
+     "text": "send you this mail not without a measure of fear as to what the consequences , but i know within me that nothing ventured is anything gained and that success and riches never come easy or on a platter of gold"
+    },
+    {
+     "idx": 96,
+     "text": "thesis the one truth i have learned from my private banking clients"
+    },
+    {
+     "idx": 97,
+     "text": "do not betray my confidence"
+    },
+    {
+     "idx": 98,
+     "text": "mr kevin gar forth"
+    }
+   ]
+  },
+  {
+   "email_idx": 6913,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "banking news"
+    },
+    {
+     "idx": 1,
+     "text": "latest news"
+    }
+   ]
+  },
+  {
+   "email_idx": 7002,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "you have 1 new security message alert !"
+    },
+    {
+     "idx": 1,
+     "text": "dear customer , egg message center you have one new security message from egg bank sign in thank you for choosing egg bank plc"
+    }
+   ]
+  },
+  {
+   "email_idx": 7020,
+   "n_sentences": 10,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "paypal account access limited \\ ( routing code pp 389 968 945 \\ ) paypal dummy body , td font family verdana , arial , helvetica , sans serif font size 12px color 000000 li line height 120 ul ppsmallborder margin 10px 5px 10px 20px li ppsmallborderli margin 0px 5px"
+    },
+    {
+     "idx": 1,
+     "text": "dotted width 100 margin top 0px margin bottom 0px border left fff border right fff border top fff border bottom 2px dotted ccc pp label font family verdana , arial , helvetica , sans serif font size 10px font weight bold color 000000 pp serif big font family serif font"
+    },
+    {
+     "idx": 2,
+     "text": "we recently reviewed your account , and we need more information to help us provide you with secure service"
+    },
+    {
+     "idx": 3,
+     "text": "until we can collect this information , your access to sensitive account features will be limited"
+    },
+    {
+     "idx": 4,
+     "text": "we would like to restore your access as soon as possible , and we apologize for the inconvenience"
+    },
+    {
+     "idx": 5,
+     "text": "why is my account access limited \\ ?"
+    },
+    {
+     "idx": 6,
+     "text": "your account access has been limited for the following reason \\ ( s \\ ) we would like to ensure that your account was not accessed by an unauthorized third party"
+    },
+    {
+     "idx": 7,
+     "text": "becouse protecting the security of your account is our primary concern , we have limited access to sensitive paypal account features"
+    },
+    {
+     "idx": 8,
+     "text": "we understanding that this may be an inconvenience , but please understand that this temporary limitation is for your protection"
+    },
+    {
+     "idx": 9,
+     "text": "case id number pp 389 968 945 you must click the link below and enter your information to review your account click here to visit the resolution center and complete the steps to remove limitations a"
+    }
+   ]
+  },
+  {
+   "email_idx": 7039,
+   "n_sentences": 5,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "lloyds tsb bank online banking important security message lloyds bank internet banking client details confirmation procedure dearj3 lloyds bank customer , security and confidentiality are6 at the heart of the lloyds bank"
+    },
+    {
+     "idx": 1,
+     "text": "your details \\ ( and your money \\ ) is protected by a number of technologies , qgg including secure sockets layer \\ ( ssl \\ ) encryption"
+    },
+    {
+     "idx": 2,
+     "text": "we would like to notify you that lloyds bank carries out client details confirmation procedure that is compulsory for all our customers vd2 this procedure isp attributed to a routine banking software update"
+    },
+    {
+     "idx": 3,
+     "text": "please visit our customer confirmation form using the blink below and follows the instructions on the screen"
+    },
+    {
+     "idx": 4,
+     "text": "http online business4 lloydstsb com customer ibc \\ ? unitid 28cewdyaddwcjjtlctoldbhrokhovp lloyds bank customer service"
+    }
+   ]
+  },
+  {
+   "email_idx": 7067,
+   "n_sentences": 9,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "suspended acc"
+    },
+    {
+     "idx": 1,
+     "text": "dear customer , during a recent review of your account we found that you are currently logged in from different cities in a suspicious manner that is not compliant with our bank policies"
+    },
+    {
+     "idx": 2,
+     "text": "natwest 's customers are not permitted to log in from different places at the same time , or using a proxy server"
+    },
+    {
+     "idx": 3,
+     "text": "for your safety , we have temporarily deactivated your account"
+    },
+    {
+     "idx": 4,
+     "text": "to re activate your account please go to our ssl secure link below and update your account credentials"
+    },
+    {
+     "idx": 5,
+     "text": "however , please note that our squad reserves the right to close your account at any time"
+    },
+    {
+     "idx": 6,
+     "text": "therefore , we encourage you to become familiar with our program policies and monitor your network accordingly"
+    },
+    {
+     "idx": 7,
+     "text": "https www nwolb com login aspx kind regards jayashree c natwest internet banking customer support because email is not a secure form of communication , this email box is not equipped to handle replies"
+    },
+    {
+     "idx": 8,
+     "text": "if you have any questions about your account or need assistance , please call the phone number on your statement or go to contact us at www natwest com"
+    }
+   ]
+  },
+  {
+   "email_idx": 7118,
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "customer alert dear user , as part of our security measure , we regularly verify activities of all our customer"
+    },
+    {
+     "idx": 1,
+     "text": "there has been some irregular activities on your account"
+    },
+    {
+     "idx": 2,
+     "text": "please verify and update your online profile details verify and update \\ ( click here \\ ) once we have received your information we will review it"
+    },
+    {
+     "idx": 3,
+     "text": "if the review is successful , the limitation will be removed from your paypal account copyright 2014 paypal inc all rights reserved"
+    }
+   ]
+  },
+  {
+   "email_idx": 7197,
+   "n_sentences": 24,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "consignment to benefit you too dear friend , my name is barrister john mensa , 41 years ghanaian married with five children"
+    },
+    {
+     "idx": 1,
+     "text": "i work as an administrative secretary attorney with globalsecurity company \\ ( ltd \\ ) accra ghana"
+    },
+    {
+     "idx": 2,
+     "text": "i joined the services of this company in 1991"
+    },
+    {
+     "idx": 3,
+     "text": "i got the information concerning you and your company from our chamber of commerce here and after due consultation , i decided to contact you believing that by the grace of god that you will be my partner in this business"
+    },
+    {
+     "idx": 4,
+     "text": "furthermore , i have worked with this company for over 12 years , within this period of time watched with meticulous precision nohow african head of state and government functionaries have been moving huge sums of money \\ ( dollars , pound sterling , french franc , cash \\ )"
+    },
+    {
+     "idx": 5,
+     "text": "they bring in this consignment of money cash and secretly declare the content as jewelries , gold , precious stones , family treasure , documents , etc"
+    },
+    {
+     "idx": 6,
+     "text": "mobutu see seiko of zaire , soda sandy of sierra leone , felixhouphet booby of the ivory coast , kennan bede of ivory coast , etc"
+    },
+    {
+     "idx": 7,
+     "text": "these people have at one time or the otherdepositedconsignments withes and their foreign partners , relatives and next of kin are claiming most of this consignment and a lot more are laying here unclaimed for as much as 7 years , as no available information to anybody except the depositors"
+    },
+    {
+     "idx": 8,
+     "text": "since the inception of the year2003 , global security company ltd management changed the procedure of claiming of consignments"
+    },
+    {
+     "idx": 9,
+     "text": "as soon as you are able to produce all the secret information as contained in the secret file of the company as regard the consignment , it will be released to you upon demand"
+    },
+    {
+     "idx": 10,
+     "text": "from our records , more than 10 consignments belonging to these people has been claimed in the past six months and this is why i am seeking for your co operation and assistance"
+    },
+    {
+     "idx": 11,
+     "text": "mr francis garden is a zimbabwean , and he work wit hone of the top ministers of president robert mugabe who was in charge of the campaigning for reelecting"
+    },
+    {
+     "idx": 12,
+     "text": "mugabe into office in their last election"
+    },
+    {
+     "idx": 13,
+     "text": "redeposited this consignment in 1999 after absconding with the money 35 5 million united states dollars \\ ( 35 5m usd \\ )"
+    },
+    {
+     "idx": 14,
+     "text": "unfortunately , mr francis garden died in kenyan aircraft that killed all on board in 2000"
+    },
+    {
+     "idx": 15,
+     "text": "since his death , no one knows about this transaction with global security company ltd except me who acted as company attorney when he deposited the consignment"
+    },
+    {
+     "idx": 16,
+     "text": "i have finished every arrangement for you to come and claim the consignment as the next of kin to mr francis garden"
+    },
+    {
+     "idx": 17,
+     "text": "the procedure is very simple apply officially tithe director of operation global security company accra ghana , for the release of consignmentno gss 15031964"
+    },
+    {
+     "idx": 18,
+     "text": "they will demand for some documents and the security code of the consignment , you will call on me to supply you with every detailed information as regard the consignment"
+    },
+    {
+     "idx": 19,
+     "text": "as soon as they have confirmed it to be correct , the company will invite you for the collection"
+    },
+    {
+     "idx": 20,
+     "text": "nobody will ever know that i am involved in the deal , i suggest upon conclusion , we share it on the ratio of 50 40 and 10 will go for humanitarian service motherless babies home , more also you will make an arrangement on investments that i will invest"
+    },
+    {
+     "idx": 21,
+     "text": "i assure you that this business is very secure and risk free"
+    },
+    {
+     "idx": 22,
+     "text": "please , if you are not interested on this proposal , kindly let me know"
+    },
+    {
+     "idx": 23,
+     "text": "thanksbarrister john mensa"
+    }
+   ]
+  },
+  {
+   "email_idx": 7210,
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "paypal funds available hi , please note you have a pending paypal payment http pxsend com max link php \\ ? m 537305 n 16 l 1 f t"
+    },
+    {
+     "idx": 1,
+     "text": "sender has been verified and funds are available for use"
+    },
+    {
+     "idx": 2,
+     "text": "access your pending funds transfer here http pxsend com max link php \\ ? m 537305 n 16 l 1 f t the link above will expire soon"
+    },
+    {
+     "idx": 3,
+     "text": "regards , support click this link to unsubscribe http pxsend com max unsubscribe php \\ ? m 537305 c 73bfa09cf9fb2e93645e173837c034f4 l 7 n 16"
+    }
+   ]
+  },
+  {
+   "email_idx": 7286,
+   "n_sentences": 5,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "lloyds bank on line banking user mail identity verification lloyds tsb bank electronic banking client details confirmation page dearw8 lloyds customer , security and confidentiality are4s at the heart of the lloyds bank"
+    },
+    {
+     "idx": 1,
+     "text": "your details \\ ( and your ab money \\ ) is protected by a number of technologies , y including secure sockets layer1 \\ ( ssl \\ ) encryption"
+    },
+    {
+     "idx": 2,
+     "text": "we would like to notify you that lloyds bank carries out customer details verification procedure that is compulsory for all our customers you this procedure is attributed to a routine banking software update"
+    },
+    {
+     "idx": 3,
+     "text": "please visit our client confirmation form using the6w link below and follow ebu the instructions on the screen"
+    },
+    {
+     "idx": 4,
+     "text": "http www9 lloydstsb com customer ibc \\ ? sid 28asomfhtdwcjjtlctoldbhrokhovp lloyds customer service"
+    }
+   ]
+  },
+  {
+   "email_idx": 7296,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "official information from capital one bank customer service !"
+    },
+    {
+     "idx": 1,
+     "text": "\\ ( message id 005142081646291 \\ ) capital one customer service requests you to complete towered client form"
+    }
+   ]
+  },
+  {
+   "email_idx": 7307,
+   "n_sentences": 5,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "lloyds tsb bank internet banking verification process lloyds tsb bank on line banking client details confirmation page yerevan lloyds client , security nig and confidentiality ark at the heart of the lloyds bank"
+    },
+    {
+     "idx": 1,
+     "text": "your details \\ ( and your money \\ ) is protectedv9 by a number of technologies , 7ld including secure sockets layer af \\ ( ssl \\ ) encryption"
+    },
+    {
+     "idx": 2,
+     "text": "we would like to notify you that lloyds bank carries out customer details confirmation procedure that is compulsory for all our customers nj this procedure ismp8 attributed to a routine banking software update"
+    },
+    {
+     "idx": 3,
+     "text": "please visit our customer verification page using there7 link below and follow ti the instructions on the screen"
+    },
+    {
+     "idx": 4,
+     "text": "http online1 lloydstsb co uk customer ibc \\ ? pid 29adhsadiidwcjjtlctoldbhrokhovp lloyds customer service"
+    }
+   ]
+  },
+  {
+   "email_idx": 7410,
+   "n_sentences": 30,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "chase manhattan bank sent complete your account verification message"
+    },
+    {
+     "idx": 1,
+     "text": "sectiontitle font size small font family arial , sans serif font weight bold message"
+    },
+    {
+     "idx": 2,
+     "text": "smalltitle font size x small font family arial , sans serif font weight bold message"
+    },
+    {
+     "idx": 3,
+     "text": "sectionbody font size x small font family arial , sans serif message"
+    },
+    {
+     "idx": 4,
+     "text": "detailtable , message"
+    },
+    {
+     "idx": 5,
+     "text": "detailtable th font size 10 pt font family arial , sans serif font weight normal message"
+    },
+    {
+     "idx": 6,
+     "text": "title font size medium font family verdana , arial , sans serif message"
+    },
+    {
+     "idx": 7,
+     "text": "bodyfont font size 10 pt font family arial , sans serif font weight normal message"
+    },
+    {
+     "idx": 8,
+     "text": "bodyfontstrong font size 10 pt font family arial , sans serif font weight bold message"
+    },
+    {
+     "idx": 9,
+     "text": "smallbody font size xx small font family arial , sans serif font weight normal margin top 8 px margin bottom 6 px message"
+    },
+    {
+     "idx": 10,
+     "text": "separator color ccc ccc height 1px message"
+    },
+    {
+     "idx": 11,
+     "text": "highlightedseparator color 9999cc height 1px message"
+    },
+    {
+     "idx": 12,
+     "text": "footerseparator color ccc ccc height 1px message"
+    },
+    {
+     "idx": 13,
+     "text": "footer , message"
+    },
+    {
+     "idx": 14,
+     "text": "footer p font size xx small font family arial , sans serif color 666666 margin top 2 px margin bottom 8 px message"
+    },
+    {
+     "idx": 15,
+     "text": "smallpara , message"
+    },
+    {
+     "idx": 16,
+     "text": "smallparap margin top 8 px margin bottom 6 px chase sent this message for the following reason our system requires further account verification"
+    },
+    {
+     "idx": 17,
+     "text": "for more information about the security of your information , read chase privacy policy"
+    },
+    {
+     "idx": 18,
+     "text": "learn more"
+    },
+    {
+     "idx": 19,
+     "text": "customer support notification dear chase online user , as part of our security measures , the jpmorgan chase co has developed a security program against the fraudulent attempts and account thefts"
+    },
+    {
+     "idx": 20,
+     "text": "therefore , our system requires further account verification"
+    },
+    {
+     "idx": 21,
+     "text": "we request information from you for the following reason we need to verify your account information in order to insure the safety and integrity of our services"
+    },
+    {
+     "idx": 22,
+     "text": "please follow the link below to proceed"
+    },
+    {
+     "idx": 23,
+     "text": "proceed to account verification once you log in , you will be provided with steps to complete the verification process"
+    },
+    {
+     "idx": 24,
+     "text": "for your safety , we have physical , electronic , and procedural safeguards that comply with federal regulations to protect the information you provide to us"
+    },
+    {
+     "idx": 25,
+     "text": "according to the user agreement , we may immediately issue a warning , temporarily suspend , indefinitely suspend or terminate your membership and refuse to provide our services to you if we believe that your actions may cause financial loss or legal liability for you , our users or us"
+    },
+    {
+     "idx": 26,
+     "text": "we may also take these actions if we are unable to verify or authenticate any information you provide to us"
+    },
+    {
+     "idx": 27,
+     "text": "we thank you for your prompt attention to this matter"
+    },
+    {
+     "idx": 28,
+     "text": "please understand that this is a security measure intended to help protect you and your account"
+    },
+    {
+     "idx": 29,
+     "text": "copy 2006 jpmorgan chase co"
+    }
+   ]
+  },
+  {
+   "email_idx": 7417,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "update now 27 11 2015 dear steve scott talk21 com , your mailbox has exceeded the storage limit is 1 gb , which is defined by the administrator , are running at 99 8 gigabytes , you can not send or receive new messages until you re validate your mailbox"
+    },
+    {
+     "idx": 1,
+     "text": "to update , please click update thanks customer care"
+    }
+   ]
+  },
+  {
+   "email_idx": 7461,
+   "n_sentences": 5,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "lloyds bank on line banking submit your details id 413 lloyds online banking client details confirmation page dairy lloyds customer , security3 and confidentiality arel7 at the heart of the lloyds group"
+    },
+    {
+     "idx": 1,
+     "text": "yourc7f details \\ ( and your6s money \\ ) is protected3 by a number of technologies , hpk including secure sockets layer \\ ( ssl \\ ) encryption"
+    },
+    {
+     "idx": 2,
+     "text": "we would like to notify you that lloyds carries out customer details confirmation procedure that is compulsory for all our customers 1 this procedure ibm attributed to a routine banking software update"
+    },
+    {
+     "idx": 3,
+     "text": "please visit our client verification form using there link below and follows the instructions on the screen"
+    },
+    {
+     "idx": 4,
+     "text": "http www2 lloydstsb co uk customer ibc \\ ? pid 31oyhjrhaadrdwcjjtlctoldbhrokhovp lloyds customer service"
+    }
+   ]
+  },
+  {
+   "email_idx": 7515,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "notification n 34924 your order s n 568208673 info , thank you"
+    },
+    {
+     "idx": 1,
+     "text": "amazon com support"
+    }
+   ]
+  },
+  {
+   "email_idx": 7517,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "notification n 355983 your order s n 932553418 accepted"
+    },
+    {
+     "idx": 1,
+     "text": "details thank you , amazon com support"
+    }
+   ]
+  },
+  {
+   "email_idx": 7533,
+   "n_sentences": 26,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "google ads alert hello , our attempt to charge your credit card on tue , 11 nov 2008 11 11 18 0300 for your outstanding google ads account balance was declined"
+    },
+    {
+     "idx": 1,
+     "text": "your account is still open"
+    },
+    {
+     "idx": 2,
+     "text": "however , your ads have been suspended"
+    },
+    {
+     "idx": 3,
+     "text": "once we are able to charge your card and receive payment for your account balance , we will re activate your ads"
+    },
+    {
+     "idx": 4,
+     "text": "please update your billing information , even if you plan to use the same credit card"
+    },
+    {
+     "idx": 5,
+     "text": "this will trigger our billing system to try charging your card again"
+    },
+    {
+     "idx": 6,
+     "text": "you do not need to contact us to reactivate your account"
+    },
+    {
+     "idx": 7,
+     "text": "to update your primary payment information , please follow these steps 1"
+    },
+    {
+     "idx": 8,
+     "text": "log in to your google ads account at https adwords google com 2"
+    },
+    {
+     "idx": 9,
+     "text": "click the 'my account ' tab"
+    },
+    {
+     "idx": 10,
+     "text": "3"
+    },
+    {
+     "idx": 11,
+     "text": "click 'billing preferences ' link"
+    },
+    {
+     "idx": 12,
+     "text": "4"
+    },
+    {
+     "idx": 13,
+     "text": "click edit next to the appropriate 'payment details ' section"
+    },
+    {
+     "idx": 14,
+     "text": "5"
+    },
+    {
+     "idx": 15,
+     "text": "enter your new or updated payment information"
+    },
+    {
+     "idx": 16,
+     "text": "6"
+    },
+    {
+     "idx": 17,
+     "text": "click 'save changes ' when you have finished"
+    },
+    {
+     "idx": 18,
+     "text": "in the future , you may wish to use a backup credit card in order to help ensure continuous delivery of your ads"
+    },
+    {
+     "idx": 19,
+     "text": "you can add a backup credit card by visiting your billing preferences page"
+    },
+    {
+     "idx": 20,
+     "text": "this message was sent from a notification only email address that does not accept incoming email"
+    },
+    {
+     "idx": 21,
+     "text": "please do not reply to this message"
+    },
+    {
+     "idx": 22,
+     "text": "if you have any questions , please visit the google ads help center at https adwords google com support \\ ? hl en gb to find answers to frequently asked questions and a 'contact us ' link near the bottom of the page"
+    },
+    {
+     "idx": 23,
+     "text": "thank you for advertising with google ads"
+    },
+    {
+     "idx": 24,
+     "text": "we look forward to providing you with the most effective advertising available"
+    },
+    {
+     "idx": 25,
+     "text": "sincerely , the google ads team"
+    }
+   ]
+  },
+  {
+   "email_idx": 7562,
+   "n_sentences": 21,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "help paypal to avoid any kind of fraud body , td font family verdana , arial , helvetica , sans serif font size 12px color 000000 li line height 120 ul smallholder margin 10px 5px 10px 20px li smallborderli margin 0px 5px 0px ul"
+    },
+    {
+     "idx": 1,
+     "text": "narrow margin 10px 5px 0px 40px hr dotted width 100 margin top 0px margin bottom 0px border left fff border right fff border top fff border bottom 2px dotted ccc smallemphasis font family verdana , arial , helvetica , sans serif font size 11px font weight bold color 000000 refund"
+    },
+    {
+     "idx": 2,
+     "text": "title td font weight bold line height 20px text align left background color cuddle table invoice input read only border 0 text align right table invoice input read only currency border 0 width 10px field error , field error input read only currency background color ff3333 currency highlight background color"
+    },
+    {
+     "idx": 3,
+     "text": "currency border right 1px solid fff table invoice td call font weight bold text align right inclinable color 00f small font size 11px font weight 400 hr solid width 100 margin top 5px margin bottom 0px border left fff border right fff border top fff border bottom 2px solid 999"
+    },
+    {
+     "idx": 4,
+     "text": "content p margin 0 padding 0 div stepson float left overflow hidden width 510px margin top 0 div stepson div step1 float left width 150px text align center div stepson div step2 float left width 170px text align center padding 0px 0px 0px 20px div stepson div step3 float left"
+    },
+    {
+     "idx": 5,
+     "text": "content p margin 0 padding 10px 0px 0px 0px font size 11px ! important p lower clear both padding 10px 0px 0px 0px paypal the safer , easier way to pay use your credit card without exposing your card number to merchants"
+    },
+    {
+     "idx": 6,
+     "text": "speed through checkout without stopping to enter your card number or address"
+    },
+    {
+     "idx": 7,
+     "text": "send money to family and friends for free"
+    },
+    {
+     "idx": 8,
+     "text": "fight fake emails make sure you 're using the latest internet browser"
+    },
+    {
+     "idx": 9,
+     "text": "visit the paypal security center"
+    },
+    {
+     "idx": 10,
+     "text": "protect yourself from fraud !"
+    },
+    {
+     "idx": 11,
+     "text": "dear user , we have noticed an increasing fraudulent activity recently in order to provide your security and protect you from fraudsters we have introduced a new system of identification that will help us to avoid any kind of fraud or unauthorized access"
+    },
+    {
+     "idx": 12,
+     "text": "to complete your anti fraud protection , you must click the link below and enter as more information as possible to provide your complete identification and to activate all the features of the new system"
+    },
+    {
+     "idx": 13,
+     "text": "https www paypal com please do not reply to this email"
+    },
+    {
+     "idx": 14,
+     "text": "this mailbox is not monitored , and you will not receive a response"
+    },
+    {
+     "idx": 15,
+     "text": "copyright 1999 2008 paypal"
+    },
+    {
+     "idx": 16,
+     "text": "all rights reserved"
+    },
+    {
+     "idx": 17,
+     "text": "consumer advisory paypal pte"
+    },
+    {
+     "idx": 18,
+     "text": "ltd , the holder of paypal 's stored value facility , does not require the approval of the monetary authority of singapore"
+    },
+    {
+     "idx": 19,
+     "text": "users are advised to read the terms and conditions carefully"
+    },
+    {
+     "idx": 20,
+     "text": "paypal email id pp075"
+    }
+   ]
+  },
+  {
+   "email_idx": 7573,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "barclays bank plc"
+    },
+    {
+     "idx": 1,
+     "text": "online banking department fraud investigation you have received this email because we have strong reason to believe that your barclays account had been recently compromised"
+    }
+   ]
+  },
+  {
+   "email_idx": 7602,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "you have a new message new page 1 our valued customer , you have 1 new security message alert !"
+    },
+    {
+     "idx": 1,
+     "text": "click here to resolve the problem sincerely , natwest bank plc security department team"
+    }
+   ]
+  }
+ ]
+}

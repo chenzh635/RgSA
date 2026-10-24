@@ -1,0 +1,54 @@
+{
+ "raters": [
+  "chan",
+  "li"
+ ],
+ "n_raters": 2,
+ "n_items": 213,
+ "items_dropped_not_common": 0,
+ "fleiss_kappa": 0.39673202614379083,
+ "label_distribution_ref_rater": {
+  "N": 149,
+  "Y": 64
+ },
+ "pairwise": {
+  "chan~li": {
+   "cohens_kappa": 0.39778164419312767,
+   "raw_agreement": 0.755868544600939,
+   "confusion": {
+    "Y>Y": 34,
+    "Y>N": 30,
+    "Y>?": 0,
+    "N>Y": 22,
+    "N>N": 127,
+    "N>?": 0,
+    "?>Y": 0,
+    "?>N": 0,
+    "?>?": 0
+   }
+  }
+ },
+ "by_stratum": {
+  "high_spearman": {
+   "n_items": 25,
+   "fleiss_kappa": 0.24999999999999964,
+   "raw_agreement": 0.76
+  },
+  "low_spearman": {
+   "n_items": 58,
+   "fleiss_kappa": 0.3738191632928475,
+   "raw_agreement": 0.7241379310344828
+  },
+  "mid_spearman": {
+   "n_items": 83,
+   "fleiss_kappa": 0.5561497326203207,
+   "raw_agreement": 0.8554216867469879
+  },
+  "misclassified": {
+   "n_items": 47,
+   "fleiss_kappa": 0.20488721804511287,
+   "raw_agreement": 0.6170212765957447
+  }
+ },
+ "n_disagreements": 52
+}

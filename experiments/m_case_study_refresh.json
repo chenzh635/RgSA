@@ -1,0 +1,151 @@
+{
+ "email_ids": [
+  5852,
+  5362,
+  7597,
+  7899
+ ],
+ "test_temperature": 0.1,
+ "emails": [
+  {
+   "test_idx": 5852,
+   "n_sentences": 4,
+   "sentences": [
+    "your lloyds tsb account welcome to lloyds tsb online internet banking service is under review",
+    "proceed to log in for more information",
+    "we may record telephone calls with us",
+    "thank you for your time and co operation"
+   ],
+   "sparse_alpha": [
+    0.9999998807907104,
+    8.712247279163421e-08,
+    1.2726282250241638e-09,
+    7.694762160781465e-09
+   ],
+   "abmil_alpha": [
+    0.6505849957466125,
+    0.10022252053022385,
+    0.10828325897455215,
+    0.14090922474861145
+   ],
+   "rule": [
+    1.0,
+    0.2857142984867096,
+    0.7142857313156128,
+    0.7142857313156128
+   ],
+   "sparse_entropy": 1.6821698775758664e-06,
+   "abmil_entropy": 1.0270692195421358,
+   "sparse_prob": 1.0,
+   "abmil_prob": 0.999998927116394,
+   "sparse_top1": 0,
+   "abmil_top1": 0
+  },
+  {
+   "test_idx": 5362,
+   "n_sentences": 4,
+   "sentences": [
+    "update your account information paypal dear cust mer , recently , we have detected different l gins t y ur acc unt from different c untry followed by s me illegals buys and we think that we will suspend your account",
+    "what d you need t d \\ ?",
+    "pen y ur acc unt , and remember to update y ur information after logging in",
+    "we will give y u 3 days to update y ur information r we will suspend y ur acc unt forever"
+   ],
+   "sparse_alpha": [
+    0.9999265670776367,
+    1.043736392603023e-05,
+    1.5384244761662558e-05,
+    4.7572142648277804e-05
+   ],
+   "abmil_alpha": [
+    0.5587748289108276,
+    0.11610398441553116,
+    0.12050687521696091,
+    0.10014903545379639
+   ],
+   "rule": [
+    1.0,
+    0.8571428656578064,
+    0.5714285969734192,
+    1.0
+   ],
+   "sparse_entropy": 0.0008370977061248696,
+   "abmil_entropy": 1.0740595995909996,
+   "sparse_prob": 0.9993208646774292,
+   "abmil_prob": 0.9978615641593933,
+   "sparse_top1": 0,
+   "abmil_top1": 0
+  },
+  {
+   "test_idx": 7597,
+   "n_sentences": 4,
+   "sentences": [
+    "bank of the west customer service important security update dear bank of the west customer , as part of the new security measures , all bank of the west redirect users are required to complete redirect customer form",
+    "please complete the form as soon as possible",
+    "to access the form please click on the following link http cib bankofthewest com k1 wt ac webdirect index",
+    "php \\ ? sid 52721646816571046470547849341219418717186125503 91806061831822578547 email serdar darkhardware com sincerely ,"
+   ],
+   "sparse_alpha": [
+    0.9994550347328186,
+    1.5690199006712646e-06,
+    0.0005027034785598516,
+    4.077262565260753e-05
+   ],
+   "abmil_alpha": [
+    0.6371942162513733,
+    0.0933043360710144,
+    0.0905553549528122,
+    0.1789461076259613
+   ],
+   "rule": [
+    1.0,
+    0.7142857313156128,
+    1.0,
+    0.2857142984867096
+   ],
+   "sparse_entropy": 0.0047962648922801705,
+   "abmil_entropy": 1.0338812942357372,
+   "sparse_prob": 1.0,
+   "abmil_prob": 0.9999994039535522,
+   "sparse_top1": 0,
+   "abmil_top1": 0
+  },
+  {
+   "test_idx": 7899,
+   "n_sentences": 5,
+   "sentences": [
+    "you have 24 hours to confirm your paypal personal information confirm dear paypal member , this e mail was sent to you because we have detected an error in your billing information during our regular schedule account maintenance and verification",
+    "this might be due to either following reasons a recent change in your personal information \\ ( i e",
+    "change of address \\ )",
+    "submitting invalid information during the initial sign up process",
+    "an inability to accurately verify your selected option of payment due an internal"
+   ],
+   "sparse_alpha": [
+    0.9926068782806396,
+    0.00022140670625958592,
+    4.802402364667557e-10,
+    7.061465112201404e-06,
+    0.007164692971855402
+   ],
+   "abmil_alpha": [
+    0.5978156328201294,
+    0.08741411566734314,
+    0.07572581619024277,
+    0.06742072850465775,
+    0.17162372171878815
+   ],
+   "rule": [
+    1.0,
+    0.7142857313156128,
+    0.0,
+    0.5714285969734192,
+    0.48571428656578064
+   ],
+   "sparse_entropy": 0.044696260198153606,
+   "abmil_entropy": 1.2003162987978877,
+   "sparse_prob": 1.0,
+   "abmil_prob": 0.9999998807907104,
+   "sparse_top1": 0,
+   "abmil_top1": 0
+  }
+ ]
+}

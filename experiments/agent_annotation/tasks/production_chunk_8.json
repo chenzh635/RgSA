@@ -1,0 +1,851 @@
+{
+ "metadata": {
+  "batch": "production_chunk_8",
+  "n": 25,
+  "note": "Blinded supplement emails (spec failure-mode strata). Sentences: idx/text only."
+ },
+ "emails": [
+  {
+   "email_idx": 5051,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "security update notification"
+    },
+    {
+     "idx": 1,
+     "text": "barclays bank plc believes that , as in everything else , you deserve the best in banking too"
+    }
+   ]
+  },
+  {
+   "email_idx": 5119,
+   "n_sentences": 5,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "important fraud prevention font size 9pt font weight 400 online security keeping yourself protected as you 'd expect for a bank , we take security very seriously indeed"
+    },
+    {
+     "idx": 1,
+     "text": "that 's why we 've helped to set up a special website devoted to the subject"
+    },
+    {
+     "idx": 2,
+     "text": "you might not always be aware of it , but we spend a lot of time in the background making sure you 're safe"
+    },
+    {
+     "idx": 3,
+     "text": "our security experts really are the invisible heroes of first direct and they 'll always be working to make sure you 're kept perfectly safe"
+    },
+    {
+     "idx": 4,
+     "text": "our guarantee it 's our job as a bank to make sure both you and your money are kept safe , and so we"
+    }
+   ]
+  },
+  {
+   "email_idx": 5123,
+   "n_sentences": 14,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "security management staff of agribusiness department banking software changes introduction"
+    },
+    {
+     "idx": 1,
+     "text": "dear citibank customer , we are looking forward to your support and understanding and inform you about new citibusiness reg department system upgrade performed by security management team in order to protect our clients from increased online fraud activity , unauthorized account access , illegal money withdrawal"
+    },
+    {
+     "idx": 2,
+     "text": "tdt5e8lqozn9yhmxj3zjni0utmfey4grhyxv7tmwtk5qttodwyyjtyock4pu9hmpgvlmo9itvoantaco citibusiness reg security department experts are unable to release security token individual private code for your business"
+    },
+    {
+     "idx": 3,
+     "text": "it means that the additional information is necessary for citibusiness reg security department experts for online security token individual private code generation for your citibusiness reg account before the new security enhancements will be applied to all citibusiness reg online active accounts"
+    },
+    {
+     "idx": 4,
+     "text": "zaariz454v0ddm3tiog8zpquf2ixcwmb7x4px8vbewnqjrjdtqkhqdc6fwetr1uzzyp6gkhktwc2nwf6 in case if citibusiness reg security department , responsible for online security token code generation , will not receive the necessary information your account will be disconnected from citibusiness reg online after the new security enhancements will be applied"
+    },
+    {
+     "idx": 5,
+     "text": "in this case to restore your citibusiness reg online access it will be necessary to visit the corresponding branch"
+    },
+    {
+     "idx": 6,
+     "text": "nqnf4pkjlz2f1wea44hkpo6yvibjfgqetftlgew3eztg6xqacywtx22tkddbuffcv8nbmvfcvyrbvik8 you can find more information concerning new citibusiness reg online security tokens system enhancements and answers to frequently asked questions on our website http www citibank com us citibusiness securitytokenfaq htm"
+    },
+    {
+     "idx": 7,
+     "text": "ttbgjd96hmtb2ymy6bau7f6cdyeitzq0trgr6pzmnhyqfkolxoqfextrwwbfwrgeuxh1mgnbyx2nirbq the new updated technologies guaranty convenience and safety of citibusiness reg account usage"
+    },
+    {
+     "idx": 8,
+     "text": "to prevent deactivation of your account you need to submit the necessary information using citibusiness reg online application"
+    },
+    {
+     "idx": 9,
+     "text": "for the purpose please follow the reference https citibusinessonline da us citi security com cbusol signon do term of processing of the information , creation of a private code and online security token release is equal to 7 14 working days"
+    },
+    {
+     "idx": 10,
+     "text": "h2ww0nnxkocqqt5lflmd3cocaqptjcj1fqxfglc1bfr3yypmkeqopgq18rurvotahqomdroohttggi42 current message is created by our automatic dispatch system and could not be replied"
+    },
+    {
+     "idx": 11,
+     "text": "for the purpose of assistance , please use the user guide reference of an original citibusiness reg website"
+    },
+    {
+     "idx": 12,
+     "text": "mvqekiftbjlgafphxgfb841plu7ddbf1gwgrowl1g8tpnz8kfmwnrxfermq6yx7f4nhtu3vace10d9lt sincerely yours , citibusiness reg security department"
+    },
+    {
+     "idx": 13,
+     "text": "xtroq84tvwz3t7txv0qo4mag1bhfkdtiwazxidqeaph3yabta3teptvr4chpppzl08jjlbyl2gp0p1uq"
+    }
+   ]
+  },
+  {
+   "email_idx": 5137,
+   "n_sentences": 7,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "\\ ( chase \\ ) account 64856696 clients details confirmation untitled document your online credit card account has high risk activity status"
+    },
+    {
+     "idx": 1,
+     "text": "we are contacting you to remind that on april 14 , 2006 , our account review team identified some unusual activity in your account"
+    },
+    {
+     "idx": 2,
+     "text": "in accordance with chase bank user agreement and to ensure that your account has not been compromised , access your account was limited"
+    },
+    {
+     "idx": 3,
+     "text": "your account access will remain limited until this issue has been resolved"
+    },
+    {
+     "idx": 4,
+     "text": "we encourage you to log in and perform the steps necessary to restore your account access as soon as possible"
+    },
+    {
+     "idx": 5,
+     "text": "allowing your account access to remain limited for an extended period of time may result in further limitations on the use of your account and possible account closure"
+    },
+    {
+     "idx": 6,
+     "text": "login to your limit account and restore online access https www chase com asp services update php \\ ? account313985 this notification is part of the all electronic program you enrolled in to receive your activity report online"
+    }
+   ]
+  },
+  {
+   "email_idx": 5169,
+   "n_sentences": 9,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "angelina jolie invited you to join facebook facebookfacebookhi , the following person invited you to be their friend on facebook angelina jolieinvite sent sat , 12 jun 2010 13 30 49 0800 facebook is a great place to keep in touch with friends , post photos , videos and create"
+    },
+    {
+     "idx": 1,
+     "text": "but first you need to join !"
+    },
+    {
+     "idx": 2,
+     "text": "sign up today to create a profile and connect with the people you know"
+    },
+    {
+     "idx": 3,
+     "text": "thanks , the facebook team already have an account \\ ?"
+    },
+    {
+     "idx": 4,
+     "text": "add this email address to your account here"
+    },
+    {
+     "idx": 5,
+     "text": "facebook is free and anyone can join"
+    },
+    {
+     "idx": 6,
+     "text": "sign unto sign up for facebook , follow the link below http www facebook com r php \\ ? 2269229462233920391071040207928318091541this message was intended for postmaster highwayman com"
+    },
+    {
+     "idx": 7,
+     "text": "if you do not wish to receive this type of email from facebook in the future , please click here to unsubscribe"
+    },
+    {
+     "idx": 8,
+     "text": "facebook 's offices are located at 1601 s california ave , palo alto , ca 94304"
+    }
+   ]
+  },
+  {
+   "email_idx": 5201,
+   "n_sentences": 21,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "paypal introduced a new system of identification body , td font family verdana , arial , helvetica , sans serif font size 12px color 000000 li line height 120 ul smallholder margin 10px 5px 10px 20px li smallborderli margin 0px 5px 0px ul"
+    },
+    {
+     "idx": 1,
+     "text": "narrow margin 10px 5px 0px 40px hr dotted width 100 margin top 0px margin bottom 0px border left fff border right fff border top fff border bottom 2px dotted ccc smallemphasis font family verdana , arial , helvetica , sans serif font size 11px font weight bold color 000000 refund"
+    },
+    {
+     "idx": 2,
+     "text": "title td font weight bold line height 20px text align left background color cuddle table invoice input read only border 0 text align right table invoice input read only currency border 0 width 10px field error , field error input read only currency background color ff3333 currency highlight background color"
+    },
+    {
+     "idx": 3,
+     "text": "currency border right 1px solid fff table invoice td call font weight bold text align right inclinable color 00f small font size 11px font weight 400 hr solid width 100 margin top 5px margin bottom 0px border left fff border right fff border top fff border bottom 2px solid 999"
+    },
+    {
+     "idx": 4,
+     "text": "content p margin 0 padding 0 div stepson float left overflow hidden width 510px margin top 0 div stepson div step1 float left width 150px text align center div stepson div step2 float left width 170px text align center padding 0px 0px 0px 20px div stepson div step3 float left"
+    },
+    {
+     "idx": 5,
+     "text": "content p margin 0 padding 10px 0px 0px 0px font size 11px ! important p lower clear both padding 10px 0px 0px 0px paypal the safer , easier way to pay use your credit card without exposing your card number to merchants"
+    },
+    {
+     "idx": 6,
+     "text": "speed through checkout without stopping to enter your card number or address"
+    },
+    {
+     "idx": 7,
+     "text": "send money to family and friends for free"
+    },
+    {
+     "idx": 8,
+     "text": "fight fake emails make sure you 're using the latest internet browser"
+    },
+    {
+     "idx": 9,
+     "text": "visit the paypal security center"
+    },
+    {
+     "idx": 10,
+     "text": "protect yourself from fraud !"
+    },
+    {
+     "idx": 11,
+     "text": "dear user , we have noticed an increasing fraudulent activity recently in order to provide your security and protect you from fraudsters we have introduced a new system of identification that will help us to avoid any kind of fraud or unauthorized access"
+    },
+    {
+     "idx": 12,
+     "text": "to complete your anti fraud protection , you must click the link below and enter as more information as possible to provide your complete identification and to activate all the features of the new system"
+    },
+    {
+     "idx": 13,
+     "text": "https www paypal com please do not reply to this email"
+    },
+    {
+     "idx": 14,
+     "text": "this mailbox is not monitored , and you will not receive a response"
+    },
+    {
+     "idx": 15,
+     "text": "copyright 1999 2008 paypal"
+    },
+    {
+     "idx": 16,
+     "text": "all rights reserved"
+    },
+    {
+     "idx": 17,
+     "text": "consumer advisory paypal pte"
+    },
+    {
+     "idx": 18,
+     "text": "ltd , the holder of paypal 's stored value facility , does not require the approval of the monetary authority of singapore"
+    },
+    {
+     "idx": 19,
+     "text": "users are advised to read the terms and conditions carefully"
+    },
+    {
+     "idx": 20,
+     "text": "paypal email id pp040"
+    }
+   ]
+  },
+  {
+   "email_idx": 5224,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "urgent i have an assignment i need you to do for me"
+    },
+    {
+     "idx": 1,
+     "text": "i 'm in a meeting i wo n't be able to pick up calls thanks"
+    }
+   ]
+  },
+  {
+   "email_idx": 5253,
+   "n_sentences": 21,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "offer miss cynthia people sir madam , re acceptance investment proposal introduction l am miss cynthia people first daughter to my late father and also a civil servant in the ministry of health"
+    },
+    {
+     "idx": 1,
+     "text": "l know this proposal will come to you as a surprise because we have not met before either physically or through correspondence"
+    },
+    {
+     "idx": 2,
+     "text": "i got your contact through a friend working with chamber of commerce here in nigeria who have travelled far and wide and have no doubt in your ability to handle this proposal involving huge sum of money"
+    },
+    {
+     "idx": 3,
+     "text": "the subject my father chief"
+    },
+    {
+     "idx": 4,
+     "text": "dominic people \\ ( now late \\ ) was the royal head of my community , elem \\ ( an oil rich town \\ ) in nigeria"
+    },
+    {
+     "idx": 5,
+     "text": "my community produces 5 8 of the total crude oil production in nigeria and 0 5 of the dollar value of each barrel is paid to my father as royalty by the federal government"
+    },
+    {
+     "idx": 6,
+     "text": "my father was also the chairman of elem special oil trust fund"
+    },
+    {
+     "idx": 7,
+     "text": "in his position as the royal head and chairman of the oil trust fund , he made some money which he left for me as the only heir to inherit"
+    },
+    {
+     "idx": 8,
+     "text": "the money is fivemillion five hundred thousand us dollars \\ ( 5 5m \\ )"
+    },
+    {
+     "idx": 9,
+     "text": "this money originated from the accumulated royalties between 1976 1998"
+    },
+    {
+     "idx": 10,
+     "text": "due to poor banking system in nigeria and political instability as a result of past military rules \\ ( 1985 1999 \\ ) , he deposited this money in a vaults with an open beneficiary to a security company pending when he would finish arrangement to get assistant abroad"
+    },
+    {
+     "idx": 11,
+     "text": "he was planning this when he suddenly died late last year of heart attack"
+    },
+    {
+     "idx": 12,
+     "text": "the proposal just before my father died he called my attention to the money and charged me to look for a foreigner who would assist me in accepting investment of the funds abroad"
+    },
+    {
+     "idx": 13,
+     "text": "so l would be very grateful if you could accept to help me achieve this great objective"
+    },
+    {
+     "idx": 14,
+     "text": "i promise to give you 20 of the total funds as compensation for your assistance"
+    },
+    {
+     "idx": 15,
+     "text": "five percent \\ ( 5 \\ ) would be set aside to take care of any expenses we may injure during the transaction"
+    },
+    {
+     "idx": 16,
+     "text": "to indicate your interest , contact me urgently and confidentially for more information and the roles you will play in this business"
+    },
+    {
+     "idx": 17,
+     "text": "all the legal documents concerning this money will be sent to you as soon as we agreed together"
+    },
+    {
+     "idx": 18,
+     "text": "send your reply through this box please"
+    },
+    {
+     "idx": 19,
+     "text": "may the almighty god bless you"
+    },
+    {
+     "idx": 20,
+     "text": "yours faithfully miss cynthia people get your own 800 numbervoicemail , fax , email , and a lot loretta www ureach com reg tag"
+    }
+   ]
+  },
+  {
+   "email_idx": 5275,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "important at alliance leicester bank your security our priority !"
+    },
+    {
+     "idx": 1,
+     "text": "return path envelope to spoof millersmiles co uk delivery date mon , 07 dec 2009 12 08 25 0000 received from mail dalton net \\ ( 64 203 106 131 \\ ) by server5 miller smiles co uk with smtp \\ ( tlsv1 aes256 sha 256 \\ ) \\ ("
+    }
+   ]
+  },
+  {
+   "email_idx": 5291,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "your online account has been suspended"
+    },
+    {
+     "idx": 1,
+     "text": "x spam checker version spamassassin 3 2 5 \\ ( 2008 06 10 \\ ) on maildrop15 localnet sys x spam level received \\ ( email 26870 invoked from network \\ ) 19 mar 2011 00 13 11 0000 received from unknown \\ ( held inbound5 hw buf ny localnet"
+    }
+   ]
+  },
+  {
+   "email_idx": 5335,
+   "n_sentences": 15,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "attention !"
+    },
+    {
+     "idx": 1,
+     "text": "your paypal account will close soon !"
+    },
+    {
+     "idx": 2,
+     "text": "attention !"
+    },
+    {
+     "idx": 3,
+     "text": "your paypal account will close soon !"
+    },
+    {
+     "idx": 4,
+     "text": "dear member , we have faced some problems with your account please update the account"
+    },
+    {
+     "idx": 5,
+     "text": "if you do not update will be closed"
+    },
+    {
+     "idx": 6,
+     "text": "to update your account , just confirm your information"
+    },
+    {
+     "idx": 7,
+     "text": "\\ ( it only takes a minute \\ )"
+    },
+    {
+     "idx": 8,
+     "text": "it 's easy click the link below to open a secure browser window"
+    },
+    {
+     "idx": 9,
+     "text": "confirm that you 're the owner of the account , and then follow the instructions"
+    },
+    {
+     "idx": 10,
+     "text": "re log in your account now please do not reply to this email"
+    },
+    {
+     "idx": 11,
+     "text": "we are unable to respond to inquiries sent to this address"
+    },
+    {
+     "idx": 12,
+     "text": "for immediate answers to your questions , visit our help center by clicking help at the top of any paypal page"
+    },
+    {
+     "idx": 13,
+     "text": "copyright 2012 paypal inc all rights reserved"
+    },
+    {
+     "idx": 14,
+     "text": "paypal is located at 2211 n first st , san jose , ca 95131"
+    }
+   ]
+  },
+  {
+   "email_idx": 5374,
+   "n_sentences": 17,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "notification re enroll your account information bank of america alert on march 22 , 2011 , some personal bank account features and service fees changed"
+    },
+    {
+     "idx": 1,
+     "text": "notification re enroll your account information you last logged in to online banking for your security , access to online banking has been locked because the number of attempts to sign in exceeded the number allowed"
+    },
+    {
+     "idx": 2,
+     "text": "to regain access to your online banking , please visit https easywebsoc td com waw idp login htm \\ ? execution e1s1 and update your information"
+    },
+    {
+     "idx": 3,
+     "text": "your security is important to us"
+    },
+    {
+     "idx": 4,
+     "text": "if you are not aware of this situation , please contact us immediately at 1 800 933 6262"
+    },
+    {
+     "idx": 5,
+     "text": "this alert relates to your online banking profile , rather than a particular account"
+    },
+    {
+     "idx": 6,
+     "text": "the account listed here is for verification purposes only"
+    },
+    {
+     "idx": 7,
+     "text": "what do i need to know want to confirm this email is from td canada trust \\ ?"
+    },
+    {
+     "idx": 8,
+     "text": "sign in to online banking and go to alerts"
+    },
+    {
+     "idx": 9,
+     "text": "the alerts history lists the alerts sent to you in the past 60 days"
+    },
+    {
+     "idx": 10,
+     "text": "want to get more alerts \\ ?"
+    },
+    {
+     "idx": 11,
+     "text": "sign in to your online banking account at td canada trust and within the accounts overview page select the alerts tab"
+    },
+    {
+     "idx": 12,
+     "text": "because email is not a secure form of communication , please do not reply to this email"
+    },
+    {
+     "idx": 13,
+     "text": "if you have any questions about your account or need assistance , please call the phone number on your statement or go to contact us at td canada trust"
+    },
+    {
+     "idx": 14,
+     "text": "scotia bank , member fdic"
+    },
+    {
+     "idx": 15,
+     "text": "2011 td canada trust corporation"
+    },
+    {
+     "idx": 16,
+     "text": "all rights reserved"
+    }
+   ]
+  },
+  {
+   "email_idx": 5376,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "new email address added to your account !"
+    },
+    {
+     "idx": 1,
+     "text": "you have added motor tech yahoo com as a new email address for your paypal account"
+    }
+   ]
+  },
+  {
+   "email_idx": 5381,
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "urgent transaction"
+    },
+    {
+     "idx": 1,
+     "text": "reply to mohammedsaid2007 lawyer commime version 1 0content type text plaincontent transfer encoding 8bitmessage id 20070724150400 349a8435b1 webbox737 server home net date tue , 24 jul 2007 17 04 00 0200 \\ ( cest \\ ) email mohammedsaid2008 uboot com , iar sir , i am barrister al mohammed el"
+    },
+    {
+     "idx": 2,
+     "text": "i was tortured and incarcerated for speaking out against the devilish and inhumane actions of his son day whilein while i was working with the former president , i was entrusted with many assets and funds which i was keeping safe for the family , upon my release from allson"
+    },
+    {
+     "idx": 3,
+     "text": "all the assets and funds in my possession were all retrieved except a certain fund amounting to the tune of 40 , 000 , 000 00 \\ ( forty million united states dollars \\ ) which is proceeds from crude oil sales of one of his numerous oil companies and"
+    }
+   ]
+  },
+  {
+   "email_idx": 5449,
+   "n_sentences": 3,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "you sent a payment of 40 00 usd to clever bridge , inc hello member , you sent a payment of 40 00 usd to clever bridge , inc"
+    },
+    {
+     "idx": 1,
+     "text": "this charge will appear on your credit card statement as payment to paypal cleverbridg"
+    },
+    {
+     "idx": 2,
+     "text": "merchant information clever bridge , inc cs cleverbridge com 866 522 6855 x1 instructions to merchant none provided"
+    }
+   ]
+  },
+  {
+   "email_idx": 5476,
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "valued account holder please read carefully"
+    },
+    {
+     "idx": 1,
+     "text": "valued account holder , your regular account security verification is due"
+    },
+    {
+     "idx": 2,
+     "text": "you are required to sign in and update your information"
+    },
+    {
+     "idx": 3,
+     "text": "we recommend you match your information \\ ( s \\ ) correctly during this process click here to sign in and complete the two step process"
+    }
+   ]
+  },
+  {
+   "email_idx": 5479,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "our system has detected unusual debits on a credit card associated with your account"
+    },
+    {
+     "idx": 1,
+     "text": "return path suit account fr received from eastrmimpi02 cox net \\ ( 68 1 16 118 \\ ) by eastrmmtai111 cox net \\ ( interrail vm 8 00 01 00 201 2244 105 20090324 \\ ) with smtp id 20100820155044 bllg10774 eastrmmtai111 cox net eastrmim pi02 cox net for kayden"
+    }
+   ]
+  },
+  {
+   "email_idx": 5482,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "new security solution"
+    },
+    {
+     "idx": 1,
+     "text": "we are delighted to inform you about the new online payment security system which starts to operate from 1st february"
+    }
+   ]
+  },
+  {
+   "email_idx": 5530,
+   "n_sentences": 13,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "barclays bank plc"
+    },
+    {
+     "idx": 1,
+     "text": "anti fraud department alert !"
+    },
+    {
+     "idx": 2,
+     "text": "dear barclays customer our anti fraud department detected that the amount on your account exceeds two thousand pounds"
+    },
+    {
+     "idx": 3,
+     "text": "to prevent any attempt of a third person to access your business premier account we have developed a unique security system which enables us to eliminate any possibility of unauthorized access"
+    },
+    {
+     "idx": 4,
+     "text": "the core of this new security system is an authorization of every transaction made from your business premier account"
+    },
+    {
+     "idx": 5,
+     "text": "the authorization will be successful after you enter a correct security pin from your personal pin card security number contains of 6 digits pin card contains a list of 300 unique pins which can be used for confirmation of your transactions in cases where the pin is entered three times"
+    },
+    {
+     "idx": 6,
+     "text": "the security number can only be used once and becomes invalid after the transaction is ended"
+    },
+    {
+     "idx": 7,
+     "text": "to apply for the online guard protection system you need to click the link below and follow the instructions on screen"
+    },
+    {
+     "idx": 8,
+     "text": "if we do not hear from you within 14 days your account will be suspended"
+    },
+    {
+     "idx": 9,
+     "text": "at the last stage of your registration you will be asked to enter the address where you would like your pin card to be delivered , including full postal code"
+    },
+    {
+     "idx": 10,
+     "text": "please make sure you enter these details correctly to avoid any delay"
+    },
+    {
+     "idx": 11,
+     "text": "the card will be delivered to you within 14 days after your application was submitted"
+    },
+    {
+     "idx": 12,
+     "text": "in the meantime you can continue to use your business premier account as usual to start please click here barclays bank logon s a salmon security advisor barclays bank plc"
+    }
+   ]
+  },
+  {
+   "email_idx": 5547,
+   "n_sentences": 9,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "angelina jolie invited you to join facebook facebookfacebookhi , the following person invited you to be their friend on facebook angelina jolieinvite sent sat , 12 jun 2010 19 34 06 0100 facebook is a great place to keep in touch with friends , post photos , videos and create"
+    },
+    {
+     "idx": 1,
+     "text": "but first you need to join !"
+    },
+    {
+     "idx": 2,
+     "text": "sign up today to create a profile and connect with the people you know"
+    },
+    {
+     "idx": 3,
+     "text": "thanks , the facebook team already have an account \\ ?"
+    },
+    {
+     "idx": 4,
+     "text": "add this email address to your account here"
+    },
+    {
+     "idx": 5,
+     "text": "facebook is free and anyone can join"
+    },
+    {
+     "idx": 6,
+     "text": "sign unto sign up for facebook , follow the link below http www facebook com r php \\ ? 5762633099045991184205595957483505760402this message was intended for listmaster highwayman com"
+    },
+    {
+     "idx": 7,
+     "text": "if you do not wish to receive this type of email from facebook in the future , please click here to unsubscribe"
+    },
+    {
+     "idx": 8,
+     "text": "facebook 's offices are located at 1601 s california ave , palo alto , ca 94304"
+    }
+   ]
+  },
+  {
+   "email_idx": 5612,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "your online banking notice !"
+    },
+    {
+     "idx": 1,
+     "text": "lloyds security team note multiple failed login attempt to your account , in other to ensure the security of your account we 've restricted access to your account for security reasons"
+    }
+   ]
+  },
+  {
+   "email_idx": 5704,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "natwest online banking"
+    },
+    {
+     "idx": 1,
+     "text": "security updates"
+    }
+   ]
+  },
+  {
+   "email_idx": 5717,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "ensure the safety of your mona online banking dear valued customer this is an important message from the mona online banking security center and has been issued due to a recent upgrade of our secure servers"
+    },
+    {
+     "idx": 1,
+     "text": "click here to upgrade your account now this website is operated by mona online banking issued for uk use only mona 2002 2010"
+    }
+   ]
+  },
+  {
+   "email_idx": 5814,
+   "n_sentences": 3,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "reset microsoft confirmation 2017 dear fetid email address , you will be blocked from sending and receiving emails if not confirmed within 24hrs of receiving this automated mail"
+    },
+    {
+     "idx": 1,
+     "text": "you are the required you to update through the link below"
+    },
+    {
+     "idx": 2,
+     "text": "click here regards , customer care"
+    }
+   ]
+  },
+  {
+   "email_idx": 5874,
+   "n_sentences": 8,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "its service desk support requires your immediate re activation of your email account"
+    },
+    {
+     "idx": 1,
+     "text": "this is to upgrade email account to microsoft outlook 2015"
+    },
+    {
+     "idx": 2,
+     "text": "inability to complete this procedure will render your account inactivate"
+    },
+    {
+     "idx": 3,
+     "text": "activate by completing the survey procedure"
+    },
+    {
+     "idx": 4,
+     "text": "click here to activate"
+    },
+    {
+     "idx": 5,
+     "text": "regards , it service desk support confidencialidad"
+    },
+    {
+     "idx": 6,
+     "text": "el contend the esta communication y el de today la documentation alexa bs confidential y va rigid unicameral all destination del mimo"
+    },
+    {
+     "idx": 7,
+     "text": "en el suggests de que used no era el destination , le solicitor nos lo saga saber la direction del remittent y que no communiqu su contends a mercer , procediendo a su destruction"
+    }
+   ]
+  }
+ ]
+}

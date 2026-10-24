@@ -1,0 +1,42 @@
+{
+ "ablation3_no_rule": {
+  "email_auprc": 0.999154355917245,
+  "email_f1": 0.9892634207240949,
+  "spearman_corr": 0.1310024394274818,
+  "attention_entropy": 1.409766790855676,
+  "_epoch": 8,
+  "_ckpt_test_acc": 0.98925
+ },
+ "ablation3_no_l1": {
+  "email_auprc": 0.9982419406083253,
+  "email_f1": 0.982919835431991,
+  "spearman_corr": 0.7176122247410914,
+  "attention_entropy": 0.4701562350147753,
+  "_epoch": 9,
+  "_ckpt_test_acc": 0.982875
+ },
+ "ablation3_no_temp": {
+  "email_auprc": 0.9974082403261222,
+  "email_f1": 0.9767730716681158,
+  "spearman_corr": 0.6961817965402678,
+  "attention_entropy": 0.45380173635191084,
+  "_epoch": 3,
+  "_ckpt_test_acc": 0.976625
+ },
+ "ruleflip20": {
+  "email_auprc": 0.9989528041688703,
+  "email_f1": 0.9868305531167691,
+  "spearman_corr": 0.6060565752037049,
+  "attention_entropy": 0.8774515343372475,
+  "_epoch": 8,
+  "_ckpt_test_acc": 0.986875
+ },
+ "full_seed42": {
+  "email_auprc": 0.9982151081417746,
+  "email_f1": 0.9838770153730784,
+  "spearman_corr": 0.7026519619115468,
+  "attention_entropy": 0.5205008655375987,
+  "_epoch": 9,
+  "_ckpt_test_acc": 0.983875
+ }
+}

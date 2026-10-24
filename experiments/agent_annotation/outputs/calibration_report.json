@@ -1,0 +1,1550 @@
+{
+ "passes": [
+  "agent_pass_a",
+  "agent_pass_b",
+  "agent_pass_c"
+ ],
+ "gates": {
+  "full": {
+   "G1": {
+    "agent_pass_a": {
+     "mean_kappa_vs_humans": 0.3998297756197292,
+     "pass": false
+    },
+    "agent_pass_b": {
+     "mean_kappa_vs_humans": 0.3352482782479056,
+     "pass": false
+    },
+    "agent_pass_c": {
+     "mean_kappa_vs_humans": 0.3724513215852631,
+     "pass": false
+    }
+   },
+   "G1b": {
+    "agent_pass_a": {
+     "kappa_vs_chan": 0.38824494819981537,
+     "kappa_vs_li": 0.411414603039643,
+     "baseline": 0.39778164419312767,
+     "pass": false
+    },
+    "agent_pass_b": {
+     "kappa_vs_chan": 0.337343150471845,
+     "kappa_vs_li": 0.3331534060239662,
+     "baseline": 0.39778164419312767,
+     "pass": false
+    },
+    "agent_pass_c": {
+     "kappa_vs_chan": 0.34362212679969695,
+     "kappa_vs_li": 0.4012805163708293,
+     "baseline": 0.39778164419312767,
+     "pass": false
+    }
+   },
+   "G2": {
+    "agent_pass_a~agent_pass_b": {
+     "kappa": 0.8700955478755844,
+     "pass": true
+    },
+    "agent_pass_a~agent_pass_c": {
+     "kappa": 0.8629818397743579,
+     "pass": true
+    },
+    "agent_pass_b~agent_pass_c": {
+     "kappa": 0.8194105032167971,
+     "pass": true
+    }
+   },
+   "G3": {
+    "agent_pass_a": {
+     "mean_kappa_vs_humans": 0.3998297756197292,
+     "kappa_chan_li": 0.39778164419312767,
+     "pass": true
+    },
+    "agent_pass_b": {
+     "mean_kappa_vs_humans": 0.3352482782479056,
+     "kappa_chan_li": 0.39778164419312767,
+     "pass": false
+    },
+    "agent_pass_c": {
+     "mean_kappa_vs_humans": 0.3724513215852631,
+     "kappa_chan_li": 0.39778164419312767,
+     "pass": false
+    }
+   }
+  },
+  "excl_4860": {
+   "G1": {
+    "agent_pass_a": {
+     "mean_kappa_vs_humans": 0.4052526059533917,
+     "pass": false
+    },
+    "agent_pass_b": {
+     "mean_kappa_vs_humans": 0.3306837979314135,
+     "pass": false
+    },
+    "agent_pass_c": {
+     "mean_kappa_vs_humans": 0.3763674541885641,
+     "pass": false
+    }
+   },
+   "G1b": {
+    "agent_pass_a": {
+     "kappa_vs_chan": 0.4359539554249327,
+     "kappa_vs_li": 0.37455125648185067,
+     "baseline": 0.4706192358366271,
+     "pass": false
+    },
+    "agent_pass_b": {
+     "kappa_vs_chan": 0.38097597225662616,
+     "kappa_vs_li": 0.28039162360620085,
+     "baseline": 0.4706192358366271,
+     "pass": false
+    },
+    "agent_pass_c": {
+     "kappa_vs_chan": 0.38572806171649,
+     "kappa_vs_li": 0.3670068466606382,
+     "baseline": 0.4706192358366271,
+     "pass": false
+    }
+   },
+   "G2": {
+    "agent_pass_a~agent_pass_b": {
+     "kappa": 0.8532201697453821,
+     "pass": true
+    },
+    "agent_pass_a~agent_pass_c": {
+     "kappa": 0.8465245151186603,
+     "pass": true
+    },
+    "agent_pass_b~agent_pass_c": {
+     "kappa": 0.7971014492753622,
+     "pass": true
+    }
+   },
+   "G3": {
+    "agent_pass_a": {
+     "mean_kappa_vs_humans": 0.4052526059533917,
+     "kappa_chan_li": 0.4706192358366271,
+     "pass": false
+    },
+    "agent_pass_b": {
+     "mean_kappa_vs_humans": 0.3306837979314135,
+     "kappa_chan_li": 0.4706192358366271,
+     "pass": false
+    },
+    "agent_pass_c": {
+     "mean_kappa_vs_humans": 0.3763674541885641,
+     "kappa_chan_li": 0.4706192358366271,
+     "pass": false
+    }
+   }
+  }
+ },
+ "kappa": {
+  "chan~li": 0.39778164419312767,
+  "agent_pass_a~chan": 0.38824494819981537,
+  "agent_pass_a~li": 0.411414603039643,
+  "agent_pass_b~chan": 0.337343150471845,
+  "agent_pass_b~li": 0.3331534060239662,
+  "agent_pass_c~chan": 0.34362212679969695,
+  "agent_pass_c~li": 0.4012805163708293,
+  "agent_pass_a~agent_pass_b": 0.8700955478755844,
+  "agent_pass_a~agent_pass_c": 0.8629818397743579,
+  "agent_pass_b~agent_pass_c": 0.8194105032167971,
+  "excl4860_chan~li": 0.4706192358366271,
+  "excl4860_agent_pass_a~chan": 0.4359539554249327,
+  "excl4860_agent_pass_a~li": 0.37455125648185067,
+  "excl4860_agent_pass_b~chan": 0.38097597225662616,
+  "excl4860_agent_pass_b~li": 0.28039162360620085,
+  "excl4860_agent_pass_c~chan": 0.38572806171649,
+  "excl4860_agent_pass_c~li": 0.3670068466606382,
+  "excl4860_agent_pass_a~agent_pass_b": 0.8532201697453821,
+  "excl4860_agent_pass_a~agent_pass_c": 0.8465245151186603,
+  "excl4860_agent_pass_b~agent_pass_c": 0.7971014492753622
+ },
+ "n_items": 213,
+ "items_dropped_not_common": 0,
+ "fleiss_kappa_5rater": 0.5207328124870675,
+ "pairwise": {
+  "chan~li": {
+   "cohens_kappa": 0.39778164419312767,
+   "raw_agreement": 0.755868544600939,
+   "confusion": {
+    "Y>Y": 34,
+    "Y>N": 30,
+    "Y>?": 0,
+    "N>Y": 22,
+    "N>N": 127,
+    "N>?": 0,
+    "?>Y": 0,
+    "?>N": 0,
+    "?>?": 0
+   }
+  },
+  "chan~agent_pass_a": {
+   "cohens_kappa": 0.38824494819981537,
+   "raw_agreement": 0.7370892018779343,
+   "confusion": {
+    "Y>Y": 37,
+    "Y>N": 27,
+    "Y>?": 0,
+    "N>Y": 25,
+    "N>N": 120,
+    "N>?": 4,
+    "?>Y": 0,
+    "?>N": 0,
+    "?>?": 0
+   }
+  },
+  "chan~agent_pass_b": {
+   "cohens_kappa": 0.337343150471845,
+   "raw_agreement": 0.7183098591549296,
+   "confusion": {
+    "Y>Y": 33,
+    "Y>N": 31,
+    "Y>?": 0,
+    "N>Y": 23,
+    "N>N": 120,
+    "N>?": 6,
+    "?>Y": 0,
+    "?>N": 0,
+    "?>?": 0
+   }
+  },
+  "chan~agent_pass_c": {
+   "cohens_kappa": 0.34362212679969695,
+   "raw_agreement": 0.7136150234741784,
+   "confusion": {
+    "Y>Y": 37,
+    "Y>N": 27,
+    "Y>?": 0,
+    "N>Y": 32,
+    "N>N": 115,
+    "N>?": 2,
+    "?>Y": 0,
+    "?>N": 0,
+    "?>?": 0
+   }
+  },
+  "li~agent_pass_a": {
+   "cohens_kappa": 0.411414603039643,
+   "raw_agreement": 0.755868544600939,
+   "confusion": {
+    "Y>Y": 34,
+    "Y>N": 20,
+    "Y>?": 2,
+    "N>Y": 28,
+    "N>N": 127,
+    "N>?": 2,
+    "?>Y": 0,
+    "?>N": 0,
+    "?>?": 0
+   }
+  },
+  "li~agent_pass_b": {
+   "cohens_kappa": 0.3331534060239662,
+   "raw_agreement": 0.7276995305164319,
+   "confusion": {
+    "Y>Y": 29,
+    "Y>N": 25,
+    "Y>?": 2,
+    "N>Y": 27,
+    "N>N": 126,
+    "N>?": 4,
+    "?>Y": 0,
+    "?>N": 0,
+    "?>?": 0
+   }
+  },
+  "li~agent_pass_c": {
+   "cohens_kappa": 0.4012805163708293,
+   "raw_agreement": 0.7464788732394366,
+   "confusion": {
+    "Y>Y": 36,
+    "Y>N": 19,
+    "Y>?": 1,
+    "N>Y": 33,
+    "N>N": 123,
+    "N>?": 1,
+    "?>Y": 0,
+    "?>N": 0,
+    "?>?": 0
+   }
+  },
+  "agent_pass_a~agent_pass_b": {
+   "cohens_kappa": 0.8700955478755844,
+   "raw_agreement": 0.9436619718309859,
+   "confusion": {
+    "Y>Y": 55,
+    "Y>N": 7,
+    "Y>?": 0,
+    "N>Y": 1,
+    "N>N": 143,
+    "N>?": 3,
+    "?>Y": 0,
+    "?>N": 1,
+    "?>?": 3
+   }
+  },
+  "agent_pass_a~agent_pass_c": {
+   "cohens_kappa": 0.8629818397743579,
+   "raw_agreement": 0.9389671361502347,
+   "confusion": {
+    "Y>Y": 60,
+    "Y>N": 2,
+    "Y>?": 0,
+    "N>Y": 9,
+    "N>N": 138,
+    "N>?": 0,
+    "?>Y": 0,
+    "?>N": 2,
+    "?>?": 2
+   }
+  },
+  "agent_pass_b~agent_pass_c": {
+   "cohens_kappa": 0.8194105032167971,
+   "raw_agreement": 0.92018779342723,
+   "confusion": {
+    "Y>Y": 56,
+    "Y>N": 0,
+    "Y>?": 0,
+    "N>Y": 13,
+    "N>N": 138,
+    "N>?": 0,
+    "?>Y": 0,
+    "?>N": 4,
+    "?>?": 2
+   }
+  }
+ },
+ "by_stratum": {
+  "high_spearman": {
+   "n_items": 25,
+   "fleiss_kappa": 0.4465477412731008
+  },
+  "low_spearman": {
+   "n_items": 58,
+   "fleiss_kappa": 0.48371153743955003
+  },
+  "mid_spearman": {
+   "n_items": 83,
+   "fleiss_kappa": 0.5413547237076646
+  },
+  "misclassified": {
+   "n_items": 47,
+   "fleiss_kappa": 0.5273038813976009
+  }
+ },
+ "n_disagreements": 91,
+ "pilot_disagreements": [
+  {
+   "email_id": 4174,
+   "sentence_idx": 0,
+   "stratum": "low_spearman",
+   "text": "reactivate your google ads google account",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "N",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 4174,
+   "sentence_idx": 2,
+   "stratum": "low_spearman",
+   "text": "your ads will be suspended soon unless we can process your payment",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 4174,
+   "sentence_idx": 3,
+   "stratum": "low_spearman",
+   "text": "to prevent your ads from being suspended , please update your payment information",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 4174,
+   "sentence_idx": 4,
+   "stratum": "low_spearman",
+   "text": "please sign in to your account at http adwords google com select login , and update your payment information",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 4351,
+   "sentence_idx": 0,
+   "stratum": "mid_spearman",
+   "text": "confirm your identity and remove your account limitation national westminster bank has been receiving complaints from our customers for unauthorized use of the natwest online accounts",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 4351,
+   "sentence_idx": 2,
+   "stratum": "mid_spearman",
+   "text": "this message has been sent to you from national westminster bank because we have noticed invalid login attempts into your account , due to this we are temporarily limiting and restricting your account access until we confirm your identity",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 4351,
+   "sentence_idx": 3,
+   "stratum": "mid_spearman",
+   "text": "to confirm your identity and remove your account limitation please follow the link below",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 4351,
+   "sentence_idx": 8,
+   "stratum": "mid_spearman",
+   "text": "http www natwest com help index jhtml",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 4488,
+   "sentence_idx": 2,
+   "stratum": "mid_spearman",
+   "text": "mailbox moves have been completed , you only need to complete the below information to activate",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 4488,
+   "sentence_idx": 3,
+   "stratum": "mid_spearman",
+   "text": "immediately the information is received , mailbox moves will begin shortly , and storage space will increase from 500 mb to 1 gb",
+   "chan": "Y",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 4488,
+   "sentence_idx": 6,
+   "stratum": "mid_spearman",
+   "text": "inability to complete information on the form within 48 hours you receive this e mail will render your e mail in active from our database",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 4805,
+   "sentence_idx": 0,
+   "stratum": "high_spearman",
+   "text": "please read this important information concerning your privacy hsbc world 's local bank dear customer , as part of the new security measures , all hsbc customers are required to complete quot digital certificate form",
+   "chan": "Y",
+   "li": "Y",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "N",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 4805,
+   "sentence_idx": 1,
+   "stratum": "high_spearman",
+   "text": "please complete the form as soon as possible",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 4860,
+   "sentence_idx": 0,
+   "stratum": "misclassified",
+   "text": "re act as the next of kin dear partner , with great pleasure , i am writing this proposal for the benefit of both of us",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 4860,
+   "sentence_idx": 1,
+   "stratum": "misclassified",
+   "text": "i got your information through my personal search on the internet , hence i decided to seek your cooperation , due to the sensitivity of this transaction and my commitment as a banker",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 4860,
+   "sentence_idx": 5,
+   "stratum": "misclassified",
+   "text": "this money has no other beneficiary or next of kin",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 4860,
+   "sentence_idx": 6,
+   "stratum": "misclassified",
+   "text": "since his death in 1999 , none of his family member or next of kin has come forward to claim this funds as no one has the knowledge that he had such amount deposited in our bank",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 4860,
+   "sentence_idx": 7,
+   "stratum": "misclassified",
+   "text": "as the account officer to the late mr raymond beck , i secured from the probate an order of mandamus to locate any of the deceased beneficiaries to enable the bank release this fund , before the fund will be called back to the bank treasury as unclaimed bills and",
+   "chan": "Y",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 4860,
+   "sentence_idx": 8,
+   "stratum": "misclassified",
+   "text": "my constraint is to be able to source a foreigner partner who is honest and trustworthy individual , that i will present to the bank as his next of kin beneficiary of the said funds \\ ( us 35 , 000 , 000 00 \\ ) this transaction is 100",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 4860,
+   "sentence_idx": 9,
+   "stratum": "misclassified",
+   "text": "i am ready to compensate you with 30 , while i receive 60 and the balance of \\ ( 10 \\ ) for taxes and other miscellaneous expenses",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 4860,
+   "sentence_idx": 11,
+   "stratum": "misclassified",
+   "text": "kindly contact me through this email address charlesis zwallet com with the following information \\ ( s \\ ) 1",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 4860,
+   "sentence_idx": 12,
+   "stratum": "misclassified",
+   "text": "your first and last names2",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 4860,
+   "sentence_idx": 13,
+   "stratum": "misclassified",
+   "text": "complete home address3",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 4860,
+   "sentence_idx": 14,
+   "stratum": "misclassified",
+   "text": "direct telephone and fax numbers 4",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 4860,
+   "sentence_idx": 15,
+   "stratum": "misclassified",
+   "text": "age , sex and marital status",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 4885,
+   "sentence_idx": 0,
+   "stratum": "misclassified",
+   "text": "online funds transfer to your account",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 4885,
+   "sentence_idx": 2,
+   "stratum": "misclassified",
+   "text": "robert guido transferred funds to your account online",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 4885,
+   "sentence_idx": 5,
+   "stratum": "misclassified",
+   "text": "\\ ( 0",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "?",
+   "agent_pass_b": "?",
+   "agent_pass_c": "?",
+   "majority_or_TIE": "?"
+  },
+  {
+   "email_id": 4963,
+   "sentence_idx": 0,
+   "stratum": "misclassified",
+   "text": "re next of kin caspar j justin solicitors86 market place , mansfield ng10 7hr , united kingdom 44 701 114 9174 fax 44 871 264 3736 email caspar j justin lawdr net dear , re next of king am caspar j justin an attorney at law , a south african",
+   "chan": "Y",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 4963,
+   "sentence_idx": 4,
+   "stratum": "misclassified",
+   "text": "however , i was mandated by our team of professionals to search for the relatives of the deceased regarding his deposit as the holding financial institution wants him to come forward for the endorsement of there investments documents on interest accrued",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 4963,
+   "sentence_idx": 5,
+   "stratum": "misclassified",
+   "text": "since we got information about his death , we have been expecting his next of kin or relatives to come over to sign the reinvestment documents or claim his deposit because the financial institution can not release these fund sunless a formal application is made which is in line with",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 4963,
+   "sentence_idx": 6,
+   "stratum": "misclassified",
+   "text": "regrettably , i learned that his supposed next of kin , which could be his spouse or his only daughter died along with him in the ugly madrid bombast leaving nobody with the knowledge of this huge deposit except me ashe personal lawyer attached to monitor his deposit",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 4963,
+   "sentence_idx": 7,
+   "stratum": "misclassified",
+   "text": "it is in this regard that i and my colleagues decided to solicit your assistance by presenting you as the next of kin to the deceased",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 4963,
+   "sentence_idx": 10,
+   "stratum": "misclassified",
+   "text": "therefore , do not hesitate to revert to me , either via fax or email , with the following details if my proposal interests you a signed copy of this letter , your address and your telephone and fax numbers",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 5115,
+   "sentence_idx": 1,
+   "stratum": "mid_spearman",
+   "text": "l'acts vote compete a t stream pour la of les raisins servants nous avon determine que quell'un a petite tent d'accede vote compete paypal sans vote authorization",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 5115,
+   "sentence_idx": 2,
+   "stratum": "mid_spearman",
+   "text": "pour vote protection , nous avon retreat l'acts vote compete",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 5115,
+   "sentence_idx": 3,
+   "stratum": "mid_spearman",
+   "text": "pour lever bette restriction , connectez vous vote compete paypal et survey la procedure unique days le questionnaire de cities",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 5115,
+   "sentence_idx": 10,
+   "stratum": "mid_spearman",
+   "text": "toute security d'acts au site paypal of vote compete , louvre one center de navigate web \\ ( internet explorer of netscape \\ ) et tape days la page de connection de paypal \\ ( http paypal fr \\ ) akin de vows assurer que vows tes sur le veritable",
+   "chan": "Y",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 5144,
+   "sentence_idx": 0,
+   "stratum": "high_spearman",
+   "text": "important your nsw savings account is limited ! !",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 5144,
+   "sentence_idx": 1,
+   "stratum": "high_spearman",
+   "text": "during our regular scheduled maintenance of online systems , your individual savings account \\ ( isa \\ ) was flagged for having a long period of inactivity hence your account has been limited",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 5225,
+   "sentence_idx": 1,
+   "stratum": "mid_spearman",
+   "text": "this is a priority message that requires your swift response",
+   "chan": "Y",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 5225,
+   "sentence_idx": 3,
+   "stratum": "mid_spearman",
+   "text": "view shared document regards human resources",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 5475,
+   "sentence_idx": 2,
+   "stratum": "low_spearman",
+   "text": "alcohol and drug abuse , smoking , obesity anl lack of exercise can contribute to impotence",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 5475,
+   "sentence_idx": 3,
+   "stratum": "low_spearman",
+   "text": "http 203 123 59 250 lucastho svuhrp8 ipi1 html",
+   "chan": "Y",
+   "li": "Y",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 5580,
+   "sentence_idx": 3,
+   "stratum": "misclassified",
+   "text": "from my investigations and confirmation , the owner of the said account , a foreigner by name john shamed died on the 4th of january 2002 in a plane crash in birmingham you can view this cnn website http edition cnn com 2002 world europe 01 04 england plane for",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 5580,
+   "sentence_idx": 4,
+   "stratum": "misclassified",
+   "text": "since then , nobody has done anything as regards the claiming of this money , as he has no family member that has any knowledge as to the existence of either the account or the funds and also information from the national immigration also states that he was single on",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 5580,
+   "sentence_idx": 7,
+   "stratum": "misclassified",
+   "text": "this transaction is totally free of risk and troubles as the fund is legitimate and does not originate from drug , money laundry , terrorism or any other illegal act",
+   "chan": "Y",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 6165,
+   "sentence_idx": 1,
+   "stratum": "low_spearman",
+   "text": "for your protection , you must verify this activity before you can continue using your account",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 6165,
+   "sentence_idx": 2,
+   "stratum": "low_spearman",
+   "text": "please visit http www natwest com verify activity personal ashx to review your account activity",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 6165,
+   "sentence_idx": 3,
+   "stratum": "low_spearman",
+   "text": "we will review the activity on your account with you and upon verification , and we will remove any restrictions placed on your account",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 6400,
+   "sentence_idx": 0,
+   "stratum": "high_spearman",
+   "text": "update your paypal records update paypal account !",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 6400,
+   "sentence_idx": 1,
+   "stratum": "high_spearman",
+   "text": "!",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "?",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 6400,
+   "sentence_idx": 2,
+   "stratum": "high_spearman",
+   "text": "!",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "?",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 6413,
+   "sentence_idx": 0,
+   "stratum": "low_spearman",
+   "text": "new functionality on embanking new page 2 welcome to bmo online banking new functionality on neobank bank of montreal now presents exciting new features and functions to improve your online banking experience",
+   "chan": "Y",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 6413,
+   "sentence_idx": 1,
+   "stratum": "low_spearman",
+   "text": "to access the new website now , simply click on https www1 bmo com cgi bin netbnx nbmain \\ ? product 1",
+   "chan": "Y",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 6427,
+   "sentence_idx": 1,
+   "stratum": "low_spearman",
+   "text": "facebook support subject facebook information to read this message , follow the link below http www facebook com n \\ ? inbox readmessage php t 1240830175586 mid 93d7517c5ee4187b5a8075f189d2f588 n m facebook notifications message was intended for you",
+   "chan": "Y",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 6427,
+   "sentence_idx": 2,
+   "stratum": "low_spearman",
+   "text": "if you do not wish to receive this type of email from facebook in the future , please click on the link below to unsubscribe",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 6427,
+   "sentence_idx": 3,
+   "stratum": "low_spearman",
+   "text": "http www facebook com o php \\ ? k bc91f4 u 1850835767659 mid 185d8add5a38a2f1b58848b440f0000a facebook 's offices are located at 1601 s california ave , palo alto , ca 94304",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 6488,
+   "sentence_idx": 0,
+   "stratum": "high_spearman",
+   "text": "verify your icloud id apple icloud id frednbut happyday demon co uk this is the final notice to inform you as of 8 march 2016 that you have not yet reviewed your apple id information",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 6488,
+   "sentence_idx": 1,
+   "stratum": "high_spearman",
+   "text": "under quot know your customer quot legislation apple inc is required by law to carry out a verification of your information , failure to complete this validation will result in deletion of your apple id within the next three days",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 6488,
+   "sentence_idx": 2,
+   "stratum": "high_spearman",
+   "text": "please continue to 8594 login to your itunes id to cancel the deletion of your icloud proceed to your apple id information before the deadline",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 6542,
+   "sentence_idx": 0,
+   "stratum": "high_spearman",
+   "text": "please restore your account access dear chase online customer , during our regular scheduled accounts maintenance and verification procedures , we have detected a slight error regarding your chase bank online account",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 6542,
+   "sentence_idx": 8,
+   "stratum": "high_spearman",
+   "text": "an inability to accurate",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "?",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 6584,
+   "sentence_idx": 0,
+   "stratum": "mid_spearman",
+   "text": "abbey national bank personal and business verify your login details abbey national electronic banking details verification site dear abbey national internet banking member !",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 6584,
+   "sentence_idx": 1,
+   "stratum": "mid_spearman",
+   "text": "our support department is running a scheduled on line banking software upgrade by following the link below please commence the form of the member login confirmation http myonlineaccounts4 abbeynational com centrallogonweb confirm \\ ? cat 33ptsnicyzhnzedwcjjtlctoldbhrokhovp these directions are to be sent and followed by all users of the abbey",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 0,
+   "stratum": "mid_spearman",
+   "text": "urgent response needed from the ministry de la construction \\ ( mohamed nafta \\ ) western sahara 2006",
+   "chan": "Y",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 3,
+   "stratum": "mid_spearman",
+   "text": "i am interested in the partnership investment program with your corporation",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 4,
+   "stratum": "mid_spearman",
+   "text": "first permit me to introduce myself as mohamed nafta minister de la construction of western sahara state in the democratic republic \\ ( a tiny island desert \\ )",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 6,
+   "stratum": "mid_spearman",
+   "text": "i awarded the contract of irrigation to portuguese firm worthy several millions of dollars",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 7,
+   "stratum": "mid_spearman",
+   "text": "in the execution of that project the portuguese firm discovered large amount of gold in one of the contract site",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 8,
+   "stratum": "mid_spearman",
+   "text": "i collaborated with the portuguese firm on a mutual agreement on to proceed of which i have received my share of 15 5musd",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 9,
+   "stratum": "mid_spearman",
+   "text": "as the minister , i can not introduce or circulate these funds into the western sahara banking system considering my provisional duty and the considering the fact that i earn less than 1 , 000us dollars monthly coupled with the bureau of conduct guidelines and regulations for public civil servants",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 11,
+   "stratum": "mid_spearman",
+   "text": "i will arrange all necessary procedures in ensuring a smooth process for the funds to get to you",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 12,
+   "stratum": "mid_spearman",
+   "text": "i will appreciate you contact me once you receive this fax via my satellite phone above indicating your capability and willingness to enable me to give you more details of my modus operandi of getting this money to you hitch free",
+   "chan": "Y",
+   "li": "Y",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 6713,
+   "sentence_idx": 0,
+   "stratum": "high_spearman",
+   "text": "!",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "?",
+   "agent_pass_b": "?",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "TIE"
+  },
+  {
+   "email_id": 6713,
+   "sentence_idx": 1,
+   "stratum": "high_spearman",
+   "text": "o60y7d jose monkey org , 24 0fef6t0en0dfde36r30eb0aenf6 , ae b1 f2ne1 w28d9ccx9era0z7af4 15gb sb0w28s47 a7ne57fq4d c8k62 sb0w28s47 a7ne57fq4dae b1 c8k62 22220c aenf6ff4eb0",
+   "chan": "N",
+   "li": "Y",
+   "agent_pass_a": "?",
+   "agent_pass_b": "?",
+   "agent_pass_c": "?",
+   "majority_or_TIE": "?"
+  },
+  {
+   "email_id": 6970,
+   "sentence_idx": 0,
+   "stratum": "low_spearman",
+   "text": "lloyds bank on line banking user notification details update lloyds bank online banking customer details verification page daimio lloyds tsb bank customer , securitym3t and confidentiality art at the heart of the lloyds bank",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 6970,
+   "sentence_idx": 2,
+   "stratum": "low_spearman",
+   "text": "we would like to notify you that lloyds carries outxk8 client details verification procedure that is compulsory for all our customers",
+   "chan": "Y",
+   "li": "Y",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "N",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 6970,
+   "sentence_idx": 4,
+   "stratum": "low_spearman",
+   "text": "please visit our client verification page using heal link below and follow0c the instructions on the screen",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 7097,
+   "sentence_idx": 0,
+   "stratum": "low_spearman",
+   "text": "lloyds tsb bank on line banking submit your account code 1897 lloyds tsb bank electronic banking client details confirmation form dear lloyds bank client , security and confidentiality are at the heart of the lloyds group",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 7097,
+   "sentence_idx": 2,
+   "stratum": "low_spearman",
+   "text": "we would like to inform you that lloyds bank carries out client details confirmation procedure that is compulsory for all our clients",
+   "chan": "Y",
+   "li": "Y",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "N",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 7097,
+   "sentence_idx": 4,
+   "stratum": "low_spearman",
+   "text": "please visit our customer verification form using the link below and follow the instructions on the screen",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 7171,
+   "sentence_idx": 1,
+   "stratum": "low_spearman",
+   "text": "barclay card system error var domain https statse webtrendslive com var did dcspe7z2q10000gskbelwijvj 8w1g var gpc wt fpc var convert true var fandom barclaycard co uk if \\ ( \\ ( type of \\ ( convert \\ ) ! undefined \\ ) gconvert \\ ( document cookie index \\ (",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "?",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 7171,
+   "sentence_idx": 2,
+   "stratum": "low_spearman",
+   "text": "if you would like to continue managing your account , you will need to log in again",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 7934,
+   "sentence_idx": 2,
+   "stratum": "low_spearman",
+   "text": "but right now as the only child and only son of my late parents it is now time for my inheritance , but i can not do this because of my age , and i am presenting an asylum seeker here in the netherlands",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 7934,
+   "sentence_idx": 3,
+   "stratum": "low_spearman",
+   "text": "and the netherlands government laws does not allow asylum seekers to have bank accounts",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 7934,
+   "sentence_idx": 4,
+   "stratum": "low_spearman",
+   "text": "and because of this i can not collect my money from the security company for proper banking",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 7934,
+   "sentence_idx": 5,
+   "stratum": "low_spearman",
+   "text": "and also because of my age and little experience with large sum of money like this that is why i am now writing you and seeking your assistance i want you to represent me in europe and be my investment manager and beneficiary of these funds , so that you",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 7934,
+   "sentence_idx": 8,
+   "stratum": "low_spearman",
+   "text": "and also i hope you can also get me out of here by assisting me in acquiring a visa to join you up after you have collected the money",
+   "chan": "N",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "N",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "N"
+  },
+  {
+   "email_id": 7934,
+   "sentence_idx": 9,
+   "stratum": "low_spearman",
+   "text": "i know this might sound strange to you , but i do n't have a choice and i want you to assist me by been my investment manager and also give me a good education which i could n't get since the death of my mother if you are ready",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "Y",
+   "agent_pass_b": "Y",
+   "agent_pass_c": "Y",
+   "majority_or_TIE": "Y"
+  },
+  {
+   "email_id": 7934,
+   "sentence_idx": 10,
+   "stratum": "low_spearman",
+   "text": "i am hoping to hear from you soon please do not let me down or turn away from me",
+   "chan": "Y",
+   "li": "N",
+   "agent_pass_a": "N",
+   "agent_pass_b": "N",
+   "agent_pass_c": "N",
+   "majority_or_TIE": "N"
+  }
+ ],
+ "email_level": {
+  "agent_pass_a": {
+   "vs_chan": {
+    "n_emails": 30,
+    "yset_jaccard_mean": 0.5691558441558442,
+    "yset_exact_match": 0.36666666666666664,
+    "first_y_agreement": 0.5294117647058824,
+    "p_at_1_agent_first_y_in_human_yset": 0.631578947368421,
+    "p_at_1_denominator": 19
+   },
+   "vs_li": {
+    "n_emails": 30,
+    "yset_jaccard_mean": 0.4657142857142857,
+    "yset_exact_match": 0.23333333333333334,
+    "first_y_agreement": 0.3333333333333333,
+    "p_at_1_agent_first_y_in_human_yset": 0.5555555555555556,
+    "p_at_1_denominator": 18
+   }
+  },
+  "agent_pass_b": {
+   "vs_chan": {
+    "n_emails": 30,
+    "yset_jaccard_mean": 0.5176346801346801,
+    "yset_exact_match": 0.3333333333333333,
+    "first_y_agreement": 0.5,
+    "p_at_1_agent_first_y_in_human_yset": 0.5789473684210527,
+    "p_at_1_denominator": 19
+   },
+   "vs_li": {
+    "n_emails": 30,
+    "yset_jaccard_mean": 0.4146031746031746,
+    "yset_exact_match": 0.23333333333333334,
+    "first_y_agreement": 0.2857142857142857,
+    "p_at_1_agent_first_y_in_human_yset": 0.3888888888888889,
+    "p_at_1_denominator": 18
+   }
+  },
+  "agent_pass_c": {
+   "vs_chan": {
+    "n_emails": 30,
+    "yset_jaccard_mean": 0.4931240981240981,
+    "yset_exact_match": 0.3,
+    "first_y_agreement": 0.5,
+    "p_at_1_agent_first_y_in_human_yset": 0.5263157894736842,
+    "p_at_1_denominator": 19
+   },
+   "vs_li": {
+    "n_emails": 30,
+    "yset_jaccard_mean": 0.41968253968253966,
+    "yset_exact_match": 0.2,
+    "first_y_agreement": 0.35714285714285715,
+    "p_at_1_agent_first_y_in_human_yset": 0.4444444444444444,
+    "p_at_1_denominator": 18
+   }
+  }
+ },
+ "coverage": {
+  "chan": {
+   "n_emails": 30,
+   "emails_with_ge1_Y": 19,
+   "oracle_coverage": 0.6333333333333333
+  },
+  "li": {
+   "n_emails": 30,
+   "emails_with_ge1_Y": 18,
+   "oracle_coverage": 0.6
+  },
+  "agent_pass_a": {
+   "n_emails": 30,
+   "emails_with_ge1_Y": 21,
+   "oracle_coverage": 0.7
+  },
+  "agent_pass_b": {
+   "n_emails": 30,
+   "emails_with_ge1_Y": 20,
+   "oracle_coverage": 0.6666666666666666
+  },
+  "agent_pass_c": {
+   "n_emails": 30,
+   "emails_with_ge1_Y": 21,
+   "oracle_coverage": 0.7
+  }
+ },
+ "confidence": {
+  "agent_pass_a": {
+   "n": 213,
+   "by_confidence": {
+    "high": 192,
+    "low": 6,
+    "medium": 15
+   },
+   "low_share": 0.028169014084507043
+  },
+  "agent_pass_b": {
+   "n": 213,
+   "by_confidence": {
+    "medium": 41,
+    "high": 165,
+    "low": 7
+   },
+   "low_share": 0.03286384976525822
+  },
+  "agent_pass_c": {
+   "n": 213,
+   "by_confidence": {
+    "medium": 49,
+    "high": 150,
+    "low": 14
+   },
+   "low_share": 0.06572769953051644
+  }
+ },
+ "verdict": {
+  "full": "FAIL",
+  "excl_4860": "FAIL",
+  "decision": "FAIL — do NOT run production; revise protocol/prompts and re-run the 3 passes"
+ }
+}

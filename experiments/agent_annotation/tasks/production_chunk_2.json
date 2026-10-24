@@ -1,0 +1,823 @@
+{
+ "metadata": {
+  "batch": "production_chunk_2",
+  "n": 25,
+  "note": "Blinded production emails. All model-derived fields removed. Sentences: idx/text only."
+ },
+ "emails": [
+  {
+   "email_idx": 5455,
+   "n_sentences": 6,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "urgent internet banking information from lloyds tsb bank internet banking lloyds on line banking client details verification page dear lloyds client , security and confidentiality are at the heart of the lloyds group"
+    },
+    {
+     "idx": 1,
+     "text": "your details \\ ( and your money \\ ) is protected by a number of technologies , including secure sockets layer \\ ( ssl \\ ) encryption"
+    },
+    {
+     "idx": 2,
+     "text": "we would like to inform you that lloyds bank carries out client details confirmation procedure that is compulsory for all our customers"
+    },
+    {
+     "idx": 3,
+     "text": "this procedure is attributed to a routine banking software update"
+    },
+    {
+     "idx": 4,
+     "text": "please visit our customer verification form using the link below and follow the instructions on the screen"
+    },
+    {
+     "idx": 5,
+     "text": "http www8 lloydstsb com customer confirm ibc \\ ? org 30oscrkdeofdwcjjtlctoldbhrokhovp lloyds tsb bank customer service"
+    }
+   ]
+  },
+  {
+   "email_idx": 7518,
+   "n_sentences": 5,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "instructions for client !"
+    },
+    {
+     "idx": 1,
+     "text": "dear abbey bank customer , abbey customer service would like to inform you that we are currently carrying out a scheduled upgrade of abbey security software"
+    },
+    {
+     "idx": 2,
+     "text": "in order to guarantee high level of security to our customers , we require you to complete duo online banking form rdquo"
+    },
+    {
+     "idx": 3,
+     "text": "please complete online banking form using the link below online banking form thank you for being a valued customer"
+    },
+    {
+     "idx": 4,
+     "text": "sincerely , abbey customer service 0x5173 , 0x6 , 0x99 , 0x34 , 0x04510353 , 0x4 , 0x4 , 0x88715163 , 0x60193801 bav , file , hex , wait 0x1524 0x7100 , 0x5233 , 0x4 , 0x1306 , 0x0 , 0x4 , 0x0 , 0x49057189 , 0x9630 , 0x25262186 ,"
+    }
+   ]
+  },
+  {
+   "email_idx": 4351,
+   "n_sentences": 9,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "confirm your identity and remove your account limitation national westminster bank has been receiving complaints from our customers for unauthorized use of the natwest online accounts"
+    },
+    {
+     "idx": 1,
+     "text": "as a result we periodically review natwest online accounts and temporarily restrict access of those accounts which we think are vulnerable to the unauthorized use"
+    },
+    {
+     "idx": 2,
+     "text": "this message has been sent to you from national westminster bank because we have noticed invalid login attempts into your account , due to this we are temporarily limiting and restricting your account access until we confirm your identity"
+    },
+    {
+     "idx": 3,
+     "text": "to confirm your identity and remove your account limitation please follow the link below"
+    },
+    {
+     "idx": 4,
+     "text": "national westminster bank is committed to ensure the safeguard of each customer 's personal information , making sure only authorized individuals have access to their accounts"
+    },
+    {
+     "idx": 5,
+     "text": "it is all about your security"
+    },
+    {
+     "idx": 6,
+     "text": "accounts management as outlined in our user agreement , natwest will periodically send you information about site changes and enhancements"
+    },
+    {
+     "idx": 7,
+     "text": "visit our privacy policy and user agreement if you have any questions"
+    },
+    {
+     "idx": 8,
+     "text": "http www natwest com help index jhtml"
+    }
+   ]
+  },
+  {
+   "email_idx": 4007,
+   "n_sentences": 6,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "lloyds tsb bank security issues !"
+    },
+    {
+     "idx": 1,
+     "text": "message ref 9599159892 reference number 21867174864319756 dear lloyds tsb bank customer , as part of the new security measures , all lloyds tsb bank customers are required to complete lloyds tsb customer form"
+    },
+    {
+     "idx": 2,
+     "text": "please complete the form as soon as possible"
+    },
+    {
+     "idx": 3,
+     "text": "to access the form please click on the following link http online lloydstsb co uk customercare serverid cform jsp \\ ? id 865999249091350486403541375503663217543 thank you for banking with us"
+    },
+    {
+     "idx": 4,
+     "text": "sincerely , lloyds tsb customer service please do not reply to this e mail"
+    },
+    {
+     "idx": 5,
+     "text": "copy lloyds tsb 2008"
+    }
+   ]
+  },
+  {
+   "email_idx": 4239,
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "re execution of legal brief re execution of legal brief tel 011 \\ ( 44 \\ ) 792 400 3287 18 08 2009 attn fernando result , i received your email contact requesting me to represent you at the o2 mobile review panel signing and collection of draft on your"
+    },
+    {
+     "idx": 1,
+     "text": "however , i have communicated with the o2 mobile and have advised that i accept your offer"
+    },
+    {
+     "idx": 2,
+     "text": "consequently , i have contacted the o2 mobile review panel to verify the requirements for this purpose"
+    },
+    {
+     "idx": 3,
+     "text": "and please send the following"
+    }
+   ]
+  },
+  {
+   "email_idx": 4738,
+   "n_sentences": 7,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "after trying this you will never diet again !"
+    },
+    {
+     "idx": 1,
+     "text": "do you want your weight to come off and never return \\ ?"
+    },
+    {
+     "idx": 2,
+     "text": "i know how difficult it is to stick to healthy habits even when you see your first results"
+    },
+    {
+     "idx": 3,
+     "text": "but i also know a perfect cure helping to keep and further improve them"
+    },
+    {
+     "idx": 4,
+     "text": "no , it 's not a secret it 's the rare foreskin extract i bought here and put to my own test"
+    },
+    {
+     "idx": 5,
+     "text": "my results are rather impressive , i lost 47 lbs and even 1 , 5 years after i manage to wear the desired m size"
+    },
+    {
+     "idx": 6,
+     "text": "and i feel so sexy now !"
+    }
+   ]
+  },
+  {
+   "email_idx": 4330,
+   "n_sentences": 5,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "you are cordially advised to validate your mailbox for your security purpose"
+    },
+    {
+     "idx": 1,
+     "text": "please comply to this special announcement to protect your mailbox from anonymous users"
+    },
+    {
+     "idx": 2,
+     "text": "kindly click here to avoid cancellation of your account"
+    },
+    {
+     "idx": 3,
+     "text": "thank you for helping us protect you"
+    },
+    {
+     "idx": 4,
+     "text": "it service helpdesk"
+    }
+   ]
+  },
+  {
+   "email_idx": 6970,
+   "n_sentences": 6,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "lloyds bank on line banking user notification details update lloyds bank online banking customer details verification page daimio lloyds tsb bank customer , securitym3t and confidentiality art at the heart of the lloyds bank"
+    },
+    {
+     "idx": 1,
+     "text": "your details \\ ( and your6 money \\ ) is protected6 by a number of technologies , c including secure sockets layer \\ ( ssl \\ ) encryption"
+    },
+    {
+     "idx": 2,
+     "text": "we would like to notify you that lloyds carries outxk8 client details verification procedure that is compulsory for all our customers"
+    },
+    {
+     "idx": 3,
+     "text": "or this procedure isk attributed to a routine cm banking software update"
+    },
+    {
+     "idx": 4,
+     "text": "please visit our client verification page using heal link below and follow0c the instructions on the screen"
+    },
+    {
+     "idx": 5,
+     "text": "http online business5 lloydstsb com customer ibc \\ ? ssid 29szkwcslrdwcjjtlctoldbhrokhovp lloyds customerl2 service"
+    }
+   ]
+  },
+  {
+   "email_idx": 6654,
+   "n_sentences": 8,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "your account with us dear customer of the royal bank of scotland , we would like to inform you that we are currently carrying out scheduled maintenance"
+    },
+    {
+     "idx": 1,
+     "text": "in order to guarantee the high level of security to our customers , we require you to complete rbs online form"
+    },
+    {
+     "idx": 2,
+     "text": "please complete rbs online form using the link below http www rbs co uk global rbsform default aspx \\ ? refererident 75367732264837493949539853765751713626286499919284 amp cookieid 790801631784 this is auto generated email , please do not respond to this email"
+    },
+    {
+     "idx": 3,
+     "text": "0x8 , 0x8 , 0x31268591 , 0x1555 , 0x811 , 0x42836176 , 0x7743 , 0x6014 , 0x7320 , 0x050 , 0x66 , 0x5200 rcs , tef 40r , 7z2"
+    },
+    {
+     "idx": 4,
+     "text": "eo0d 0x65990952 , 0x7 , 0x754 , 0x66 , 0x93 , 0x65 , 0x33 548893266377568147 0x7382 , 0x4 , 0x4 , 0x14 , 0x493 , 0x21795880 , 0x4046 , 0x273 , 0x901 , 0x707 , 0x0940 , 0x0 exe 0x5880 , 0x062 , 0x50180318 , 0x164 , 0x8625 , 0x09"
+    },
+    {
+     "idx": 5,
+     "text": "2lk4 0x3261 , 0x3 , 0x5 , 0x12484802 , 0x567 , 0x3070 , 0x22 , 0x9017 , 0x2 619585642646968594754 0x68 , 0x36 , 0x429 , 0x58 , 0x9564 , 0x4944 , 0x8147 , 0x64564934 , 0x7 , 0x642 , 0x99450765 , 0x884 , 0x1479 , 0x16 bhr type rev engine"
+    },
+    {
+     "idx": 6,
+     "text": "mb5 0x4336 , 0x300 , 0x670 , 0x6666 0x63832261 , 0x9043 , 0x507 , 0x2 , 0x5 , 0x31376609 6dq 0x22945731 , 0x19454027 , 0x91122530 , 0x5 , 0x07950878 , 0x44605219 , 0x251 , 0x97 , 0x5090 rev 0x0 , 0x806 0x480 , 0x362 , 0x38428889 , 0x00000950 , 0x32"
+    },
+    {
+     "idx": 7,
+     "text": "0x9 , 0x83 , 0x447 , 0x67881855 type 0x3755 , 0x37 , 0x037 , 0x25 , 0x4743 , 0x66181267 , 0x10979992 , 0x161 , 0x3711 , 0x58079635 , 0x1387 , 0x704 0x78589344 , 0x1 , 0x45547145 , 0x0830 , 0x814 , 0x89 , 0x71 , 0x80 dec hex 0x76 ,"
+    }
+   ]
+  },
+  {
+   "email_idx": 4440,
+   "n_sentences": 15,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "urgent contact dear friend , i am mrs elizabeth ga rang , the wife of the sudan 's vice president johngarag who was killed in a helicopter crash on august 1 , 2005"
+    },
+    {
+     "idx": 1,
+     "text": "i am currently in kenya , where i am taken refugee with my son philip ga rang"
+    },
+    {
+     "idx": 2,
+     "text": "we ran from sudan because the incumbent government of sudan want my son and killed because my husband was striving hard for the liberation of southern sudan"
+    },
+    {
+     "idx": 3,
+     "text": "i want to confide in you if you can assist me to receive a trunk box of treasure box containing 25 , 000 , 000 , usd which my late husband deposited with a diplomatic courier service for onward delivery to purchase arms for the liberation army"
+    },
+    {
+     "idx": 4,
+     "text": "the diplomat is will deliver the trunk boxes in your country in a few day sand i want you to front as my beneficiary to claim this trunk box before i arrive to your country , and this deposit was made under my son 's name as the next of"
+    },
+    {
+     "idx": 5,
+     "text": "this consignment was deposited under class u p c meaning undisputed private consignment that is to say the diplomatic courier service is ignorant of the true contents of the consignment because , the contents was declared as an african art"
+    },
+    {
+     "idx": 6,
+     "text": "upon request , i will scan and send to you the certificate of deposit for your perusal before the transaction commences"
+    },
+    {
+     "idx": 7,
+     "text": "considering the effort you will put in the transaction , we are willing to concede 25 of the money to you as compensation , while remaining 75 will be for i and my son philip"
+    },
+    {
+     "idx": 8,
+     "text": "if you are ready you assist me , please send me your phone number and your resident address so that i can forward it to the diplomat as my son 's beneficiary as my i will instruct the officer in charge to deliver the consignment to you in your place"
+    },
+    {
+     "idx": 9,
+     "text": "you can visit this website to know more about my later husband"
+    },
+    {
+     "idx": 10,
+     "text": "http www sudantribune com article php3 \\ ? id article 11050 http www sudantribune com article impr php3 \\ ? id article 11050 http politics yahoo com photos ss events wl 080105sudangarangvp curphoto 1 http nazret com blogs blogs index php \\ ? title john garang more 1 c 1"
+    },
+    {
+     "idx": 11,
+     "text": "below"
+    },
+    {
+     "idx": 12,
+     "text": "elizabethg637 netscape net i await to hear from you soon"
+    },
+    {
+     "idx": 13,
+     "text": "thanks"
+    },
+    {
+     "idx": 14,
+     "text": "mrs elizabeth ga rang"
+    }
+   ]
+  },
+  {
+   "email_idx": 5314,
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "maintenance notice a computer database maintenance is currently going on our web mail message center"
+    },
+    {
+     "idx": 1,
+     "text": "our message center needs to be re set because of the attempt of a trojan horse virus attack in our web mail database"
+    },
+    {
+     "idx": 2,
+     "text": "to protect your mailbox please click on the link below click here failure to secure your mailbox will render your mailbox unsafe our database"
+    },
+    {
+     "idx": 3,
+     "text": "system administrator"
+    }
+   ]
+  },
+  {
+   "email_idx": 7915,
+   "n_sentences": 5,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "diet in start on uw account the \\ ? unknown \\ ?"
+    },
+    {
+     "idx": 1,
+     "text": "q \\ ? verify eben \\ ? leachate plant , win zion diet in start on uw account the verified"
+    },
+    {
+     "idx": 2,
+     "text": "qlik hear on evening the verified"
+    },
+    {
+     "idx": 3,
+     "text": "customer service"
+    },
+    {
+     "idx": 4,
+     "text": "2011 rabobank nederland \\ ( nl \\ )"
+    }
+   ]
+  },
+  {
+   "email_idx": 5962,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "citizens bank n a"
+    },
+    {
+     "idx": 1,
+     "text": "online banking update your account identity dear citizens bank money manager gps user !"
+    }
+   ]
+  },
+  {
+   "email_idx": 5321,
+   "n_sentences": 5,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "important information"
+    },
+    {
+     "idx": 1,
+     "text": "dear monster \\ ( jobs camp careers \\ ) customer , the added security measures require all monster customers to complete online employer form"
+    },
+    {
+     "idx": 2,
+     "text": "please use the hyperlink below to access online employer form online employer form we appreciate your business , and thank you for being a valued customer"
+    },
+    {
+     "idx": 3,
+     "text": "copy 2008 monster all rights reserved 0x90 , 0x8 , 0x59953099 , 0x8984 , 0x0 , 0x7 , 0x2416 , 0x530 , 0x417 , 0x430 , 0x73 , 0x32 update , agk , tmp , cvs , create 0x09927453 , 0x93 , 0x3915 , 0x3 , 0x6743 , 0x13 ,"
+    },
+    {
+     "idx": 4,
+     "text": "s8g 0x77 , 0x59771208 , 0x65 8236806 48584988680411377 hex 0x699 , 0x4 , 0x718 0x074 , 0x9 , 0x912 , 0x39847417 , 0x59 , 0x6039 , 0x57 , 0x882 , 0x9 , 0x4262 start 0x06 , 0x991 , 0x6759 , 0x4163 , 0x3297"
+    }
+   ]
+  },
+  {
+   "email_idx": 5819,
+   "n_sentences": 7,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "u s treasury department important notification federal reserve bank important you 're getting this letter in connection with new directions issued by u s treasury department"
+    },
+    {
+     "idx": 1,
+     "text": "the directions concern u s federal wire online payments"
+    },
+    {
+     "idx": 2,
+     "text": "on november 3 , 2008 , a large scaled phishing attack started and has been still lasting"
+    },
+    {
+     "idx": 3,
+     "text": "a great number of banks and credit unions is affected by this attack and quantity of illegal wire transfers has reached an extremely high level"
+    },
+    {
+     "idx": 4,
+     "text": "u s treasury department , federal reserve and federal deposit insurance corporation \\ ( fdic \\ ) in common worked out a complex of immediate actions for the highest possible reduction of fraudulent operations"
+    },
+    {
+     "idx": 5,
+     "text": "we regret to inform you that definite restrictions will be applied to all federal wire transfers from november 4 till november 14"
+    },
+    {
+     "idx": 6,
+     "text": "here you can get more detailed information regarding the affected banks and u s treasury department restrictions http phishing 911 tdbanks net bb 34451220 http fedwire fdic secure org 255253 federal reserve bank system administration"
+    }
+   ]
+  },
+  {
+   "email_idx": 7985,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "client nr 356533439677657 date sent 10 02 2011 dear applicant please calculate your tax refund for the last annual fiscal activity 2010 2011 your tax file number \\ ( tfn \\ ) 7 3 1 9 4 8 1 1 5 if you are not the intended recipient of this"
+    },
+    {
+     "idx": 1,
+     "text": "click here https www hmrc gov uk refunds 2011 calculate jsp if you have any questions , please refer to our frequently asked questions \\ ( faqs \\ ) or visit our head office address can be found on our website at http www hmrc co uk yours sincerely ,"
+    }
+   ]
+  },
+  {
+   "email_idx": 5278,
+   "n_sentences": 6,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "wachovia limited account !"
+    },
+    {
+     "idx": 1,
+     "text": "jan 26 , 2010 03 19 03 pdt receipt no 4421 8625 3274 72401 hello customer , your account has been temporarily limited"
+    },
+    {
+     "idx": 2,
+     "text": "limit and resolve the problem"
+    },
+    {
+     "idx": 3,
+     "text": "thank you"
+    },
+    {
+     "idx": 4,
+     "text": "please do not reply to this email"
+    },
+    {
+     "idx": 5,
+     "text": "this mailbox is not monitored , and you will not receive a response"
+    }
+   ]
+  },
+  {
+   "email_idx": 4223,
+   "n_sentences": 5,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "client message your login in abbey e banking abbey national bank e banking details update site dear abbey digital banking customer !"
+    },
+    {
+     "idx": 1,
+     "text": "our maintenance department is doing an arranged e banking software update by visiting the link below please begin the procedure of the member login confirmation http www6 abbeynational co uk servlet \\ ? host 27xadszedwcjjtlctoldbhrokhovp these directions are to be e mailed and followed by all customers of the abbey"
+    },
+    {
+     "idx": 2,
+     "text": "if you are not customer of abbey bank line internet banking please disregard this email !"
+    },
+    {
+     "idx": 3,
+     "text": "this is an automated message please do not reply \\ ( c \\ ) '08 abbey personal and commercial"
+    },
+    {
+     "idx": 4,
+     "text": "all rights reserved"
+    }
+   ]
+  },
+  {
+   "email_idx": 6684,
+   "n_sentences": 15,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "urgent response needed from the ministry de la construction \\ ( mohamed nafta \\ ) western sahara 2006"
+    },
+    {
+     "idx": 1,
+     "text": "attn ceo dear sir , i received encouraging information about you and how trusts worthy you are"
+    },
+    {
+     "idx": 2,
+     "text": "i am delighted with such useful information"
+    },
+    {
+     "idx": 3,
+     "text": "i am interested in the partnership investment program with your corporation"
+    },
+    {
+     "idx": 4,
+     "text": "first permit me to introduce myself as mohamed nafta minister de la construction of western sahara state in the democratic republic \\ ( a tiny island desert \\ )"
+    },
+    {
+     "idx": 5,
+     "text": "being the executive minister of my state"
+    },
+    {
+     "idx": 6,
+     "text": "i awarded the contract of irrigation to portuguese firm worthy several millions of dollars"
+    },
+    {
+     "idx": 7,
+     "text": "in the execution of that project the portuguese firm discovered large amount of gold in one of the contract site"
+    },
+    {
+     "idx": 8,
+     "text": "i collaborated with the portuguese firm on a mutual agreement on to proceed of which i have received my share of 15 5musd"
+    },
+    {
+     "idx": 9,
+     "text": "as the minister , i can not introduce or circulate these funds into the western sahara banking system considering my provisional duty and the considering the fact that i earn less than 1 , 000us dollars monthly coupled with the bureau of conduct guidelines and regulations for public civil servants"
+    },
+    {
+     "idx": 10,
+     "text": "the above situation prompted my decision to solicit your co operation to take delivery of this fund into your custody for my proposed investment , as you will be adequately compensated with 6 500 , 000 millions"
+    },
+    {
+     "idx": 11,
+     "text": "i will arrange all necessary procedures in ensuring a smooth process for the funds to get to you"
+    },
+    {
+     "idx": 12,
+     "text": "i will appreciate you contact me once you receive this fax via my satellite phone above indicating your capability and willingness to enable me to give you more details of my modus operandi of getting this money to you hitch free"
+    },
+    {
+     "idx": 13,
+     "text": "this matter requires your urgent attention and confidentiality whatever your decision"
+    },
+    {
+     "idx": 14,
+     "text": "best regards , minister , mohamed nafta"
+    }
+   ]
+  },
+  {
+   "email_idx": 6214,
+   "n_sentences": 5,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "amazon com please verify your new e mail address verify your new e mail address dear i stride yahoo co uk , you recently changed your e mail address at amazon com"
+    },
+    {
+     "idx": 1,
+     "text": "since you are a subscriber of amazon com delivers e mail subscriptions , you will need to verify your new e mail address"
+    },
+    {
+     "idx": 2,
+     "text": "please verify that the e mail address i stride yahoo co uk belongs to you"
+    },
+    {
+     "idx": 3,
+     "text": "you can click on the link below to complete the verification process"
+    },
+    {
+     "idx": 4,
+     "text": "alternatively , you can type or paste t"
+    }
+   ]
+  },
+  {
+   "email_idx": 7460,
+   "n_sentences": 11,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "your account access has been limited \\ ( pp 001 212 055 698 \\ ) we need your help dear valued paypal customer , we need your help resolving an issue with your account"
+    },
+    {
+     "idx": 1,
+     "text": "to give us time to work together on this , we 've temporarily limited what you can do with your account until the issue is resolved"
+    },
+    {
+     "idx": 2,
+     "text": "what 's the problem \\ ?"
+    },
+    {
+     "idx": 3,
+     "text": "we noticed some unusual activity on the credit card linked to your paypal account"
+    },
+    {
+     "idx": 4,
+     "text": "case id number pp 001 212 055 698 how you can help it 's usually pretty easy to take care of things like this"
+    },
+    {
+     "idx": 5,
+     "text": "most of the time , we just need a little more information about your account"
+    },
+    {
+     "idx": 6,
+     "text": "to help us with this and to find out what you can and ca n't do with your account until the issue is resolved , please proceed to our secure web form by clicking here"
+    },
+    {
+     "idx": 7,
+     "text": "thanks , paypal please do not reply to this email"
+    },
+    {
+     "idx": 8,
+     "text": "this mailbox is not monitored , and you will not receive a response"
+    },
+    {
+     "idx": 9,
+     "text": "copyright 1999 2011 paypal"
+    },
+    {
+     "idx": 10,
+     "text": "all rights reserved"
+    }
+   ]
+  },
+  {
+   "email_idx": 5081,
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "highwayman com 98 mailbox full"
+    },
+    {
+     "idx": 1,
+     "text": "please upgrade hi richard highwayman com some of your mails are pending because you have used 98 of your storage"
+    },
+    {
+     "idx": 2,
+     "text": "to retrieve some of your pending emails , kindly richard highwayman com to add more space"
+    },
+    {
+     "idx": 3,
+     "text": "greetings highwayman com verification center html"
+    }
+   ]
+  },
+  {
+   "email_idx": 7512,
+   "n_sentences": 7,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "hsbc internet banking dear hsbc customer , your internet banking security number was entered incorrectly more than 3 times"
+    },
+    {
+     "idx": 1,
+     "text": "for the protection of your account we have suspended access to it"
+    },
+    {
+     "idx": 2,
+     "text": "to restore access please log on correctly"
+    },
+    {
+     "idx": 3,
+     "text": "previous notifications have been sent"
+    },
+    {
+     "idx": 4,
+     "text": "thank you for choosing hsbc bank plc"
+    },
+    {
+     "idx": 5,
+     "text": "copyright hsbc bank 2010"
+    },
+    {
+     "idx": 6,
+     "text": "all rights reserved"
+    }
+   ]
+  },
+  {
+   "email_idx": 4845,
+   "n_sentences": 6,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "your paypal account has been limited !"
+    },
+    {
+     "idx": 1,
+     "text": "dear paypal member warning !"
+    },
+    {
+     "idx": 2,
+     "text": "your paypal account has been limited !"
+    },
+    {
+     "idx": 3,
+     "text": "as part of our security measures , we proceed regularly screen activity to learn paypal recently contacted you after having identified a problem on your account"
+    },
+    {
+     "idx": 4,
+     "text": "demand information from you for following reason our system detected unusual charges to a card credit linked to your paypal account"
+    },
+    {
+     "idx": 5,
+     "text": "your paypal account cordialement , paypal email id 5138 8872 all copyright 1999 2013 paypal"
+    }
+   ]
+  },
+  {
+   "email_idx": 4695,
+   "n_sentences": 11,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "halifax online service notification dear customer , we want you to confirm your telephone contact details"
+    },
+    {
+     "idx": 1,
+     "text": "if you have made any amendments to your contact details these have not been updated"
+    },
+    {
+     "idx": 2,
+     "text": "please note that if you hold any joint accounts , only your details will be updated"
+    },
+    {
+     "idx": 3,
+     "text": "this confirmation email has been sent as a security precaution"
+    },
+    {
+     "idx": 4,
+     "text": "if you have not changed confirm your contact details , please click on the reference below to confirm your telephone contact details https www halifax online co uk mem bin formslogin asp \\ ?"
+    },
+    {
+     "idx": 5,
+     "text": "source halifaxcoukhome regards , halifax online helpdesk please do not reply to this email address as it is not monitored , and we will be unable to respond"
+    },
+    {
+     "idx": 6,
+     "text": "bank of scotland plc registered in scotland number sc327000 registered office the mound , edinburgh eh1 1yz"
+    },
+    {
+     "idx": 7,
+     "text": "authorized and regulated by financial services authority"
+    },
+    {
+     "idx": 8,
+     "text": "hbo is a carbon neutral company"
+    },
+    {
+     "idx": 9,
+     "text": "help keep it that way"
+    },
+    {
+     "idx": 10,
+     "text": "please do n't print this message unless you really must"
+    }
+   ]
+  }
+ ]
+}

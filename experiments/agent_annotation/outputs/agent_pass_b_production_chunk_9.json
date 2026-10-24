@@ -1,0 +1,1448 @@
+{
+ "annotator": "agent_pass_b",
+ "batch": "production_chunk_9",
+ "exported_at": "2026-09-15T14:29:00Z",
+ "n_emails": 25,
+ "annotations": [
+  {
+   "email_id": 5885,
+   "sentence_idx": 0,
+   "sentence_text": "20 reward survey dear chase bank customer , congratulations !",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 自称 Chase 以$20奖励问卷诱导; 标题+恭喜无具体索取"
+  },
+  {
+   "email_id": 5885,
+   "sentence_idx": 1,
+   "sentence_text": "you have been chosen by the chase manhattan bank online department to take part in our quick and easy 5 question surveys",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "被选中邀请参加问卷，软性邀请 §5.12b"
+  },
+  {
+   "email_id": 5885,
+   "sentence_idx": 2,
+   "sentence_text": "in return , we will credit 20 to your account just for your time !",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "承诺给$20奖励，交易诱饵/提议 §1.1/§1.2"
+  },
+  {
+   "email_id": 5885,
+   "sentence_idx": 3,
+   "sentence_text": "helping us better understand how our customers feel benefits everyone",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5885,
+   "sentence_idx": 4,
+   "sentence_text": "with the information collected we can decide to direct a number of changes to improve and expand our online service",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5885,
+   "sentence_idx": 5,
+   "sentence_text": "we kindly ask you to spare two minutes of your time in taking part with this unique offer !",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "婉请花费两分钟参加，软性邀请"
+  },
+  {
+   "email_id": 5885,
+   "sentence_idx": 6,
+   "sentence_text": "service chase online \\ ? 20 reward survey expiration march 24 2006 confirm now your 20 reward survey with chase online \\ ?",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "确认领取奖励问卷，索取确认 §1.3"
+  },
+  {
+   "email_id": 5885,
+   "sentence_idx": 7,
+   "sentence_text": "reward services",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5885,
+   "sentence_idx": 8,
+   "sentence_text": "the information you provide us is all non sensitive and anonymous no part of it is handed down to any third party groups",
+   "label": "N",
+   "confidence": "high",
+   "reason": "信息匿名保证 §5.4"
+  },
+  {
+   "email_id": 5885,
+   "sentence_idx": 9,
+   "sentence_text": "it will be stored in our secure database for maximum of 3 days while we process the results of this nationwide survey",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5885,
+   "sentence_idx": 10,
+   "sentence_text": "please do not reply to this message",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5885,
+   "sentence_idx": 11,
+   "sentence_text": "for any inquiries , contact customer service",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5885,
+   "sentence_idx": 12,
+   "sentence_text": "document reference \\ ( 87051203 \\ )",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5885,
+   "sentence_idx": 13,
+   "sentence_text": "copyright 1996 2006 chase bank , n a",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5885,
+   "sentence_idx": 14,
+   "sentence_text": "member fdic copyright \\ ? 2006",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5917,
+   "sentence_idx": 0,
+   "sentence_text": "facebook notification sent you a message on facebook facebookfacebookfacebook service sent you a message",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] Facebook 消息通知，仅通知无索取 §5.8"
+  },
+  {
+   "email_id": 5917,
+   "sentence_idx": 1,
+   "sentence_text": "facebook support subject facebook information to read this message , follow the link below http www facebook com n \\ ? inbox readmessage php t 130914319963 mid 6b65d2dce6fc71eb29ac0f2cacc48d9f n m facebook informationthis message was intended for you",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "facebook.com 读消息链接，官方域名 §5.5"
+  },
+  {
+   "email_id": 5917,
+   "sentence_idx": 2,
+   "sentence_text": "if you do not wish to receive this type of email from facebook in the future , please click on the link below to unsubscribe",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5917,
+   "sentence_idx": 3,
+   "sentence_text": "http www facebook com o php \\ ? k 025ef u 1101188607583 mid 252b0786abff4844cd2d4f147c511133 facebook 's offices are located at 1601 s california ave , palo alto , ca 94304",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 0,
+   "sentence_text": "contact me now mr huang yanking ! ! !",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "[scenario] 自称汇丰职员寻人领$20.5M无主款; 标题仅 contact me"
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 1,
+   "sentence_text": "mr huang yanxionghang sent bank ltd 83 des vogue rd",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 2,
+   "sentence_text": "branch , central hong kong , hong kong",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 3,
+   "sentence_text": "tel fax 852 301 77033let me start by introducing myself",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 4,
+   "sentence_text": "i am mr huang yanking credit officer of the hang seng bank ltd",
+   "label": "N",
+   "confidence": "high",
+   "reason": "自我介绍身份声称 §5.9"
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 5,
+   "sentence_text": "i have a concealed business suggestion for you",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "隐蔽商业建议，未展开具体内容"
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 6,
+   "sentence_text": "before the u s and iraqi war our client general",
+   "label": "N",
+   "confidence": "high",
+   "reason": "背景叙述 §5.4"
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 7,
+   "sentence_text": "ibrahim umar who was with the iraqi forces and also businessman made a numbered fixed depositor 18 calendar months , with a value of twenty million five hundredthousand united states dollars only in my branch",
+   "label": "N",
+   "confidence": "high",
+   "reason": "背景叙述 §5.4"
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 8,
+   "sentence_text": "upon maturity several notices was sent to him , even during the war early this year",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 9,
+   "sentence_text": "again after the war another notification was sent and still no response came from him",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 10,
+   "sentence_text": "we later find out that the general and his family had been killed during the war in bomb blast that hit their home",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 11,
+   "sentence_text": "after further investigation it was also discovered that gen ibrahim madrid not declare any next of kin in his official papers including the paperwork of his bank deposit",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 12,
+   "sentence_text": "and he also confided in me the last time he was at my office that no one except me knew of his deposit in my bank",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 13,
+   "sentence_text": "so , twenty millions five hundred thousand united states dollars is still lying in my bank and no one will ever come forward to claim it",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "$20.5M 无主巨款金额诱饵 §5.11"
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 14,
+   "sentence_text": "what bothers memos is that according to the laws of my country at the expiration three years the funds will revert to the ownership of the hong konggovernment if nobody applies to claim the funds",
+   "label": "N",
+   "confidence": "high",
+   "reason": "背景叙述 §5.4"
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 15,
+   "sentence_text": "against this backdrop , my suggestion to you is that i will like you as a foreigner to stand as the next of kin to gen ibrahim umar so that you will be able to receive his funds",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "提议冒充 next of kin 领款，交易提议 §1.1"
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 16,
+   "sentence_text": "what is to be done i want you to know that i have had everything planned out so that we shall come out successful",
+   "label": "N",
+   "confidence": "high",
+   "reason": "合法性保证 §5.4"
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 17,
+   "sentence_text": "i have contacted an attorney that will prepare the necessary document that will back you up as the next of kin to gen ibrahimumar , all that is required from you at this stage is for you to provide me with your full names and address so that the attorney",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "索取姓名地址，索取 §1.3"
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 18,
+   "sentence_text": "after you have been made the next of kin , the attorney will also filling for claims on your behalf and secure the necessary approval and letter of probate in your favor for the move of the funds",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 19,
+   "sentence_text": "there is no risk involved at all in the matter as we are going adopt legalized method and the attorney will prepare all the necessary documents",
+   "label": "N",
+   "confidence": "high",
+   "reason": "合法性保证 §5.4"
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 20,
+   "sentence_text": "please endeavor to observe utmost discretion in all matters concerning this issue",
+   "label": "N",
+   "confidence": "high",
+   "reason": "保密要求 §5.12b"
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 21,
+   "sentence_text": "once the funds have been transferred , we shall share in the ratio of 70 for me , 30 for you",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "70/30 分成比例诱饵 §1.1/§5.11"
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 22,
+   "sentence_text": "should you be interested please send me your private phone and fax numbers for easy communication , you can , and i will provide you with more details of this operation",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "索取电话传真号码 §1.3"
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 23,
+   "sentence_text": "your earliest response to this mail will be appreciated",
+   "label": "N",
+   "confidence": "high",
+   "reason": "催促回复 §5.12b"
+  },
+  {
+   "email_id": 5927,
+   "sentence_idx": 24,
+   "sentence_text": "kind regards mr huang yanking",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5985,
+   "sentence_idx": 0,
+   "sentence_text": "online banking account alert your information needs to be updated dear halifax bank valued customer your information needs to be updated we have updated your halifax account information , you will have to update it manually for it to match our records to update your account , click below link",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "[scenario] 冒充 Halifax 要求更新信息; 标题索取更新+点击链接 §1.3/§1.4"
+  },
+  {
+   "email_id": 5985,
+   "sentence_idx": 1,
+   "sentence_text": "you have 48 hours to update your account , or it will be ssp",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "48小时未更新将停用，绑定施压 §5.12a"
+  },
+  {
+   "email_id": 6004,
+   "sentence_idx": 0,
+   "sentence_text": "lloyds bank online banking important information lloyds electronic banking client details verification page darer lloyds customer , security and confidentiality are9s at the heart of the lloyds group",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "[scenario] 冒充 Lloyds 强制客户信息确认; 标题标签+问候"
+  },
+  {
+   "email_id": 6004,
+   "sentence_idx": 1,
+   "sentence_text": "your details \\ ( and your5 money \\ ) is protectedj4 by a number of technologies , t2 including secure sockets layer9rp \\ ( ssl \\ ) encryption",
+   "label": "N",
+   "confidence": "high",
+   "reason": "安全技术陈述"
+  },
+  {
+   "email_id": 6004,
+   "sentence_idx": 2,
+   "sentence_text": "we would like to notify you that lloyds bank carries outro customer details confirmation procedure that is compulsory for all our customers x this procedure isis attributed to a routine banking software update",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "强制确认程序 pretext §5.9"
+  },
+  {
+   "email_id": 6004,
+   "sentence_idx": 3,
+   "sentence_text": "please visit our client confirmation form using them link below and followk9 the instructions on the screen",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "访问确认表单并点链接，索取/引导 §1.3/§1.4"
+  },
+  {
+   "email_id": 6004,
+   "sentence_idx": 4,
+   "sentence_text": "http online0 lloydstsb co uk customer ibc \\ ? id 32khstfcrnzcrdwcjjtlctoldbhrokhovp lloyds bank customer service",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "仿冒域名链接，欺骗性引导 §1.4"
+  },
+  {
+   "email_id": 6023,
+   "sentence_idx": 0,
+   "sentence_text": "important review on your account we received a request to reset the password associated with this e mail address of your amazon account",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 冒充 Amazon 密码重置诱导点击; pretext §5.9"
+  },
+  {
+   "email_id": 6023,
+   "sentence_idx": 1,
+   "sentence_text": "if you did not request to have your password reset you can safely click the link below to protect your account",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "未请求仍点击链接保护账户，欺骗性引导 §1.4"
+  },
+  {
+   "email_id": 6023,
+   "sentence_idx": 2,
+   "sentence_text": "https www amazon com ap securepassword \\ ? ie utf8 arb33 fe8e 2068 4146 8355 c7076e6ee053 note if receive mail in your spam or junk folder please move to inbox before you verify your identity copyright 2016 this email has been sent for",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "保护账户所指链接，欺骗性引导 §1.4"
+  },
+  {
+   "email_id": 6043,
+   "sentence_idx": 0,
+   "sentence_text": "renew now your online banking and bill payment !",
+   "label": "Y",
+   "confidence": "low",
+   "reason": "[scenario] 冒充银行要求续约网银; 标题直陈续约索取 §5.1"
+  },
+  {
+   "email_id": 6043,
+   "sentence_idx": 1,
+   "sentence_text": "renew your online banking and bill payment services",
+   "label": "Y",
+   "confidence": "low",
+   "reason": "索取续约服务 §1.3"
+  },
+  {
+   "email_id": 6108,
+   "sentence_idx": 0,
+   "sentence_text": "regarding your online banking dear valued client , the personal details ' section of your online banking account contains incomplete information that do not match that on our records",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 冒充 Halifax 信息不符诱导更新; pretext §5.9"
+  },
+  {
+   "email_id": 6108,
+   "sentence_idx": 1,
+   "sentence_text": "please follow the link below to update your account sign in 2010 halifax bank plc",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "点击下方链接更新账户，索取/引导 §1.3/§1.4"
+  },
+  {
+   "email_id": 6116,
+   "sentence_idx": 0,
+   "sentence_text": "avast security alert warning ! ! !",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 冒充 Avast 病毒恐吓诱导扫描; 标题品牌警示 §5.1"
+  },
+  {
+   "email_id": 6116,
+   "sentence_idx": 1,
+   "sentence_text": "dear jose monkey org your mailbox has been been infected with a deadly virus",
+   "label": "N",
+   "confidence": "high",
+   "reason": "邮箱中毒 pretext §5.9"
+  },
+  {
+   "email_id": 6116,
+   "sentence_idx": 2,
+   "sentence_text": "this can cause total email shutdown or data loss",
+   "label": "N",
+   "confidence": "high",
+   "reason": "后果描述泛化恐吓 §5.12b"
+  },
+  {
+   "email_id": 6116,
+   "sentence_idx": 3,
+   "sentence_text": "to stay secured , you must run an email scan now , else your mailbox will crash soon",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "必须扫描否则邮箱崩溃，绑定施压 §5.12a"
+  },
+  {
+   "email_id": 6116,
+   "sentence_idx": 4,
+   "sentence_text": "scan mailbox now safe mail this email has been checked for viruses by avast antivirus software",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "扫描邮箱按钮，诱导操作 §1.4"
+  },
+  {
+   "email_id": 6116,
+   "sentence_idx": 5,
+   "sentence_text": "http jmagalhaes com cache mod avast coded index php \\ ? email jose monkey org www avast com",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "仿冒 Avast 链接，欺骗性引导 §1.4/§5.5"
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 0,
+   "sentence_text": "greetings",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 自称利比里亚前部长之子找合伙人移资; 问候"
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 1,
+   "sentence_text": "dear friend",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 2,
+   "sentence_text": "greetings , with warm heart i offer my friendship and i hope this mail meets you in good time , however strange or surprising this contact might seem to you as we have not met personally or had any dealings in the past , i humbly ask that you take",
+   "label": "N",
+   "confidence": "high",
+   "reason": "开场白 §5.4"
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 3,
+   "sentence_text": "i duly apologize for infringing on your privacy , if this contact is not acceptable to you , for i make this proposal to you as a person of integrity",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 4,
+   "sentence_text": "first and foremost i wish to introduce myself properly to you",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 5,
+   "sentence_text": "i am mr patrick f massaquoi the son of late formal liberia sport minister mr francois massasoit , who was killed while in office in 2001",
+   "label": "N",
+   "confidence": "high",
+   "reason": "自我介绍身份声称 §5.9"
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 6,
+   "sentence_text": "after the death of my father , the charles taylor control government have been providing my family with security , but recently the united nations and the united states government asked the liberia head of state \\ ( charles taylor \\ ) and members of his cabinet to go on",
+   "label": "N",
+   "confidence": "high",
+   "reason": "背景叙述 §5.4"
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 7,
+   "sentence_text": "during the tenure of late francois massasoit , \\ ( my father \\ ) he enriched and accumulated a lot of money while in office but unfortunately for him , he did not leave long to enjoy this wealth",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 8,
+   "sentence_text": "these funds that were lodged in banks accounts in our country has been frozen",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 9,
+   "sentence_text": "however , my family is not too comfortable with our present government as my late father was a very close aide of charles taylor , and on this backdrop the new government might decide to recall the frozen money back to the government purse , with exception to the us",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 10,
+   "sentence_text": "but due to the sanction place on my family by the international community i can not reach this money myself or withdraw it back to liberia for use",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 11,
+   "sentence_text": "we have jointly decided within the family to relocate this funds outside liberia for investment purpose",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 12,
+   "sentence_text": "this is the only way and means we can utilize this money , consequently , we beg for your assistance in investing this money on real estate and any other viable venture you might suggest",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "求助投资资金，索取协助 §1.3"
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 13,
+   "sentence_text": "i got your contact through the internet during my search for a partner and i hope you will not disappoint us in this our time of need",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 14,
+   "sentence_text": "we have also agreed to reward you with 25 of the total amount as your share in this transaction after you might have claim this funds from the security firm",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "承诺25%分成，交易诱饵 §1.1§5.11"
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 15,
+   "sentence_text": "finally , i require the following information to facilitate the documentation that will affect the change of ownership with the finance firm",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "要求下列信息，索取 §1.3"
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 16,
+   "sentence_text": "\\ ( a \\ ) your complete names",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "索取完整姓名 §1.3"
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 17,
+   "sentence_text": "\\ ( b \\ ) your mailing address and nationality , your telephone fax numbers",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "索取地址国籍电话 §1.3"
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 18,
+   "sentence_text": "again , all arrangement and logistics of this transaction are in place , and we shall remain grateful if you can assist us in this our time of need",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 19,
+   "sentence_text": "please contact me whether you are interested in assisting us",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "要求联系表达意向，索取 §1.3"
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 20,
+   "sentence_text": "this will enable me scout for another partner in the event of non interest on your part",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 21,
+   "sentence_text": "thanking you in anticipations of your kindness while looking forward to hearing from you soon",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 22,
+   "sentence_text": "best regards , mr patrick massasoit",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6154,
+   "sentence_idx": 23,
+   "sentence_text": "confidential e mail pm1234 katamail com",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6157,
+   "sentence_idx": 0,
+   "sentence_text": "angelina jolie invited you to join facebook facebookfacebookhi , the following person invited you to be their friend on facebook angelina jolieinvite sent sat , 12 jun 2010 17 26 03 0300 facebook is a great place to keep in touch with friends , post photos , videos and create",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] Facebook 好友邀请，仅注册邀请无钓鱼核心 §5.12c"
+  },
+  {
+   "email_id": 6157,
+   "sentence_idx": 1,
+   "sentence_text": "but first you need to join !",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6157,
+   "sentence_idx": 2,
+   "sentence_text": "sign up today to create a profile and connect with the people you know",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6157,
+   "sentence_idx": 3,
+   "sentence_text": "thanks , the facebook team already have an account \\ ?",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6157,
+   "sentence_idx": 4,
+   "sentence_text": "add this email address to your account here",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6157,
+   "sentence_idx": 5,
+   "sentence_text": "facebook is free and anyone can join",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6157,
+   "sentence_idx": 6,
+   "sentence_text": "sign unto sign up for facebook , follow the link below http www facebook com r php \\ ? 2300340699927668163311575711665521785764this message was intended for richard clayton highwayman com",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "facebook.com 官方注册链接 §5.5"
+  },
+  {
+   "email_id": 6157,
+   "sentence_idx": 7,
+   "sentence_text": "if you do not wish to receive this type of email from facebook in the future , please click here to unsubscribe",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6157,
+   "sentence_idx": 8,
+   "sentence_text": "facebook 's offices are located at 1601 s california ave , palo alto , ca 94304",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6178,
+   "sentence_idx": 0,
+   "sentence_text": "angelina jolie invited you to join facebook facebookfacebookhi , the following person invited you to be their friend on facebook angelina jolieinvite sent sun , 13 jun 2010 00 19 09 0300 facebook is a great place to keep in touch with friends , post photos , videos and create",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] Facebook 好友邀请，仅注册邀请无钓鱼核心 §5.12c"
+  },
+  {
+   "email_id": 6178,
+   "sentence_idx": 1,
+   "sentence_text": "but first you need to join !",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6178,
+   "sentence_idx": 2,
+   "sentence_text": "sign up today to create a profile and connect with the people you know",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6178,
+   "sentence_idx": 3,
+   "sentence_text": "thanks , the facebook team already have an account \\ ?",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6178,
+   "sentence_idx": 4,
+   "sentence_text": "add this email address to your account here",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6178,
+   "sentence_idx": 5,
+   "sentence_text": "facebook is free and anyone can join",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6178,
+   "sentence_idx": 6,
+   "sentence_text": "sign unto sign up for facebook , follow the link below http www facebook com r php \\ ? 1753421122978062947252265071162115219429this message was intended for joker highwayman com",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "facebook.com 官方注册链接 §5.5"
+  },
+  {
+   "email_id": 6178,
+   "sentence_idx": 7,
+   "sentence_text": "if you do not wish to receive this type of email from facebook in the future , please click here to unsubscribe",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6178,
+   "sentence_idx": 8,
+   "sentence_text": "facebook 's offices are located at 1601 s california ave , palo alto , ca 94304",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6193,
+   "sentence_idx": 0,
+   "sentence_text": "lloyds on line banking informs you ref 360 lloyds bank online banking client details confirmation procedure daring lloyds bank customer , security and confidentiality ark at the heart of the lloyds group",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "[scenario] 冒充 Lloyds 强制客户确认; 标题标签+问候"
+  },
+  {
+   "email_id": 6193,
+   "sentence_idx": 1,
+   "sentence_text": "yuriy details \\ ( and your soe money \\ ) is protected by a number of technologies , r6e including secure sockets layer \\ ( ssl \\ ) encryption",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6193,
+   "sentence_idx": 2,
+   "sentence_text": "we would like to notify you that lloyds bank carries out9 customer details confirmation procedure that is compulsory for all our customers 1h this procedure is1a attributed to a routine99 banking software update",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "强制确认程序 pretext §5.9"
+  },
+  {
+   "email_id": 6193,
+   "sentence_idx": 3,
+   "sentence_text": "please visit our customer confirmation page using thema1 link below and follows the instructions on the screen",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "访问确认页并点链接，索取/引导 §1.3/§1.4"
+  },
+  {
+   "email_id": 6193,
+   "sentence_idx": 4,
+   "sentence_text": "http online4 lloydstsb co uk customer ibc \\ ? siteid 29becscrncdwcjjtlctoldbhrokhovp lloyds bank customer service",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "仿冒域名链接，欺骗性引导 §1.4"
+  },
+  {
+   "email_id": 6195,
+   "sentence_idx": 0,
+   "sentence_text": "tax return notification tax return notification dear taxpayer , i am sending this e mail to announce you after the last annual calculation of your fiscal activity we have determined the are eligible to receive a tax refund of 247 29 gbp in order for us to return the excess",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "[scenario] 冒充税务机关退税£247诱导领取; 退税额诱饵 §1.2"
+  },
+  {
+   "email_id": 6195,
+   "sentence_idx": 1,
+   "sentence_text": "please click quot get started quot below to claimed your refund get started copy crown copyright",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "点击领取退税，诱导索取 §1.4/§1.3"
+  },
+  {
+   "email_id": 6227,
+   "sentence_idx": 0,
+   "sentence_text": "security message notification !",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 安全消息通知标题，无内容"
+  },
+  {
+   "email_id": 6227,
+   "sentence_idx": 1,
+   "sentence_text": "!",
+   "label": "N",
+   "confidence": "low",
+   "reason": "仅感叹号无内容"
+  },
+  {
+   "email_id": 6248,
+   "sentence_idx": 0,
+   "sentence_text": "angelina jolie invited you to join facebook facebookfacebookhi , the following person invited you to be their friend on facebook angelina jolieinvite sent sat , 12 jun 2010 09 56 49 0300 facebook is a great place to keep in touch with friends , post photos , videos and create",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] Facebook 好友邀请，仅注册邀请无钓鱼核心 §5.12c"
+  },
+  {
+   "email_id": 6248,
+   "sentence_idx": 1,
+   "sentence_text": "but first you need to join !",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6248,
+   "sentence_idx": 2,
+   "sentence_text": "sign up today to create a profile and connect with the people you know",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6248,
+   "sentence_idx": 3,
+   "sentence_text": "thanks , the facebook team already have an account \\ ?",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6248,
+   "sentence_idx": 4,
+   "sentence_text": "add this email address to your account here",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6248,
+   "sentence_idx": 5,
+   "sentence_text": "facebook is free and anyone can join",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6248,
+   "sentence_idx": 6,
+   "sentence_text": "sign unto sign up for facebook , follow the link below http www facebook com r php \\ ? 3236778131822462695048016148372375836604this message was intended for postmaster highwayman com",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "facebook.com 官方注册链接 §5.5"
+  },
+  {
+   "email_id": 6248,
+   "sentence_idx": 7,
+   "sentence_text": "if you do not wish to receive this type of email from facebook in the future , please click here to unsubscribe",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6248,
+   "sentence_idx": 8,
+   "sentence_text": "facebook 's offices are located at 1601 s california ave , palo alto , ca 94304",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6276,
+   "sentence_idx": 0,
+   "sentence_text": "please verify and update your amazon account !",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "[scenario] 冒充 Amazon 要求验证更新; 标题索取验证更新 §5.1/§1.3"
+  },
+  {
+   "email_id": 6276,
+   "sentence_idx": 1,
+   "sentence_text": "it has come to our attention that your amazon account information records are out of date",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext 信息过期 §5.9"
+  },
+  {
+   "email_id": 6341,
+   "sentence_idx": 0,
+   "sentence_text": "lloyds internet banking important e mail ref 336 lloyds on line banking client details verification form dear lloyds tsb bank client , security and confidentiality are at the heart of the lloyds bank",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "[scenario] 冒充 Lloyds 客户信息验证; 标题标签+问候"
+  },
+  {
+   "email_id": 6341,
+   "sentence_idx": 1,
+   "sentence_text": "your details \\ ( and your money \\ ) is protected by a number of technologies , including secure sockets layer \\ ( ssl \\ ) encryption",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6341,
+   "sentence_idx": 2,
+   "sentence_text": "we would like to inform you that lloyds carries out customer details confirmation procedure that is compulsory for all our customers",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "强制确认程序 pretext §5.9"
+  },
+  {
+   "email_id": 6341,
+   "sentence_idx": 3,
+   "sentence_text": "this procedure is attributed to a routine banking software update",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6341,
+   "sentence_idx": 4,
+   "sentence_text": "please visit our client confirmation page using the link below and follow the instructions on the screen",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "访问确认页并点链接，索取/引导 §1.3/§1.4"
+  },
+  {
+   "email_id": 6341,
+   "sentence_idx": 5,
+   "sentence_text": "http ww1 lloydstsb co uk confirmation customer ibc \\ ? check 29kdkwcsyddwcjjtlctoldbhrokhovp lloyds customer service",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "仿冒域名链接，欺骗性引导 §1.4"
+  },
+  {
+   "email_id": 6410,
+   "sentence_idx": 0,
+   "sentence_text": "account has become inactive !",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "[scenario] 冒充机构声称账户失效; 账户停用欺骗前提 §5.12"
+  },
+  {
+   "email_id": 6410,
+   "sentence_idx": 1,
+   "sentence_text": "mime version 1 0 content type text plain char set windows 1251 content transfer encoding 7bit x priority 3 x msmail priority normal x mailer microsoft outlook express 6 00 2600 0000 x mimeole produced by microsoft micelle v6 00 2600 0000 message id vector3d1eszrcitgsp00000a6a vector3 setco net x originalarrivaltime",
+   "label": "N",
+   "confidence": "high",
+   "reason": "邮件头元数据"
+  },
+  {
+   "email_id": 6452,
+   "sentence_idx": 0,
+   "sentence_text": "urgent assistance needed !",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "[scenario] 自称银行总监寻人协助取出$42.5M无主款; 标题仅求助"
+  },
+  {
+   "email_id": 6452,
+   "sentence_idx": 1,
+   "sentence_text": "afex bank of africamohammed hello \\ ( ph d \\ ) director coordinator forex computer operations departmental fax 234 9 2726223sir , accept my apologies for writing to you in this mode for it might be of inconvenience to you but due to my quest for an honest and reliable",
+   "label": "N",
+   "confidence": "high",
+   "reason": "自我介绍 §5.9"
+  },
+  {
+   "email_id": 6452,
+   "sentence_idx": 2,
+   "sentence_text": "i need the effectiveness of your professionalism in accomplishing this very business",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "需要专业能力，未具体索取"
+  },
+  {
+   "email_id": 6452,
+   "sentence_idx": 3,
+   "sentence_text": "i am dr mohammed hello director coordinator forex and computer operations department of the afex bank of africa plc",
+   "label": "N",
+   "confidence": "high",
+   "reason": "自我介绍 §5.9"
+  },
+  {
+   "email_id": 6452,
+   "sentence_idx": 4,
+   "sentence_text": "i am writing this letter to ask your support and cooperation to carry out this business opportunity in my department",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "请支持合作开展业务，索取 §1.3"
+  },
+  {
+   "email_id": 6452,
+   "sentence_idx": 5,
+   "sentence_text": "we discovered an abandoned sum of 42 500 , 000 00 \\ ( forty two million , five hundred thousand united states dollars \\ ) in an account that belongs to one of our customer in afex bank of nigeria , late monsieur",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "$42.5M 无主巨款金额诱饵 §5.11"
+  },
+  {
+   "email_id": 6452,
+   "sentence_idx": 6,
+   "sentence_text": "ives laurent \\ ( a french citizen and an engineer executing major federal contract with governments of west african subregion \\ )",
+   "label": "N",
+   "confidence": "high",
+   "reason": "背景叙述 §5.4"
+  },
+  {
+   "email_id": 6452,
+   "sentence_idx": 7,
+   "sentence_text": "he died with a fellow business associate in a ghastly auto crash last october and his remains have since been incarcerated",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6452,
+   "sentence_idx": 8,
+   "sentence_text": "since his death , we have been expecting his next of kin to come over and put claims as the next of kin and beneficiary to the resources in monsieur",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6452,
+   "sentence_idx": 9,
+   "sentence_text": "ives laurent account , for it is against the ethics and norms of the finance institution to claim such resources without a beneficiary unless proclaimed by the government",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6452,
+   "sentence_idx": 10,
+   "sentence_text": "the federal government of nigeria has given directives to finance institutions to declare adamant accounts that have stayed more than 8months in their custody as they intend to use it to pay off her military peace keeping force \\ ( ecology \\ ) who fought in war ravaged african countries",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6452,
+   "sentence_idx": 11,
+   "sentence_text": "ives laurent account fell into this category thus the necessity for contacting you for i am determined to move this fund out as the rigorous and rash economic decision and policies has really turned we government workers to mere civil laborers",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6452,
+   "sentence_idx": 12,
+   "sentence_text": "i have worked for almost a decade and half and i have nothing to show as reaps and rewards of my hard earned labor",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6452,
+   "sentence_idx": 13,
+   "sentence_text": "as i need a next of kin beneficiary and financial assistance to re claim these resources for i can not take on this project alone",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "需 next of kin 与资金协助，索取 §1.3"
+  },
+  {
+   "email_id": 6452,
+   "sentence_idx": 14,
+   "sentence_text": "my attorney and i have proposed a commission of 25 out of the total resources for your kind assistance and five 5 has been mapped out to be reimbursed to both parties as sundry expenses incurred in the course of this business",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "25%佣金分成诱饵 §1.1§5.11"
+  },
+  {
+   "email_id": 6452,
+   "sentence_idx": 15,
+   "sentence_text": "to commence this transaction , i require you to immediately indicate your interest in a return correspondence to this fax number 234 9 2726223 and enclose your private contact telephone number , fax number , full name address , and your designated bank coordinates to enable us file a letter",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "索取电话地址银行资料 §1.3"
+  },
+  {
+   "email_id": 6452,
+   "sentence_idx": 16,
+   "sentence_text": "note also that this business must be kept strictly confidential because of its nature and can be finalized within a short time depending on the level of your commitment swiftness",
+   "label": "N",
+   "confidence": "high",
+   "reason": "保密催促 §5.12b"
+  },
+  {
+   "email_id": 6452,
+   "sentence_idx": 17,
+   "sentence_text": "i look forward to receiving your prompt response",
+   "label": "N",
+   "confidence": "high",
+   "reason": "催促回复 §5.12b"
+  },
+  {
+   "email_id": 6452,
+   "sentence_idx": 18,
+   "sentence_text": "best regards , mohammed hello \\ ( ph d \\ )",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6490,
+   "sentence_idx": 0,
+   "sentence_text": "angelina jolie invited you to join facebook facebookfacebookhi , the following person invited you to be their friend on facebook angelina jolieinvite sent sat , 12 jun 2010 09 43 59 0200 facebook is a great place to keep in touch with friends , post photos , videos and create",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] Facebook 好友邀请，仅注册邀请无钓鱼核心 §5.12c"
+  },
+  {
+   "email_id": 6490,
+   "sentence_idx": 1,
+   "sentence_text": "but first you need to join !",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6490,
+   "sentence_idx": 2,
+   "sentence_text": "sign up today to create a profile and connect with the people you know",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6490,
+   "sentence_idx": 3,
+   "sentence_text": "thanks , the facebook team already have an account \\ ?",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6490,
+   "sentence_idx": 4,
+   "sentence_text": "add this email address to your account here",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6490,
+   "sentence_idx": 5,
+   "sentence_text": "facebook is free and anyone can join",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6490,
+   "sentence_idx": 6,
+   "sentence_text": "sign unto sign up for facebook , follow the link below http www facebook com r php \\ ? 4106867262884574761064735068523904533152this message was intended for nanae030929 highwayman com",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "facebook.com 官方注册链接 §5.5"
+  },
+  {
+   "email_id": 6490,
+   "sentence_idx": 7,
+   "sentence_text": "if you do not wish to receive this type of email from facebook in the future , please click here to unsubscribe",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6490,
+   "sentence_idx": 8,
+   "sentence_text": "facebook 's offices are located at 1601 s california ave , palo alto , ca 94304",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6513,
+   "sentence_idx": 0,
+   "sentence_text": "mt bank client service team notification !",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 冒充 M&T 客服要求填表; 标题"
+  },
+  {
+   "email_id": 6513,
+   "sentence_idx": 1,
+   "sentence_text": "\\ ( mess id yo845563869y \\ ) manufacturers and traders client service team requests you to complete webinfocu form",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "要求完成 webinfocu 表单，索取填表 §1.3"
+  },
+  {
+   "email_id": 6543,
+   "sentence_idx": 0,
+   "sentence_text": "angelina jolie invited you to join facebook facebookfacebookhi , the following person invited you to be their friend on facebook angelina jolieinvite sent sat , 12 jun 2010 13 19 49 0530 facebook is a great place to keep in touch with friends , post photos , videos and create",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] Facebook 好友邀请，仅注册邀请无钓鱼核心 §5.12c"
+  },
+  {
+   "email_id": 6543,
+   "sentence_idx": 1,
+   "sentence_text": "but first you need to join !",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6543,
+   "sentence_idx": 2,
+   "sentence_text": "sign up today to create a profile and connect with the people you know",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6543,
+   "sentence_idx": 3,
+   "sentence_text": "thanks , the facebook team already have an account \\ ?",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6543,
+   "sentence_idx": 4,
+   "sentence_text": "add this email address to your account here",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6543,
+   "sentence_idx": 5,
+   "sentence_text": "facebook is free and anyone can join",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6543,
+   "sentence_idx": 6,
+   "sentence_text": "sign unto sign up for facebook , follow the link below http www facebook com r php \\ ? 5075790637504894386138916752954646556203this message was intended for richard clayton highwayman com",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "facebook.com 官方注册链接 §5.5"
+  },
+  {
+   "email_id": 6543,
+   "sentence_idx": 7,
+   "sentence_text": "if you do not wish to receive this type of email from facebook in the future , please click here to unsubscribe",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6543,
+   "sentence_idx": 8,
+   "sentence_text": "facebook 's offices are located at 1601 s california ave , palo alto , ca 94304",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6574,
+   "sentence_idx": 0,
+   "sentence_text": "extracted not able to show full e mail message",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 提取失败系统提示，仅点击这里+错误码，截断无索取"
+  },
+  {
+   "email_id": 6574,
+   "sentence_idx": 1,
+   "sentence_text": "you will view it by hitting here cornell error message de10048 \\ ( wed jul 13 9 12 36 2016 \\ )",
+   "label": "N",
+   "confidence": "low",
+   "reason": "点击这里查看，无欺骗目标，截断"
+  },
+  {
+   "email_id": 6596,
+   "sentence_idx": 0,
+   "sentence_text": "official mail to all lloyds tsb bank internet banking clients lloyds electronic banking client details verification page drew lloyds customer , security and confidentiality aremh1 at the heart of the lloyds bank",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "[scenario] 冒充 Lloyds 客户信息验证; 标题标签+问候"
+  },
+  {
+   "email_id": 6596,
+   "sentence_idx": 1,
+   "sentence_text": "your details \\ ( and your0yi money \\ ) is protectedj9z by a number of technologies , 7 including secure sockets layer \\ ( ssl \\ ) encryption",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6596,
+   "sentence_idx": 2,
+   "sentence_text": "we would like to notify you that lloyds bank carries out client details verification procedure that is compulsory for all our customers il this procedure is7 attributed to a routine banking software update",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "强制验证程序 pretext §5.9"
+  },
+  {
+   "email_id": 6596,
+   "sentence_idx": 3,
+   "sentence_text": "please visit our client verification page using thev4g link below and follows the instructions on the screen",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "访问验证页并点链接，索取/引导 §1.3/§1.4"
+  },
+  {
+   "email_id": 6596,
+   "sentence_idx": 4,
+   "sentence_text": "http online business6 lloydstsb co uk customer ibc \\ ? tag 31cveezahcnedwcjjtlctoldbhrokhovp lloyds customer service",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "仿冒域名链接，欺骗性引导 §1.4"
+  }
+ ]
+}

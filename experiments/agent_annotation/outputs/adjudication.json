@@ -1,0 +1,14 @@
+{
+  "annotator": "agent_adjudicator",
+  "n_items": 1,
+  "annotations": [
+    {
+      "email_id": 6214,
+      "sentence_idx": 4,
+      "sentence_text": "alternatively , you can type or paste t",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4 deceptive guidance; 判例5/10 v1.3: type/paste is manual route to phishing verification link (idx3); truncation does not obscure intent"
+    }
+  ]
+}

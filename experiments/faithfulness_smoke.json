@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "ks": [
+      1,
+      3,
+      5
+    ],
+    "device": "cpu",
+    "protocol": "ERASER-style perturbation; logit space; top-k by selection weight; masked weights renormalized; scope = correctly classified phishing emails; random-k control R=5, seed=0",
+    "rules_ref_model": "ABMIL (multi_seed seed=123)"
+  },
+  "models": {
+    "Snorkel": {
+      "runs": [
+        {
+          "n_phishing": 4000,
+          "n_correct": 0,
+          "n_short_excluded": 660,
+          "n_no_selection": 0,
+          "per_k": {
+            "1": {
+              "comp_logit_all": 0.6555468531782755,
+              "comp_logit_correct": null,
+              "comp_prob_correct": null,
+              "suff_drop_logit_correct": null,
+              "suff_keep_prob_correct": null,
+              "rand_comp_logit_correct": null,
+              "comp_advantage_correct": null,
+              "n_n_comp": 3340,
+              "n_n_comp_concentrated": 0,
+              "n_n_suff": 3340,
+              "n_n_rand": 3340
+            },
+            "3": {
+              "comp_logit_all": 1.2875593364760591,
+              "comp_logit_correct": null,
+              "comp_prob_correct": null,
+              "suff_drop_logit_correct": null,
+              "suff_keep_prob_correct": null,
+              "rand_comp_logit_correct": null,
+              "comp_advantage_correct": null,
+              "n_n_comp": 2627,
+              "n_n_comp_concentrated": 0,
+              "n_n_suff": 3340,
+              "n_n_rand": 2627
+            },
+            "5": {
+              "comp_logit_all": 1.4084281081289758,
+              "comp_logit_correct": null,
+              "comp_prob_correct": null,
+              "suff_drop_logit_correct": null,
+              "suff_keep_prob_correct": null,
+              "rand_comp_logit_correct": null,
+              "comp_advantage_correct": null,
+              "n_n_comp": 1524,
+              "n_n_comp_concentrated": 0,
+              "n_n_suff": 3340,
+              "n_n_rand": 1524
+            }
+          }
+        }
+      ]
+    },
+    "Rules-only (ref: ABMIL)": {
+      "runs": [
+        {
+          "n_phishing": 4000,
+          "n_correct": 0,
+          "n_short_excluded": 656,
+          "n_no_selection": 2,
+          "per_k": {
+            "1": {
+              "comp_logit_all": 3.491869182090966,
+              "comp_logit_correct": 3.5493703321795262,
+              "comp_prob_correct": 0.02681555570997295,
+              "suff_drop_logit_correct": -0.6478515023222684,
+              "suff_keep_prob_correct": 0.9634507297505722,
+              "rand_comp_logit_correct": 2.4550049823146987,
+              "comp_advantage_correct": 1.0943653498648276,
+              "n_n_comp": 3322,
+              "n_n_comp_concentrated": 20,
+              "n_n_suff": 3342,
+              "n_n_rand": 3342
+            },
+            "3": {
+              "comp_logit_all": 4.769221737947697,
+              "comp_logit_correct": 4.8233434345573185,
+              "comp_prob_correct": 0.07190435494826433,
+              "suff_drop_logit_correct": 1.4362914944584528,
+              "suff_keep_prob_correct": 0.9855886046123541,
+              "rand_comp_logit_correct": 2.861564602633901,
+              "comp_advantage_correct": 1.9617788319234175,
+              "n_n_comp": 2585,
+              "n_n_comp_concentrated": 47,
+              "n_n_suff": 3342,
+              "n_n_rand": 2632
+            },
+            "5": {
+              "comp_logit_all": 5.3166083674931635,
+              "comp_logit_correct": 5.379906493449842,
+              "comp_prob_correct": 0.16027786518158274,
+              "suff_drop_logit_correct": 2.0868798275318587,
+              "suff_keep_prob_correct": 0.9890411214736523,
+              "rand_comp_logit_correct": 2.969474238318415,
+              "comp_advantage_correct": 2.410432255131427,
+              "n_n_comp": 1386,
+              "n_n_comp_concentrated": 148,
+              "n_n_suff": 3342,
+              "n_n_rand": 1534
+            }
+          },
+          "rule_coverage": 0.9994019138755981
+        }
+      ]
+    }
+  }
+}

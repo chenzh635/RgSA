@@ -1,0 +1,24 @@
+{
+  "spearman_all_categories": 0.7604599337689405,
+  "spearman_train_categories": 0.774142439416788,
+  "spearman_heldout_categories": 0.6060788617556517,
+  "train_categories": [
+    "scarcity",
+    "consistency",
+    "reciprocity",
+    "authority",
+    "socialproof"
+  ],
+  "heldout_categories": [
+    "liking",
+    "security"
+  ],
+  "standard_metrics": {
+    "email_auprc": 0.997792666968054,
+    "email_f1": 0.9796985926018185,
+    "spearman_corr": 0.7604599337689405,
+    "attention_entropy": 0.47794168503394496
+  },
+  "retrained": true,
+  "seed": 42
+}

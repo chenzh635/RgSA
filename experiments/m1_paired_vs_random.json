@@ -1,0 +1,14 @@
+{
+  "note": "paired per-email bootstrap (n=202 strict GT), AI2TALE-faithful vs Random; CI excludes zero => detectable",
+  "p@1": {
+    "seed123": {"mean": 0.005, "ci": [-0.074, 0.094], "detectable": false},
+    "seed456": {"mean": -0.045, "ci": [-0.129, 0.045], "detectable": false},
+    "seed789": {"mean": -0.059, "ci": [-0.144, 0.035], "detectable": false}
+  },
+  "r@3": {
+    "seed123": {"mean": 0.094, "ci": [0.046, 0.139], "detectable": true},
+    "seed456": {"mean": 0.071, "ci": [0.019, 0.120], "detectable": true},
+    "seed789": {"mean": 0.078, "ci": [0.027, 0.129], "detectable": true}
+  },
+  "implication": "Old claim 'AI2TALE below Random on P@1 (anti-correlated)' must be removed: P@1 shows no detectable difference vs Random. AI2TALE R@3 is above Random. Localization gap vs our model is computed against the final val-protocol sparse models."
+}

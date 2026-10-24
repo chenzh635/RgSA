@@ -1,0 +1,1080 @@
+{
+  "annotator": "agent_pass_c",
+  "batch": "production_chunk_6",
+  "exported_at": "2026-09-14T14:26:50Z",
+  "n_emails": 25,
+  "annotations": [
+    {
+      "email_id": 4885,
+      "sentence_idx": 0,
+      "sentence_text": "online funds transfer to your account",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] 自称 HSBC 网银，称有人向你转账但因账户验证困难未到账，诱导点击链接查看交易; 标题仅陈述转账话题，未展开提议/索取/威胁（判例1）"
+    },
+    {
+      "email_id": 4885,
+      "sentence_idx": 1,
+      "sentence_text": "payment can not reflect due to difficulties in verifying your account information",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "付款失败与验证账户信息绑定同句，§1.3 索取（判例9但书，v1.3 原文示例）"
+    },
+    {
+      "email_id": 4885,
+      "sentence_idx": 2,
+      "sentence_text": "robert guido transferred funds to your account online",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "纯 pretext 转账声称，无金额、句内无索取（判例9/11）"
+    },
+    {
+      "email_id": 4885,
+      "sentence_idx": 3,
+      "sentence_text": "transaction details is shown below",
+      "label": "N",
+      "confidence": "high",
+      "reason": "过渡句，展示细节，非核心行为"
+    },
+    {
+      "email_id": 4885,
+      "sentence_idx": 4,
+      "sentence_text": "date and time 28 02 2010 at 8 am description payment amount 4000 00 please click on the link below , to view this transaction and your current balance http www hsbc co uk 1 2 hsbcintegration cam10 jsessio nid best regards , the internet banking team at hsbc",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4 click on the link + 假冒 HSBC URL 即引导目标；含金额 4000（§1.2；判例5 v1.3）"
+    },
+    {
+      "email_id": 4885,
+      "sentence_idx": 5,
+      "sentence_text": "\\ ( 0",
+      "label": "?",
+      "confidence": "low",
+      "reason": "garbled，无法解读（§3）"
+    },
+    {
+      "email_id": 6413,
+      "sentence_idx": 0,
+      "sentence_text": "new functionality on embanking new page 2 welcome to bmo online banking new functionality on neobank bank of montreal now presents exciting new features and functions to improve your online banking experience",
+      "label": "N",
+      "confidence": "high",
+      "reason": "[scenario] 自称 BMO 银行，宣布网银新功能，诱导点击访问新网站（实为网银登录入口）; 公告式前言，无索取（判例9）"
+    },
+    {
+      "email_id": 6413,
+      "sentence_idx": 1,
+      "sentence_text": "to access the new website now , simply click on https www1 bmo com cgi bin netbnx nbmain \\ ? product 1",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "§1.4 click on https… 引导至网银登录入口 URL，URL 为引导目标（判例5 v1.3）"
+    },
+    {
+      "email_id": 6413,
+      "sentence_idx": 2,
+      "sentence_text": "please note for assistance with navigation or additional information on the website , please refer to the demo link and user guide in the menu on the",
+      "label": "N",
+      "confidence": "high",
+      "reason": "合法导航帮助说明（demo/user guide），无欺骗目标（判例10）"
+    },
+    {
+      "email_id": 6855,
+      "sentence_idx": 0,
+      "sentence_text": "angelina jolie invited you to join facebook facebookfacebookhi , the following person invited you to be their friend on facebook angelina jolieinvite sent sat , 12 jun 2010 23 51 20 0900 facebook is a great place to keep in touch with friends , post photos , videos and create",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "[scenario] 假冒 Facebook 邀请通知，以名人 Angelina Jolie 好友邀请为饵诱导注册/点击; §1.2 难以置信的诱饵（名人邀请，收件人为 postmaster）"
+    },
+    {
+      "email_id": 6855,
+      "sentence_idx": 1,
+      "sentence_text": "but first you need to join !",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "泛化催促加入，未绑定具体索取（判例12b）"
+    },
+    {
+      "email_id": 6855,
+      "sentence_idx": 2,
+      "sentence_text": "sign up today to create a profile and connect with the people you know",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "注册营销话术（判例12c）"
+    },
+    {
+      "email_id": 6855,
+      "sentence_idx": 3,
+      "sentence_text": "thanks , the facebook team already have an account \\ ?",
+      "label": "N",
+      "confidence": "high",
+      "reason": "签名/套话（§2）"
+    },
+    {
+      "email_id": 6855,
+      "sentence_idx": 4,
+      "sentence_text": "add this email address to your account here",
+      "label": "N",
+      "confidence": "low",
+      "reason": "账户操作说明，无可见 URL/欺骗目标（判例10）；边缘"
+    },
+    {
+      "email_id": 6855,
+      "sentence_idx": 5,
+      "sentence_text": "facebook is free and anyone can join",
+      "label": "N",
+      "confidence": "high",
+      "reason": "营销陈述（判例12c）"
+    },
+    {
+      "email_id": 6855,
+      "sentence_idx": 6,
+      "sentence_text": "sign unto sign up for facebook , follow the link below http www facebook com r php \\ ? 6883698756848523950905599324350776398505this message was intended for postmaster highwayman com",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "§1.4 follow the link below http… 注册链接引导，URL 为目标（判例5 v1.3）"
+    },
+    {
+      "email_id": 6855,
+      "sentence_idx": 7,
+      "sentence_text": "if you do not wish to receive this type of email from facebook in the future , please click here to unsubscribe",
+      "label": "N",
+      "confidence": "high",
+      "reason": "退订页脚（§2）"
+    },
+    {
+      "email_id": 6855,
+      "sentence_idx": 8,
+      "sentence_text": "facebook 's offices are located at 1601 s california ave , palo alto , ca 94304",
+      "label": "N",
+      "confidence": "high",
+      "reason": "公司地址页脚（§2）"
+    },
+    {
+      "email_id": 6488,
+      "sentence_idx": 0,
+      "sentence_text": "verify your icloud id apple icloud id frednbut happyday demon co uk this is the final notice to inform you as of 8 march 2016 that you have not yet reviewed your apple id information",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "[scenario] 假冒 Apple，最后通知称未审核 Apple ID，威胁 3 天内删除，诱导登录验证; 标题句直接展开索取 verify your icloud id（判例1 v1.3）"
+    },
+    {
+      "email_id": 6488,
+      "sentence_idx": 1,
+      "sentence_text": "under quot know your customer quot legislation apple inc is required by law to carry out a verification of your information , failure to complete this validation will result in deletion of your apple id within the next three days",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.5 删除账户后果直接绑定不完成验证（判例12a）"
+    },
+    {
+      "email_id": 6488,
+      "sentence_idx": 2,
+      "sentence_text": "please continue to 8594 login to your itunes id to cancel the deletion of your icloud proceed to your apple id information before the deadline",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4 continue to 8594 login…cancel deletion——v1.3 原文示例，假登录引导"
+    },
+    {
+      "email_id": 6488,
+      "sentence_idx": 3,
+      "sentence_text": "case ticket id zx71891z2 regards , apple help inc",
+      "label": "N",
+      "confidence": "high",
+      "reason": "工单号+签名（§2）"
+    },
+    {
+      "email_id": 7456,
+      "sentence_idx": 0,
+      "sentence_text": "account protection",
+      "label": "N",
+      "confidence": "high",
+      "reason": "[scenario] 自称银行网银安全团队开展防欺诈演练（邮件截断，仅见铺垫，无核心行为）; 标题仅话题词，无提议/索取/威胁（判例1）"
+    },
+    {
+      "email_id": 7456,
+      "sentence_idx": 1,
+      "sentence_text": "dear customer , our online banking security team is carrying out a fraud prevention exercise on all accounts to reduce and prevent fraud on our online banking system account protection",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "防欺诈 pretext 陈述，句内无索取（判例9）"
+    },
+    {
+      "email_id": 5995,
+      "sentence_idx": 0,
+      "sentence_text": "you have 4 unread message \\ ( s \\ ) facebookfacebookfacebook sent you a message",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] Facebook 未读消息通知，诱导点击链接读消息; 通知声称，句内无索取（判例9）"
+    },
+    {
+      "email_id": 5995,
+      "sentence_idx": 1,
+      "sentence_text": "facebook subject unread message \\ ( s \\ ) to read this message , follow the link below http www facebook com n \\ ? inbox readmessage php t 116518853342 mid 73971c49f857d1ce55d1e2aaad177eddthis message was intended for you",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "§1.4 follow the link below http… 点击引导+URL 目标（判例5 v1.3）；域名貌似官方故 medium"
+    },
+    {
+      "email_id": 5995,
+      "sentence_idx": 2,
+      "sentence_text": "if you do not wish to receive this type of email from facebook in the future , please click here to unsubscribe",
+      "label": "N",
+      "confidence": "high",
+      "reason": "退订页脚（§2）"
+    },
+    {
+      "email_id": 5995,
+      "sentence_idx": 3,
+      "sentence_text": "facebook 's offices are located at 1601 s california ave , palo alto , ca 94304",
+      "label": "N",
+      "confidence": "high",
+      "reason": "地址页脚（§2）"
+    },
+    {
+      "email_id": 6938,
+      "sentence_idx": 0,
+      "sentence_text": "your internet banking logon information is valuable to fraudsters dear customers , your internet banking logon information is valuable to fraudsters , and they 're always looking for new ways to get hold of it",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] 假冒 HSBC，称信息不符致网银受限，诱导点击 log on 按钮提交会员信息（假登录）; 安全提醒式前言，句内无索取（判例9）"
+    },
+    {
+      "email_id": 6938,
+      "sentence_idx": 1,
+      "sentence_text": "access to your online services has been limited due to miss match of some information on your online access details",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "账户受限声称为骗取凭据铺垫的欺骗性前提（判例12 v1.3②）"
+    },
+    {
+      "email_id": 6938,
+      "sentence_idx": 2,
+      "sentence_text": "click the log on button to secure your membership details",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4 引导点击 log on 按钮提交会员信息（假登录）"
+    },
+    {
+      "email_id": 6938,
+      "sentence_idx": 3,
+      "sentence_text": "the internet banking team at hsbc chris pitt head of customer communications hsbc bank plc hsbc bank plc 2009",
+      "label": "N",
+      "confidence": "high",
+      "reason": "签名（§2）"
+    },
+    {
+      "email_id": 6938,
+      "sentence_idx": 4,
+      "sentence_text": "all rights reserved",
+      "label": "N",
+      "confidence": "high",
+      "reason": "版权页脚（§2）"
+    },
+    {
+      "email_id": 6938,
+      "sentence_idx": 5,
+      "sentence_text": "important notes privacy statement please do not reply to this email use the contact points on the hsbc bank website to contact us",
+      "label": "N",
+      "confidence": "high",
+      "reason": "隐私/勿回复声明（§2）"
+    },
+    {
+      "email_id": 6938,
+      "sentence_idx": 6,
+      "sentence_text": "http www hsbc co uk message body hsbc bank plc registered office 8 canada square , london e14 5hq",
+      "label": "N",
+      "confidence": "high",
+      "reason": "页脚官方域名纯文本引用+注册地址（判例5；§2）"
+    },
+    {
+      "email_id": 6938,
+      "sentence_idx": 7,
+      "sentence_text": "registered in england number 14259",
+      "label": "N",
+      "confidence": "high",
+      "reason": "注册号页脚（§2）"
+    },
+    {
+      "email_id": 6938,
+      "sentence_idx": 8,
+      "sentence_text": "authorized and regulated by the financial services authority",
+      "label": "N",
+      "confidence": "high",
+      "reason": "监管声明页脚（§2）"
+    },
+    {
+      "email_id": 5225,
+      "sentence_idx": 0,
+      "sentence_text": "message from the hr department greetings , your attention has been drawn to a message from the office of human resources",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] 假冒 HR 部门，称有优先消息，诱导点击打开共享文档（附件诱饵）; 前言铺垫，句内无索取（判例9）"
+    },
+    {
+      "email_id": 5225,
+      "sentence_idx": 1,
+      "sentence_text": "this is a priority message that requires your swift response",
+      "label": "N",
+      "confidence": "high",
+      "reason": "泛化催促（判例12b 原文示例 this is a priority message）"
+    },
+    {
+      "email_id": 5225,
+      "sentence_idx": 2,
+      "sentence_text": "kindly access the file by clicking the below and revert accordingly",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4 引导点击打开欺骗性文件/附件"
+    },
+    {
+      "email_id": 5225,
+      "sentence_idx": 3,
+      "sentence_text": "view shared document regards human resources",
+      "label": "Y",
+      "confidence": "low",
+      "reason": "view shared document 链接锚文本即引导目标（判例5 v1.3）；与签名混合，把握低"
+    },
+    {
+      "email_id": 4650,
+      "sentence_idx": 0,
+      "sentence_text": "you 've got an incoming request consent to it here , look for imogen458",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "[scenario] 社交/约会诱饵：称 imogen458（18岁）发来请求，诱导 consent here 点击; §1.2 诱饵+§1.4 引导"
+    },
+    {
+      "email_id": 4650,
+      "sentence_idx": 1,
+      "sentence_text": "\\ ( 18 year old \\ )",
+      "label": "N",
+      "confidence": "low",
+      "reason": "诱饵描述残片，自身未实施核心行为；边缘"
+    },
+    {
+      "email_id": 7292,
+      "sentence_idx": 0,
+      "sentence_text": "abbey national on line banking urgent notice from technical department ref 2110 abbey national bank online banking confirmation website dear abbey national private and business banking member !",
+      "label": "N",
+      "confidence": "high",
+      "reason": "[scenario] 假冒 Abbey National 技术部，借软件升级诱导点击链接进入登录验证表单; 品牌+紧急+称呼，无具体提议/索取/威胁（判例1）"
+    },
+    {
+      "email_id": 7292,
+      "sentence_idx": 1,
+      "sentence_text": "our technical division is carrying out a planned private and business banking software upgrade by following the link below you will start the form of the client login verification http ww3 abbey com centrallogonweb confirm \\ ? srvid 32zkwcvkwrhkwdwcjjtlctoldbhrokhovp these instructions are to be emailed and followed by all clients",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4 following the link below…client login verification http… 假登录表单+URL（判例5/9但书 v1.3）"
+    },
+    {
+      "email_id": 7292,
+      "sentence_idx": 2,
+      "sentence_text": "if you are not customer of abbey national please ignore this e mail !",
+      "label": "N",
+      "confidence": "high",
+      "reason": "非客户忽略套话"
+    },
+    {
+      "email_id": 7292,
+      "sentence_idx": 3,
+      "sentence_text": "this is an automated message , please do not reply \\ ( c \\ ) '08 abbey national on line banking",
+      "label": "N",
+      "confidence": "high",
+      "reason": "自动消息页脚（§2）"
+    },
+    {
+      "email_id": 7292,
+      "sentence_idx": 4,
+      "sentence_text": "all rights reserved",
+      "label": "N",
+      "confidence": "high",
+      "reason": "版权（§2）"
+    },
+    {
+      "email_id": 7726,
+      "sentence_idx": 0,
+      "sentence_text": "important account information dear wells fargo member , our company has intended a new feature that will improve the online banking security",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] 假冒 Wells Fargo，借安全升级要求会员在线填表更新账户资料; 升级公告 pretext，句内无索取（判例9）"
+    },
+    {
+      "email_id": 7726,
+      "sentence_idx": 1,
+      "sentence_text": "upgrading our systems will help protect our customers accounts from 3rd party access and reduce fraud",
+      "label": "N",
+      "confidence": "high",
+      "reason": "升级好处陈述，背景铺垫（判例9）"
+    },
+    {
+      "email_id": 7726,
+      "sentence_idx": 2,
+      "sentence_text": "this process has started on 14th of june 2011 and will be closed on 20th of june 2011",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "起止日期陈述，泛化期限未绑定索取（判例12b）"
+    },
+    {
+      "email_id": 7726,
+      "sentence_idx": 3,
+      "sentence_text": "all our members are required to update their account profile for the new databases",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.3 要求全体成员更新账户资料=索取个人信息"
+    },
+    {
+      "email_id": 7726,
+      "sentence_idx": 4,
+      "sentence_text": "filling our online form will take about 3 5 minutes from your time",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "§1.3 引导填写在线表单（要求填表），弱化成本话术"
+    },
+    {
+      "email_id": 7726,
+      "sentence_idx": 5,
+      "sentence_text": "to acre",
+      "label": "?",
+      "confidence": "low",
+      "reason": "truncated，截断至意图无法推断（§3）"
+    },
+    {
+      "email_id": 7301,
+      "sentence_idx": 0,
+      "sentence_text": "customer service notification chase online banking security alert your online banking access has been locked out as the challenge responses you provided do not match our records",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "[scenario] 假冒 Chase，称网银被锁定（挑战答案不符），诱导用链接激活账户; 标题句直接陈述账户锁定威胁（判例1 v1.3③）"
+    },
+    {
+      "email_id": 7301,
+      "sentence_idx": 1,
+      "sentence_text": "please use the link below to activate camp view your account",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4 use the link below 引导激活/查看账户"
+    },
+    {
+      "email_id": 7301,
+      "sentence_idx": 2,
+      "sentence_text": "https www chase com",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "URL 为前句引导的目标（判例5 v1.3：URL 本身 Y）"
+    },
+    {
+      "email_id": 4314,
+      "sentence_idx": 0,
+      "sentence_text": "verify your first direct account what we do to keep you safe dear customer , we noticed irregular activity in your first direct bank account through your card",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "[scenario] 假冒 First Direct，称卡有异常活动，须验证才能继续用账户，诱导点击链接验证; 标题句直接展开索取 verify your account（判例1 v1.3）"
+    },
+    {
+      "email_id": 4314,
+      "sentence_idx": 1,
+      "sentence_text": "for your protection , you must verify this activity before you can continue using your account",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.3 必须验证才能继续使用账户——v1.3 原文示例（判例9但书）"
+    },
+    {
+      "email_id": 4314,
+      "sentence_idx": 2,
+      "sentence_text": "to verify your statement , click on the link below",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4 点击链接验证（假验证引导）"
+    },
+    {
+      "email_id": 4314,
+      "sentence_idx": 3,
+      "sentence_text": "verification process this instruction has been sent to all bank customers on same issued and is obligatory to follow",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "声称指令须遵守，泛化施压无后果绑定（判例12b）"
+    },
+    {
+      "email_id": 4314,
+      "sentence_idx": 4,
+      "sentence_text": "thank you first direct ban",
+      "label": "N",
+      "confidence": "high",
+      "reason": "致谢签名（§2）"
+    },
+    {
+      "email_id": 5057,
+      "sentence_idx": 0,
+      "sentence_text": "unfortunately !",
+      "label": "N",
+      "confidence": "high",
+      "reason": "[scenario] 假冒 PayPal，称账单信息过期、访问被封锁，须点链接输入登录信息验证否则停用; 感叹词，无核心行为"
+    },
+    {
+      "email_id": 5057,
+      "sentence_idx": 1,
+      "sentence_text": "your online access has been blocked !",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "账户封锁声称为骗取凭据的欺骗性前提（判例12 v1.3②）"
+    },
+    {
+      "email_id": 5057,
+      "sentence_idx": 2,
+      "sentence_text": "dear paypal member",
+      "label": "N",
+      "confidence": "high",
+      "reason": "称呼套话（§2）"
+    },
+    {
+      "email_id": 5057,
+      "sentence_idx": 3,
+      "sentence_text": "unfortunately , your online access has been blocked",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "重复封锁声称，欺骗性前提（判例12 v1.3②）"
+    },
+    {
+      "email_id": 5057,
+      "sentence_idx": 4,
+      "sentence_text": "it has come to our attention that your paypal billing information records are out of date",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "账单信息过期 pretext，句内无索取（判例9）"
+    },
+    {
+      "email_id": 5057,
+      "sentence_idx": 5,
+      "sentence_text": "that requires you to verify the binding information",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.3 要求验证绑定信息=索取"
+    },
+    {
+      "email_id": 5057,
+      "sentence_idx": 6,
+      "sentence_text": "failure to verify your records will result in account suspension",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.5 停用后果直接绑定不验证（判例12a）"
+    },
+    {
+      "email_id": 5057,
+      "sentence_idx": 7,
+      "sentence_text": "click the link , below and enter your login information on the following page to confirm your billing information records",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4+§1.3 点链接并输入登录信息（假登录索取凭据）"
+    },
+    {
+      "email_id": 5057,
+      "sentence_idx": 8,
+      "sentence_text": "to verify your identity , kindly follow reference below and take the directions to instant activation",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4 引导按指引即时激活以验证身份（假验证）"
+    },
+    {
+      "email_id": 5057,
+      "sentence_idx": 9,
+      "sentence_text": "verify your account , thank you",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "§1.3 verify your account 祈使索取（与致谢混合，主导为索取，判例3）"
+    },
+    {
+      "email_id": 5057,
+      "sentence_idx": 10,
+      "sentence_text": "accounts management as outlined in our user agreement , will periodically send you information about site changes and enhancements",
+      "label": "N",
+      "confidence": "high",
+      "reason": "用户协议套话（§2）"
+    },
+    {
+      "email_id": 5057,
+      "sentence_idx": 11,
+      "sentence_text": "copyright paypal 1999 2013",
+      "label": "N",
+      "confidence": "high",
+      "reason": "版权（§2）"
+    },
+    {
+      "email_id": 5057,
+      "sentence_idx": 12,
+      "sentence_text": "all rights reserved",
+      "label": "N",
+      "confidence": "high",
+      "reason": "版权（§2）"
+    },
+    {
+      "email_id": 6354,
+      "sentence_idx": 0,
+      "sentence_text": "fund transfer",
+      "label": "N",
+      "confidence": "high",
+      "reason": "[scenario] 自称苏格兰银行高管 Bruce Williams，寻求合作转移已故客户 3570 万美元，许诺 15% 分成; 泛标题，未展开提议（判例1）"
+    },
+    {
+      "email_id": 6354,
+      "sentence_idx": 1,
+      "sentence_text": "memo bank of scotland",
+      "label": "N",
+      "confidence": "high",
+      "reason": "memo 抬头（§2）"
+    },
+    {
+      "email_id": 6354,
+      "sentence_idx": 2,
+      "sentence_text": "i want you to assist in a business venture involving 35 700 , 000 00usd thirty five million seven hundred thousand pounds from a deceased customer \\ ( bank of scotland , london \\ ) i am seeking for a reliable person who will be capable to provide either an",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.1 交易提议+§1.2 巨额金额诱饵 35.7M USD（判例11）"
+    },
+    {
+      "email_id": 6354,
+      "sentence_idx": 3,
+      "sentence_text": "i am dr bruce williams , chief executive of corporate \\ ( bank of scotland , london \\ )",
+      "label": "N",
+      "confidence": "high",
+      "reason": "骗子自我介绍单独陈述（判例9）"
+    },
+    {
+      "email_id": 6354,
+      "sentence_idx": 4,
+      "sentence_text": "an accountant and bank manager , during the course of our auditing i discovered a floating fund in domiciliary account opened in the bank in 1997 and since 2000 nobody has operated on this account , after going through some old files , i discovered that the owner of the",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "叙事背景：发现 dormant 账户经过，无金额（判例4 其余叙事 N）"
+    },
+    {
+      "email_id": 6354,
+      "sentence_idx": 5,
+      "sentence_text": "you will be given 15 of the total amount , 80 will be for me , while 5 will be for expenses both parties might have incurred during the process of this transaction",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.2/判例11 分成比例 15/80/5=金额诱饵"
+    },
+    {
+      "email_id": 6354,
+      "sentence_idx": 6,
+      "sentence_text": "i look forward to your earliest reply",
+      "label": "N",
+      "confidence": "high",
+      "reason": "泛化催促回复（判例12b）"
+    },
+    {
+      "email_id": 6354,
+      "sentence_idx": 7,
+      "sentence_text": "dr bruce williams",
+      "label": "N",
+      "confidence": "high",
+      "reason": "签名（§2）"
+    },
+    {
+      "email_id": 4805,
+      "sentence_idx": 0,
+      "sentence_text": "please read this important information concerning your privacy hsbc world 's local bank dear customer , as part of the new security measures , all hsbc customers are required to complete quot digital certificate form",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "[scenario] 假冒 HSBC，借新安全措施要求全体客户填写数字证书表单并点击链接访问; §1.3 同句绑定 pretext 与 required to complete form 索取（判例9但书）"
+    },
+    {
+      "email_id": 4805,
+      "sentence_idx": 1,
+      "sentence_text": "please complete the form as soon as possible",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.3 要求尽快填表=索取，催促绑定于填表"
+    },
+    {
+      "email_id": 4805,
+      "sentence_idx": 2,
+      "sentence_text": "to access the form please click on the following link http www hsbc co uk 1 2 hsbcintegration banking php \\ ? jsessionid 16081207514733124142065198602437734756189042571155114592845411451 email arnold highwayman co uk hsbc bank plc 2002 2010",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4 点击链接访问表单+假冒 URL 即引导目标（判例5 v1.3）"
+    },
+    {
+      "email_id": 5309,
+      "sentence_idx": 0,
+      "sentence_text": "important online service precautions for your account remember always look for your site key before you enter your passcode during sign in message from customer service we noticed invalid login attempts into you account online from an unknown ip address",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] 假冒银行，称异地 IP 登录失败、账户被暂停，要求验证身份以重新激活; 安全提示+异常登录 pretext，句内无索取（判例9）"
+    },
+    {
+      "email_id": 5309,
+      "sentence_idx": 1,
+      "sentence_text": "our system requires further account verification",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.3 系统要求进一步账户验证=索取（v1.3 示例类）"
+    },
+    {
+      "email_id": 5309,
+      "sentence_idx": 2,
+      "sentence_text": "due to this , we have temporarily suspended your account",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "账户暂停声称为骗取凭据的欺骗性前提（判例12 v1.3②）"
+    },
+    {
+      "email_id": 5309,
+      "sentence_idx": 3,
+      "sentence_text": "you need you to verify your account identity for your online banking to be re activated",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.3/§1.5 验证身份绑定重新激活（判例9但书）"
+    },
+    {
+      "email_id": 5309,
+      "sentence_idx": 4,
+      "sentence_text": "plea",
+      "label": "?",
+      "confidence": "medium",
+      "reason": "truncated，单词截断至意图无法推断（§3）"
+    },
+    {
+      "email_id": 4216,
+      "sentence_idx": 0,
+      "sentence_text": "natwest bank customer service urgent security alerts !",
+      "label": "N",
+      "confidence": "high",
+      "reason": "[scenario] 假冒 NatWest，借服务器维护与安全新政要求全体客户点链接填客户表单; 品牌+紧急标题，无具体提议/索取/威胁（判例1）"
+    },
+    {
+      "email_id": 4216,
+      "sentence_idx": 1,
+      "sentence_text": "message ref 5052922325 dear natwest bank customer , we are running a scheduled maintenance on our servers",
+      "label": "N",
+      "confidence": "high",
+      "reason": "维护 pretext 陈述（判例9）"
+    },
+    {
+      "email_id": 4216,
+      "sentence_idx": 2,
+      "sentence_text": "we want to make sure your money and your personal details are safe and secure",
+      "label": "N",
+      "confidence": "high",
+      "reason": "安抚性陈述，铺垫"
+    },
+    {
+      "email_id": 4216,
+      "sentence_idx": 3,
+      "sentence_text": "due to new security policies all natwest customers must complete natwest customer form",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.3 全体客户必须填写客户表单=索取（要求填表）"
+    },
+    {
+      "email_id": 4216,
+      "sentence_idx": 4,
+      "sentence_text": "to complete the form , please use the link below http www natwest co uk updatemode customerform ncf aspx \\ ? id 512121000736105486657614697438930587719262336563515178067896017014299206 this should take you directly to natwest customer form",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4 use the link below+URL 即引导目标（判例5 v1.3）"
+    },
+    {
+      "email_id": 4216,
+      "sentence_idx": 5,
+      "sentence_text": "sincerely , natwest customer service",
+      "label": "N",
+      "confidence": "high",
+      "reason": "签名（§2）"
+    },
+    {
+      "email_id": 4185,
+      "sentence_idx": 0,
+      "sentence_text": "abbey national bank internet banking important security email code 8144 abbey national bank online banking details update procedure dear abbey national bank e banking client !",
+      "label": "N",
+      "confidence": "high",
+      "reason": "[scenario] 假冒 Abbey National，借软件更新诱导点链接进入客户资料授权表单; 标题+称呼，无具体提议/索取/威胁（判例1）"
+    },
+    {
+      "email_id": 4185,
+      "sentence_idx": 1,
+      "sentence_text": "our maintenance department is doing a planned on line banking software update by visiting the link below you will start the form of the client details authorization http ww5 abbeynational co uk centrallogonweb confirm \\ ? ssl 30xcrcwhldydwcjjtlctoldbhrokhovp these directions are to be e mailed and followed by all members",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4 visiting the link below 启动 client details authorization 表单+URL（判例5/9但书 v1.3）"
+    },
+    {
+      "email_id": 4185,
+      "sentence_idx": 2,
+      "sentence_text": "if you are not user of abbey national bank please ignore this letter !",
+      "label": "N",
+      "confidence": "high",
+      "reason": "非用户忽略套话"
+    },
+    {
+      "email_id": 4185,
+      "sentence_idx": 3,
+      "sentence_text": "this is an automated e mail , please do not reply \\ ( c \\ ) '08 abbey national bank online banking",
+      "label": "N",
+      "confidence": "high",
+      "reason": "自动邮件页脚（§2）"
+    },
+    {
+      "email_id": 4185,
+      "sentence_idx": 4,
+      "sentence_text": "all rights reserved",
+      "label": "N",
+      "confidence": "high",
+      "reason": "版权（§2）"
+    },
+    {
+      "email_id": 6458,
+      "sentence_idx": 0,
+      "sentence_text": "internal revenue service \\ ( irs \\ ) taxpayer id commensurate 00000700955060us tax type income tax issue unreported underreported income \\ ( fraud application \\ ) to download your tax statement from internal revenue service \\ ( irs \\ ) website \\ ( click on the link below \\ )",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "[scenario] 假冒 IRS，称存在未报收入（欺诈申请），诱导点击链接下载税务报表（实为 pdf.exe 恶意程序）; §1.4 click on the link below 下载引导+欺诈指控威胁前提"
+    },
+    {
+      "email_id": 6458,
+      "sentence_idx": 1,
+      "sentence_text": "this is where the link above points help federal taxes xxx 00000700955060us pdf exe",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "给出链接指向目标 pdf exe 可执行文件，URL/文件即引导目标（判例5 v1.3）"
+    },
+    {
+      "email_id": 4245,
+      "sentence_idx": 0,
+      "sentence_text": "important message about your tax refund !",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] 假冒 HMRC，称有重要退税消息，诱导访问链接启动退税流程（正文多为 CSS 残渣）; 标题仅宣布退税话题，未展开提议/索取/威胁（判例1）；边缘"
+    },
+    {
+      "email_id": 4245,
+      "sentence_idx": 1,
+      "sentence_text": "body margin 0 mso line height rule exactly padding 0 min width 100 table border collapse collapse border spacing 0 td padding 0 vertical align top spacer , border font size 1px line height 1px spacer width 100 img border 0 ms interpolation mode bicubic image font size 12px margin",
+      "label": "N",
+      "confidence": "high",
+      "reason": "CSS 样式残渣，无语言行为"
+    },
+    {
+      "email_id": 4245,
+      "sentence_idx": 2,
+      "sentence_text": "wrapper table layout fixed one col , two col , three col margin left auto margin right auto width 600px centered margin left auto margin right auto two col image margin bottom 23px two col column bottom font size 9px line height 9px two col column width 300px three col",
+      "label": "N",
+      "confidence": "high",
+      "reason": "CSS 样式残渣，无语言行为"
+    },
+    {
+      "email_id": 4245,
+      "sentence_idx": 3,
+      "sentence_text": "border width 1px try",
+      "label": "N",
+      "confidence": "high",
+      "reason": "CSS 残片，无语言行为"
+    },
+    {
+      "email_id": 4245,
+      "sentence_idx": 4,
+      "sentence_text": "border background color e9e9e9 height 1px try",
+      "label": "N",
+      "confidence": "high",
+      "reason": "CSS 残片，无语言行为"
+    },
+    {
+      "email_id": 4245,
+      "sentence_idx": 5,
+      "sentence_text": "border td line height 1px one col , two col , three col , one col feature background color fluffy font size 14px table layout fixed one col , two col , three col , one col feature , preheater , header , footer margin left auto margin right auto",
+      "label": "N",
+      "confidence": "high",
+      "reason": "CSS 样式残渣，无语言行为"
+    },
+    {
+      "email_id": 4245,
+      "sentence_idx": 6,
+      "sentence_text": "divider width 100 divider inner padding bottom 24px divider table background color e9e9e9 font size 2px line height 2px width 60px padded image font size 0 image frame padding 8px image background display inline block font size 12px btn margin bottom 24px padding 2px btn a border 1px solid fluffy",
+      "label": "N",
+      "confidence": "high",
+      "reason": "CSS 样式残渣，无语言行为"
+    },
+    {
+      "email_id": 4245,
+      "sentence_idx": 7,
+      "sentence_text": "border , class wrapper header , class wrapper web version , class wrapper footer width 320px ! important class wrapper preheater web version , class wrapper header logo a text align center ! important class wrapper preheater table , class wrapper border td width 318px ! important class wrapper border",
+      "label": "N",
+      "confidence": "high",
+      "reason": "CSS 样式残渣，无语言行为"
+    },
+    {
+      "email_id": 4245,
+      "sentence_idx": 8,
+      "sentence_text": "border width 1px ! important class wrapper image border td width auto ! important class wrapper title display none class wrapper footer padded text align center ! important class wrapper footer subscription padded padding top 20px ! important class wrapper footer social link display block ! important class wrapper footer",
+      "label": "N",
+      "confidence": "high",
+      "reason": "CSS 样式残渣，无语言行为"
+    },
+    {
+      "email_id": 4245,
+      "sentence_idx": 9,
+      "sentence_text": "border display none class wrapper table",
+      "label": "N",
+      "confidence": "high",
+      "reason": "CSS 残片，无语言行为"
+    },
+    {
+      "email_id": 4245,
+      "sentence_idx": 10,
+      "sentence_text": "border , class wrapper header , class wrapper web version , class wrapper footer width 318px ! important column top mso line height rule exactly ! important ! ! body , wrapper , emb editor canvas background color ffbb border background color e9e9e9 h1 color 565656 wrapper h1 wrapper h1",
+      "label": "N",
+      "confidence": "high",
+      "reason": "CSS 样式残渣，无语言行为"
+    },
+    {
+      "email_id": 4245,
+      "sentence_idx": 11,
+      "sentence_text": "in order to start the refund procedure , please visit this link and follow the steps required",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4 visit this link and follow the steps 启动假退税流程=欺骗性引导"
+    },
+    {
+      "email_id": 4245,
+      "sentence_idx": 12,
+      "sentence_text": "thank you , hm revenue camp customs gov uk 8203 8203",
+      "label": "N",
+      "confidence": "high",
+      "reason": "签名页脚（§2 签名一律 N）"
+    },
+    {
+      "email_id": 6638,
+      "sentence_idx": 0,
+      "sentence_text": "important security information for customers co operative bank p l c",
+      "label": "N",
+      "confidence": "high",
+      "reason": "[scenario] 自称 Co-operative Bank 的重要安全信息/网银公告板（内容截断，仅见标题，无核心行为）; 标题仅机构+话题，无提议/索取/威胁（判例1）"
+    },
+    {
+      "email_id": 6638,
+      "sentence_idx": 1,
+      "sentence_text": "internet banking noticeboard",
+      "label": "N",
+      "confidence": "high",
+      "reason": "公告板栏目头，无核心行为"
+    },
+    {
+      "email_id": 5378,
+      "sentence_idx": 0,
+      "sentence_text": "twitter 8 01 a color 0084b4 a hover color 215e88 h1 , h2 margin 0 0 16px 0 color 000 h2 font 20px georgia , serif h3 margin 14px 0 4px 0 color 000 font normal 18px georgia , serif line height 22px p , ul margin 4px 0 15px",
+      "label": "N",
+      "confidence": "high",
+      "reason": "[scenario] Twitter 未读消息通知（含大量 CSS 残渣），附消息链接; CSS 样式残渣，无语言行为"
+    },
+    {
+      "email_id": 5378,
+      "sentence_idx": 1,
+      "sentence_text": "display block height 0 clear both visibility hidden user display inline block hi , you have 2 unread message \\ ( s \\ ) http twitter com account message c0a7 1ad03 the twitter team please do not reply to this message it was sent from an unmonitored email address",
+      "label": "Y",
+      "confidence": "low",
+      "reason": "§1.4 未读消息通知内嵌 http twitter com… 链接目标（判例5 v1.3）；域名貌似官方+混 CSS，把握低"
+    },
+    {
+      "email_id": 5378,
+      "sentence_idx": 2,
+      "sentence_text": "this message is a service email related to your use of twitter",
+      "label": "N",
+      "confidence": "high",
+      "reason": "服务邮件声明（§2）"
+    },
+    {
+      "email_id": 5378,
+      "sentence_idx": 3,
+      "sentence_text": "for general inquiries or to request support with your twitter account , please visit us at twitter support",
+      "label": "N",
+      "confidence": "high",
+      "reason": "支持渠道引用，无欺骗目标（§2/判例10）"
+    },
+    {
+      "email_id": 7194,
+      "sentence_idx": 0,
+      "sentence_text": "hsbc bank advisor hsbc bank uk",
+      "label": "N",
+      "confidence": "high",
+      "reason": "[scenario] 仅存 HSBC 页脚/样板片段，无正文核心内容，整封无核心行为; 签名/机构名（§2）"
+    },
+    {
+      "email_id": 7194,
+      "sentence_idx": 1,
+      "sentence_text": "please do not reply to this message",
+      "label": "N",
+      "confidence": "high",
+      "reason": "勿回复样板（§2）"
+    },
+    {
+      "email_id": 7194,
+      "sentence_idx": 2,
+      "sentence_text": "for any inquiries , contact customer service",
+      "label": "N",
+      "confidence": "high",
+      "reason": "联系客服样板（§2）"
+    },
+    {
+      "email_id": 7194,
+      "sentence_idx": 3,
+      "sentence_text": "2010 hsbc bank uk",
+      "label": "N",
+      "confidence": "high",
+      "reason": "版权年份（§2）"
+    },
+    {
+      "email_id": 7194,
+      "sentence_idx": 4,
+      "sentence_text": "national association , inc",
+      "label": "N",
+      "confidence": "high",
+      "reason": "公司名称残片（§2）"
+    },
+    {
+      "email_id": 5349,
+      "sentence_idx": 0,
+      "sentence_text": "account error we recently reviewed your account \\ ( error code 00562 \\ ) , and we need to help you correct this issue",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] 假冒 Lloyds，称账户有误（error 00562），诱导点击登录并补交数据以解除限制; 账户错误 pretext，句内未绑定具体索取（判例9）；边缘"
+    },
+    {
+      "email_id": 5349,
+      "sentence_idx": 1,
+      "sentence_text": "you are to restore your account access immediately",
+      "label": "Y",
+      "confidence": "low",
+      "reason": "要求立即恢复账户访问=服务于验证漏斗的指令；边缘，倾向 Y（§1.3/判例12a 边界）"
+    },
+    {
+      "email_id": 5349,
+      "sentence_idx": 2,
+      "sentence_text": "click here , login and complete the next step to remove limitations",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4 click here, login 假登录引导以解除限制"
+    },
+    {
+      "email_id": 5349,
+      "sentence_idx": 3,
+      "sentence_text": "upon completing the few data we will automatically restore your account access",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "§1.3 completing the few data=补交数据索取，绑定恢复访问"
+    },
+    {
+      "email_id": 5349,
+      "sentence_idx": 4,
+      "sentence_text": "you will be redirected to a secure , private lloyds banking group server on a random port due security issues",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "重定向与安全服务器合法性保证（判例4 合法性保证 N）"
+    },
+    {
+      "email_id": 5349,
+      "sentence_idx": 5,
+      "sentence_text": "lloyds banking group , all rights refer",
+      "label": "N",
+      "confidence": "high",
+      "reason": "页脚（§2）"
+    }
+  ]
+}

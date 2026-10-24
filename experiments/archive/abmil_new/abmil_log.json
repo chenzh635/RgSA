@@ -1,0 +1,102 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.121916,
+    "train_acc": 0.951562,
+    "train_bce": 0.121916,
+    "train_sparse": 0.0,
+    "train_rule": 0.0,
+    "test_acc": 0.98275,
+    "temperature": 1.0
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.0449,
+    "train_acc": 0.985125,
+    "train_bce": 0.0449,
+    "train_sparse": 0.0,
+    "train_rule": 0.0,
+    "test_acc": 0.98775,
+    "temperature": 1.0
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.030874,
+    "train_acc": 0.989375,
+    "train_bce": 0.030874,
+    "train_sparse": 0.0,
+    "train_rule": 0.0,
+    "test_acc": 0.990625,
+    "temperature": 1.0
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.023062,
+    "train_acc": 0.992313,
+    "train_bce": 0.023062,
+    "train_sparse": 0.0,
+    "train_rule": 0.0,
+    "test_acc": 0.9905,
+    "temperature": 1.0
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.018184,
+    "train_acc": 0.994313,
+    "train_bce": 0.018184,
+    "train_sparse": 0.0,
+    "train_rule": 0.0,
+    "test_acc": 0.99025,
+    "temperature": 1.0
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.015746,
+    "train_acc": 0.994563,
+    "train_bce": 0.015746,
+    "train_sparse": 0.0,
+    "train_rule": 0.0,
+    "test_acc": 0.989375,
+    "temperature": 1.0
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.014609,
+    "train_acc": 0.99475,
+    "train_bce": 0.014609,
+    "train_sparse": 0.0,
+    "train_rule": 0.0,
+    "test_acc": 0.99025,
+    "temperature": 1.0
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.01164,
+    "train_acc": 0.995938,
+    "train_bce": 0.01164,
+    "train_sparse": 0.0,
+    "train_rule": 0.0,
+    "test_acc": 0.988625,
+    "temperature": 1.0
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.011126,
+    "train_acc": 0.996313,
+    "train_bce": 0.011126,
+    "train_sparse": 0.0,
+    "train_rule": 0.0,
+    "test_acc": 0.989125,
+    "temperature": 1.0
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.010945,
+    "train_acc": 0.996594,
+    "train_bce": 0.010945,
+    "train_sparse": 0.0,
+    "train_rule": 0.0,
+    "test_acc": 0.990625,
+    "temperature": 1.0
+  }
+]

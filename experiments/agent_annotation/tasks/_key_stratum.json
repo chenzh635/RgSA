@@ -1,0 +1,1550 @@
+{
+ "5869": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7896": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "6319": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7465": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5424": {
+  "batch": "production_150",
+  "stratum": "misclassified",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5365": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "6184": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4146": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7585": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7415": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4488": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "7494": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "diffuse",
+  "set": "prod150"
+ },
+ "6062": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7010": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "6427": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "mismatch",
+  "set": "pilot30+prod150"
+ },
+ "5005": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7404": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5787": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4354": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "6504": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4480": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4421": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5731": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "6584": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "5580": {
+  "batch": "production_150",
+  "stratum": "misclassified",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "5455": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7518": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4351": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "4007": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4239": {
+  "batch": "production_150",
+  "stratum": "misclassified",
+  "failure_mode": "mismatch",
+  "set": "prod150"
+ },
+ "4738": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4330": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "6970": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "6654": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4440": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "diffuse",
+  "set": "prod150"
+ },
+ "5314": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7915": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5962": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "short",
+  "set": "prod150"
+ },
+ "5321": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5819": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7985": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "short",
+  "set": "prod150"
+ },
+ "5278": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4223": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "6684": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "6214": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7460": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5081": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7512": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4845": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "diffuse",
+  "set": "prod150"
+ },
+ "4695": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5205": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "diffuse",
+  "set": "prod150"
+ },
+ "7840": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7164": {
+  "batch": "production_150",
+  "stratum": "misclassified",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7858": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "6401": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5779": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5304": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5998": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "mismatch",
+  "set": "prod150"
+ },
+ "6829": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5882": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4834": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "6768": {
+  "batch": "production_150",
+  "stratum": "misclassified",
+  "failure_mode": "short",
+  "set": "prod150"
+ },
+ "5982": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "diffuse",
+  "set": "prod150"
+ },
+ "7096": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4613": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7458": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7165": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5301": {
+  "batch": "production_150",
+  "stratum": "misclassified",
+  "failure_mode": "short",
+  "set": "prod150"
+ },
+ "7877": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5115": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "5144": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "short",
+  "set": "pilot30+prod150"
+ },
+ "7615": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "6542": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "5475": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "4109": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "6431": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7245": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7235": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4989": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "6376": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "short",
+  "set": "prod150"
+ },
+ "7284": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "mismatch",
+  "set": "prod150"
+ },
+ "6206": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "7287": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7097": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "4008": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7934": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "7583": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "6500": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "7513": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "mismatch",
+  "set": "prod150"
+ },
+ "5846": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7720": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4451": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "diffuse",
+  "set": "pilot30+prod150"
+ },
+ "5747": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7380": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7841": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "short",
+  "set": "prod150"
+ },
+ "6400": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "4860": {
+  "batch": "production_150",
+  "stratum": "misclassified",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "5192": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4963": {
+  "batch": "production_150",
+  "stratum": "misclassified",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "4200": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "short",
+  "set": "prod150"
+ },
+ "7507": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "diffuse",
+  "set": "prod150"
+ },
+ "5764": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7976": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "6713": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "short",
+  "set": "pilot30+prod150"
+ },
+ "7688": {
+  "batch": "production_150",
+  "stratum": "misclassified",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7171": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "5781": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5954": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5121": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "mismatch",
+  "set": "prod150"
+ },
+ "6165": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "7153": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "6264": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "short",
+  "set": "prod150"
+ },
+ "4395": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7539": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4704": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "short",
+  "set": "pilot30+prod150"
+ },
+ "7351": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5626": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5049": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4952": {
+  "batch": "production_150",
+  "stratum": "misclassified",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7324": {
+  "batch": "production_150",
+  "stratum": "misclassified",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5646": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5074": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "diffuse",
+  "set": "prod150"
+ },
+ "4914": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5990": {
+  "batch": "production_150",
+  "stratum": "misclassified",
+  "failure_mode": "short",
+  "set": "pilot30+prod150"
+ },
+ "4174": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "4885": {
+  "batch": "production_150",
+  "stratum": "misclassified",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "6413": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "6855": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "mismatch",
+  "set": "prod150"
+ },
+ "6488": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "7456": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "short",
+  "set": "prod150"
+ },
+ "5995": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "6938": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5225": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "4650": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "short",
+  "set": "prod150"
+ },
+ "7292": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7726": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7301": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4314": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5057": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "diffuse",
+  "set": "prod150"
+ },
+ "6354": {
+  "batch": "production_150",
+  "stratum": "misclassified",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4805": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "typical",
+  "set": "pilot30+prod150"
+ },
+ "5309": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4216": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4185": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "6458": {
+  "batch": "production_150",
+  "stratum": "high_spearman",
+  "failure_mode": "short",
+  "set": "prod150"
+ },
+ "4245": {
+  "batch": "production_150",
+  "stratum": "misclassified",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "6638": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "short",
+  "set": "prod150"
+ },
+ "5378": {
+  "batch": "production_150",
+  "stratum": "mid_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "7194": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "5349": {
+  "batch": "production_150",
+  "stratum": "low_spearman",
+  "failure_mode": "typical",
+  "set": "prod150"
+ },
+ "4050": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "4060": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "4097": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "4101": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "4203": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "4224": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "4238": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "4343": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "4348": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "4358": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "4419": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "4423": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "4450": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "4508": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "4526": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "4581": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "4588": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "4649": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "4727": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "4737": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "4755": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "4769": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "4870": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "4876": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "4899": {
+  "batch": "production_chunk_7",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "5051": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "5119": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "5123": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "5137": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "5169": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "5201": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "5224": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "5253": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "5275": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "5291": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "5335": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "5374": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "5376": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "5381": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "5449": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "5476": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "5479": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "5482": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "5530": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "5547": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "5612": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "5704": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "5717": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "5814": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "5874": {
+  "batch": "production_chunk_8",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "5885": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "5917": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "5927": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "5985": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "6004": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "6023": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "6043": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "6108": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "6116": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "6154": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "6157": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "6178": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "6193": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "6195": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "6227": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "6248": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "6276": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "6341": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "6410": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "6452": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "6490": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "6513": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "6543": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "6574": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "6596": {
+  "batch": "production_chunk_9",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "6604": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "6619": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "6752": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "6789": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "6838": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "6913": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "7002": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "7020": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "7039": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "7067": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "7118": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "7197": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "7210": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "7286": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "7296": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "7307": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "7410": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "7417": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "7461": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "7515": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "7517": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "7533": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "7562": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "7573": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "7602": {
+  "batch": "production_chunk_10",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "7627": {
+  "batch": "production_chunk_11",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "7645": {
+  "batch": "production_chunk_11",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "7708": {
+  "batch": "production_chunk_11",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "7777": {
+  "batch": "production_chunk_11",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "7779": {
+  "batch": "production_chunk_11",
+  "stratum": null,
+  "failure_mode": "mismatch",
+  "set": "supplement"
+ },
+ "7814": {
+  "batch": "production_chunk_11",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ },
+ "7820": {
+  "batch": "production_chunk_11",
+  "stratum": null,
+  "failure_mode": "diffuse",
+  "set": "supplement"
+ },
+ "7945": {
+  "batch": "production_chunk_11",
+  "stratum": null,
+  "failure_mode": "short",
+  "set": "supplement"
+ }
+}

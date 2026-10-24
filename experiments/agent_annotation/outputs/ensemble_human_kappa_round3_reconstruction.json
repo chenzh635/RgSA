@@ -1,0 +1,93 @@
+{
+ "snapshot": "round-3 protocol v1.3 pilot majority-vote ensemble (CALIBRATION_LOG.md 2026-09-13)",
+ "inputs": {
+  "human_chan": "experiments/human_annotation/exports/annotations_chan_pilot_30_2026-09-01-15-13.json",
+  "human_li": "experiments/human_annotation/exports/annotations_li_pilot_30_2026-09-06-14-45.json",
+  "passes": [
+   "experiments/agent_annotation/outputs/agent_pass_a_pilot_30_blind.json",
+   "experiments/agent_annotation/outputs/agent_pass_b_pilot_30_blind.json",
+   "experiments/agent_annotation/outputs/agent_pass_c_pilot_30_blind.json"
+  ]
+ },
+ "n_sentences": 213,
+ "vote_distribution": {
+  "3_of_3": 192,
+  "2_of_3": 21
+ },
+ "kappa_ensemble_vs_chan": 0.38081395348837205,
+ "kappa_ensemble_vs_li": 0.3802801724137932,
+ "kappa_mean_ensemble_human": 0.38054706295108265,
+ "kappa_chan_li_ceiling": 0.39778164419312767,
+ "gap_vs_ceiling": -0.01723458124204502,
+ "bootstrap": {
+  "B": 10000,
+  "seed": 20260913,
+  "valid_resamples": 10000,
+  "gap_ci95": [
+   -0.1617857260433595,
+   0.1271047547974558
+  ],
+  "p_ensemble_ge_ceiling": 0.419
+ },
+ "coverage_Y": {
+  "ensemble": 0.2863849765258216,
+  "chan": 0.3004694835680751,
+  "li": 0.26291079812206575
+ },
+ "interpass_kappa_pairwise": {
+  "a~b": {
+   "cohens_kappa": 0.8700955478755844,
+   "raw_agreement": 0.9436619718309859,
+   "confusion": {
+    "Y>Y": 55,
+    "Y>N": 7,
+    "Y>?": 0,
+    "N>Y": 1,
+    "N>N": 143,
+    "N>?": 3,
+    "?>Y": 0,
+    "?>N": 1,
+    "?>?": 3
+   }
+  },
+  "a~c": {
+   "cohens_kappa": 0.8629818397743579,
+   "raw_agreement": 0.9389671361502347,
+   "confusion": {
+    "Y>Y": 60,
+    "Y>N": 2,
+    "Y>?": 0,
+    "N>Y": 9,
+    "N>N": 138,
+    "N>?": 0,
+    "?>Y": 0,
+    "?>N": 2,
+    "?>?": 2
+   }
+  },
+  "b~c": {
+   "cohens_kappa": 0.8194105032167971,
+   "raw_agreement": 0.92018779342723,
+   "confusion": {
+    "Y>Y": 56,
+    "Y>N": 0,
+    "Y>?": 0,
+    "N>Y": 13,
+    "N>N": 138,
+    "N>?": 0,
+    "?>Y": 0,
+    "?>N": 4,
+    "?>?": 2
+   }
+  }
+ },
+ "paper_values_check": {
+  "paper_kappa_vs_chan": 0.381,
+  "paper_kappa_vs_li": 0.38,
+  "paper_ceiling": 0.398,
+  "paper_gap_ci95": [
+   -0.12,
+   0.16
+  ]
+ }
+}

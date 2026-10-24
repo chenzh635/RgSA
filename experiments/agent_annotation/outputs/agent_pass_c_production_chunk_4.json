@@ -1,0 +1,1399 @@
+{
+  "annotator": "agent_pass_c",
+  "batch": "production_chunk_4",
+  "exported_at": "2026-09-14T01:27:18+08:00",
+  "n_emails": 25,
+  "annotations": [
+    {
+      "email_id": 6431,
+      "sentence_idx": 0,
+      "sentence_text": "your humble assistance is highly needed from kevin samara and sister abidjan , cote d \\ ? ivoirewest africatell 22507428963atternative email \\ ( k kamara laposte net \\ ) dear director ceo confidentialplease i am kevin samara , the only son of late chief vincent one kamarafrom sierra leone",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] Son of late Sierra Leone mining exec asks help moving $10.5M abroad for 10% share; title + self-intro only, 判例1/9"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 1,
+      "sentence_text": "i got your contact from the eco was information centering noted'voice",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 2,
+      "sentence_text": "my sources of your contact gave me the courage and confidence to rely on you",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 3,
+      "sentence_text": "i am writing you in absolute confidence primarily to seek your assistance to transfer our cash of ten a million five hundred thousandunited states dollars \\ ( 10 , 5000 , 000 00 \\ ) now in the custody of a bank herein abidjan to your private account pending our",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Proposes transferring $10.5M to recipient's private account; §1.1 proposal + §1.2 amount bait"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 4,
+      "sentence_text": "source of the money late father , chief vincent samara , a native of meade district in northern province of sierra leone , was the general manager of sierra leonemining co operation \\ ( s l m c \\ )",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 5,
+      "sentence_text": "freetown",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 6,
+      "sentence_text": "according to my father",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 7,
+      "sentence_text": "this money was the income accrued from mining co operation 's over draft and minor sales",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 8,
+      "sentence_text": "before the peak of the civil war between the rebels forces of major paulkoroma and the combined forces of ecology peace keeping operation that almost destroyed my country , following the forceful removal from power of the civilianelected president ahmed texan sabbath by the rebels",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 9,
+      "sentence_text": "my father had already made arrangement for his family , my mother , my little sister and myself to be evacuated to abidjan , c te d'ivoire with our personal effects",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 10,
+      "sentence_text": "my father deposited the fund for the safe custody until after the war when he will join us",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Depositing funds for safe custody; narrative process, no amount, 判例4"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 11,
+      "sentence_text": "during the war in my country , and following the indiscriminate looting of public and government properties by the rebel forces , the sierra leone mining co op was one of the targets looted and destroyed",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 12,
+      "sentence_text": "my father including other top government functionaries were attacked and killed by the rebels in november2000 because of his relationship with the civilian government of ahmed tejankabbah",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 13,
+      "sentence_text": "as a result of my father death , and with the news of my uncles involvement in air crash in january , dashed our hope of survival",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 14,
+      "sentence_text": "the untimely deaths caused my mothers heart failure and other related complications of which she later died in the hospital after we must have spent a lot of money on her",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 15,
+      "sentence_text": "now my 16 year old sister and me are alone in this strange country suffering without any care or help",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 16,
+      "sentence_text": "without any relation , we are now like refugee sand orphans",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 17,
+      "sentence_text": "our only hope now is in the fund our father deposited in the bank",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Hope rests in deposited fund; narrative, no amount or demand, 判例4"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 18,
+      "sentence_text": "to this effect , i humbly solicit your assistance in the followings ways",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Lead-in announcing the asks; no concrete demand itself, 判例4"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 19,
+      "sentence_text": "to assist me claim this fund from the bank as co beneficiary",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Asks recipient to claim the bank fund as co-beneficiary; §1.1 transaction proposal"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 20,
+      "sentence_text": "to transfer this money in your name to your country",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Asks to transfer the money into recipient's name abroad; §1.1"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 21,
+      "sentence_text": "to make a good arrangement for a joint business investment on our behalf in your country with you ashe caretaker",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "Proposes joint business investment with recipient as caretaker; §1.1"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 22,
+      "sentence_text": "to secure a college for my little sister and my self in your country to further our education",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Schooling favor for siblings, not a funds/role arrangement; 判例4"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 23,
+      "sentence_text": "and to make arrangement for our travel to your country after you have transferred this fund",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Travel logistics favor, not itself proposal or solicitation; 判例4"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 24,
+      "sentence_text": "most importantly",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 25,
+      "sentence_text": "the whole documents issued after deposit isin my custody",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Claims custody of deposit documents; legitimacy assurance, 判例4"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 26,
+      "sentence_text": "for your assistance , i beg to concede 10 of this money to you for your assistance",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Concedes 10% of the money as inducement; §1.2, 判例11"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 27,
+      "sentence_text": "best regardskevin samara and sister area lat shirt con il to nick !",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6431,
+      "sentence_idx": 28,
+      "sentence_text": "http www mediasetshop it jumpychat",
+      "label": "Y",
+      "confidence": "low",
+      "reason": "Bare non-official URL appended to scam mail; 判例5 v1.3 treats URL as guidance target"
+    },
+    {
+      "email_id": 7245,
+      "sentence_idx": 0,
+      "sentence_text": "mail exception notification if the links are not working , please move message to inbox folder",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] Fake DHL shipment notice pushing a tracking URL and shipment-number entry; mail-client handling step, no URL given, 判例10"
+    },
+    {
+      "email_id": 7245,
+      "sentence_idx": 1,
+      "sentence_text": "dhl pack station dhl ship shipment notification on april 30 , 2013 , a shipment label was printed for delivery",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7245,
+      "sentence_idx": 2,
+      "sentence_text": "the shipment number of this package is 67802435",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7245,
+      "sentence_idx": 3,
+      "sentence_text": "to get additional info about this shipment use any of these options 1 \\ ) click the following url in your browser get shipment info 2 \\ ) enter the shipment number on tracking page tracking page",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "Instructs clicking the following URL in browser for shipment info; §1.4, 判例5"
+    },
+    {
+      "email_id": 7235,
+      "sentence_idx": 0,
+      "sentence_text": "your account is limited until we hear from you !",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "[scenario] Claims PayPal locked the account over possible compromise and demands details to prove ownership; account-restriction threat in title, 判例1 v1.3③"
+    },
+    {
+      "email_id": 7235,
+      "sentence_idx": 1,
+      "sentence_text": "paypal warning of possible compromise dear customer , lately it has come to our attention that your account maybe in risk , so we had to lock it out in order to protect you of a potential identity theft",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "PayPal impersonation claiming account locked out to harvest credentials; 判例12 v1.3②"
+    },
+    {
+      "email_id": 7235,
+      "sentence_idx": 2,
+      "sentence_text": "it is important to us to keep you safe",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7235,
+      "sentence_idx": 3,
+      "sentence_text": "so we need to be provided with your details to verify you are the legitimate owner",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Demands recipient's details to verify legitimate ownership; §1.3 solicitation"
+    },
+    {
+      "email_id": 7235,
+      "sentence_idx": 4,
+      "sentence_text": "please provide fully and accurately the requested information to speed up the process and avoid further complications",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Demands full requested information, warns of further complications; §1.3 + §1.5"
+    },
+    {
+      "email_id": 4989,
+      "sentence_idx": 0,
+      "sentence_text": "icloud assist update august icloud id censored this is the final concluding mention to inform you as of 30 aug 2016 that you have not yet updated your icloud id information",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] Fake Apple notice: iCloud ID not updated, threatens Apple ID cessation, pushes verification page"
+    },
+    {
+      "email_id": 4989,
+      "sentence_idx": 1,
+      "sentence_text": "under quot know your customer \\ ( kyc \\ ) quot regulation apple is cited by guidelines to implement a validation of your information , omission to do so will result in cessation of your apple id within the next three days",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Binds Apple ID cessation to failure to validate information; §1.5, 判例12 v1.3①"
+    },
+    {
+      "email_id": 4989,
+      "sentence_idx": 2,
+      "sentence_text": "please proceed below to verify your itunes id sgt to interrupt the cessation of your apple camp icloud please proceed to continue to your apple id profile before the programmed emotion time",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Directs recipient to verify iTunes/Apple ID below to stop cessation; §1.4 + §1.3"
+    },
+    {
+      "email_id": 4989,
+      "sentence_idx": 3,
+      "sentence_text": "resolution validation petition 015748635 with regards , cloud operations my apple id support privacy policy copyright 2016 itunes sarl 31 33 , rue saint tithe , l 2763 luxembourg all rights reserved",
+      "label": "N",
+      "confidence": "high",
+      "reason": "Signature, privacy policy, copyright footer; §2"
+    },
+    {
+      "email_id": 6376,
+      "sentence_idx": 0,
+      "sentence_text": "important message about your discover card new page 1 dear card member the security of your personal information is our primary concern",
+      "label": "N",
+      "confidence": "high",
+      "reason": "[scenario] Fake Discover alert: account temporarily limited after suspicious login, urges confirming via supplied secure-site URL"
+    },
+    {
+      "email_id": 6376,
+      "sentence_idx": 1,
+      "sentence_text": "recently we observe suspicious login attempt to your discover card account all information associated with this account has been temporarily limited we implore you to confirm your account by following our secure site https www discover com to avoid account suspended sincerely , discover card customer service you are receiving",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Account limited; confirm via given URL to avoid suspension; §1.4 guidance + §1.5 bound threat"
+    },
+    {
+      "email_id": 7284,
+      "sentence_idx": 0,
+      "sentence_text": "pulse elf online request",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] Header-only fragments naming a Pulse EFT online request and a bank; no proposal, demand, threat, or link"
+    },
+    {
+      "email_id": 7284,
+      "sentence_idx": 1,
+      "sentence_text": "pulse eft association lp bank",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Organization-name fragment only; no core behavior, 判例8/§2"
+    },
+    {
+      "email_id": 6206,
+      "sentence_idx": 0,
+      "sentence_text": "ebay you have feedback that you need to leave !",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] eBay feedback reminder inviting the member to rate trading partners; no credentials, links, or money requested"
+    },
+    {
+      "email_id": 6206,
+      "sentence_idx": 1,
+      "sentence_text": "dear member , be an ebay star leave your ebay trading partner feedback !",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Invitation to leave trading-partner feedback; not sensitive-info solicitation, §1.3"
+    },
+    {
+      "email_id": 6206,
+      "sentence_idx": 2,
+      "sentence_text": "this is your opportunity to express opinions about your transactions",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6206,
+      "sentence_idx": 3,
+      "sentence_text": "encourage partners to leave feedback for you",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6206,
+      "sentence_idx": 4,
+      "sentence_text": "enhance your reputation in the ebay community",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6206,
+      "sentence_idx": 5,
+      "sentence_text": "here are some of your recent transactions that should be ready for feedback",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6206,
+      "sentence_idx": 6,
+      "sentence_text": "items awaiting feedback \\ ( 1 of 2 items \\ ) 2003 2009 yamaha azf r6 r6s r1 black racing pegs to lea",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7287,
+      "sentence_idx": 0,
+      "sentence_text": "kazan email verification richard locomotive com sun , 13 aug 2006 05 22 55 0100 yes , paul said",
+      "label": "N",
+      "confidence": "low",
+      "reason": "[scenario] Subject claims email verification but body is incoherent word-salad filler; header fragments, no demand or link"
+    },
+    {
+      "email_id": 7287,
+      "sentence_idx": 1,
+      "sentence_text": "asinine cortland i 'm fine , geoffrey said slowly",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Disjointed dialogue filler; no core behavior"
+    },
+    {
+      "email_id": 7287,
+      "sentence_idx": 2,
+      "sentence_text": "here was a call clipping which said that the stray cat the student nurses adopted had been poisoned",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7287,
+      "sentence_idx": 3,
+      "sentence_text": "i 'm waiting , paul",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7287,
+      "sentence_idx": 4,
+      "sentence_text": "thud",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Single-word filler; no core behavior"
+    },
+    {
+      "email_id": 7287,
+      "sentence_idx": 5,
+      "sentence_text": "yes , annie said , that was why he came",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7287,
+      "sentence_idx": 6,
+      "sentence_text": "she had locked it , but he believed he might be able to unlock it",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7287,
+      "sentence_idx": 7,
+      "sentence_text": "and if you come here and take a look at something , i 'll show you what the problem is",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7287,
+      "sentence_idx": 8,
+      "sentence_text": "there was a book i read when i was in high school , wicks told his wife early the next morning",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7287,
+      "sentence_idx": 9,
+      "sentence_text": "arginine",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Isolated unrelated token; no core behavior"
+    },
+    {
+      "email_id": 7097,
+      "sentence_idx": 0,
+      "sentence_text": "lloyds tsb bank on line banking submit your account code 1897 lloyds tsb bank electronic banking client details confirmation form dear lloyds bank client , security and confidentiality are at the heart of the lloyds group",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "[scenario] Fake Lloyds TSB compulsory client-details confirmation form pushed via verification link; title demands submitting account code, 判例1 v1.3②"
+    },
+    {
+      "email_id": 7097,
+      "sentence_idx": 1,
+      "sentence_text": "your details \\ ( and your money \\ ) is protected by a number of technologies , including secure sockets layer \\ ( ssl \\ ) encryption",
+      "label": "N",
+      "confidence": "high",
+      "reason": "SSL protection assurance; legitimacy claim, 判例4"
+    },
+    {
+      "email_id": 7097,
+      "sentence_idx": 2,
+      "sentence_text": "we would like to inform you that lloyds bank carries out client details confirmation procedure that is compulsory for all our clients",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "Declares compulsory client-details confirmation procedure; pretext bound to verification demand, 判例9 v1.3 但书"
+    },
+    {
+      "email_id": 7097,
+      "sentence_idx": 3,
+      "sentence_text": "this procedure is attributed to a routine banking software update",
+      "label": "N",
+      "confidence": "high",
+      "reason": "Pure pretext (routine software update), no in-sentence demand; 判例9"
+    },
+    {
+      "email_id": 7097,
+      "sentence_idx": 4,
+      "sentence_text": "please visit our customer verification form using the link below and follow the instructions on the screen",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Directs recipient to customer verification form via link below; §1.4"
+    },
+    {
+      "email_id": 7097,
+      "sentence_idx": 5,
+      "sentence_text": "http online7 lloydstsb co uk customer confirm ibc \\ ? sslid 33lcspclgdradsdwcjjtlctoldbhrokhovp lloyds bank customer service",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Supplies the phishing verification URL itself; 判例5 v1.3"
+    },
+    {
+      "email_id": 4008,
+      "sentence_idx": 0,
+      "sentence_text": "important message regarding your aol bill note many features of this site require javascript and cookies",
+      "label": "N",
+      "confidence": "high",
+      "reason": "[scenario] Fake AOL support: billing information out of order, asks member to update personal records; title plus javascript notice"
+    },
+    {
+      "email_id": 4008,
+      "sentence_idx": 1,
+      "sentence_text": "you can enable both via your browser s preferences settings",
+      "label": "N",
+      "confidence": "high",
+      "reason": "Browser preferences instruction, no deceptive target; 判例10"
+    },
+    {
+      "email_id": 4008,
+      "sentence_idx": 2,
+      "sentence_text": "welcome to aol customer support dear valued aol member , it has come to our attention that your billing information are out of order",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Billing-error pretext with no in-sentence demand; 判例9"
+    },
+    {
+      "email_id": 4008,
+      "sentence_idx": 3,
+      "sentence_text": "if you could please take 5 10 minutes out of your online experience and update your personal records , so you will not run into any future problems with the online service",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Asks recipient to update personal records, warns of future service problems; §1.3 + §1.5"
+    },
+    {
+      "email_id": 4008,
+      "sentence_idx": 4,
+      "sentence_text": "however , any failure in updating yo",
+      "label": "Y",
+      "confidence": "low",
+      "reason": "Truncated, but binds consequence to failure to update records; §1.5"
+    },
+    {
+      "email_id": 7934,
+      "sentence_idx": 0,
+      "sentence_text": "urgent business transaction investment manager job proposal dear friend , my name is kenneth kasey from zimbabwe , i am 21 years old and my mother died last year and my father has been long dead before the death of my mother , she was a farmer and who acquired",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "[scenario] Asylum seeker claims $9M inheritance, seeks investment manager/beneficiary, offers 20%; title states business transaction proposal, 判例1 v1.3①"
+    },
+    {
+      "email_id": 7934,
+      "sentence_idx": 1,
+      "sentence_text": "before the death of my mother she had acquired a total sum of 9 , 000 , 000 00 \\ ( nine million dollars \\ ) , which she secretly deposited in a security company abroad \\ ( europe \\ )",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Reports total sum of $9,000,000 secretly deposited abroad; §1.2, 判例11"
+    },
+    {
+      "email_id": 7934,
+      "sentence_idx": 2,
+      "sentence_text": "but right now as the only child and only son of my late parents it is now time for my inheritance , but i can not do this because of my age , and i am presenting an asylum seeker here in the netherlands",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7934,
+      "sentence_idx": 3,
+      "sentence_text": "and the netherlands government laws does not allow asylum seekers to have bank accounts",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7934,
+      "sentence_idx": 4,
+      "sentence_text": "and because of this i can not collect my money from the security company for proper banking",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7934,
+      "sentence_idx": 5,
+      "sentence_text": "and also because of my age and little experience with large sum of money like this that is why i am now writing you and seeking your assistance i want you to represent me in europe and be my investment manager and beneficiary of these funds , so that you",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Asks recipient to represent him as investment manager and beneficiary of funds; §1.1"
+    },
+    {
+      "email_id": 7934,
+      "sentence_idx": 6,
+      "sentence_text": "i have decided to give you 20 out of the total amount \\ ( 9 , ! 000 000 00 \\ ) , which would be 1 8m us dollars",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Offers 20% of total, US$1.8M; §1.2 amount bait, 判例11"
+    },
+    {
+      "email_id": 7934,
+      "sentence_idx": 7,
+      "sentence_text": "while the rest will be mine , which i plan to use in my educational pursuit",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7934,
+      "sentence_idx": 8,
+      "sentence_text": "and also i hope you can also get me out of here by assisting me in acquiring a visa to join you up after you have collected the money",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Requests visa assistance, a personal favor, not funds/credentials; 判例4"
+    },
+    {
+      "email_id": 7934,
+      "sentence_idx": 9,
+      "sentence_text": "i know this might sound strange to you , but i do n't have a choice and i want you to assist me by been my investment manager and also give me a good education which i could n't get since the death of my mother if you are ready",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "Restates request to act as his investment manager; §1.1 proposal"
+    },
+    {
+      "email_id": 7934,
+      "sentence_idx": 10,
+      "sentence_text": "i am hoping to hear from you soon please do not let me down or turn away from me",
+      "label": "N",
+      "confidence": "high",
+      "reason": "Generalized emotional urging, not bound to a demand; 判例12b"
+    },
+    {
+      "email_id": 7934,
+      "sentence_idx": 11,
+      "sentence_text": "furthermore , i am begging you in god 's name yours truly , kasey kenneth",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7583,
+      "sentence_idx": 0,
+      "sentence_text": "tax refund notification date 17 08 2011 hm revenue customs has identified an error in the calculation of your tax from the last payment , amounting to a tax refund of \\ ? 1 400",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "[scenario] Fake HMRC notice: £1,400 refund pending over invalid account record, pushes claim-my-refund link; reports refund amount, §1.2"
+    },
+    {
+      "email_id": 7583,
+      "sentence_idx": 1,
+      "sentence_text": "\\ ( still pending \\ ) due to invalid account record we were unable to credit your account please submit a verified tax refund request",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Unable to credit account due to invalid record; demands verified refund request, 判例9 v1.3 但书"
+    },
+    {
+      "email_id": 7583,
+      "sentence_idx": 2,
+      "sentence_text": "to return the excess payment , please click on claim my refund to submit a verified tax refund request",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Instructs clicking claim my refund to submit request; §1.4, 判例5"
+    },
+    {
+      "email_id": 7583,
+      "sentence_idx": 3,
+      "sentence_text": "a refund can be delayed for a variety of reasons",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7583,
+      "sentence_idx": 4,
+      "sentence_text": "for example submitting invalid records or applying after the deadline",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7583,
+      "sentence_idx": 5,
+      "sentence_text": "click the claim my refund link below and follow the on screen step in order to have us process your request",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Directs clicking the claim link and following on-screen steps; §1.4"
+    },
+    {
+      "email_id": 7583,
+      "sentence_idx": 6,
+      "sentence_text": "claim my refund note for security reasons , we will record you rip address , the date and time , deliberate wrong inputs are criminally pursued and indicated",
+      "label": "N",
+      "confidence": "low",
+      "reason": "Generalized criminal intimidation over wrong inputs, not bound to withholding info; 判例12b"
+    },
+    {
+      "email_id": 7583,
+      "sentence_idx": 7,
+      "sentence_text": "best regards , hm revenue customs",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6500,
+      "sentence_idx": 0,
+      "sentence_text": "your egg banking statement is online you have a new message waiting for you in the secure area of the egg website",
+      "label": "N",
+      "confidence": "high",
+      "reason": "[scenario] Egg Bank notice of a secure message waiting, directing the member to official www.egg.com to log in and read it"
+    },
+    {
+      "email_id": 6500,
+      "sentence_idx": 1,
+      "sentence_text": "being able to send secure messages allows us to contact each other securely with information specific to you and your accounts",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6500,
+      "sentence_idx": 2,
+      "sentence_text": "if you have n't used this service before , you 'll find it 's really easy",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 6500,
+      "sentence_idx": 3,
+      "sentence_text": "simply go to www egg com and log in to your accounts",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Official domain reference and legitimate login step, no sensitive-info demand; 判例8, 判例5 exclusion"
+    },
+    {
+      "email_id": 6500,
+      "sentence_idx": 4,
+      "sentence_text": "here you 'll find any new messages you have waiting for you and if you want to get in touch with us or reply to any new messages from us , you can",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7513,
+      "sentence_idx": 0,
+      "sentence_text": "the paypal team you have 1 new security message alert !",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] Fake PayPal security alert telling user to log in and resolve the problem via a click-here link; brand + alert title only, 判例1"
+    },
+    {
+      "email_id": 7513,
+      "sentence_idx": 1,
+      "sentence_text": "log in into your account and resolve the problem",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "Directs logging in to resolve fabricated security problem; §1.4 deceptive login guidance"
+    },
+    {
+      "email_id": 7513,
+      "sentence_idx": 2,
+      "sentence_text": "click here to log in the paypal team pp email id pp 194",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Supplies the click-here login link; §1.4, 判例5 v1.3"
+    },
+    {
+      "email_id": 5846,
+      "sentence_idx": 0,
+      "sentence_text": "jp morgan chase place your account is limited !",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "[scenario] Fake Chase notice: account limited, warning issued, account information needs action; title states account restriction, 判例1 v1.3③"
+    },
+    {
+      "email_id": 5846,
+      "sentence_idx": 1,
+      "sentence_text": "! !",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Punctuation-only fragment; cannot implement a core behavior"
+    },
+    {
+      "email_id": 5846,
+      "sentence_idx": 2,
+      "sentence_text": "content length 40197 note this is a service message with information related to your chase account \\ ( s \\ )",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 5846,
+      "sentence_idx": 3,
+      "sentence_text": "it may include specific details about transactions , products or online services",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 5846,
+      "sentence_idx": 4,
+      "sentence_text": "if you recently cancelled your account , please disregard this message",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 5846,
+      "sentence_idx": 5,
+      "sentence_text": "dear chase online sm customer due to concerns , for the safety and integrity of your bank account we have issued this warning message",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Greeting plus vague safety warning, no in-sentence demand; 判例9"
+    },
+    {
+      "email_id": 5846,
+      "sentence_idx": 6,
+      "sentence_text": "it has come to our attention that your bank account information needs",
+      "label": "N",
+      "confidence": "low",
+      "reason": "Truncated pretext lead-in; no visible demand, 判例9"
+    },
+    {
+      "email_id": 7720,
+      "sentence_idx": 0,
+      "sentence_text": "abbey national bank line internet banking important security notice abbey on line banking details update page dear abbey national bank bank line user !",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] Fake Abbey National notice: software update requires opening a member login update form at supplied link; title names page only, 判例1"
+    },
+    {
+      "email_id": 7720,
+      "sentence_idx": 1,
+      "sentence_text": "our technical unit is performing an arranged personal and commercial banking software update by visiting the link below please open the form of the member login update http ww2 abbey national net servlet \\ ? site 28aljdspedwcjjtlctoldbhrokhovp these directions are to be sent and followed by all customers of the",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Pretext bound to visiting link and opening member login update form, with URL; §1.4, 判例5, 判例9但书"
+    },
+    {
+      "email_id": 7720,
+      "sentence_idx": 2,
+      "sentence_text": "if you are not client of abbey e banking please disregard this notice !",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7720,
+      "sentence_idx": 3,
+      "sentence_text": "this is robot generated email please do not respond \\ ( c \\ ) '08 abbey national online banking",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 7720,
+      "sentence_idx": 4,
+      "sentence_text": "all rights reserved",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 4451,
+      "sentence_idx": 0,
+      "sentence_text": "inaccurate whops information",
+      "label": "N",
+      "confidence": "high",
+      "reason": "[scenario] Network Solutions WHOIS complaint notice under ICANN rules, instructing WHOIS contact edits via official Account Manager; no credentials or money demanded"
+    },
+    {
+      "email_id": 4451,
+      "sentence_idx": 1,
+      "sentence_text": "dear network solutions customer , on fri , 31 oct 2008 11 24 16 0200 we received a third party complaint of invalid domain contact information in the whops database for this domain whenever we receive a complaint , we are required by icann regulations to initiate an investigation whether",
+      "label": "N",
+      "confidence": "high",
+      "reason": "Third-party complaint pretext, explicitly N under 判例9"
+    },
+    {
+      "email_id": 4451,
+      "sentence_idx": 2,
+      "sentence_text": "if we find that there is invalid or missing data , we contact both the registrant and the account holder and inform them to update the information",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 4451,
+      "sentence_idx": 3,
+      "sentence_text": "please note icann \\ ( the internet corporation for assigned names and numbers \\ ) regulations state that the whops administrative contact may initiate and approve domain name registration transfers from your network solutions account to other registrars",
+      "label": "N",
+      "confidence": "high",
+      "reason": "ICANN regulatory explanation, no demand; 判例12b"
+    },
+    {
+      "email_id": 4451,
+      "sentence_idx": 4,
+      "sentence_text": "if you are not listed as the whops administrative contact a transfer can occur without your knowledge if domain protect is not enabled for the domain name registrations listed above",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Generalized transfer-risk warning, not bound to a demand; 判例12b"
+    },
+    {
+      "email_id": 4451,
+      "sentence_idx": 5,
+      "sentence_text": "to change the whops administrative contact information for any of your domains , please log in to account manager 1",
+      "label": "N",
+      "confidence": "high",
+      "reason": "Login to legitimate Account Manager; 判例10"
+    },
+    {
+      "email_id": 4451,
+      "sentence_idx": 6,
+      "sentence_text": "log in to account manager at http www networksolutions com",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Official networksolutions.com domain reference; 判例5 exclusion, 判例8"
+    },
+    {
+      "email_id": 4451,
+      "sentence_idx": 7,
+      "sentence_text": "2",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 4451,
+      "sentence_idx": 8,
+      "sentence_text": "click on the profile accounts tab in the left navigation menu to be taken to a page listing your account details",
+      "label": "N",
+      "confidence": "high",
+      "reason": "Legitimate left-navigation interface step; 判例10"
+    },
+    {
+      "email_id": 4451,
+      "sentence_idx": 9,
+      "sentence_text": "3",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 4451,
+      "sentence_idx": 10,
+      "sentence_text": "click on accounts and select the account you wish to edit",
+      "label": "N",
+      "confidence": "high",
+      "reason": "Legitimate select-the-account interface step; 判例10"
+    },
+    {
+      "email_id": 4451,
+      "sentence_idx": 11,
+      "sentence_text": "4",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 4451,
+      "sentence_idx": 12,
+      "sentence_text": "click view edit whops contacts to make your updates",
+      "label": "N",
+      "confidence": "high",
+      "reason": "Legitimate view/edit WHOIS contacts interface step; 判例10"
+    },
+    {
+      "email_id": 4451,
+      "sentence_idx": 13,
+      "sentence_text": "if you believe someone requested this change without your consent , please contact customer service",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 4451,
+      "sentence_idx": 14,
+      "sentence_text": "if you would like to order additional services or to update your account , please visit us online",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 4451,
+      "sentence_idx": 15,
+      "sentence_text": "thank you for choosing network solutions",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 4451,
+      "sentence_idx": 16,
+      "sentence_text": "we are committed to providing you with the solutions , services , and support to help you succeed online",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 4451,
+      "sentence_idx": 17,
+      "sentence_text": "sincerely , network solutions customer support",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 5747,
+      "sentence_idx": 0,
+      "sentence_text": "\\ ? \\ ?",
+      "label": "?",
+      "confidence": "high",
+      "reason": "[scenario] Egg Bank security-upgrade notice requesting personal-record update; garbled escape characters only, no semantic content"
+    },
+    {
+      "email_id": 5747,
+      "sentence_idx": 1,
+      "sentence_text": "probable your online account summary is now available dear client of egg bank , egg bank is here by announcing the new security upgrade",
+      "label": "N",
+      "confidence": "high",
+      "reason": "Upgrade announcement pretext, no in-sentence demand; 判例9"
+    },
+    {
+      "email_id": 5747,
+      "sentence_idx": 2,
+      "sentence_text": "we 've upgraded our new ssl servers to serve our customers for a better and secure banking service , against any fraudulent activities",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 5747,
+      "sentence_idx": 3,
+      "sentence_text": "due to this recent upgrade , you are requested to update your personal records",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Due to upgrade, requests recipient update personal records; §1.3, 判例9 v1.3 但书"
+    },
+    {
+      "email_id": 5747,
+      "sentence_idx": 4,
+      "sentence_text": "once you have updated your personal records , a security code will be sent to your address within 7 days",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Describes code being mailed after update; process detail, 判例10"
+    },
+    {
+      "email_id": 5747,
+      "sentence_idx": 5,
+      "sentence_text": "the 10 digit code will be requested when ever you log in to yo",
+      "label": "N",
+      "confidence": "low",
+      "reason": "Truncated; describes future code request, not itself soliciting; 判例9"
+    },
+    {
+      "email_id": 7380,
+      "sentence_idx": 0,
+      "sentence_text": "this document contains important information hsbc world 's local bank dear customer , as part of the new security measures , all hsbc customers are required to complete quot digital certificate form",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "[scenario] Fake HSBC notice requiring all customers to complete a digital certificate form via supplied link; states form-completion requirement, §1.3, 判例1 v1.3②"
+    },
+    {
+      "email_id": 7380,
+      "sentence_idx": 1,
+      "sentence_text": "please complete the form as soon as possible",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Directly demands completing the form as soon as possible; §1.3 solicitation"
+    },
+    {
+      "email_id": 7380,
+      "sentence_idx": 2,
+      "sentence_text": "to access the form please click on the following link http www hsbc co uk 1 2 hsbcintegration banking php \\ ? jsessionid 036676523445194134381222550843365710267944452047 email sales cryptowars org hsbc bank plc 2002 2010",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Supplies the link to access the form; §1.4, 判例5 v1.3"
+    },
+    {
+      "email_id": 7841,
+      "sentence_idx": 0,
+      "sentence_text": "account status notification dear alliance leicester bank holders , we are upgrading our system , so we want all alliance leicester users to upgrade by following the steps required steps to upgrade you are required to fill in your account details correctly you are required to click on the upgrade",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "[scenario] Fake Alliance Leicester upgrade notice requiring users to fill in account details and click the upgrade link; §1.3 + §1.4"
+    },
+    {
+      "email_id": 7841,
+      "sentence_idx": 1,
+      "sentence_text": "thank you as you comply with our instruction alliance leicester customer care department",
+      "label": "N",
+      "confidence": "high",
+      "reason": "Closing thanks and customer-care signature; §2"
+    },
+    {
+      "email_id": 6400,
+      "sentence_idx": 0,
+      "sentence_text": "update your paypal records update paypal account !",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "[scenario] Fake PayPal demand to update account records; title itself states the account-information demand, 判例1 v1.3②"
+    },
+    {
+      "email_id": 6400,
+      "sentence_idx": 1,
+      "sentence_text": "!",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Punctuation-only fragment; cannot implement a core behavior"
+    },
+    {
+      "email_id": 6400,
+      "sentence_idx": 2,
+      "sentence_text": "!",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Punctuation-only fragment; cannot implement a core behavior"
+    },
+    {
+      "email_id": 4860,
+      "sentence_idx": 0,
+      "sentence_text": "re act as the next of kin dear partner , with great pleasure , i am writing this proposal for the benefit of both of us",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "[scenario] Banker claims $35M unclaimed from deceased customer, seeks next-of-kin partner for 30% share; title states proposal, §1.1, 判例1 v1.3①"
+    },
+    {
+      "email_id": 4860,
+      "sentence_idx": 1,
+      "sentence_text": "i got your information through my personal search on the internet , hence i decided to seek your cooperation , due to the sensitivity of this transaction and my commitment as a banker",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Explains how he found recipient; preamble, no terms stated, 判例9"
+    },
+    {
+      "email_id": 4860,
+      "sentence_idx": 2,
+      "sentence_text": "my name is mr charles sherman \\ ( british citizen \\ ) , i work for fdtb london germany",
+      "label": "N",
+      "confidence": "high",
+      "reason": "Self-introduction and claimed employer; 判例9"
+    },
+    {
+      "email_id": 4860,
+      "sentence_idx": 3,
+      "sentence_text": "mr raymond beck , an american citizen , engineer by profession who died since 1999 , in an egyptian airline \\ ( flight 990 \\ ) , on the 31st october along with other passengers on board",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 4860,
+      "sentence_idx": 4,
+      "sentence_text": "for your perusal , you can confirm this from the website below http www s t com daily 11 99 11 02 99 d08ho174 htm before his death , he has a huge sum of money \\ ( us 35 millions \\ ) , which i was his account officer",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Reports huge sum of US$35 millions; §1.2 amount bait, 判例11"
+    },
+    {
+      "email_id": 4860,
+      "sentence_idx": 5,
+      "sentence_text": "this money has no other beneficiary or next of kin",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "States no other beneficiary exists; narrative setup, 判例4"
+    },
+    {
+      "email_id": 4860,
+      "sentence_idx": 6,
+      "sentence_text": "since his death in 1999 , none of his family member or next of kin has come forward to claim this funds as no one has the knowledge that he had such amount deposited in our bank",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 4860,
+      "sentence_idx": 7,
+      "sentence_text": "as the account officer to the late mr raymond beck , i secured from the probate an order of mandamus to locate any of the deceased beneficiaries to enable the bank release this fund , before the fund will be called back to the bank treasury as unclaimed bills and",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Describes probate order and bank process; narrative, 判例4"
+    },
+    {
+      "email_id": 4860,
+      "sentence_idx": 8,
+      "sentence_text": "my constraint is to be able to source a foreigner partner who is honest and trustworthy individual , that i will present to the bank as his next of kin beneficiary of the said funds \\ ( us 35 , 000 , 000 00 \\ ) this transaction is 100",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Proposes presenting recipient as next-of-kin beneficiary of US$35,000,000; §1.1"
+    },
+    {
+      "email_id": 4860,
+      "sentence_idx": 9,
+      "sentence_text": "i am ready to compensate you with 30 , while i receive 60 and the balance of \\ ( 10 \\ ) for taxes and other miscellaneous expenses",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Offers 30% compensation with 60/10 split; §1.2, 判例11"
+    },
+    {
+      "email_id": 4860,
+      "sentence_idx": 10,
+      "sentence_text": "furthermore , your area of specialization is not a hindrance to the successful execution of this transaction",
+      "label": "N",
+      "confidence": "high",
+      "reason": "Reassurance about specialization; persuasion, 判例4"
+    },
+    {
+      "email_id": 4860,
+      "sentence_idx": 11,
+      "sentence_text": "kindly contact me through this email address charlesis zwallet com with the following information \\ ( s \\ ) 1",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Asks recipient to contact him with the listed personal information; §1.3"
+    },
+    {
+      "email_id": 4860,
+      "sentence_idx": 12,
+      "sentence_text": "your first and last names2",
+      "label": "Y",
+      "confidence": "low",
+      "reason": "Enumerated solicited personal detail (name); §1.3"
+    },
+    {
+      "email_id": 4860,
+      "sentence_idx": 13,
+      "sentence_text": "complete home address3",
+      "label": "Y",
+      "confidence": "low",
+      "reason": "Enumerated solicited personal detail (home address); §1.3"
+    },
+    {
+      "email_id": 4860,
+      "sentence_idx": 14,
+      "sentence_text": "direct telephone and fax numbers 4",
+      "label": "Y",
+      "confidence": "low",
+      "reason": "Enumerated solicited personal detail (telephone/fax); §1.3"
+    },
+    {
+      "email_id": 4860,
+      "sentence_idx": 15,
+      "sentence_text": "age , sex and marital status",
+      "label": "Y",
+      "confidence": "low",
+      "reason": "Enumerated solicited personal detail (age/sex/marital status); §1.3"
+    },
+    {
+      "email_id": 4860,
+      "sentence_idx": 16,
+      "sentence_text": "thank you and god bless , mr charles sherman",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 5192,
+      "sentence_idx": 0,
+      "sentence_text": "re aol notification dear user , we noticed that you recently made a request to shut down your email",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] Fake AOL notice claims user requested email shutdown and pushes a cancel form under a deadline; fabricated premise, no in-sentence demand, 判例9"
+    },
+    {
+      "email_id": 5192,
+      "sentence_idx": 1,
+      "sentence_text": "and this request will be processed shortly",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "States the request will be processed; pretext continuation, no demand, 判例9"
+    },
+    {
+      "email_id": 5192,
+      "sentence_idx": 2,
+      "sentence_text": "if this request was made accidentally , and you have no knowledge of it , you are advised to submit your form to cancel the request now submit however , if you do not cancel this request , your account will be shutdown before dec 24 2019 and all your",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Advises submitting form to cancel, else account shutdown before Dec 24 2019; §1.3 + §1.5"
+    },
+    {
+      "email_id": 5192,
+      "sentence_idx": 3,
+      "sentence_text": "regards",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 5192,
+      "sentence_idx": 4,
+      "sentence_text": "email administrator",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 4963,
+      "sentence_idx": 0,
+      "sentence_text": "re next of kin caspar j justin solicitors86 market place , mansfield ng10 7hr , united kingdom 44 701 114 9174 fax 44 871 264 3736 email caspar j justin lawdr net dear , re next of king am caspar j justin an attorney at law , a south african",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] Solicitor claims deceased client left $15.5M and seeks recipient as next of kin for 25% share; letterhead plus self-intro, 判例9"
+    },
+    {
+      "email_id": 4963,
+      "sentence_idx": 1,
+      "sentence_text": "i am writing to notify you of the testament of one or our client who unfortunately lost his life in the madrid bomb blast on march 11 , 2004 , killing over two hundred people including tourists in spain",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 4963,
+      "sentence_idx": 2,
+      "sentence_text": "he was prominent business leader who had been in spain for vacation with his wife and their only daughter",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 4963,
+      "sentence_idx": 3,
+      "sentence_text": "the deceased who was residing in the united states of america before his death made a deposit of fifteen million five hundred thousand united statesdollars \\ ( us 15 , 500 , 000 00 \\ ) in amsterdam netherlands , his effort to avoid the obligatory payment of income tax",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Reports deposit of US$15,500,000; §1.2 amount bait, 判例11"
+    },
+    {
+      "email_id": 4963,
+      "sentence_idx": 4,
+      "sentence_text": "however , i was mandated by our team of professionals to search for the relatives of the deceased regarding his deposit as the holding financial institution wants him to come forward for the endorsement of there investments documents on interest accrued",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Describes mandate to locate relatives; narrative process, 判例4"
+    },
+    {
+      "email_id": 4963,
+      "sentence_idx": 5,
+      "sentence_text": "since we got information about his death , we have been expecting his next of kin or relatives to come over to sign the reinvestment documents or claim his deposit because the financial institution can not release these fund sunless a formal application is made which is in line with",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Describes awaiting next of kin and fund-release conditions; narrative, 判例4"
+    },
+    {
+      "email_id": 4963,
+      "sentence_idx": 6,
+      "sentence_text": "regrettably , i learned that his supposed next of kin , which could be his spouse or his only daughter died along with him in the ugly madrid bombast leaving nobody with the knowledge of this huge deposit except me ashe personal lawyer attached to monitor his deposit",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "Narrative; references huge deposit without stating amount, 判例4/11"
+    },
+    {
+      "email_id": 4963,
+      "sentence_idx": 7,
+      "sentence_text": "it is in this regard that i and my colleagues decided to solicit your assistance by presenting you as the next of kin to the deceased",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Proposes presenting recipient as next of kin to the deceased; §1.1"
+    },
+    {
+      "email_id": 4963,
+      "sentence_idx": 8,
+      "sentence_text": "although , we have agreed on the following sharing ratios 25 for your assistance and 75 for me and my colleagues , but it is still negotiable nb this transaction is very confidential and 100 risk free as i have copy of his last will and testament which i can",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "States agreed 25%/75% sharing ratios; §1.2, 判例11"
+    },
+    {
+      "email_id": 4963,
+      "sentence_idx": 9,
+      "sentence_text": "this transaction shall be executed under legitimate and legal procedures that will protect you from any breach of the law",
+      "label": "N",
+      "confidence": "high",
+      "reason": "Legality and protection assurance; 判例4"
+    },
+    {
+      "email_id": 4963,
+      "sentence_idx": 10,
+      "sentence_text": "therefore , do not hesitate to revert to me , either via fax or email , with the following details if my proposal interests you a signed copy of this letter , your address and your telephone and fax numbers",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "Requests signed letter, address, telephone and fax numbers; §1.3 solicitation"
+    },
+    {
+      "email_id": 4963,
+      "sentence_idx": 11,
+      "sentence_text": "best regards , caspar j justinattorney at law \\ ( principal \\ )",
+      "label": "N",
+      "confidence": "high"
+    },
+    {
+      "email_id": 4200,
+      "sentence_idx": 0,
+      "sentence_text": "account secure confirmation !",
+      "label": "N",
+      "confidence": "low",
+      "reason": "[scenario] National City business account secure confirmation title with greeting only; no explicit proposal, demand, or restriction claim, 判例1"
+    },
+    {
+      "email_id": 4200,
+      "sentence_idx": 1,
+      "sentence_text": "\\ ( message id iv721103290508pv \\ ) dear national city business client",
+      "label": "N",
+      "confidence": "high",
+      "reason": "Message-ID artifact plus salutation; §2"
+    }
+  ]
+}

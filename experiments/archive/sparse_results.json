@@ -1,0 +1,10 @@
+{
+  "Sparse ABMIL": {
+    "label_accuracy": 0.9846,
+    "cognitive_tp": 0.9950,
+    "attention_entropy": 0.2718,
+    "rule_agreement": 0.6982,
+    "f1": 0.3024,
+    "auprc": 0.9476
+  }
+}

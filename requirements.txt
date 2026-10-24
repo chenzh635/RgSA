@@ -1,0 +1,10 @@
+torch>=2.0
+scipy
+numpy
+nltk
+scikit-learn
+matplotlib
+seaborn
+pyyaml
+tqdm
+sentence-transformers

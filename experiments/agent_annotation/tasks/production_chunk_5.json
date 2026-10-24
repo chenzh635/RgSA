@@ -1,0 +1,863 @@
+{
+ "metadata": {
+  "batch": "production_chunk_5",
+  "n": 25,
+  "note": "Blinded production emails. All model-derived fields removed. Sentences: idx/text only."
+ },
+ "emails": [
+  {
+   "email_idx": 7507,
+   "n_sentences": 47,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "investment assistance investment assistance"
+    },
+    {
+     "idx": 1,
+     "text": "i am mr chunks anthony , the financial controller and contract award committee chairman in the national electric power authority \\ ( nepal \\ ) in lagos , nigeria"
+    },
+    {
+     "idx": 2,
+     "text": "my colleagues have assigned me to seek for assistance of a reliable foreigner through whom we can transfer the sum of us 65 , 500 , 000 00 \\ ( sixty five million , five hundred thousand u s"
+    },
+    {
+     "idx": 3,
+     "text": "dollars \\ ) which arose from deliberate over inflated contract value for the general expansion of the kanji dam thermal station on behalf of national electric power authority \\ ( nepal \\ ) for increased energy generation to nigeria and some other west african countries"
+    },
+    {
+     "idx": 4,
+     "text": "the contract was awarded in 1998 during the late general sunni apache regime to an expatriate firm with the consideration of 10 commission agreement on the total contract value"
+    },
+    {
+     "idx": 5,
+     "text": "the contract has been completed , and the contractor has long been paid , we are now left with this us 65 , 500 , 000 00 representing the 10 our own share as agreed presently in the federal government account"
+    },
+    {
+     "idx": 6,
+     "text": "the favorable political economic climate in this country now presented an opportunity for this money to be transferred out of the country"
+    },
+    {
+     "idx": 7,
+     "text": "i got your contact from a commercial attached to your embassy"
+    },
+    {
+     "idx": 8,
+     "text": "this assurance gave me courage to link you up for this particular transaction , and i hope it will be of mutual benefit to all of us"
+    },
+    {
+     "idx": 9,
+     "text": "our contact in the federal ministry of finance have given us a go a head advice to begin the process of the remittance , hence we have set in motion the machinery for the take off of the transaction and further action will commence immediately we hear from you"
+    },
+    {
+     "idx": 10,
+     "text": "we have agreed that after the transfer of the money into your account , you shall be entitled to 30 of the total amount transferred , 10 for incidental expenses from you and us , while the remaining 60 will be for us"
+    },
+    {
+     "idx": 11,
+     "text": "we decided to give you this percentage in order to motivate you and also to let you feel satisfied at the end of this transaction"
+    },
+    {
+     "idx": 12,
+     "text": "the nature of your business is not particularly relevant for the success of this transaction"
+    },
+    {
+     "idx": 13,
+     "text": "all we require is your willingness to co operate and assurance that our own share will be given to us when this money is transferred into your account"
+    },
+    {
+     "idx": 14,
+     "text": "all necessary precautions have been taken to ensure a no risk situation on the sides of both parties , and it is believed that the conclusion of this transaction will not last more than fourteen \\ ( 14 \\ ) working days"
+    },
+    {
+     "idx": 15,
+     "text": "however , we are going to retrieve the whole documents that will be related to this transaction so that both parties will be protected after the transfer of the money into your account"
+    },
+    {
+     "idx": 16,
+     "text": "since we have no knowledge of business , our plan is to invest this money into real estate , stocks , and we can also invest in some other profitable business in your country based on your advice because many of our years has been spent as civil servant ,"
+    },
+    {
+     "idx": 17,
+     "text": "please note that this business is strictly confidential and must not be disclosed to a third party"
+    },
+    {
+     "idx": 18,
+     "text": "this is necessary to avoid disclosure that may jeopardize the transaction"
+    },
+    {
+     "idx": 19,
+     "text": "finally , if this proposal is acceptable to you or if you have any questions , feel free to contact me on the above e mail address"
+    },
+    {
+     "idx": 20,
+     "text": "you should also send to me your private telephone fax numbers and e mail address for easy and confidential communication"
+    },
+    {
+     "idx": 21,
+     "text": "i will oblige you with further information if so required"
+    },
+    {
+     "idx": 22,
+     "text": "please reply this mail through chuksanths zwallet com mail to chuksanths zwallet com"
+    },
+    {
+     "idx": 23,
+     "text": "best regards mr chunks anthonynepa investment assistance"
+    },
+    {
+     "idx": 24,
+     "text": "i am mr chunks anthony , the financial controller and contract award committee chairman in the national electric power authority \\ ( nepal \\ ) in lagos , nigeria"
+    },
+    {
+     "idx": 25,
+     "text": "my colleagues have assigned me to seek for assistance of a reliable foreigner through whom we can transfer the sum of us 65 , 500 , 000 00 \\ ( sixty five million , five hundred thousand u s"
+    },
+    {
+     "idx": 26,
+     "text": "dollars \\ ) which arose from deliberate over inflated contract value for the general expansion of the kanji dam thermal station on behalf of national electric power authority \\ ( nepal \\ ) for increased energy generation to nigeria and some other west african countries"
+    },
+    {
+     "idx": 27,
+     "text": "the contract was awarded in 1998 during the late general sunni apache regime to an expatriate firm with the consideration of 10 commission agreement on the total contract value"
+    },
+    {
+     "idx": 28,
+     "text": "the contract has been completed , and the contractor has long been paid , we are now left with this us 65 , 500 , 000 00 representing the 10 our own share as agreed presently in the federal government account"
+    },
+    {
+     "idx": 29,
+     "text": "the favorable political economic climate in this country now presented an opportunity for this money to be transferred out of the country"
+    },
+    {
+     "idx": 30,
+     "text": "i got your contact from a commercial attached to your embassy"
+    },
+    {
+     "idx": 31,
+     "text": "this assurance gave me courage to link you up for this particular transaction , and i hope it will be of mutual benefit to all of us"
+    },
+    {
+     "idx": 32,
+     "text": "our contact in the federal ministry of finance have given us a go a head advice to begin the process of the remittance , hence we have set in motion the machinery for the take off of the transaction and further action will commence immediately we hear from you"
+    },
+    {
+     "idx": 33,
+     "text": "we have agreed that after the transfer of the money into your account , you shall be entitled to 30 of the total amount transferred , 10 for incidental expenses from you and us , while the remaining 60 will be for us"
+    },
+    {
+     "idx": 34,
+     "text": "we decided to give you this percentage in order to motivate you and also to let you feel satisfied at the end of this transaction"
+    },
+    {
+     "idx": 35,
+     "text": "the nature of your business is not particularly relevant for the success of this transaction"
+    },
+    {
+     "idx": 36,
+     "text": "all we require is your willingness to co operate and assurance that our own share will be given to us when this money is transferred into your account"
+    },
+    {
+     "idx": 37,
+     "text": "all necessary precautions have been taken to ensure a no risk situation on the sides of both parties , and it is believed that the conclusion of this transaction will not last more than fourteen \\ ( 14 \\ ) working days"
+    },
+    {
+     "idx": 38,
+     "text": "however , we are going to retrieve the whole documents that will be related to this transaction so that both parties will be protected after the transfer of the money into your account"
+    },
+    {
+     "idx": 39,
+     "text": "since we have no knowledge of business , our plan is to invest this money into real estate , stocks , and we can also invest in some other profitable business in your country based on your advice because many of our years has been spent as civil servant ,"
+    },
+    {
+     "idx": 40,
+     "text": "please note that this business is strictly confidential and must not be disclosed to a third party"
+    },
+    {
+     "idx": 41,
+     "text": "this is necessary to avoid disclosure that may jeopardize the transaction"
+    },
+    {
+     "idx": 42,
+     "text": "finally , if this proposal is acceptable to you or if you have any questions , feel free to contact me on the above e mail address"
+    },
+    {
+     "idx": 43,
+     "text": "you should also send to me your private telephone fax numbers and e mail address for easy and confidential communication"
+    },
+    {
+     "idx": 44,
+     "text": "i will oblige you with further information if so required"
+    },
+    {
+     "idx": 45,
+     "text": "please reply this mail through chuksanths zwallet com mail to chuksanths zwallet com"
+    },
+    {
+     "idx": 46,
+     "text": "best regards mr chunks anthonynepa"
+    }
+   ]
+  },
+  {
+   "email_idx": 5764,
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "twitter 172 773 a color 0084b4 a hover color 215e88 h1 , h2 margin 0 0 16px 0 color 000 h2 font 20px georgia , serif h3 margin 14px 0 4px 0 color 000 font normal 18px georgia , serif line height 22px p , ul margin 4px 0 15px"
+    },
+    {
+     "idx": 1,
+     "text": "display block height 0 clear both visibility hidden user display inline block hi , you have 1 unread message \\ ( s \\ ) http twitter com account message 48bf 1cdaa the twitter team please do not reply to this message it was sent from an unmonitored email address"
+    },
+    {
+     "idx": 2,
+     "text": "this message is a service email related to your use of twitter"
+    },
+    {
+     "idx": 3,
+     "text": "for general inquiries or to request support with your twitter account , please visit us at twitter support"
+    }
+   ]
+  },
+  {
+   "email_idx": 7976,
+   "n_sentences": 19,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "letter from daniel kamila letter from daniel kabilajohannesburg , south africainvestment offergreetings , in appreciation of your esteemed contact received through a reliable source and the choice of your country i wish to introduce myself , i am daniel kamila the son of the late democratic republic of congo president"
+    },
+    {
+     "idx": 1,
+     "text": "i know this letter might come to you as a surprise , but i honestly do not intend to surprise you"
+    },
+    {
+     "idx": 2,
+     "text": "i write this letter in respect of my intention to invest the sum of twelve a million united states dollars with you"
+    },
+    {
+     "idx": 3,
+     "text": "furthermore , i inherited this money from my mother"
+    },
+    {
+     "idx": 4,
+     "text": "this money was got through the smuggling and sale of diamond and timber when my father was the head of state"
+    },
+    {
+     "idx": 5,
+     "text": "my mother though not her legal wife used her privilege position to engage in the business of diamond and timber since she knows that her survival will depend on how much she can get out of the privilege situation"
+    },
+    {
+     "idx": 6,
+     "text": "when my father was assassinated on 16th jan 01 by one of his bodyguards lt rashidi karaoke through the conspiracy of some top army officers that wanted to topple him i escaped to south africa because of the fear that i might be arrested by my half brother lt general"
+    },
+    {
+     "idx": 7,
+     "text": "actually his mother and my mother are not in the best of relationship because of who among them will be the first lady tussle and this ultimately affected us their children"
+    },
+    {
+     "idx": 8,
+     "text": "considering the relationship between south africa and the democratic republic of congo new government , my mother advised me to leave for south africa for security reason , while the funds were deposited with a security company in europe"
+    },
+    {
+     "idx": 9,
+     "text": "on getting to south africa where i have been living since then as a political refugee i am seeking for a reliable foreigner who can assist me in moving this money out for safe banking and profitable investment"
+    },
+    {
+     "idx": 10,
+     "text": "honestly i contacted you because i do n't want to invest this money in south africa due to my status here as a political refugee"
+    },
+    {
+     "idx": 11,
+     "text": "and moreover i would n't want to take risk because this money is all that i and my mother is depending on because my half brother has seized all my father 's assets and money and left i and my mother empty handed without knowing about these funds deposited at"
+    },
+    {
+     "idx": 12,
+     "text": "i will be honored if i can be given the privilege of investing this money with your help"
+    },
+    {
+     "idx": 13,
+     "text": "in view of this plight , i expect you to be trustworthy and kind enough to respond to this distress call to save my mother and i from a hopeless future"
+    },
+    {
+     "idx": 14,
+     "text": "and if you agree , i hereby agree to compensate your sincere and candid effort in this regard with 20 of the total money and annual 5 of the after tax returns on investment for the first three years"
+    },
+    {
+     "idx": 15,
+     "text": "thereafter , the term shall be varied 5 for expenses , which may arise during the transaction , fax and phone bills inclusive"
+    },
+    {
+     "idx": 16,
+     "text": "when the money is moved into your discrete account , you will be allowed to draw 20 your favor , while the remaining 70 will be invested meaningfully for our future if possible in your area of business and deterrents sectors of the economy in your country which are dividends"
+    },
+    {
+     "idx": 17,
+     "text": "whatever your decision is please reach me immediately and keep this letter tight secret for the interest of my family"
+    },
+    {
+     "idx": 18,
+     "text": "best regards , daniel kamila email dankabila4eva100 teenmail co za"
+    }
+   ]
+  },
+  {
+   "email_idx": 6713,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "!"
+    },
+    {
+     "idx": 1,
+     "text": "o60y7d jose monkey org , 24 0fef6t0en0dfde36r30eb0aenf6 , ae b1 f2ne1 w28d9ccx9era0z7af4 15gb sb0w28s47 a7ne57fq4d c8k62 sb0w28s47 a7ne57fq4dae b1 c8k62 22220c aenf6ff4eb0"
+    }
+   ]
+  },
+  {
+   "email_idx": 7688,
+   "n_sentences": 6,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "is it a microchip bonanza \\ ?"
+    },
+    {
+     "idx": 1,
+     "text": "tsunami stocks symbol isie current 24 short target 85 rating strong a merger and acquisition mania is now underway in the market"
+    },
+    {
+     "idx": 2,
+     "text": "many companies are running out of cash as well as credit and some are closing their doors"
+    },
+    {
+     "idx": 3,
+     "text": "its capitalism at its finest"
+    },
+    {
+     "idx": 4,
+     "text": "the strongest companies like isie , those with world class management , strong balance sheets , and access to capital will survive and prosper"
+    },
+    {
+     "idx": 5,
+     "text": "isomers growth through acquisition business"
+    }
+   ]
+  },
+  {
+   "email_idx": 7171,
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "barclay card online security notification"
+    },
+    {
+     "idx": 1,
+     "text": "barclay card system error var domain https statse webtrendslive com var did dcspe7z2q10000gskbelwijvj 8w1g var gpc wt fpc var convert true var fandom barclaycard co uk if \\ ( \\ ( type of \\ ( convert \\ ) ! undefined \\ ) gconvert \\ ( document cookie index \\ ("
+    },
+    {
+     "idx": 2,
+     "text": "if you would like to continue managing your account , you will need to log in again"
+    },
+    {
+     "idx": 3,
+     "text": "log in copy barclay card 2013 cancel confirm"
+    }
+   ]
+  },
+  {
+   "email_idx": 5781,
+   "n_sentences": 3,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "errors on your internet banking account dear valued customer , hsbc bank plc is sending you this notification message because we seem to be having some errors with our internal security server"
+    },
+    {
+     "idx": 1,
+     "text": "please do not be left out"
+    },
+    {
+     "idx": 2,
+     "text": "to get started , click the link below click here to log on"
+    }
+   ]
+  },
+  {
+   "email_idx": 5954,
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "car advert job opening hello , we are currently seeking to employ individuals worldwide"
+    },
+    {
+     "idx": 1,
+     "text": "how would you like to make money by simply driving your car advertising for hennessy , johnnie walker , pepsi , coke , apple product"
+    },
+    {
+     "idx": 2,
+     "text": "how it works here 's the basic premise of the paid to drive concept auto wrap seeks people regular citizens , professional drivers to go about their normal routine as they usually do , only with an advert for auto wrap plastered on your car"
+    },
+    {
+     "idx": 3,
+     "text": "the ads are type"
+    }
+   ]
+  },
+  {
+   "email_idx": 5121,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "important information about your service mail update to make sure emails from bt go into your inbox and not the junk folder , add ebilling bt com to your address book"
+    },
+    {
+     "idx": 1,
+     "text": "click here thanks for choosing bt , warren buckley managing director , customer service"
+    }
+   ]
+  },
+  {
+   "email_idx": 6165,
+   "n_sentences": 8,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "message from natwest new page 1 we detect irregular activity on your natwest internet banking account on 07 06 2011"
+    },
+    {
+     "idx": 1,
+     "text": "for your protection , you must verify this activity before you can continue using your account"
+    },
+    {
+     "idx": 2,
+     "text": "please visit http www natwest com verify activity personal ashx to review your account activity"
+    },
+    {
+     "idx": 3,
+     "text": "we will review the activity on your account with you and upon verification , and we will remove any restrictions placed on your account"
+    },
+    {
+     "idx": 4,
+     "text": "please disregard this notice if you have already accessed the website or spoken with one of our representatives"
+    },
+    {
+     "idx": 5,
+     "text": "want to confirm this email is from natwest online banking \\ ?"
+    },
+    {
+     "idx": 6,
+     "text": "sign in to internet banking and select alerts history to verify this alert"
+    },
+    {
+     "idx": 7,
+     "text": "natwest online banking"
+    }
+   ]
+  },
+  {
+   "email_idx": 7153,
+   "n_sentences": 5,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "onto were respect"
+    },
+    {
+     "idx": 1,
+     "text": "new page 2 online banking is ja so sequel online banking bam online banking haven she per kick allies i 'm grief mit them comfortable online banking haven she schneider und problemlosen gang eu iprem girokonto"
+    },
+    {
+     "idx": 2,
+     "text": "bam online banking erlangen she berweisungen und dauerauftrge sequel per mausklick"
+    },
+    {
+     "idx": 3,
+     "text": "online banking baited abel noah view meir"
+    },
+    {
+     "idx": 4,
+     "text": "klicken she bitter hear die fertile on online banking auf linen black sparkasse de 2013 all recite vorbehalten"
+    }
+   ]
+  },
+  {
+   "email_idx": 6264,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "cornell university office 365 web access help desk this is your final warning"
+    },
+    {
+     "idx": 1,
+     "text": "your cornell university office 365 web access email has exceeded its quota limit cornell university online validate to sign in for upgrade and advance mailbox features or you will be deactivated permanently , and may not be able to send or receive new mail until you re validate your cornell"
+    }
+   ]
+  },
+  {
+   "email_idx": 4395,
+   "n_sentences": 6,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "lloyds bank on line banking important verify your data id 8986 lloyds tsb bank electronic banking client details verification form dear lloyds bank client , security and confidentiality are at the heart of the lloyds group"
+    },
+    {
+     "idx": 1,
+     "text": "your details \\ ( and your money \\ ) is protected by a number of technologies , including secure sockets layer \\ ( ssl \\ ) encryption"
+    },
+    {
+     "idx": 2,
+     "text": "we would like to inform you that lloyds bank carries out customer details confirmation procedure that is compulsory for all our customers"
+    },
+    {
+     "idx": 3,
+     "text": "this procedure is attributed to a routine banking software update"
+    },
+    {
+     "idx": 4,
+     "text": "please visit our customer confirmation page using the link below and follow the instructions on the screen"
+    },
+    {
+     "idx": 5,
+     "text": "http www2 lloydstsb co uk customer confirm ibc \\ ? ole 28aolscpddwcjjtlctoldbhrokhovp lloyds customer service"
+    }
+   ]
+  },
+  {
+   "email_idx": 7539,
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "update your email account now \\ ( do not ignore \\ ) dear \\ ( jose monkey org \\ ) , 1969mb 2000mb your email account storage limit is almost full therefore you may not be able to receive or send multiple emails soon"
+    },
+    {
+     "idx": 1,
+     "text": "to prevent this and to continue using your mailbox safely , please upgrade your mailbox quota below upgrade mailbox quota here jose monkey org this service is free of charge and once the upgrade is completed , your mailbox will continue to work effectively"
+    },
+    {
+     "idx": 2,
+     "text": "failure to update your email account , it will be permanently disabled"
+    },
+    {
+     "idx": 3,
+     "text": "thank you , mail administrator 2017"
+    }
+   ]
+  },
+  {
+   "email_idx": 4704,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "protect yourself from online fraud !"
+    },
+    {
+     "idx": 1,
+     "text": "new page 1 dear customer protect yourself from online fraud hsbc internet banking helpdesk"
+    }
+   ]
+  },
+  {
+   "email_idx": 7351,
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "free secure loan for you"
+    },
+    {
+     "idx": 1,
+     "text": "if you need a loan of any kind auto , mortgage , business , marriage , personal , mortgage at an interest rate of 3 per year , please return to us"
+    },
+    {
+     "idx": 2,
+     "text": "thank you"
+    },
+    {
+     "idx": 3,
+     "text": "mr vance mercury director of administration uk comic finance email comicloanuk crisnee eu"
+    }
+   ]
+  },
+  {
+   "email_idx": 5626,
+   "n_sentences": 9,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "account alert issue with your online banking dear valued customer we believe that invention of security measures is the best way to beat online fraud"
+    },
+    {
+     "idx": 1,
+     "text": "barclays bank have employed some industrial leading models to start performing an extra security check with your online banking activities to ensure a safe and secure online and mobile banking"
+    },
+    {
+     "idx": 2,
+     "text": "you are requested to follow the provided steps and update your online banking details , for the safety of your accounts by downloading the attached form and follow the instructions on your screen"
+    },
+    {
+     "idx": 3,
+     "text": "if you choose to ignore our request , you leave us no choice but to temporary hold on your funds"
+    },
+    {
+     "idx": 4,
+     "text": "thank you for your patience as we work together to protect your account"
+    },
+    {
+     "idx": 5,
+     "text": "sincerely , barclays online bank customer service"
+    },
+    {
+     "idx": 6,
+     "text": "important please update your records on or before 48 hours , a failure to update your records will result in a temporary hold on your funds"
+    },
+    {
+     "idx": 7,
+     "text": "2014 barclays bank plc"
+    },
+    {
+     "idx": 8,
+     "text": "all rights reserved"
+    }
+   ]
+  },
+  {
+   "email_idx": 5049,
+   "n_sentences": 7,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "your accounts have been limited until we hear from you paypal your accounts has been limited until we hear from you dear customer please be aware that your paypal account expire in less than 48 h it is indispensable to perform an audit of your data is present , otherwise"
+    },
+    {
+     "idx": 1,
+     "text": "just click the link below"
+    },
+    {
+     "idx": 2,
+     "text": "click here to confirm your account information"
+    },
+    {
+     "idx": 3,
+     "text": "you must confirm your information to save it thanks you for helping , the team need assistance \\ ?"
+    },
+    {
+     "idx": 4,
+     "text": "we 're happy to help by phone at 1 518 741 2708 , monday to friday 9 00am to 5 00 pm est , or by emailcopyright 2016"
+    },
+    {
+     "idx": 5,
+     "text": "all rights reserved"
+    },
+    {
+     "idx": 6,
+     "text": "email id 18460"
+    }
+   ]
+  },
+  {
+   "email_idx": 4952,
+   "n_sentences": 3,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "re re invoice 63844310 payment i just saw this , i must have missed it"
+    },
+    {
+     "idx": 1,
+     "text": "please confirm you have indeed sent this , and we will remit the payment"
+    },
+    {
+     "idx": 2,
+     "text": "invoice 63844310 thanks brandon wallace senior accountant tel number redacted fax number redacted"
+    }
+   ]
+  },
+  {
+   "email_idx": 7324,
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "western union you have \\ ( 1 \\ ) new message alert as part of our security measures , we regularly screen activity in the western union system"
+    },
+    {
+     "idx": 1,
+     "text": "your account has open issues click to resolve best regards , western union customer service 2001 2011 western union holdings , inc , all rights reserved"
+    },
+    {
+     "idx": 2,
+     "text": "do not reply to this email"
+    },
+    {
+     "idx": 3,
+     "text": "if you have questions please contact us"
+    }
+   ]
+  },
+  {
+   "email_idx": 5646,
+   "n_sentences": 3,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "your account has been placed on suspension status"
+    },
+    {
+     "idx": 1,
+     "text": "dear hsbc account holder , we are currently engaged in customer information update , therefore online access to your account has been temporarily suspended pending confirmation of your identity"
+    },
+    {
+     "idx": 2,
+     "text": "log on best regards , colette nu gent head of customer communications"
+    }
+   ]
+  },
+  {
+   "email_idx": 5074,
+   "n_sentences": 16,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "can i confide in you \\ ?"
+    },
+    {
+     "idx": 1,
+     "text": "please respond barrister anthony njabalagos nigeria private email tonynjaba2k2 centrum czdear friend , i am barrister anthony nasa , a solicitor at law"
+    },
+    {
+     "idx": 2,
+     "text": "i am the personal attorney to mr andrew deceiver , a national of your country , who used to work with shell development company in nigeria"
+    },
+    {
+     "idx": 3,
+     "text": "on the 16th of march 2001 , my client , his wife and their only son were involved in a car accident along lagos ibadan express road , all occupants of the vehicle unfortunately lost their lives"
+    },
+    {
+     "idx": 4,
+     "text": "since then i have made several inquiries to your embassy here to locate any of my clients extended relatives , this has also proved unsuccessful"
+    },
+    {
+     "idx": 5,
+     "text": "after these several unsuccessful attempts , i decided to contact you , hoping that you will be willing to assist me in recovering the fund valued at us 9 6 million left behind by my client before it gets confiscated or declared unserviceable by the bank where this huge amount"
+    },
+    {
+     "idx": 6,
+     "text": "the said bank has issued me a notice to provide the next of kin or have the account confiscated within the next twenty one official working days"
+    },
+    {
+     "idx": 7,
+     "text": "since i have been unsuccessful in locating the relatives for over 2 years now , i seek your consent to present you as the next of kin to the deceased so that the proceeds of this account can be paid to you"
+    },
+    {
+     "idx": 8,
+     "text": "therefore , on receipt of your positive response , we shall then discuss on how we can share the funds when it gets into your account"
+    },
+    {
+     "idx": 9,
+     "text": "i will give you necessary information and some documents you need to back up your claim"
+    },
+    {
+     "idx": 10,
+     "text": "i need your sincere and honest cooperation to enable us see this transaction through i assure you that this transaction will be executed under legitimate arrangement that will protect you from any breach of the law"
+    },
+    {
+     "idx": 11,
+     "text": "if you wish to assist me , then you should reply"
+    },
+    {
+     "idx": 12,
+     "text": "remember to email me your telephone and fax number and your contact address"
+    },
+    {
+     "idx": 13,
+     "text": "please reply to my private email address tonynjaba2k2 centrum cz best wishes , barrister anthony njabalagos nigeria ill portal official do 10 festival super bock super rock"
+    },
+    {
+     "idx": 14,
+     "text": "ganha um dos 50 passes de 3 dias que demos para officer !"
+    },
+    {
+     "idx": 15,
+     "text": "concorre aqua http www iol pt passatempos sbsr"
+    }
+   ]
+  },
+  {
+   "email_idx": 4914,
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "your order with amazon com \\ ( 6694 049080 61152 \\ ) amazon com your confirmation dear customer , your order has been successfully confirmed"
+    },
+    {
+     "idx": 1,
+     "text": "for your reference , here s a summary of your order you just confirmed order 097 62331 566273 status confirmed order details sold by amazon com , llc because you only pay for items when we ship them to you , you wo n't be charged for any items that"
+    },
+    {
+     "idx": 2,
+     "text": "thank you for visiting amazon com !"
+    },
+    {
+     "idx": 3,
+     "text": "amazon com earth 's biggest selection http www amazon com"
+    }
+   ]
+  },
+  {
+   "email_idx": 5990,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "why is everyone talking about cbd \\ ?"
+    },
+    {
+     "idx": 1,
+     "text": "what is essential cbd extract \\ ?"
+    }
+   ]
+  },
+  {
+   "email_idx": 4174,
+   "n_sentences": 6,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "reactivate your google ads google account"
+    },
+    {
+     "idx": 1,
+     "text": "dear advertiser , we were unable to process your payment"
+    },
+    {
+     "idx": 2,
+     "text": "your ads will be suspended soon unless we can process your payment"
+    },
+    {
+     "idx": 3,
+     "text": "to prevent your ads from being suspended , please update your payment information"
+    },
+    {
+     "idx": 4,
+     "text": "please sign in to your account at http adwords google com select login , and update your payment information"
+    },
+    {
+     "idx": 5,
+     "text": "we look forward to providing you with the most effective advertising available grow your business with google ads"
+    }
+   ]
+  }
+ ]
+}

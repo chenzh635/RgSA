@@ -1,0 +1,20 @@
+{
+  "ablation_no_l1": {
+    "email_auprc": 0.9992886394157933,
+    "email_f1": 0.9875393329137823,
+    "spearman_corr": 0.4529992948328135,
+    "attention_entropy": 0.6193828433233846
+  },
+  "ablation_no_rule": {
+    "email_auprc": 0.9989194105263399,
+    "email_f1": 0.988988988988989,
+    "spearman_corr": 0.16306615990282042,
+    "attention_entropy": 1.2824605186823756
+  },
+  "ablation_no_temp": {
+    "email_auprc": 0.9990859882772589,
+    "email_f1": 0.9879669089997493,
+    "spearman_corr": 0.4800012093238885,
+    "attention_entropy": 0.8349370912834432
+  }
+}

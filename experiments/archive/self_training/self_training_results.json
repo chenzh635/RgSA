@@ -1,0 +1,50 @@
+[
+  {
+    "round": 0,
+    "method": "ABMIL only",
+    "email_auprc": 0.5235346602186526,
+    "email_f1": 0.5793060718711276,
+    "spearman_corr": 0.4591682059060988,
+    "attention_entropy": 0.8334424224862248
+  },
+  {
+    "round": 1,
+    "method": "ABMIL + Self-Training (round 1)",
+    "email_auprc": 0.6540137450831311,
+    "email_f1": 0.6508905218582638,
+    "spearman_corr": 0.45490049889322764,
+    "attention_entropy": 1.156965291806642
+  },
+  {
+    "round": 2,
+    "method": "ABMIL + Self-Training (round 2)",
+    "email_auprc": 0.661331109056616,
+    "email_f1": 0.664091701968602,
+    "spearman_corr": 0.44929014988533134,
+    "attention_entropy": 1.1544133794038633
+  },
+  {
+    "round": 3,
+    "method": "ABMIL + Self-Training (round 3)",
+    "email_auprc": 0.6602111800662571,
+    "email_f1": 0.6562421816362272,
+    "spearman_corr": 0.44638605106941953,
+    "attention_entropy": 1.1533087063923744
+  },
+  {
+    "round": 4,
+    "method": "ABMIL + Self-Training (round 4)",
+    "email_auprc": 0.6560080259839475,
+    "email_f1": 0.649767850420379,
+    "spearman_corr": 0.45162118883794855,
+    "attention_entropy": 1.151376391045647
+  },
+  {
+    "round": 5,
+    "method": "ABMIL + Self-Training (round 5)",
+    "email_auprc": 0.6589038978165545,
+    "email_f1": 0.6580822602825354,
+    "spearman_corr": 0.4580468611614682,
+    "attention_entropy": 1.1436818785997072
+  }
+]

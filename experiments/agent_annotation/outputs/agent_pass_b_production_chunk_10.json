@@ -1,0 +1,2528 @@
+{
+ "annotator": "agent_pass_b",
+ "batch": "production_chunk_10",
+ "exported_at": "2026-09-15T22:50:31.745860+08:00",
+ "n_emails": 25,
+ "annotations": [
+  {
+   "email_id": 6604,
+   "sentence_idx": 0,
+   "sentence_text": "angelina jolie invited you to join facebook facebookfacebookhi , the following person invited you to be their friend on facebook angelina jolieinvite sent sat , 12 jun 2010 23 37 19 0800 facebook is a great place to keep in touch with friends , post photos , videos and create",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] Facebook friend-invite notice (celebrity); push signup via link. Title+marketing, no core act (判例1)."
+  },
+  {
+   "email_id": 6604,
+   "sentence_idx": 1,
+   "sentence_text": "but first you need to join !",
+   "label": "N",
+   "confidence": "high",
+   "reason": "nudge to join; no solicitation"
+  },
+  {
+   "email_id": 6604,
+   "sentence_idx": 2,
+   "sentence_text": "sign up today to create a profile and connect with the people you know",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "generic signup promotion, no credential demand (判例12c)"
+  },
+  {
+   "email_id": 6604,
+   "sentence_idx": 3,
+   "sentence_text": "thanks , the facebook team already have an account \\ ?",
+   "label": "N",
+   "confidence": "high",
+   "reason": "navigation prompt"
+  },
+  {
+   "email_id": 6604,
+   "sentence_idx": 4,
+   "sentence_text": "add this email address to your account here",
+   "label": "N",
+   "confidence": "high",
+   "reason": "operation step"
+  },
+  {
+   "email_id": 6604,
+   "sentence_idx": 5,
+   "sentence_text": "facebook is free and anyone can join",
+   "label": "N",
+   "confidence": "high",
+   "reason": "marketing"
+  },
+  {
+   "email_id": 6604,
+   "sentence_idx": 6,
+   "sentence_text": "sign unto sign up for facebook , follow the link below http www facebook com r php \\ ? 3890689678225421060310943321475047312326this message was intended for nanae030128 highwayman com",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "signup solicitation + clickable URL (§1.4,判例5)"
+  },
+  {
+   "email_id": 6604,
+   "sentence_idx": 7,
+   "sentence_text": "if you do not wish to receive this type of email from facebook in the future , please click here to unsubscribe",
+   "label": "N",
+   "confidence": "high",
+   "reason": "unsubscribe footer"
+  },
+  {
+   "email_id": 6604,
+   "sentence_idx": 8,
+   "sentence_text": "facebook 's offices are located at 1601 s california ave , palo alto , ca 94304",
+   "label": "N",
+   "confidence": "high",
+   "reason": "address footer"
+  },
+  {
+   "email_id": 6619,
+   "sentence_idx": 0,
+   "sentence_text": "your account has been temporarily limited !",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "[scenario] NatWest: account limited, ask login+verify via link. Account-limit title (判例1③)."
+  },
+  {
+   "email_id": 6619,
+   "sentence_idx": 1,
+   "sentence_text": "new page 4 dear natwest member , we recently noticed that a transaction may have been made without your knowledge or consent",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (unauthorized transaction) (判例9)"
+  },
+  {
+   "email_id": 6619,
+   "sentence_idx": 2,
+   "sentence_text": "please log in to your natwest account by following the link below",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "login via link below (§1.4)"
+  },
+  {
+   "email_id": 6619,
+   "sentence_idx": 3,
+   "sentence_text": "during our investigation your account access will be limited",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (access limited during investigation)"
+  },
+  {
+   "email_id": 6619,
+   "sentence_idx": 4,
+   "sentence_text": "please verify your account details in order to lift the limit on your account",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "verify account details to lift limit (§1.3)"
+  },
+  {
+   "email_id": 6619,
+   "sentence_idx": 5,
+   "sentence_text": "https www nwolb com default aspxrefereridenttomyaccou update sincerely , account review depart me",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "phishing URL (判例5)"
+  },
+  {
+   "email_id": 6752,
+   "sentence_idx": 0,
+   "sentence_text": "online access suspended our value customer , your access to online services has been suspended",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "[scenario] Abbey: access suspended, ask click link to reactivate. Suspension title (判例1③)."
+  },
+  {
+   "email_id": 6752,
+   "sentence_idx": 1,
+   "sentence_text": "due to a miss match access code between your security information",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (access-code mismatch)"
+  },
+  {
+   "email_id": 6752,
+   "sentence_idx": 2,
+   "sentence_text": "to enable you continue accessing your online account it will only take you few minutes to re activate your account",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "nudge to reactivate, no direct ask"
+  },
+  {
+   "email_id": 6752,
+   "sentence_idx": 3,
+   "sentence_text": "click on the link below , and you will be taken straight to where you can activate your account",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "click link to activate account (§1.4)"
+  },
+  {
+   "email_id": 6752,
+   "sentence_idx": 4,
+   "sentence_text": "http www abbeynational co uk logon \\ ? action prepare important notice you are strictly advised to match your details correctly to avoid service denial",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "phishing URL + 'match details or service denial' (§1.5,判例5)"
+  },
+  {
+   "email_id": 6752,
+   "sentence_idx": 5,
+   "sentence_text": "thank you",
+   "label": "N",
+   "confidence": "high",
+   "reason": "closing"
+  },
+  {
+   "email_id": 6752,
+   "sentence_idx": 6,
+   "sentence_text": "abbey national plc online banking customer services abbey national plc",
+   "label": "N",
+   "confidence": "high",
+   "reason": "signature"
+  },
+  {
+   "email_id": 6752,
+   "sentence_idx": 7,
+   "sentence_text": "registered office abbey national house , 2 triton square , regent 's place , london , nw1 3an , united kingdom",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer (address)"
+  },
+  {
+   "email_id": 6752,
+   "sentence_idx": 8,
+   "sentence_text": "registered number 2294747",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer"
+  },
+  {
+   "email_id": 6752,
+   "sentence_idx": 9,
+   "sentence_text": "registered in england",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer"
+  },
+  {
+   "email_id": 6752,
+   "sentence_idx": 10,
+   "sentence_text": "telephone 0870 607 6000",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer"
+  },
+  {
+   "email_id": 6752,
+   "sentence_idx": 11,
+   "sentence_text": "calls may be recorded or monitored",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer"
+  },
+  {
+   "email_id": 6752,
+   "sentence_idx": 12,
+   "sentence_text": "authorized and regulated by the financial services authority",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer"
+  },
+  {
+   "email_id": 6752,
+   "sentence_idx": 13,
+   "sentence_text": "fsa registration number 106054",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer"
+  },
+  {
+   "email_id": 6752,
+   "sentence_idx": 14,
+   "sentence_text": "for more information visit www fsa gov uk register",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer (legit fsa.gov.uk ref)"
+  },
+  {
+   "email_id": 6752,
+   "sentence_idx": 15,
+   "sentence_text": "abbey and the flame logo are registered trademarks",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer (trademark)"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 0,
+   "sentence_text": "getting started with your paypal anti fraud protection body , td font family verdana , arial , helvetica , sans serif font size 12px color 000000 li line height 120 ul smallholder margin 10px 5px 10px 20px li smallborderli margin 0px 5px 0px ul",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] PayPal: anti-fraud ID system; ask click link + enter info. Title+CSS, no core act."
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 1,
+   "sentence_text": "narrow margin 10px 5px 0px 40px hr dotted width 100 margin top 0px margin bottom 0px border left fff border right fff border top fff border bottom 2px dotted ccc smallemphasis font family verdana , arial , helvetica , sans serif font size 11px font weight bold color 000000 refund",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 2,
+   "sentence_text": "title td font weight bold line height 20px text align left background color cuddle table invoice input read only border 0 text align right table invoice input read only currency border 0 width 10px field error , field error input read only currency background color ff3333 currency highlight background color",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 3,
+   "sentence_text": "currency border right 1px solid fff table invoice td call font weight bold text align right inclinable color 00f small font size 11px font weight 400 hr solid width 100 margin top 5px margin bottom 0px border left fff border right fff border top fff border bottom 2px solid 999",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 4,
+   "sentence_text": "content p margin 0 padding 0 div stepson float left overflow hidden width 510px margin top 0 div stepson div step1 float left width 150px text align center div stepson div step2 float left width 170px text align center padding 0px 0px 0px 20px div stepson div step3 float left",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 5,
+   "sentence_text": "content p margin 0 padding 10px 0px 0px 0px font size 11px ! important p lower clear both padding 10px 0px 0px 0px paypal the safer , easier way to pay use your credit card without exposing your card number to merchants",
+   "label": "N",
+   "confidence": "high",
+   "reason": "marketing (slogan + CSS)"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 6,
+   "sentence_text": "speed through checkout without stopping to enter your card number or address",
+   "label": "N",
+   "confidence": "high",
+   "reason": "marketing"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 7,
+   "sentence_text": "send money to family and friends for free",
+   "label": "N",
+   "confidence": "high",
+   "reason": "marketing"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 8,
+   "sentence_text": "fight fake emails make sure you 're using the latest internet browser",
+   "label": "N",
+   "confidence": "high",
+   "reason": "marketing/advice"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 9,
+   "sentence_text": "visit the paypal security center",
+   "label": "N",
+   "confidence": "high",
+   "reason": "marketing"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 10,
+   "sentence_text": "protect yourself from fraud !",
+   "label": "N",
+   "confidence": "high",
+   "reason": "marketing"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 11,
+   "sentence_text": "dear user , we have noticed an increasing fraudulent activity recently in order to provide your security and protect you from fraudsters we have introduced a new system of identification that will help us to avoid any kind of fraud or unauthorized access",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (fraud warning) (判例9)"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 12,
+   "sentence_text": "to complete your anti fraud protection , you must click the link below and enter as more information as possible to provide your complete identification and to activate all the features of the new system",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "must click link + enter info (§1.3,§1.4)"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 13,
+   "sentence_text": "https www paypal com please do not reply to this email",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "phishing link URL (判例5)"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 14,
+   "sentence_text": "this mailbox is not monitored , and you will not receive a response",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 15,
+   "sentence_text": "copyright 1999 2008 paypal",
+   "label": "N",
+   "confidence": "high",
+   "reason": "copyright"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 16,
+   "sentence_text": "all rights reserved",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 17,
+   "sentence_text": "consumer advisory paypal pte",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 18,
+   "sentence_text": "ltd , the holder of paypal 's stored value facility , does not require the approval of the monetary authority of singapore",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer (legal)"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 19,
+   "sentence_text": "users are advised to read the terms and conditions carefully",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer"
+  },
+  {
+   "email_id": 6789,
+   "sentence_idx": 20,
+   "sentence_text": "paypal email id pp274",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer (email id)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 0,
+   "sentence_text": "re inquiry from kevin good day , i am mr kevin gar forth , staff of cater allen private bank",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] Bank officer: $6M unclaimed deposit; act as next of kin & split. Self-intro (判例9)."
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 1,
+   "sentence_text": "i am contacting you concerning a deceased customer and an investment he placed under our banks management three years ago",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (deceased customer)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 2,
+   "sentence_text": "i would respectfully request that you keep the contents of this mail confidential and respect the integrity of the information you come by as a result of this mail",
+   "label": "N",
+   "confidence": "high",
+   "reason": "confidentiality request (判例12b)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 3,
+   "sentence_text": "i am contacting you independently of our investigation and no one is informed of this communication",
+   "label": "N",
+   "confidence": "high",
+   "reason": "secrecy claim"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 4,
+   "sentence_text": "furthermore , i would like to intimate you with certain facts that believe would be of interest to you",
+   "label": "N",
+   "confidence": "high",
+   "reason": "setup (facts of interest)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 5,
+   "sentence_text": "in the year 2002 , the subject came to our bank to engage in business discussions with our private banking division",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (2002 discussion)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 6,
+   "sentence_text": "he informed us that he had a financial portfolio of sextillion united states dollars , which he wished to have us turn over \\ ( invest \\ ) on his behalf",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "amount bait: sextillion dollars (判例11)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 7,
+   "sentence_text": "i was the officer assigned to his case , i made numerous suggestions inline with my duties as the defect chief operations officer of the private banking sector then , especially given the volume of funds he wished to put into our bank",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (officer role)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 8,
+   "sentence_text": "we met on numerous occasions prior to any investments being placed",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (meetings)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 9,
+   "sentence_text": "i encouraged him to consider various growth funds with prime ratings",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (investment advice)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 10,
+   "sentence_text": "the favored route in my advice to customers is to start by assessing data on 6000 traditional stocks and bond managers and2000 managers of alternative investments",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (investment method)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 11,
+   "sentence_text": "based on my advice , we spun the money around various opportunities and made attractive margins for our first months of operation , the accrued profit and interest stood at this point at over two million united states dollars , this margin was not thefull potential of the fund ,",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "amount bait: over $2M profit (判例11)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 12,
+   "sentence_text": "in mid 2003 , he asked that the money be liquidated because he needed to make an urgent investment requiring cash payments in helsinki finland",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (liquidation)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 13,
+   "sentence_text": "redirected that i liquidate the funds and deposit it with a security firm",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (deposit to firm)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 14,
+   "sentence_text": "informed him that my bank would have to make special arrangements to have this done and in order not to circumvent due process , the bank would have to make a 9 5 deduction from the funds to cater for banking and statutory charges",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (charges)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 15,
+   "sentence_text": "he complained about the charges but later came around when i explained to him the complexities of the task he was asking of us",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (complaint)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 16,
+   "sentence_text": "cash movement across boarders has become especially strict since the incidents of 9 11",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (9/11 cash rules)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 17,
+   "sentence_text": "i contacted my affiliate and made the funds available to the security firm",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (funds to firm)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 18,
+   "sentence_text": "i undertook all the processes and made sure followed his precise instructions to the letter and had the funds deposited with the security firm",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (process)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 19,
+   "sentence_text": "the security firm is a specialist private firm that accepts deposits from high net worth individuals and blue chip corporations that handle valuable products or undertake transactions that need immediate access to cash",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (security firm)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 20,
+   "sentence_text": "this is small and highly private organization is familiar especially to the highly placed andwell connected organizations",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (security firm)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 21,
+   "sentence_text": "in line with instructions , the money was deposited with the security firm",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (deposit made)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 22,
+   "sentence_text": "the deceased told me he wanted the money there in anticipation of his arrival from norway later that week",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (deceased plan)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 23,
+   "sentence_text": "this was the last communication we had , this transpired around 25th of november 2003",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (last contact)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 24,
+   "sentence_text": "in june last year , begot a call from the security firm informing us about the inactivity of that particular portfolio",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (inactivity call)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 25,
+   "sentence_text": "this was an astounding position as far as i was concerned , given the fact that i managed the private banking sector i waste only one who knew about the deposit at the security firm , and i could not understand why the deceased had not come forward to claim",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (astounding)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 26,
+   "sentence_text": "i made futile efforts to locate the deceased",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (locate efforts)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 27,
+   "sentence_text": "i immediately passed the task of locating him to the internal investigations department of cater allen",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (investigation)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 28,
+   "sentence_text": "four days later , information started to trickle in , apparently our client was dead",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (client dead)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 29,
+   "sentence_text": "a person who suited his description was declared dead of a heart attack in anne , in southern part of france",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (death details)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 30,
+   "sentence_text": "we were soon enough to identify the body and cause of death was confirmed",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (body identified)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 31,
+   "sentence_text": "the bank immediately launched an investigation into possible surviving next of kin to alert about the situation and also to come forward to claim his estate",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (next-of-kin investigation)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 32,
+   "sentence_text": "if you are familiar with private banking affairs , those who patronize our services usually prefer anonymity , but also some levels of detachment from conventional processes",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (private banking)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 33,
+   "sentence_text": "in hisbio data form , he listed no next of kin",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (no next of kin)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 34,
+   "sentence_text": "in the field of private banking , opening an account with us means no one will know of its existence , accounts are rarely held under a name depositors use numbers and codes to make the accounts anonymous",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (anonymous accounts)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 35,
+   "sentence_text": "this bank also gives the choice to depositors of having their mail sent to them or held at the bank itself , ensuring that there are no traces of the account and as i said , rarely do they nominate next of kin",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (mail policy)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 36,
+   "sentence_text": "private banking clients apart from not nominating next of kin also usually in most cases leave wills in our care , in this case the deceased died without a testate",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (no testate)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 37,
+   "sentence_text": "in line with our internal processes for account holders who have passed away , we instituted our own investigations in good faith to determine who should have right to claim the estate",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (investigation)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 38,
+   "sentence_text": "this investigation has for the past months been unfruitful",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (unfruitful)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 39,
+   "sentence_text": "we have scanned every continent and used our private investigation affiliate companies roget to the root of the problem",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (scanned continents)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 40,
+   "sentence_text": "it is this investigation that resulted indy being furnished with your details as a possible relative of the deceased",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (got your details)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 41,
+   "sentence_text": "my present official capacity as the head of finance dictates that i am the only party to supervise the investigation and the only party to receive the results of the investigation",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (my capacity)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 42,
+   "sentence_text": "what this means , is that our dear late fellow died with no known or identifiable family member",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (no family)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 43,
+   "sentence_text": "this leaves me ashe only person with the full picture of what the prevailing situation isin relation to the deposit and the late beneficiary of the deposit",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (only I know)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 44,
+   "sentence_text": "according to practice , the security firm will by the end of this financial year broadcast a request for statements of claim to cater allen , failing to receive viable claims they will most probably revert the deposit back to cater allen",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (claim deadline)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 45,
+   "sentence_text": "this will result in the money entering the cater allen accounting system and the portfolio will be out of my hands and out of the private banking division",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (money to bank)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 46,
+   "sentence_text": "this will not happen if i have my way",
+   "label": "N",
+   "confidence": "high",
+   "reason": "assertion (won't happen)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 47,
+   "sentence_text": "what i wish to relate to you will smack of unethical practice , but i want you to understand something",
+   "label": "N",
+   "confidence": "high",
+   "reason": "setup (unethical proposal ahead)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 48,
+   "sentence_text": "it is only an outsider to the banking world who finds the internal politics of the banking world aberrational",
+   "label": "N",
+   "confidence": "high",
+   "reason": "justification (banking politics)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 49,
+   "sentence_text": "the world of private banking especially is fraught with huge rewards for those that occupy certain offices and oversee certain portfolios",
+   "label": "N",
+   "confidence": "high",
+   "reason": "justification (rewards)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 50,
+   "sentence_text": "you should have begun by now to put together the general direction of what i propose",
+   "label": "N",
+   "confidence": "high",
+   "reason": "setup (direction of proposal)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 51,
+   "sentence_text": "there is six a million dollars deposited in a security firm , i alone have the deposit details and they will release the deposit to no one unless i instruct them to do so",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "amount bait: $6M deposit + control (判例11)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 52,
+   "sentence_text": "alone know of the existence of this deposit for as far as my bank is concerned",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (only I know)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 53,
+   "sentence_text": "the transaction with our late customer concluded when i sent the funds tithe security firm , all outstanding interactions in relation to the file are just customer services and due process",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (concluded)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 54,
+   "sentence_text": "the security firm has no single idea of whats the history or nature of the deposit",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (firm unaware)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 55,
+   "sentence_text": "they are simply awaiting instructions to release the deposit to any party that come forward",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (awaiting instructions)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 56,
+   "sentence_text": "this is the situation",
+   "label": "N",
+   "confidence": "high",
+   "reason": "transition"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 57,
+   "sentence_text": "this bank has spent great amounts of money trying to track this manaus family they have investigated for months and have found no family",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (bank spent money)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 58,
+   "sentence_text": "the investigation has come to an end",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (investigation ended)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 59,
+   "sentence_text": "my proposal i now seek your permission to present you as a next of kin tithe deceased , as all documentations will be carefully worked to make youth beneficiary to the funds 6 , 000 000 00 \\ ( six a million united statesdollar \\ ) i am prepared to",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "proposal: next of kin, $6M beneficiary (§1.1,判例11)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 60,
+   "sentence_text": "upon receipt of the deposit , i am prepared to share the money with you",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "proposal: share money (§1.1)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 61,
+   "sentence_text": "that is i will simply nominate you as the next of kin and have them release the deposit to you",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "proposal: nominate as next of kin (§1.1)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 62,
+   "sentence_text": "we share the proceeds 60 40",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "split proceeds 60/40 (判例11)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 63,
+   "sentence_text": "i would have gone ahead to ask that the funds be released to me , but that would have drawn a straight line to me and my involvement in claiming the deposit",
+   "label": "N",
+   "confidence": "high",
+   "reason": "justification (why not self)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 64,
+   "sentence_text": "iassure you that i could have the deposit released to you within a few days",
+   "label": "N",
+   "confidence": "high",
+   "reason": "assurance (release in days)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 65,
+   "sentence_text": "i will simply inform cater allen of the final closing of the file relating to the deceased",
+   "label": "N",
+   "confidence": "high",
+   "reason": "plan narrative"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 66,
+   "sentence_text": "i will then officially communicate with security firm and instruct them to release the deposit to you",
+   "label": "N",
+   "confidence": "high",
+   "reason": "plan narrative"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 67,
+   "sentence_text": "with these two things all is done",
+   "label": "N",
+   "confidence": "high",
+   "reason": "plan narrative"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 68,
+   "sentence_text": "the alternative would be for us to have security firm direct the funds to another bank with you as account holder",
+   "label": "N",
+   "confidence": "high",
+   "reason": "alternative logistics"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 69,
+   "sentence_text": "this way there will be no need for you to think of receiving the money from the security company",
+   "label": "N",
+   "confidence": "high",
+   "reason": "logistics"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 70,
+   "sentence_text": "we can fine tune this based on our interactions am aware of the consequences of this proposal",
+   "label": "N",
+   "confidence": "high",
+   "reason": "justification (consequences)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 71,
+   "sentence_text": "i ask that if you find no interest in this project that you should discard this mail",
+   "label": "N",
+   "confidence": "high",
+   "reason": "request (discard if not interested)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 72,
+   "sentence_text": "task that you do not be vindictive and destructive",
+   "label": "N",
+   "confidence": "high",
+   "reason": "request (don't be vindictive)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 73,
+   "sentence_text": "if my offer is of no appeal to you , delete this message and forget i ever contacted you",
+   "label": "N",
+   "confidence": "high",
+   "reason": "request (delete)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 74,
+   "sentence_text": "do not destroy my career because you do not approve of my proposal",
+   "label": "N",
+   "confidence": "high",
+   "reason": "plea (don't destroy career)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 75,
+   "sentence_text": "you may not know this , but people like myself who have made tidy sums out of comparable situations run the whole private banking sector",
+   "label": "N",
+   "confidence": "high",
+   "reason": "self-justification"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 76,
+   "sentence_text": "i am not criminal and what i do , i do not find against good conscience , this maybe hard for you to understand , but the dynamics of my industry dictates that i make this move",
+   "label": "N",
+   "confidence": "high",
+   "reason": "self-justification"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 77,
+   "sentence_text": "such opportunities only come ones ' way once in lifetime",
+   "label": "N",
+   "confidence": "high",
+   "reason": "generic enticement (判例12b)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 78,
+   "sentence_text": "i can not let this chance pass me by , for once i find myself in total control of my destiny",
+   "label": "N",
+   "confidence": "high",
+   "reason": "self-justification"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 79,
+   "sentence_text": "these chances wont pass me by",
+   "label": "N",
+   "confidence": "high",
+   "reason": "self-justification"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 80,
+   "sentence_text": "i ask that you do not destroy my chance , if you will not work with me let me know and let me move on with my life but do not destroy me",
+   "label": "N",
+   "confidence": "high",
+   "reason": "request (don't destroy chance)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 81,
+   "sentence_text": "i am a family man and this is an opportunity to provide them with new opportunities",
+   "label": "N",
+   "confidence": "high",
+   "reason": "plea (family man)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 82,
+   "sentence_text": "there is a reward for this project and it is a task well worth undertaking",
+   "label": "N",
+   "confidence": "high",
+   "reason": "vague enticement (reward)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 83,
+   "sentence_text": "i have evaluated the risks and the only risk i have here is from you refusing to work with me and alerting my bank",
+   "label": "N",
+   "confidence": "high",
+   "reason": "justification (risks)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 84,
+   "sentence_text": "i am the only one who knows of this situation , good fortune has blessed you with a luck that has planted you into the center of relevance in my life",
+   "label": "N",
+   "confidence": "high",
+   "reason": "flattery (判例12b)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 85,
+   "sentence_text": "leads share the blessing",
+   "label": "N",
+   "confidence": "high",
+   "reason": "flattery"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 86,
+   "sentence_text": "if you find yourself able to work with me , contact me through this email account",
+   "label": "N",
+   "confidence": "high",
+   "reason": "request to contact (setup)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 87,
+   "sentence_text": "if you give me positive signals , i will initiate this process towards a conclusion",
+   "label": "N",
+   "confidence": "high",
+   "reason": "setup (positive signals)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 88,
+   "sentence_text": "i wish to inform you that should you contact me via official channels will deny knowing you and about this project",
+   "label": "N",
+   "confidence": "high",
+   "reason": "secrecy instruction"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 89,
+   "sentence_text": "i repeat , i do not want you contacting me through my official phone lines nor do i want you contacting me through my official email account",
+   "label": "N",
+   "confidence": "high",
+   "reason": "secrecy instruction"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 90,
+   "sentence_text": "contact me only through the numbers will provide for you and also through this email address",
+   "label": "N",
+   "confidence": "high",
+   "reason": "contact instruction (setup)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 91,
+   "sentence_text": "i do not want any direct link between you and myself",
+   "label": "N",
+   "confidence": "high",
+   "reason": "secrecy"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 92,
+   "sentence_text": "my official lines are not secured lines as they are periodically monitored to assess our level of customer care in line with our total quality management policy",
+   "label": "N",
+   "confidence": "high",
+   "reason": "justification (lines monitored)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 93,
+   "sentence_text": "please observe this instruction religiously",
+   "label": "N",
+   "confidence": "high",
+   "reason": "instruction"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 94,
+   "sentence_text": "please , again , note that i am a family man , i have a wife and children",
+   "label": "N",
+   "confidence": "high",
+   "reason": "plea (family man)"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 95,
+   "sentence_text": "send you this mail not without a measure of fear as to what the consequences , but i know within me that nothing ventured is anything gained and that success and riches never come easy or on a platter of gold",
+   "label": "N",
+   "confidence": "high",
+   "reason": "self-justification"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 96,
+   "sentence_text": "thesis the one truth i have learned from my private banking clients",
+   "label": "N",
+   "confidence": "high",
+   "reason": "self-justification"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 97,
+   "sentence_text": "do not betray my confidence",
+   "label": "N",
+   "confidence": "high",
+   "reason": "secrecy request"
+  },
+  {
+   "email_id": 6838,
+   "sentence_idx": 98,
+   "sentence_text": "mr kevin gar forth",
+   "label": "N",
+   "confidence": "high",
+   "reason": "signature"
+  },
+  {
+   "email_id": 6913,
+   "sentence_idx": 0,
+   "sentence_text": "banking news",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 'banking news' title; empty email, no core act."
+  },
+  {
+   "email_id": 6913,
+   "sentence_idx": 1,
+   "sentence_text": "latest news",
+   "label": "N",
+   "confidence": "high",
+   "reason": "title only"
+  },
+  {
+   "email_id": 7002,
+   "sentence_idx": 0,
+   "sentence_text": "you have 1 new security message alert !",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] Egg Bank: new security message; prompt sign in. Title notification (判例1)."
+  },
+  {
+   "email_id": 7002,
+   "sentence_idx": 1,
+   "sentence_text": "dear customer , egg message center you have one new security message from egg bank sign in thank you for choosing egg bank plc",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "pretext + 'sign in' solicitation (判例9但书,§1.3)"
+  },
+  {
+   "email_id": 7020,
+   "sentence_idx": 0,
+   "sentence_text": "paypal account access limited \\ ( routing code pp 389 968 945 \\ ) paypal dummy body , td font family verdana , arial , helvetica , sans serif font size 12px color 000000 li line height 120 ul ppsmallborder margin 10px 5px 10px 20px li ppsmallborderli margin 0px 5px",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "[scenario] PayPal: account limited; ask click link + enter info. Limitation title (判例1③)."
+  },
+  {
+   "email_id": 7020,
+   "sentence_idx": 1,
+   "sentence_text": "dotted width 100 margin top 0px margin bottom 0px border left fff border right fff border top fff border bottom 2px dotted ccc pp label font family verdana , arial , helvetica , sans serif font size 10px font weight bold color 000000 pp serif big font family serif font",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7020,
+   "sentence_idx": 2,
+   "sentence_text": "we recently reviewed your account , and we need more information to help us provide you with secure service",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "pretext (need more info) (判例9)"
+  },
+  {
+   "email_id": 7020,
+   "sentence_idx": 3,
+   "sentence_text": "until we can collect this information , your access to sensitive account features will be limited",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "access limited until info provided (§1.5)"
+  },
+  {
+   "email_id": 7020,
+   "sentence_idx": 4,
+   "sentence_text": "we would like to restore your access as soon as possible , and we apologize for the inconvenience",
+   "label": "N",
+   "confidence": "high",
+   "reason": "apology/pretext"
+  },
+  {
+   "email_id": 7020,
+   "sentence_idx": 5,
+   "sentence_text": "why is my account access limited \\ ?",
+   "label": "N",
+   "confidence": "high",
+   "reason": "question header"
+  },
+  {
+   "email_id": 7020,
+   "sentence_idx": 6,
+   "sentence_text": "your account access has been limited for the following reason \\ ( s \\ ) we would like to ensure that your account was not accessed by an unauthorized third party",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (limitation reason)"
+  },
+  {
+   "email_id": 7020,
+   "sentence_idx": 7,
+   "sentence_text": "becouse protecting the security of your account is our primary concern , we have limited access to sensitive paypal account features",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (security justification)"
+  },
+  {
+   "email_id": 7020,
+   "sentence_idx": 8,
+   "sentence_text": "we understanding that this may be an inconvenience , but please understand that this temporary limitation is for your protection",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (for your protection)"
+  },
+  {
+   "email_id": 7020,
+   "sentence_idx": 9,
+   "sentence_text": "case id number pp 389 968 945 you must click the link below and enter your information to review your account click here to visit the resolution center and complete the steps to remove limitations a",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "click link + enter info (§1.3,§1.4)"
+  },
+  {
+   "email_id": 7039,
+   "sentence_idx": 0,
+   "sentence_text": "lloyds tsb bank online banking important security message lloyds bank internet banking client details confirmation procedure dearj3 lloyds bank customer , security and confidentiality are6 at the heart of the lloyds bank",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] Lloyds: compulsory client-details confirmation; visit form via link. Title/greeting (判例1)."
+  },
+  {
+   "email_id": 7039,
+   "sentence_idx": 1,
+   "sentence_text": "your details \\ ( and your money \\ ) is protected by a number of technologies , qgg including secure sockets layer \\ ( ssl \\ ) encryption",
+   "label": "N",
+   "confidence": "high",
+   "reason": "reassurance (SSL)"
+  },
+  {
+   "email_id": 7039,
+   "sentence_idx": 2,
+   "sentence_text": "we would like to notify you that lloyds bank carries out client details confirmation procedure that is compulsory for all our customers vd2 this procedure isp attributed to a routine banking software update",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (compulsory procedure) (判例9)"
+  },
+  {
+   "email_id": 7039,
+   "sentence_idx": 3,
+   "sentence_text": "please visit our customer confirmation form using the blink below and follows the instructions on the screen",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "visit confirmation form via link (§1.4)"
+  },
+  {
+   "email_id": 7039,
+   "sentence_idx": 4,
+   "sentence_text": "http online business4 lloydstsb com customer ibc \\ ? unitid 28cewdyaddwcjjtlctoldbhrokhovp lloyds bank customer service",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "phishing URL (判例5)"
+  },
+  {
+   "email_id": 7067,
+   "sentence_idx": 0,
+   "sentence_text": "suspended acc",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "[scenario] NatWest: account deactivated; update credentials via link. Suspension title (判例1③)."
+  },
+  {
+   "email_id": 7067,
+   "sentence_idx": 1,
+   "sentence_text": "dear customer , during a recent review of your account we found that you are currently logged in from different cities in a suspicious manner that is not compliant with our bank policies",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (suspicious logins)"
+  },
+  {
+   "email_id": 7067,
+   "sentence_idx": 2,
+   "sentence_text": "natwest 's customers are not permitted to log in from different places at the same time , or using a proxy server",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (policy)"
+  },
+  {
+   "email_id": 7067,
+   "sentence_idx": 3,
+   "sentence_text": "for your safety , we have temporarily deactivated your account",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (account deactivated) (判例9)"
+  },
+  {
+   "email_id": 7067,
+   "sentence_idx": 4,
+   "sentence_text": "to re activate your account please go to our ssl secure link below and update your account credentials",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "update credentials via link (§1.3,§1.4)"
+  },
+  {
+   "email_id": 7067,
+   "sentence_idx": 5,
+   "sentence_text": "however , please note that our squad reserves the right to close your account at any time",
+   "label": "N",
+   "confidence": "high",
+   "reason": "generalized threat (判例12b)"
+  },
+  {
+   "email_id": 7067,
+   "sentence_idx": 6,
+   "sentence_text": "therefore , we encourage you to become familiar with our program policies and monitor your network accordingly",
+   "label": "N",
+   "confidence": "high",
+   "reason": "advice"
+  },
+  {
+   "email_id": 7067,
+   "sentence_idx": 7,
+   "sentence_text": "https www nwolb com login aspx kind regards jayashree c natwest internet banking customer support because email is not a secure form of communication , this email box is not equipped to handle replies",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "phishing login URL (判例5)"
+  },
+  {
+   "email_id": 7067,
+   "sentence_idx": 8,
+   "sentence_text": "if you have any questions about your account or need assistance , please call the phone number on your statement or go to contact us at www natwest com",
+   "label": "N",
+   "confidence": "high",
+   "reason": "legit contact advice (判例8)"
+  },
+  {
+   "email_id": 7118,
+   "sentence_idx": 0,
+   "sentence_text": "customer alert dear user , as part of our security measure , we regularly verify activities of all our customer",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] PayPal: irregular activity; verify/update profile. Pretext (判例9)."
+  },
+  {
+   "email_id": 7118,
+   "sentence_idx": 1,
+   "sentence_text": "there has been some irregular activities on your account",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (irregular activity)"
+  },
+  {
+   "email_id": 7118,
+   "sentence_idx": 2,
+   "sentence_text": "please verify and update your online profile details verify and update \\ ( click here \\ ) once we have received your information we will review it",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "verify/update profile details (§1.3)"
+  },
+  {
+   "email_id": 7118,
+   "sentence_idx": 3,
+   "sentence_text": "if the review is successful , the limitation will be removed from your paypal account copyright 2014 paypal inc all rights reserved",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (limitation removal) + copyright"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 0,
+   "sentence_text": "consignment to benefit you too dear friend , my name is barrister john mensa , 41 years ghanaian married with five children",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] Lawyer: unclaimed $35.5M consignment; claim as next of kin & split. Self-intro (判例9)."
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 1,
+   "sentence_text": "i work as an administrative secretary attorney with globalsecurity company \\ ( ltd \\ ) accra ghana",
+   "label": "N",
+   "confidence": "high",
+   "reason": "self-intro"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 2,
+   "sentence_text": "i joined the services of this company in 1991",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 3,
+   "sentence_text": "i got the information concerning you and your company from our chamber of commerce here and after due consultation , i decided to contact you believing that by the grace of god that you will be my partner in this business",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "setup (partnership appeal)"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 4,
+   "sentence_text": "furthermore , i have worked with this company for over 12 years , within this period of time watched with meticulous precision nohow african head of state and government functionaries have been moving huge sums of money \\ ( dollars , pound sterling , french franc , cash \\ )",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (money movement)"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 5,
+   "sentence_text": "they bring in this consignment of money cash and secretly declare the content as jewelries , gold , precious stones , family treasure , documents , etc",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (smuggling)"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 6,
+   "sentence_text": "mobutu see seiko of zaire , soda sandy of sierra leone , felixhouphet booby of the ivory coast , kennan bede of ivory coast , etc",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (names)"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 7,
+   "sentence_text": "these people have at one time or the otherdepositedconsignments withes and their foreign partners , relatives and next of kin are claiming most of this consignment and a lot more are laying here unclaimed for as much as 7 years , as no available information to anybody except the depositors",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (unclaimed consignments)"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 8,
+   "sentence_text": "since the inception of the year2003 , global security company ltd management changed the procedure of claiming of consignments",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (procedure change)"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 9,
+   "sentence_text": "as soon as you are able to produce all the secret information as contained in the secret file of the company as regard the consignment , it will be released to you upon demand",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "procedure (produce secret info)"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 10,
+   "sentence_text": "from our records , more than 10 consignments belonging to these people has been claimed in the past six months and this is why i am seeking for your co operation and assistance",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "setup (seeks cooperation)"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 11,
+   "sentence_text": "mr francis garden is a zimbabwean , and he work wit hone of the top ministers of president robert mugabe who was in charge of the campaigning for reelecting",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (minister)"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 12,
+   "sentence_text": "mugabe into office in their last election",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 13,
+   "sentence_text": "redeposited this consignment in 1999 after absconding with the money 35 5 million united states dollars \\ ( 35 5m usd \\ )",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "amount bait: $35.5M (判例11)"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 14,
+   "sentence_text": "unfortunately , mr francis garden died in kenyan aircraft that killed all on board in 2000",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (death)"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 15,
+   "sentence_text": "since his death , no one knows about this transaction with global security company ltd except me who acted as company attorney when he deposited the consignment",
+   "label": "N",
+   "confidence": "high",
+   "reason": "background (only I know)"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 16,
+   "sentence_text": "i have finished every arrangement for you to come and claim the consignment as the next of kin to mr francis garden",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "proposal: claim as next of kin (§1.1)"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 17,
+   "sentence_text": "the procedure is very simple apply officially tithe director of operation global security company accra ghana , for the release of consignmentno gss 15031964",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "procedure (apply for release)"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 18,
+   "sentence_text": "they will demand for some documents and the security code of the consignment , you will call on me to supply you with every detailed information as regard the consignment",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "procedure (documents + code)"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 19,
+   "sentence_text": "as soon as they have confirmed it to be correct , the company will invite you for the collection",
+   "label": "N",
+   "confidence": "high",
+   "reason": "procedure (collection)"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 20,
+   "sentence_text": "nobody will ever know that i am involved in the deal , i suggest upon conclusion , we share it on the ratio of 50 40 and 10 will go for humanitarian service motherless babies home , more also you will make an arrangement on investments that i will invest",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "split 50/40/10 (判例11)"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 21,
+   "sentence_text": "i assure you that this business is very secure and risk free",
+   "label": "N",
+   "confidence": "high",
+   "reason": "assurance (risk-free)"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 22,
+   "sentence_text": "please , if you are not interested on this proposal , kindly let me know",
+   "label": "N",
+   "confidence": "high",
+   "reason": "request (let me know)"
+  },
+  {
+   "email_id": 7197,
+   "sentence_idx": 23,
+   "sentence_text": "thanksbarrister john mensa",
+   "label": "N",
+   "confidence": "high",
+   "reason": "signature"
+  },
+  {
+   "email_id": 7210,
+   "sentence_idx": 0,
+   "sentence_text": "paypal funds available hi , please note you have a pending paypal payment http pxsend com max link php \\ ? m 537305 n 16 l 1 f t",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "[scenario] PayPal: pending payment; click link to access. Phishing URL + bait (判例5)."
+  },
+  {
+   "email_id": 7210,
+   "sentence_idx": 1,
+   "sentence_text": "sender has been verified and funds are available for use",
+   "label": "N",
+   "confidence": "high",
+   "reason": "bait (funds available, no amount)"
+  },
+  {
+   "email_id": 7210,
+   "sentence_idx": 2,
+   "sentence_text": "access your pending funds transfer here http pxsend com max link php \\ ? m 537305 n 16 l 1 f t the link above will expire soon",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "access funds via URL + expiry (§1.4,判例5)"
+  },
+  {
+   "email_id": 7210,
+   "sentence_idx": 3,
+   "sentence_text": "regards , support click this link to unsubscribe http pxsend com max unsubscribe php \\ ? m 537305 c 73bfa09cf9fb2e93645e173837c034f4 l 7 n 16",
+   "label": "N",
+   "confidence": "high",
+   "reason": "unsubscribe footer"
+  },
+  {
+   "email_id": 7286,
+   "sentence_idx": 0,
+   "sentence_text": "lloyds bank on line banking user mail identity verification lloyds tsb bank electronic banking client details confirmation page dearw8 lloyds customer , security and confidentiality are4s at the heart of the lloyds bank",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] Lloyds: identity verification; visit form via link. Title/greeting (判例1)."
+  },
+  {
+   "email_id": 7286,
+   "sentence_idx": 1,
+   "sentence_text": "your details \\ ( and your ab money \\ ) is protected by a number of technologies , y including secure sockets layer1 \\ ( ssl \\ ) encryption",
+   "label": "N",
+   "confidence": "high",
+   "reason": "reassurance (SSL)"
+  },
+  {
+   "email_id": 7286,
+   "sentence_idx": 2,
+   "sentence_text": "we would like to notify you that lloyds bank carries out customer details verification procedure that is compulsory for all our customers you this procedure is attributed to a routine banking software update",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (compulsory verification) (判例9)"
+  },
+  {
+   "email_id": 7286,
+   "sentence_idx": 3,
+   "sentence_text": "please visit our client confirmation form using the6w link below and follow ebu the instructions on the screen",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "visit confirmation form via link (§1.4)"
+  },
+  {
+   "email_id": 7286,
+   "sentence_idx": 4,
+   "sentence_text": "http www9 lloydstsb com customer ibc \\ ? sid 28asomfhtdwcjjtlctoldbhrokhovp lloyds customer service",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "phishing URL (判例5)"
+  },
+  {
+   "email_id": 7296,
+   "sentence_idx": 0,
+   "sentence_text": "official information from capital one bank customer service !",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] Capital One: complete client form. Title (判例1)."
+  },
+  {
+   "email_id": 7296,
+   "sentence_idx": 1,
+   "sentence_text": "\\ ( message id 005142081646291 \\ ) capital one customer service requests you to complete towered client form",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "complete client form solicitation (§1.3)"
+  },
+  {
+   "email_id": 7307,
+   "sentence_idx": 0,
+   "sentence_text": "lloyds tsb bank internet banking verification process lloyds tsb bank on line banking client details confirmation page yerevan lloyds client , security nig and confidentiality ark at the heart of the lloyds bank",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] Lloyds: verification process; visit page via link. Title/greeting (判例1)."
+  },
+  {
+   "email_id": 7307,
+   "sentence_idx": 1,
+   "sentence_text": "your details \\ ( and your money \\ ) is protectedv9 by a number of technologies , 7ld including secure sockets layer af \\ ( ssl \\ ) encryption",
+   "label": "N",
+   "confidence": "high",
+   "reason": "reassurance (SSL)"
+  },
+  {
+   "email_id": 7307,
+   "sentence_idx": 2,
+   "sentence_text": "we would like to notify you that lloyds bank carries out customer details confirmation procedure that is compulsory for all our customers nj this procedure ismp8 attributed to a routine banking software update",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (compulsory procedure) (判例9)"
+  },
+  {
+   "email_id": 7307,
+   "sentence_idx": 3,
+   "sentence_text": "please visit our customer verification page using there7 link below and follow ti the instructions on the screen",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "visit verification page via link (§1.4)"
+  },
+  {
+   "email_id": 7307,
+   "sentence_idx": 4,
+   "sentence_text": "http online1 lloydstsb co uk customer ibc \\ ? pid 29adhsadiidwcjjtlctoldbhrokhovp lloyds customer service",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "phishing URL (判例5)"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 0,
+   "sentence_text": "chase manhattan bank sent complete your account verification message",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "[scenario] Chase: account verification required; click link + provide info. Title solicitation (判例1②)."
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 1,
+   "sentence_text": "sectiontitle font size small font family arial , sans serif font weight bold message",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 2,
+   "sentence_text": "smalltitle font size x small font family arial , sans serif font weight bold message",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 3,
+   "sentence_text": "sectionbody font size x small font family arial , sans serif message",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 4,
+   "sentence_text": "detailtable , message",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 5,
+   "sentence_text": "detailtable th font size 10 pt font family arial , sans serif font weight normal message",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 6,
+   "sentence_text": "title font size medium font family verdana , arial , sans serif message",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 7,
+   "sentence_text": "bodyfont font size 10 pt font family arial , sans serif font weight normal message",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 8,
+   "sentence_text": "bodyfontstrong font size 10 pt font family arial , sans serif font weight bold message",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 9,
+   "sentence_text": "smallbody font size xx small font family arial , sans serif font weight normal margin top 8 px margin bottom 6 px message",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 10,
+   "sentence_text": "separator color ccc ccc height 1px message",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 11,
+   "sentence_text": "highlightedseparator color 9999cc height 1px message",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 12,
+   "sentence_text": "footerseparator color ccc ccc height 1px message",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 13,
+   "sentence_text": "footer , message",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 14,
+   "sentence_text": "footer p font size xx small font family arial , sans serif color 666666 margin top 2 px margin bottom 8 px message",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 15,
+   "sentence_text": "smallpara , message",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 16,
+   "sentence_text": "smallparap margin top 8 px margin bottom 6 px chase sent this message for the following reason our system requires further account verification",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (requires verification)"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 17,
+   "sentence_text": "for more information about the security of your information , read chase privacy policy",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer (privacy policy)"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 18,
+   "sentence_text": "learn more",
+   "label": "N",
+   "confidence": "high",
+   "reason": "navigation"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 19,
+   "sentence_text": "customer support notification dear chase online user , as part of our security measures , the jpmorgan chase co has developed a security program against the fraudulent attempts and account thefts",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (security program)"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 20,
+   "sentence_text": "therefore , our system requires further account verification",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (requires verification)"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 21,
+   "sentence_text": "we request information from you for the following reason we need to verify your account information in order to insure the safety and integrity of our services",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "request info to verify account (§1.3)"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 22,
+   "sentence_text": "please follow the link below to proceed",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "follow link (§1.4)"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 23,
+   "sentence_text": "proceed to account verification once you log in , you will be provided with steps to complete the verification process",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "proceed to verification/log in (§1.4)"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 24,
+   "sentence_text": "for your safety , we have physical , electronic , and procedural safeguards that comply with federal regulations to protect the information you provide to us",
+   "label": "N",
+   "confidence": "high",
+   "reason": "reassurance"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 25,
+   "sentence_text": "according to the user agreement , we may immediately issue a warning , temporarily suspend , indefinitely suspend or terminate your membership and refuse to provide our services to you if we believe that your actions may cause financial loss or legal liability for you , our users or us",
+   "label": "N",
+   "confidence": "high",
+   "reason": "legal boilerplate"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 26,
+   "sentence_text": "we may also take these actions if we are unable to verify or authenticate any information you provide to us",
+   "label": "N",
+   "confidence": "high",
+   "reason": "legal boilerplate"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 27,
+   "sentence_text": "we thank you for your prompt attention to this matter",
+   "label": "N",
+   "confidence": "high",
+   "reason": "politeness"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 28,
+   "sentence_text": "please understand that this is a security measure intended to help protect you and your account",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (security measure)"
+  },
+  {
+   "email_id": 7410,
+   "sentence_idx": 29,
+   "sentence_text": "copy 2006 jpmorgan chase co",
+   "label": "N",
+   "confidence": "high",
+   "reason": "copyright"
+  },
+  {
+   "email_id": 7417,
+   "sentence_idx": 0,
+   "sentence_text": "update now 27 11 2015 dear steve scott talk21 com , your mailbox has exceeded the storage limit is 1 gb , which is defined by the administrator , are running at 99 8 gigabytes , you can not send or receive new messages until you re validate your mailbox",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "[scenario] Mailbox over limit; re-validate to continue. Pretext bound to re-validation (§1.5)."
+  },
+  {
+   "email_id": 7417,
+   "sentence_idx": 1,
+   "sentence_text": "to update , please click update thanks customer care",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "click update (§1.4)"
+  },
+  {
+   "email_id": 7461,
+   "sentence_idx": 0,
+   "sentence_text": "lloyds bank on line banking submit your details id 413 lloyds online banking client details confirmation page dairy lloyds customer , security3 and confidentiality arel7 at the heart of the lloyds group",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "[scenario] Lloyds: submit details via form. Title 'submit your details' (判例1②)."
+  },
+  {
+   "email_id": 7461,
+   "sentence_idx": 1,
+   "sentence_text": "yourc7f details \\ ( and your6s money \\ ) is protected3 by a number of technologies , hpk including secure sockets layer \\ ( ssl \\ ) encryption",
+   "label": "N",
+   "confidence": "high",
+   "reason": "reassurance (SSL)"
+  },
+  {
+   "email_id": 7461,
+   "sentence_idx": 2,
+   "sentence_text": "we would like to notify you that lloyds carries out customer details confirmation procedure that is compulsory for all our customers 1 this procedure ibm attributed to a routine banking software update",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (compulsory procedure) (判例9)"
+  },
+  {
+   "email_id": 7461,
+   "sentence_idx": 3,
+   "sentence_text": "please visit our client verification form using there link below and follows the instructions on the screen",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "visit verification form via link (§1.4)"
+  },
+  {
+   "email_id": 7461,
+   "sentence_idx": 4,
+   "sentence_text": "http www2 lloydstsb co uk customer ibc \\ ? pid 31oyhjrhaadrdwcjjtlctoldbhrokhovp lloyds customer service",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "phishing URL (判例5)"
+  },
+  {
+   "email_id": 7515,
+   "sentence_idx": 0,
+   "sentence_text": "notification n 34924 your order s n 568208673 info , thank you",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] order notification; no core act (判例8)."
+  },
+  {
+   "email_id": 7515,
+   "sentence_idx": 1,
+   "sentence_text": "amazon com support",
+   "label": "N",
+   "confidence": "high",
+   "reason": "signature"
+  },
+  {
+   "email_id": 7517,
+   "sentence_idx": 0,
+   "sentence_text": "notification n 355983 your order s n 932553418 accepted",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] order notification; no core act (判例8)."
+  },
+  {
+   "email_id": 7517,
+   "sentence_idx": 1,
+   "sentence_text": "details thank you , amazon com support",
+   "label": "N",
+   "confidence": "high",
+   "reason": "signature"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 0,
+   "sentence_text": "google ads alert hello , our attempt to charge your credit card on tue , 11 nov 2008 11 11 18 0300 for your outstanding google ads account balance was declined",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] Google Ads: payment declined; update billing via adwords.google.com. Pretext (判例9)."
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 1,
+   "sentence_text": "your account is still open",
+   "label": "N",
+   "confidence": "high",
+   "reason": "status"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 2,
+   "sentence_text": "however , your ads have been suspended",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (ads suspended)"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 3,
+   "sentence_text": "once we are able to charge your card and receive payment for your account balance , we will re activate your ads",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (reactivation)"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 4,
+   "sentence_text": "please update your billing information , even if you plan to use the same credit card",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "billing update to legit adwords.google.com (判例8)"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 5,
+   "sentence_text": "this will trigger our billing system to try charging your card again",
+   "label": "N",
+   "confidence": "high",
+   "reason": "explanation"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 6,
+   "sentence_text": "you do not need to contact us to reactivate your account",
+   "label": "N",
+   "confidence": "high",
+   "reason": "instruction (no need to contact)"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 7,
+   "sentence_text": "to update your primary payment information , please follow these steps 1",
+   "label": "N",
+   "confidence": "high",
+   "reason": "instruction intro"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 8,
+   "sentence_text": "log in to your google ads account at https adwords google com 2",
+   "label": "N",
+   "confidence": "high",
+   "reason": "legit login step (adwords.google.com)"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 9,
+   "sentence_text": "click the 'my account ' tab",
+   "label": "N",
+   "confidence": "high",
+   "reason": "operation step (判例10)"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 10,
+   "sentence_text": "3",
+   "label": "N",
+   "confidence": "high",
+   "reason": "step number"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 11,
+   "sentence_text": "click 'billing preferences ' link",
+   "label": "N",
+   "confidence": "high",
+   "reason": "operation step (判例10)"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 12,
+   "sentence_text": "4",
+   "label": "N",
+   "confidence": "high",
+   "reason": "step number"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 13,
+   "sentence_text": "click edit next to the appropriate 'payment details ' section",
+   "label": "N",
+   "confidence": "high",
+   "reason": "operation step (判例10)"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 14,
+   "sentence_text": "5",
+   "label": "N",
+   "confidence": "high",
+   "reason": "step number"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 15,
+   "sentence_text": "enter your new or updated payment information",
+   "label": "N",
+   "confidence": "high",
+   "reason": "operation step (enter payment info, 判例10)"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 16,
+   "sentence_text": "6",
+   "label": "N",
+   "confidence": "high",
+   "reason": "step number"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 17,
+   "sentence_text": "click 'save changes ' when you have finished",
+   "label": "N",
+   "confidence": "high",
+   "reason": "operation step (判例10)"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 18,
+   "sentence_text": "in the future , you may wish to use a backup credit card in order to help ensure continuous delivery of your ads",
+   "label": "N",
+   "confidence": "high",
+   "reason": "advice"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 19,
+   "sentence_text": "you can add a backup credit card by visiting your billing preferences page",
+   "label": "N",
+   "confidence": "high",
+   "reason": "advice"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 20,
+   "sentence_text": "this message was sent from a notification only email address that does not accept incoming email",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer (no-reply)"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 21,
+   "sentence_text": "please do not reply to this message",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 22,
+   "sentence_text": "if you have any questions , please visit the google ads help center at https adwords google com support \\ ? hl en gb to find answers to frequently asked questions and a 'contact us ' link near the bottom of the page",
+   "label": "N",
+   "confidence": "high",
+   "reason": "legit help-center URL (判例8)"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 23,
+   "sentence_text": "thank you for advertising with google ads",
+   "label": "N",
+   "confidence": "high",
+   "reason": "polite closing"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 24,
+   "sentence_text": "we look forward to providing you with the most effective advertising available",
+   "label": "N",
+   "confidence": "high",
+   "reason": "closing"
+  },
+  {
+   "email_id": 7533,
+   "sentence_idx": 25,
+   "sentence_text": "sincerely , the google ads team",
+   "label": "N",
+   "confidence": "high",
+   "reason": "signature"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 0,
+   "sentence_text": "help paypal to avoid any kind of fraud body , td font family verdana , arial , helvetica , sans serif font size 12px color 000000 li line height 120 ul smallholder margin 10px 5px 10px 20px li smallborderli margin 0px 5px 0px ul",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] PayPal: anti-fraud ID system; click link + enter info. Title+CSS, no core act."
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 1,
+   "sentence_text": "narrow margin 10px 5px 0px 40px hr dotted width 100 margin top 0px margin bottom 0px border left fff border right fff border top fff border bottom 2px dotted ccc smallemphasis font family verdana , arial , helvetica , sans serif font size 11px font weight bold color 000000 refund",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 2,
+   "sentence_text": "title td font weight bold line height 20px text align left background color cuddle table invoice input read only border 0 text align right table invoice input read only currency border 0 width 10px field error , field error input read only currency background color ff3333 currency highlight background color",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 3,
+   "sentence_text": "currency border right 1px solid fff table invoice td call font weight bold text align right inclinable color 00f small font size 11px font weight 400 hr solid width 100 margin top 5px margin bottom 0px border left fff border right fff border top fff border bottom 2px solid 999",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 4,
+   "sentence_text": "content p margin 0 padding 0 div stepson float left overflow hidden width 510px margin top 0 div stepson div step1 float left width 150px text align center div stepson div step2 float left width 170px text align center padding 0px 0px 0px 20px div stepson div step3 float left",
+   "label": "N",
+   "confidence": "high",
+   "reason": "CSS formatting"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 5,
+   "sentence_text": "content p margin 0 padding 10px 0px 0px 0px font size 11px ! important p lower clear both padding 10px 0px 0px 0px paypal the safer , easier way to pay use your credit card without exposing your card number to merchants",
+   "label": "N",
+   "confidence": "high",
+   "reason": "marketing (slogan + CSS)"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 6,
+   "sentence_text": "speed through checkout without stopping to enter your card number or address",
+   "label": "N",
+   "confidence": "high",
+   "reason": "marketing"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 7,
+   "sentence_text": "send money to family and friends for free",
+   "label": "N",
+   "confidence": "high",
+   "reason": "marketing"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 8,
+   "sentence_text": "fight fake emails make sure you 're using the latest internet browser",
+   "label": "N",
+   "confidence": "high",
+   "reason": "marketing/advice"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 9,
+   "sentence_text": "visit the paypal security center",
+   "label": "N",
+   "confidence": "high",
+   "reason": "marketing"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 10,
+   "sentence_text": "protect yourself from fraud !",
+   "label": "N",
+   "confidence": "high",
+   "reason": "marketing"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 11,
+   "sentence_text": "dear user , we have noticed an increasing fraudulent activity recently in order to provide your security and protect you from fraudsters we have introduced a new system of identification that will help us to avoid any kind of fraud or unauthorized access",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (fraud warning) (判例9)"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 12,
+   "sentence_text": "to complete your anti fraud protection , you must click the link below and enter as more information as possible to provide your complete identification and to activate all the features of the new system",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "must click link + enter info (§1.3,§1.4)"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 13,
+   "sentence_text": "https www paypal com please do not reply to this email",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "phishing link URL (判例5)"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 14,
+   "sentence_text": "this mailbox is not monitored , and you will not receive a response",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 15,
+   "sentence_text": "copyright 1999 2008 paypal",
+   "label": "N",
+   "confidence": "high",
+   "reason": "copyright"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 16,
+   "sentence_text": "all rights reserved",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 17,
+   "sentence_text": "consumer advisory paypal pte",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 18,
+   "sentence_text": "ltd , the holder of paypal 's stored value facility , does not require the approval of the monetary authority of singapore",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer (legal)"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 19,
+   "sentence_text": "users are advised to read the terms and conditions carefully",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer"
+  },
+  {
+   "email_id": 7562,
+   "sentence_idx": 20,
+   "sentence_text": "paypal email id pp075",
+   "label": "N",
+   "confidence": "high",
+   "reason": "footer (email id)"
+  },
+  {
+   "email_id": 7573,
+   "sentence_idx": 0,
+   "sentence_text": "barclays bank plc",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] Barclays: fraud investigation, account compromised. Org name."
+  },
+  {
+   "email_id": 7573,
+   "sentence_idx": 1,
+   "sentence_text": "online banking department fraud investigation you have received this email because we have strong reason to believe that your barclays account had been recently compromised",
+   "label": "N",
+   "confidence": "high",
+   "reason": "pretext (account compromised) (判例9)"
+  },
+  {
+   "email_id": 7602,
+   "sentence_idx": 0,
+   "sentence_text": "you have a new message new page 1 our valued customer , you have 1 new security message alert !",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] NatWest: new security message; click to resolve. Title notification (判例1)."
+  },
+  {
+   "email_id": 7602,
+   "sentence_idx": 1,
+   "sentence_text": "click here to resolve the problem sincerely , natwest bank plc security department team",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "click to resolve problem (§1.4)"
+  }
+ ]
+}

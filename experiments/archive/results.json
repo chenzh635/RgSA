@@ -1,0 +1,20 @@
+{
+  "Rules-only": {
+    "email_auprc": 0.7859793370832204,
+    "email_f1": 0.6734155678434709,
+    "spearman_corr": 1.0,
+    "attention_entropy": 1.3684433222488637
+  },
+  "ABMIL": {
+    "email_auprc": 0.9992948528579026,
+    "email_f1": 0.9905118601747815,
+    "spearman_corr": 0.375719062020749,
+    "attention_entropy": 1.2488471307754516
+  },
+  "Sparse ABMIL": {
+    "email_auprc": 0.9992337723573675,
+    "email_f1": 0.9872690963554668,
+    "spearman_corr": 0.4591315765117948,
+    "attention_entropy": 0.8385035198043583
+  }
+}

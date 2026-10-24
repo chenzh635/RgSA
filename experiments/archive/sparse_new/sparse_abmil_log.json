@@ -1,0 +1,102 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.123601,
+    "train_acc": 0.953937,
+    "train_bce": 0.120945,
+    "train_sparse": 0.026556,
+    "train_rule": 0.0,
+    "test_acc": 0.975375,
+    "temperature": 1.0
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.049588,
+    "train_acc": 0.984469,
+    "train_bce": 0.047478,
+    "train_sparse": 0.021098,
+    "train_rule": 0.0,
+    "test_acc": 0.985625,
+    "temperature": 0.95
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.034455,
+    "train_acc": 0.989594,
+    "train_bce": 0.032616,
+    "train_sparse": 0.018392,
+    "train_rule": 0.0,
+    "test_acc": 0.988125,
+    "temperature": 0.9025
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.025374,
+    "train_acc": 0.992687,
+    "train_bce": 0.023927,
+    "train_sparse": 0.01447,
+    "train_rule": 0.0,
+    "test_acc": 0.984375,
+    "temperature": 0.857375
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.020077,
+    "train_acc": 0.99425,
+    "train_bce": 0.018709,
+    "train_sparse": 0.013673,
+    "train_rule": 0.0,
+    "test_acc": 0.98675,
+    "temperature": 0.814506
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.016963,
+    "train_acc": 0.994656,
+    "train_bce": 0.016058,
+    "train_sparse": 0.009053,
+    "train_rule": 0.0,
+    "test_acc": 0.98775,
+    "temperature": 0.773781
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.014053,
+    "train_acc": 0.995781,
+    "train_bce": 0.013136,
+    "train_sparse": 0.009174,
+    "train_rule": 0.0,
+    "test_acc": 0.9885,
+    "temperature": 0.735092
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.013598,
+    "train_acc": 0.995563,
+    "train_bce": 0.012918,
+    "train_sparse": 0.006795,
+    "train_rule": 0.0,
+    "test_acc": 0.98825,
+    "temperature": 0.698337
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.011698,
+    "train_acc": 0.996938,
+    "train_bce": 0.011063,
+    "train_sparse": 0.006359,
+    "train_rule": 0.0,
+    "test_acc": 0.972625,
+    "temperature": 0.66342
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.010197,
+    "train_acc": 0.997,
+    "train_bce": 0.009678,
+    "train_sparse": 0.005192,
+    "train_rule": 0.0,
+    "test_acc": 0.98875,
+    "temperature": 0.630249
+  }
+]

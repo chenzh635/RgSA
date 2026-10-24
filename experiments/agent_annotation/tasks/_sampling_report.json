@@ -1,0 +1,20 @@
+{
+ "total_emails": 258,
+ "targets": {
+  "mismatch": 60,
+  "short": 40,
+  "diffuse": 40,
+  "typical": "fill to 240",
+  "TOTAL": 240
+ },
+ "final_counts": {
+  "mismatch": 60,
+  "short": 40,
+  "diffuse": 40,
+  "typical": 118
+ },
+ "n_existing150": 150,
+ "n_supplement": 108,
+ "seed": 0,
+ "note": "failure_mode from lambda_rule=3.0 seed-123 sparse checkpoint; original 150 stratified by archive-checkpoint spearman quartiles."
+}

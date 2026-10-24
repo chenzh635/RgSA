@@ -1,0 +1,2 @@
+email_id,sentence_idx,sentence_text,pass_a,pass_b,pass_c,reason_pass_a,reason_pass_b,reason_pass_c
+6214,4,"alternatively , you can type or paste t",?,N,Y,truncated — 截断无法判断意图,§2 截断的操作说明,truncated alternative-verification instruction (type/paste URL); §1.4 -> low

@@ -1,0 +1,224 @@
+{
+ "annotator": "agent_pass_c",
+ "batch": "production_chunk_11",
+ "exported_at": "2026-09-16T04:50:14+00:00",
+ "n_emails": 8,
+ "annotations": [
+  {
+   "email_id": 7627,
+   "sentence_idx": 0,
+   "sentence_text": "hsbc bank security information dear hsbc customer , hsbc online bank has been receiving complaints from our customers for unauthorized use of their hsbc online accounts",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] Claims HSBC; complaint pretext; wants click to update account. Pure pretext, no in-sentence request (case 9)."
+  },
+  {
+   "email_id": 7627,
+   "sentence_idx": 1,
+   "sentence_text": "click here to update your account best regards , hsbc online head of customer communications hsbc banking group results 2010",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "S1.4 deceptive guidance: 'click here to update your account' directs to fake verification link (case 5)."
+  },
+  {
+   "email_id": 7645,
+   "sentence_idx": 0,
+   "sentence_text": "your account has a problem your account has a problem dear client , we are sorry , but honda net br could not send your last message !",
+   "label": "N",
+   "confidence": "low",
+   "reason": "[scenario] Claims honda net br undeliverable-message notice; lures to 'see this page'. Account-'problem' claim is pretext, no request (case 9)."
+  },
+  {
+   "email_id": 7645,
+   "sentence_idx": 1,
+   "sentence_text": "for more information please see this page reference 001240 please note that this message was sent to the following e mail address harmanec1 onda net br please do not reply to this message",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "S1.4: 'see this page' directs recipient to deceptive page to resolve fabricated account problem (case 5)."
+  },
+  {
+   "email_id": 7708,
+   "sentence_idx": 0,
+   "sentence_text": "notice of underreported income",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "[scenario] Claims HMRC; underreported-income fraud accusation; lures to review tax statement via link. Title states pretext topic only, no proposal/request/threat (case 1)."
+  },
+  {
+   "email_id": 7708,
+   "sentence_idx": 1,
+   "sentence_text": "taxpayer id sales 00000209085168uktax type income taxis sue unreported underreported income \\ ( fraud application \\ ) please review your tax statement on hm revenue and customs \\ ( hmrc \\ ) website \\ ( click on the link below \\ ) review tax statement for taxpayer id sales 00000209085168ukhm",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "S1.4: 'click on the link below' to review tax statement - deceptive link guidance (case 5)."
+  },
+  {
+   "email_id": 7777,
+   "sentence_idx": 0,
+   "sentence_text": "natwest internet banking please confirm your data !",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "[scenario] Claims NatWest; demands user confirm data. Title directly issues data-confirmation request; S1.3, case 1 v1.3-2."
+  },
+  {
+   "email_id": 7777,
+   "sentence_idx": 1,
+   "sentence_text": "dear natwest private and business banking user !",
+   "label": "N",
+   "confidence": "high",
+   "reason": null
+  },
+  {
+   "email_id": 7779,
+   "sentence_idx": 0,
+   "sentence_text": "apple assist validation sept icloud id censored this is the last observation to indicate you as of 21 sep 2016 that you have not yet updated your icloud id information",
+   "label": "Y",
+   "confidence": "low",
+   "reason": "[scenario] Claims Apple; final validation notice for un-updated iCloud ID; demands validation or cessation. Pretext bound to verification demand (case 9 proviso)."
+  },
+  {
+   "email_id": 7779,
+   "sentence_idx": 1,
+   "sentence_text": "under quot know your customer \\ ( kyc \\ ) quot modulation apple is cited by guidelines to implement a validation of your information , omission to do so will result in cessation of your apple id within the next three days",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "S1.5 binding pressure: validate information or Apple ID ceases within three days; also S1.3 request."
+  },
+  {
+   "email_id": 7779,
+   "sentence_idx": 2,
+   "sentence_text": "please continue below to validate your itunes id sgt to interpose the cessation of your apple camp icloud please proceed to continue to your apple id profile prior to the programmed emotion time",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "S1.4: 'continue below to validate your itunes id' - guidance to fake validation link (case 5)."
+  },
+  {
+   "email_id": 7779,
+   "sentence_idx": 3,
+   "sentence_text": "resolution validation request 0185642735 with regards , cloud resource my apple id support privacy policy copyright 2016 itunes sarl 31 33 , rue saint tithe , l 2763 luxembourg all rights reserved",
+   "label": "N",
+   "confidence": "high",
+   "reason": null
+  },
+  {
+   "email_id": 7814,
+   "sentence_idx": 0,
+   "sentence_text": "jose monkey org update now",
+   "label": "N",
+   "confidence": "low",
+   "reason": "[scenario] Unclear 'jose monkey org' notice; 'update now' call. Name + urgency without concrete proposal/request/threat (case 1/12b)."
+  },
+  {
+   "email_id": 7814,
+   "sentence_idx": 1,
+   "sentence_text": "` a8y7d jose monkey org 0c b11necca5r30c07ne40cn05z7a ` a8v84u35 50ae b1 y82g9cla1g09zcbs73sd6m88f7l42 zcbs73sd6m88f7",
+   "label": "?",
+   "confidence": "high",
+   "reason": "garbled - indecipherable character strings; S3."
+  },
+  {
+   "email_id": 7820,
+   "sentence_idx": 0,
+   "sentence_text": "your account has been limited until we hear from you dear paypal user , you may have noticed that some limitations have been placed on your paypal account",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "[scenario] Claims PayPal; account limited until user responds; lures login/info to restore. Account-restriction deceptive premise in title; case 1 v1.3-3."
+  },
+  {
+   "email_id": 7820,
+   "sentence_idx": 1,
+   "sentence_text": "as a valued paypal customer , we want to let you know what this means and how to resolve the situation",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "Preamble announcement ('what this means, how to resolve'), no in-sentence request (case 9)."
+  },
+  {
+   "email_id": 7820,
+   "sentence_idx": 2,
+   "sentence_text": "what does it mean to have limited access \\ ?",
+   "label": "N",
+   "confidence": "high",
+   "reason": null
+  },
+  {
+   "email_id": 7820,
+   "sentence_idx": 3,
+   "sentence_text": "your account may be restricted for a number of reasons you 'll find out when you next log in to paypal",
+   "label": "N",
+   "confidence": "low",
+   "reason": "Generic 'may be restricted' explanation; login reference without link or request (case 9/10)."
+  },
+  {
+   "email_id": 7820,
+   "sentence_idx": 4,
+   "sentence_text": "as a result , you 'll notice that some of the following options are now unavailable send money to other paypal users request or receive money from other users edit or remove account details close how do i resolve the issue \\ ?",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "Lists unavailable features; explanatory pretext detail, no request (case 9)."
+  },
+  {
+   "email_id": 7820,
+   "sentence_idx": 5,
+   "sentence_text": "to assist us in our review , please log in to your account here",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "S1.4: 'please log in to your account here' - fake-login guidance via embedded link (case 5)."
+  },
+  {
+   "email_id": 7820,
+   "sentence_idx": 6,
+   "sentence_text": "you will see a message explaining why your account has been restricted , with details of what to do next",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "Describes post-login message; narrative detail, no request in sentence (case 9)."
+  },
+  {
+   "email_id": 7820,
+   "sentence_idx": 7,
+   "sentence_text": "click here to remove limitations account limitation process helps to maintain paypal as a safer way to buy and sell",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "S1.4: 'click here to remove limitations' - click guidance bound to lifting restriction (case 5)."
+  },
+  {
+   "email_id": 7820,
+   "sentence_idx": 8,
+   "sentence_text": "it 's similar to passing through a security checkpoint",
+   "label": "N",
+   "confidence": "high",
+   "reason": null
+  },
+  {
+   "email_id": 7820,
+   "sentence_idx": 9,
+   "sentence_text": "when we limit an account we often simply ask the user to supply information to verify their identity , financial information or the merchandise they 're selling",
+   "label": "Y",
+   "confidence": "low",
+   "reason": "S1.3/case 9 proviso: limitation bound to supplying identity/financial info to verify; generic framing."
+  },
+  {
+   "email_id": 7820,
+   "sentence_idx": 10,
+   "sentence_text": "yours sincerely , paypal",
+   "label": "N",
+   "confidence": "high",
+   "reason": null
+  },
+  {
+   "email_id": 7945,
+   "sentence_idx": 0,
+   "sentence_text": "reactivate your online banking account !",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "[scenario] Claims online bank; demands account reactivation. Title directly issues account-bound request; S1.3/case 1 v1.3."
+  },
+  {
+   "email_id": 7945,
+   "sentence_idx": 1,
+   "sentence_text": "protecting your account",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "Generic security heading 'protecting your account'; no request/threat in sentence (case 1)."
+  }
+ ]
+}

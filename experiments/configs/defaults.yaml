@@ -1,0 +1,36 @@
+# Sparse ABMIL Default Configuration
+
+# Data
+data_dir: "phishingdata"
+vocab_file: "phishingdata/ind_word.pickle"
+keywords_file: "phishingdata/kwords_stem.json"
+max_sentences: 100
+max_tokens_per_sentence: 50
+batch_size: 32
+num_workers: 0
+
+# Model
+sentence_encoder: "all-MiniLM-L6-v2"  # frozen
+hidden_dim: 64
+classifier_hidden: [128, 64]
+attention_hidden: 64
+use_sparse: true
+
+# Training
+device: "mps"
+epochs: 10
+lr: 0.001
+weight_decay: 0.0001
+warmup_epochs: 2
+
+# Sparsity
+temperature_init: 1.0
+temperature_min: 0.1
+temperature_decay: 0.95
+lambda_sparse: 0.1
+lambda_rule: 3.0  # paper checkpoints (Table 2, multi-seed) trained at 3.0 per fine sweep; 0.5 here was a later drift that does NOT reproduce them
+
+# Logging
+log_interval: 50
+save_dir: "experiments"
+seed: 42

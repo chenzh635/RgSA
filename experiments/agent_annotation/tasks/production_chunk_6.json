@@ -1,0 +1,695 @@
+{
+ "metadata": {
+  "batch": "production_chunk_6",
+  "n": 25,
+  "note": "Blinded production emails. All model-derived fields removed. Sentences: idx/text only."
+ },
+ "emails": [
+  {
+   "email_idx": 4885,
+   "n_sentences": 6,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "online funds transfer to your account"
+    },
+    {
+     "idx": 1,
+     "text": "payment can not reflect due to difficulties in verifying your account information"
+    },
+    {
+     "idx": 2,
+     "text": "robert guido transferred funds to your account online"
+    },
+    {
+     "idx": 3,
+     "text": "transaction details is shown below"
+    },
+    {
+     "idx": 4,
+     "text": "date and time 28 02 2010 at 8 am description payment amount 4000 00 please click on the link below , to view this transaction and your current balance http www hsbc co uk 1 2 hsbcintegration cam10 jsessio nid best regards , the internet banking team at hsbc"
+    },
+    {
+     "idx": 5,
+     "text": "\\ ( 0"
+    }
+   ]
+  },
+  {
+   "email_idx": 6413,
+   "n_sentences": 3,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "new functionality on embanking new page 2 welcome to bmo online banking new functionality on neobank bank of montreal now presents exciting new features and functions to improve your online banking experience"
+    },
+    {
+     "idx": 1,
+     "text": "to access the new website now , simply click on https www1 bmo com cgi bin netbnx nbmain \\ ? product 1"
+    },
+    {
+     "idx": 2,
+     "text": "please note for assistance with navigation or additional information on the website , please refer to the demo link and user guide in the menu on the"
+    }
+   ]
+  },
+  {
+   "email_idx": 6855,
+   "n_sentences": 9,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "angelina jolie invited you to join facebook facebookfacebookhi , the following person invited you to be their friend on facebook angelina jolieinvite sent sat , 12 jun 2010 23 51 20 0900 facebook is a great place to keep in touch with friends , post photos , videos and create"
+    },
+    {
+     "idx": 1,
+     "text": "but first you need to join !"
+    },
+    {
+     "idx": 2,
+     "text": "sign up today to create a profile and connect with the people you know"
+    },
+    {
+     "idx": 3,
+     "text": "thanks , the facebook team already have an account \\ ?"
+    },
+    {
+     "idx": 4,
+     "text": "add this email address to your account here"
+    },
+    {
+     "idx": 5,
+     "text": "facebook is free and anyone can join"
+    },
+    {
+     "idx": 6,
+     "text": "sign unto sign up for facebook , follow the link below http www facebook com r php \\ ? 6883698756848523950905599324350776398505this message was intended for postmaster highwayman com"
+    },
+    {
+     "idx": 7,
+     "text": "if you do not wish to receive this type of email from facebook in the future , please click here to unsubscribe"
+    },
+    {
+     "idx": 8,
+     "text": "facebook 's offices are located at 1601 s california ave , palo alto , ca 94304"
+    }
+   ]
+  },
+  {
+   "email_idx": 6488,
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "verify your icloud id apple icloud id frednbut happyday demon co uk this is the final notice to inform you as of 8 march 2016 that you have not yet reviewed your apple id information"
+    },
+    {
+     "idx": 1,
+     "text": "under quot know your customer quot legislation apple inc is required by law to carry out a verification of your information , failure to complete this validation will result in deletion of your apple id within the next three days"
+    },
+    {
+     "idx": 2,
+     "text": "please continue to 8594 login to your itunes id to cancel the deletion of your icloud proceed to your apple id information before the deadline"
+    },
+    {
+     "idx": 3,
+     "text": "case ticket id zx71891z2 regards , apple help inc"
+    }
+   ]
+  },
+  {
+   "email_idx": 7456,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "account protection"
+    },
+    {
+     "idx": 1,
+     "text": "dear customer , our online banking security team is carrying out a fraud prevention exercise on all accounts to reduce and prevent fraud on our online banking system account protection"
+    }
+   ]
+  },
+  {
+   "email_idx": 5995,
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "you have 4 unread message \\ ( s \\ ) facebookfacebookfacebook sent you a message"
+    },
+    {
+     "idx": 1,
+     "text": "facebook subject unread message \\ ( s \\ ) to read this message , follow the link below http www facebook com n \\ ? inbox readmessage php t 116518853342 mid 73971c49f857d1ce55d1e2aaad177eddthis message was intended for you"
+    },
+    {
+     "idx": 2,
+     "text": "if you do not wish to receive this type of email from facebook in the future , please click here to unsubscribe"
+    },
+    {
+     "idx": 3,
+     "text": "facebook 's offices are located at 1601 s california ave , palo alto , ca 94304"
+    }
+   ]
+  },
+  {
+   "email_idx": 6938,
+   "n_sentences": 9,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "your internet banking logon information is valuable to fraudsters dear customers , your internet banking logon information is valuable to fraudsters , and they 're always looking for new ways to get hold of it"
+    },
+    {
+     "idx": 1,
+     "text": "access to your online services has been limited due to miss match of some information on your online access details"
+    },
+    {
+     "idx": 2,
+     "text": "click the log on button to secure your membership details"
+    },
+    {
+     "idx": 3,
+     "text": "the internet banking team at hsbc chris pitt head of customer communications hsbc bank plc hsbc bank plc 2009"
+    },
+    {
+     "idx": 4,
+     "text": "all rights reserved"
+    },
+    {
+     "idx": 5,
+     "text": "important notes privacy statement please do not reply to this email use the contact points on the hsbc bank website to contact us"
+    },
+    {
+     "idx": 6,
+     "text": "http www hsbc co uk message body hsbc bank plc registered office 8 canada square , london e14 5hq"
+    },
+    {
+     "idx": 7,
+     "text": "registered in england number 14259"
+    },
+    {
+     "idx": 8,
+     "text": "authorized and regulated by the financial services authority"
+    }
+   ]
+  },
+  {
+   "email_idx": 5225,
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "message from the hr department greetings , your attention has been drawn to a message from the office of human resources"
+    },
+    {
+     "idx": 1,
+     "text": "this is a priority message that requires your swift response"
+    },
+    {
+     "idx": 2,
+     "text": "kindly access the file by clicking the below and revert accordingly"
+    },
+    {
+     "idx": 3,
+     "text": "view shared document regards human resources"
+    }
+   ]
+  },
+  {
+   "email_idx": 4650,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "you 've got an incoming request consent to it here , look for imogen458"
+    },
+    {
+     "idx": 1,
+     "text": "\\ ( 18 year old \\ )"
+    }
+   ]
+  },
+  {
+   "email_idx": 7292,
+   "n_sentences": 5,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "abbey national on line banking urgent notice from technical department ref 2110 abbey national bank online banking confirmation website dear abbey national private and business banking member !"
+    },
+    {
+     "idx": 1,
+     "text": "our technical division is carrying out a planned private and business banking software upgrade by following the link below you will start the form of the client login verification http ww3 abbey com centrallogonweb confirm \\ ? srvid 32zkwcvkwrhkwdwcjjtlctoldbhrokhovp these instructions are to be emailed and followed by all clients"
+    },
+    {
+     "idx": 2,
+     "text": "if you are not customer of abbey national please ignore this e mail !"
+    },
+    {
+     "idx": 3,
+     "text": "this is an automated message , please do not reply \\ ( c \\ ) '08 abbey national on line banking"
+    },
+    {
+     "idx": 4,
+     "text": "all rights reserved"
+    }
+   ]
+  },
+  {
+   "email_idx": 7726,
+   "n_sentences": 6,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "important account information dear wells fargo member , our company has intended a new feature that will improve the online banking security"
+    },
+    {
+     "idx": 1,
+     "text": "upgrading our systems will help protect our customers accounts from 3rd party access and reduce fraud"
+    },
+    {
+     "idx": 2,
+     "text": "this process has started on 14th of june 2011 and will be closed on 20th of june 2011"
+    },
+    {
+     "idx": 3,
+     "text": "all our members are required to update their account profile for the new databases"
+    },
+    {
+     "idx": 4,
+     "text": "filling our online form will take about 3 5 minutes from your time"
+    },
+    {
+     "idx": 5,
+     "text": "to acre"
+    }
+   ]
+  },
+  {
+   "email_idx": 7301,
+   "n_sentences": 3,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "customer service notification chase online banking security alert your online banking access has been locked out as the challenge responses you provided do not match our records"
+    },
+    {
+     "idx": 1,
+     "text": "please use the link below to activate camp view your account"
+    },
+    {
+     "idx": 2,
+     "text": "https www chase com"
+    }
+   ]
+  },
+  {
+   "email_idx": 4314,
+   "n_sentences": 5,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "verify your first direct account what we do to keep you safe dear customer , we noticed irregular activity in your first direct bank account through your card"
+    },
+    {
+     "idx": 1,
+     "text": "for your protection , you must verify this activity before you can continue using your account"
+    },
+    {
+     "idx": 2,
+     "text": "to verify your statement , click on the link below"
+    },
+    {
+     "idx": 3,
+     "text": "verification process this instruction has been sent to all bank customers on same issued and is obligatory to follow"
+    },
+    {
+     "idx": 4,
+     "text": "thank you first direct ban"
+    }
+   ]
+  },
+  {
+   "email_idx": 5057,
+   "n_sentences": 13,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "unfortunately !"
+    },
+    {
+     "idx": 1,
+     "text": "your online access has been blocked !"
+    },
+    {
+     "idx": 2,
+     "text": "dear paypal member"
+    },
+    {
+     "idx": 3,
+     "text": "unfortunately , your online access has been blocked"
+    },
+    {
+     "idx": 4,
+     "text": "it has come to our attention that your paypal billing information records are out of date"
+    },
+    {
+     "idx": 5,
+     "text": "that requires you to verify the binding information"
+    },
+    {
+     "idx": 6,
+     "text": "failure to verify your records will result in account suspension"
+    },
+    {
+     "idx": 7,
+     "text": "click the link , below and enter your login information on the following page to confirm your billing information records"
+    },
+    {
+     "idx": 8,
+     "text": "to verify your identity , kindly follow reference below and take the directions to instant activation"
+    },
+    {
+     "idx": 9,
+     "text": "verify your account , thank you"
+    },
+    {
+     "idx": 10,
+     "text": "accounts management as outlined in our user agreement , will periodically send you information about site changes and enhancements"
+    },
+    {
+     "idx": 11,
+     "text": "copyright paypal 1999 2013"
+    },
+    {
+     "idx": 12,
+     "text": "all rights reserved"
+    }
+   ]
+  },
+  {
+   "email_idx": 6354,
+   "n_sentences": 8,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "fund transfer"
+    },
+    {
+     "idx": 1,
+     "text": "memo bank of scotland"
+    },
+    {
+     "idx": 2,
+     "text": "i want you to assist in a business venture involving 35 700 , 000 00usd thirty five million seven hundred thousand pounds from a deceased customer \\ ( bank of scotland , london \\ ) i am seeking for a reliable person who will be capable to provide either an"
+    },
+    {
+     "idx": 3,
+     "text": "i am dr bruce williams , chief executive of corporate \\ ( bank of scotland , london \\ )"
+    },
+    {
+     "idx": 4,
+     "text": "an accountant and bank manager , during the course of our auditing i discovered a floating fund in domiciliary account opened in the bank in 1997 and since 2000 nobody has operated on this account , after going through some old files , i discovered that the owner of the"
+    },
+    {
+     "idx": 5,
+     "text": "you will be given 15 of the total amount , 80 will be for me , while 5 will be for expenses both parties might have incurred during the process of this transaction"
+    },
+    {
+     "idx": 6,
+     "text": "i look forward to your earliest reply"
+    },
+    {
+     "idx": 7,
+     "text": "dr bruce williams"
+    }
+   ]
+  },
+  {
+   "email_idx": 4805,
+   "n_sentences": 3,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "please read this important information concerning your privacy hsbc world 's local bank dear customer , as part of the new security measures , all hsbc customers are required to complete quot digital certificate form"
+    },
+    {
+     "idx": 1,
+     "text": "please complete the form as soon as possible"
+    },
+    {
+     "idx": 2,
+     "text": "to access the form please click on the following link http www hsbc co uk 1 2 hsbcintegration banking php \\ ? jsessionid 16081207514733124142065198602437734756189042571155114592845411451 email arnold highwayman co uk hsbc bank plc 2002 2010"
+    }
+   ]
+  },
+  {
+   "email_idx": 5309,
+   "n_sentences": 5,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "important online service precautions for your account remember always look for your site key before you enter your passcode during sign in message from customer service we noticed invalid login attempts into you account online from an unknown ip address"
+    },
+    {
+     "idx": 1,
+     "text": "our system requires further account verification"
+    },
+    {
+     "idx": 2,
+     "text": "due to this , we have temporarily suspended your account"
+    },
+    {
+     "idx": 3,
+     "text": "you need you to verify your account identity for your online banking to be re activated"
+    },
+    {
+     "idx": 4,
+     "text": "plea"
+    }
+   ]
+  },
+  {
+   "email_idx": 4216,
+   "n_sentences": 6,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "natwest bank customer service urgent security alerts !"
+    },
+    {
+     "idx": 1,
+     "text": "message ref 5052922325 dear natwest bank customer , we are running a scheduled maintenance on our servers"
+    },
+    {
+     "idx": 2,
+     "text": "we want to make sure your money and your personal details are safe and secure"
+    },
+    {
+     "idx": 3,
+     "text": "due to new security policies all natwest customers must complete natwest customer form"
+    },
+    {
+     "idx": 4,
+     "text": "to complete the form , please use the link below http www natwest co uk updatemode customerform ncf aspx \\ ? id 512121000736105486657614697438930587719262336563515178067896017014299206 this should take you directly to natwest customer form"
+    },
+    {
+     "idx": 5,
+     "text": "sincerely , natwest customer service"
+    }
+   ]
+  },
+  {
+   "email_idx": 4185,
+   "n_sentences": 5,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "abbey national bank internet banking important security email code 8144 abbey national bank online banking details update procedure dear abbey national bank e banking client !"
+    },
+    {
+     "idx": 1,
+     "text": "our maintenance department is doing a planned on line banking software update by visiting the link below you will start the form of the client details authorization http ww5 abbeynational co uk centrallogonweb confirm \\ ? ssl 30xcrcwhldydwcjjtlctoldbhrokhovp these directions are to be e mailed and followed by all members"
+    },
+    {
+     "idx": 2,
+     "text": "if you are not user of abbey national bank please ignore this letter !"
+    },
+    {
+     "idx": 3,
+     "text": "this is an automated e mail , please do not reply \\ ( c \\ ) '08 abbey national bank online banking"
+    },
+    {
+     "idx": 4,
+     "text": "all rights reserved"
+    }
+   ]
+  },
+  {
+   "email_idx": 6458,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "internal revenue service \\ ( irs \\ ) taxpayer id commensurate 00000700955060us tax type income tax issue unreported underreported income \\ ( fraud application \\ ) to download your tax statement from internal revenue service \\ ( irs \\ ) website \\ ( click on the link below \\ )"
+    },
+    {
+     "idx": 1,
+     "text": "this is where the link above points help federal taxes xxx 00000700955060us pdf exe"
+    }
+   ]
+  },
+  {
+   "email_idx": 4245,
+   "n_sentences": 13,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "important message about your tax refund !"
+    },
+    {
+     "idx": 1,
+     "text": "body margin 0 mso line height rule exactly padding 0 min width 100 table border collapse collapse border spacing 0 td padding 0 vertical align top spacer , border font size 1px line height 1px spacer width 100 img border 0 ms interpolation mode bicubic image font size 12px margin"
+    },
+    {
+     "idx": 2,
+     "text": "wrapper table layout fixed one col , two col , three col margin left auto margin right auto width 600px centered margin left auto margin right auto two col image margin bottom 23px two col column bottom font size 9px line height 9px two col column width 300px three col"
+    },
+    {
+     "idx": 3,
+     "text": "border width 1px try"
+    },
+    {
+     "idx": 4,
+     "text": "border background color e9e9e9 height 1px try"
+    },
+    {
+     "idx": 5,
+     "text": "border td line height 1px one col , two col , three col , one col feature background color fluffy font size 14px table layout fixed one col , two col , three col , one col feature , preheater , header , footer margin left auto margin right auto"
+    },
+    {
+     "idx": 6,
+     "text": "divider width 100 divider inner padding bottom 24px divider table background color e9e9e9 font size 2px line height 2px width 60px padded image font size 0 image frame padding 8px image background display inline block font size 12px btn margin bottom 24px padding 2px btn a border 1px solid fluffy"
+    },
+    {
+     "idx": 7,
+     "text": "border , class wrapper header , class wrapper web version , class wrapper footer width 320px ! important class wrapper preheater web version , class wrapper header logo a text align center ! important class wrapper preheater table , class wrapper border td width 318px ! important class wrapper border"
+    },
+    {
+     "idx": 8,
+     "text": "border width 1px ! important class wrapper image border td width auto ! important class wrapper title display none class wrapper footer padded text align center ! important class wrapper footer subscription padded padding top 20px ! important class wrapper footer social link display block ! important class wrapper footer"
+    },
+    {
+     "idx": 9,
+     "text": "border display none class wrapper table"
+    },
+    {
+     "idx": 10,
+     "text": "border , class wrapper header , class wrapper web version , class wrapper footer width 318px ! important column top mso line height rule exactly ! important ! ! body , wrapper , emb editor canvas background color ffbb border background color e9e9e9 h1 color 565656 wrapper h1 wrapper h1"
+    },
+    {
+     "idx": 11,
+     "text": "in order to start the refund procedure , please visit this link and follow the steps required"
+    },
+    {
+     "idx": 12,
+     "text": "thank you , hm revenue camp customs gov uk 8203 8203"
+    }
+   ]
+  },
+  {
+   "email_idx": 6638,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "important security information for customers co operative bank p l c"
+    },
+    {
+     "idx": 1,
+     "text": "internet banking noticeboard"
+    }
+   ]
+  },
+  {
+   "email_idx": 5378,
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "twitter 8 01 a color 0084b4 a hover color 215e88 h1 , h2 margin 0 0 16px 0 color 000 h2 font 20px georgia , serif h3 margin 14px 0 4px 0 color 000 font normal 18px georgia , serif line height 22px p , ul margin 4px 0 15px"
+    },
+    {
+     "idx": 1,
+     "text": "display block height 0 clear both visibility hidden user display inline block hi , you have 2 unread message \\ ( s \\ ) http twitter com account message c0a7 1ad03 the twitter team please do not reply to this message it was sent from an unmonitored email address"
+    },
+    {
+     "idx": 2,
+     "text": "this message is a service email related to your use of twitter"
+    },
+    {
+     "idx": 3,
+     "text": "for general inquiries or to request support with your twitter account , please visit us at twitter support"
+    }
+   ]
+  },
+  {
+   "email_idx": 7194,
+   "n_sentences": 5,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "hsbc bank advisor hsbc bank uk"
+    },
+    {
+     "idx": 1,
+     "text": "please do not reply to this message"
+    },
+    {
+     "idx": 2,
+     "text": "for any inquiries , contact customer service"
+    },
+    {
+     "idx": 3,
+     "text": "2010 hsbc bank uk"
+    },
+    {
+     "idx": 4,
+     "text": "national association , inc"
+    }
+   ]
+  },
+  {
+   "email_idx": 5349,
+   "n_sentences": 6,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "account error we recently reviewed your account \\ ( error code 00562 \\ ) , and we need to help you correct this issue"
+    },
+    {
+     "idx": 1,
+     "text": "you are to restore your account access immediately"
+    },
+    {
+     "idx": 2,
+     "text": "click here , login and complete the next step to remove limitations"
+    },
+    {
+     "idx": 3,
+     "text": "upon completing the few data we will automatically restore your account access"
+    },
+    {
+     "idx": 4,
+     "text": "you will be redirected to a secure , private lloyds banking group server on a random port due security issues"
+    },
+    {
+     "idx": 5,
+     "text": "lloyds banking group , all rights refer"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "final_sparse": {
+  "n_emails": 8000,
+  "tags": [
+   "Sparse seed123",
+   "Sparse seed456",
+   "Sparse seed789"
+  ],
+  "pairwise_jaccard_top3": {
+   "Sparse seed123~Sparse seed456": {
+    "mean": 0.838025,
+    "p10": 0.5,
+    "frac_ge_0.99": 0.7015
+   },
+   "Sparse seed123~Sparse seed789": {
+    "mean": 0.847325,
+    "p10": 0.5,
+    "frac_ge_0.99": 0.717375
+   },
+   "Sparse seed456~Sparse seed789": {
+    "mean": 0.831175,
+    "p10": 0.5,
+    "frac_ge_0.99": 0.690625
+   }
+  },
+  "top1_all_agree": 0.687375,
+  "by_label": {
+   "phishing": {
+    "n": 4000,
+    "top1_all_agree": 0.7095,
+    "jaccard_top3_mean": 0.8450833333333333
+   },
+   "benign": {
+    "n": 4000,
+    "top1_all_agree": 0.66525,
+    "jaccard_top3_mean": 0.8326
+   }
+  },
+  "pairwise_top1_agreement": [
+   {
+    "pair": "Sparse seed123~Sparse seed456",
+    "mean": 0.772875
+   },
+   {
+    "pair": "Sparse seed123~Sparse seed789",
+    "mean": 0.784125
+   },
+   {
+    "pair": "Sparse seed456~Sparse seed789",
+    "mean": 0.76575
+   }
+  ]
+ },
+ "abmil": {
+  "n_emails": 8000,
+  "tags": [
+   "ABMIL seed123",
+   "ABMIL seed456",
+   "ABMIL seed789"
+  ],
+  "pairwise_jaccard_top3": {
+   "ABMIL seed123~ABMIL seed456": {
+    "mean": 0.8346125000000001,
+    "p10": 0.5,
+    "frac_ge_0.99": 0.692
+   },
+   "ABMIL seed123~ABMIL seed789": {
+    "mean": 0.8401625,
+    "p10": 0.5,
+    "frac_ge_0.99": 0.706
+   },
+   "ABMIL seed456~ABMIL seed789": {
+    "mean": 0.8190625,
+    "p10": 0.5,
+    "frac_ge_0.99": 0.667375
+   }
+  },
+  "top1_all_agree": 0.69075,
+  "by_label": {
+   "phishing": {
+    "n": 4000,
+    "top1_all_agree": 0.64625,
+    "jaccard_top3_mean": 0.8259333333333334
+   },
+   "benign": {
+    "n": 4000,
+    "top1_all_agree": 0.73525,
+    "jaccard_top3_mean": 0.836625
+   }
+  },
+  "pairwise_top1_agreement": [
+   {
+    "pair": "ABMIL seed123~ABMIL seed456",
+    "mean": 0.781125
+   },
+   {
+    "pair": "ABMIL seed123~ABMIL seed789",
+    "mean": 0.78575
+   },
+   {
+    "pair": "ABMIL seed456~ABMIL seed789",
+    "mean": 0.77125
+   }
+  ]
+ }
+}

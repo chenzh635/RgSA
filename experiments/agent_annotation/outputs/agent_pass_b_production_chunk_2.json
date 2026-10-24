@@ -1,0 +1,1336 @@
+{
+ "annotator": "agent_pass_b",
+ "batch": "production_chunk_2",
+ "exported_at": "2026-09-13T16:26:05Z",
+ "n_emails": 25,
+ "annotations": [
+  {
+   "email_id": 5455,
+   "sentence_idx": 0,
+   "sentence_text": "urgent internet banking information from lloyds tsb bank internet banking lloyds on line banking client details verification page dear lloyds client , security and confidentiality are at the heart of the lloyds group",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 假冒 Lloyds TSB 银行，宣称强制客户信息验证，诱导点击链接填表"
+  },
+  {
+   "email_id": 5455,
+   "sentence_idx": 1,
+   "sentence_text": "your details \\ ( and your money \\ ) is protected by a number of technologies , including secure sockets layer \\ ( ssl \\ ) encryption",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5455,
+   "sentence_idx": 2,
+   "sentence_text": "we would like to inform you that lloyds bank carries out client details confirmation procedure that is compulsory for all our customers",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "§2 无索取的验证程序铺垫（判例9）"
+  },
+  {
+   "email_id": 5455,
+   "sentence_idx": 3,
+   "sentence_text": "this procedure is attributed to a routine banking software update",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5455,
+   "sentence_idx": 4,
+   "sentence_text": "please visit our customer verification form using the link below and follow the instructions on the screen",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.4 引导点击验证表单链接（假验证）"
+  },
+  {
+   "email_id": 5455,
+   "sentence_idx": 5,
+   "sentence_text": "http www8 lloydstsb com customer confirm ibc \\ ? org 30oscrkdeofdwcjjtlctoldbhrokhovp lloyds tsb bank customer service",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "判例5 钓鱼URL 本身即欺骗引导目标"
+  },
+  {
+   "email_id": 7518,
+   "sentence_idx": 0,
+   "sentence_text": "instructions for client !",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 假冒 Abbey 银行，称系统升级，要求客户填在线表格"
+  },
+  {
+   "email_id": 7518,
+   "sentence_idx": 1,
+   "sentence_text": "dear abbey bank customer , abbey customer service would like to inform you that we are currently carrying out a scheduled upgrade of abbey security software",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 7518,
+   "sentence_idx": 2,
+   "sentence_text": "in order to guarantee high level of security to our customers , we require you to complete duo online banking form rdquo",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.3 要求完成在线表格（索取信息）"
+  },
+  {
+   "email_id": 7518,
+   "sentence_idx": 3,
+   "sentence_text": "please complete online banking form using the link below online banking form thank you for being a valued customer",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.4 引导点击链接填写表格"
+  },
+  {
+   "email_id": 7518,
+   "sentence_idx": 4,
+   "sentence_text": "sincerely , abbey customer service 0x5173 , 0x6 , 0x99 , 0x34 , 0x04510353 , 0x4 , 0x4 , 0x88715163 , 0x60193801 bav , file , hex , wait 0x1524 0x7100 , 0x5233 , 0x4 , 0x1306 , 0x0 , 0x4 , 0x0 , 0x49057189 , 0x9630 , 0x25262186 ,",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4351,
+   "sentence_idx": 0,
+   "sentence_text": "confirm your identity and remove your account limitation national westminster bank has been receiving complaints from our customers for unauthorized use of the natwest online accounts",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "[scenario] 假冒 NatWest 银行，称账户受限，要求点链接确认身份; §1.3 确认身份+账户限制威胁（判例1v1.3③）"
+  },
+  {
+   "email_id": 4351,
+   "sentence_idx": 1,
+   "sentence_text": "as a result we periodically review natwest online accounts and temporarily restrict access of those accounts which we think are vulnerable to the unauthorized use",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4351,
+   "sentence_idx": 2,
+   "sentence_text": "this message has been sent to you from national westminster bank because we have noticed invalid login attempts into your account , due to this we are temporarily limiting and restricting your account access until we confirm your identity",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.5 限制账户直至确认身份（绑定施压）"
+  },
+  {
+   "email_id": 4351,
+   "sentence_idx": 3,
+   "sentence_text": "to confirm your identity and remove your account limitation please follow the link below",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.4 引导点链接确认身份（假验证）"
+  },
+  {
+   "email_id": 4351,
+   "sentence_idx": 4,
+   "sentence_text": "national westminster bank is committed to ensure the safeguard of each customer 's personal information , making sure only authorized individuals have access to their accounts",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4351,
+   "sentence_idx": 5,
+   "sentence_text": "it is all about your security",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4351,
+   "sentence_idx": 6,
+   "sentence_text": "accounts management as outlined in our user agreement , natwest will periodically send you information about site changes and enhancements",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4351,
+   "sentence_idx": 7,
+   "sentence_text": "visit our privacy policy and user agreement if you have any questions",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4351,
+   "sentence_idx": 8,
+   "sentence_text": "http www natwest com help index jhtml",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "判例5 官方域名引用，非欺骗链接"
+  },
+  {
+   "email_id": 4007,
+   "sentence_idx": 0,
+   "sentence_text": "lloyds tsb bank security issues !",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 假冒 Lloyds TSB，要求所有客户填表"
+  },
+  {
+   "email_id": 4007,
+   "sentence_idx": 1,
+   "sentence_text": "message ref 9599159892 reference number 21867174864319756 dear lloyds tsb bank customer , as part of the new security measures , all lloyds tsb bank customers are required to complete lloyds tsb customer form",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.3 要求客户完成客户表格"
+  },
+  {
+   "email_id": 4007,
+   "sentence_idx": 2,
+   "sentence_text": "please complete the form as soon as possible",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.3 请求尽快填表"
+  },
+  {
+   "email_id": 4007,
+   "sentence_idx": 3,
+   "sentence_text": "to access the form please click on the following link http online lloydstsb co uk customercare serverid cform jsp \\ ? id 865999249091350486403541375503663217543 thank you for banking with us",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.4+判例5 点击钓鱼链接填表"
+  },
+  {
+   "email_id": 4007,
+   "sentence_idx": 4,
+   "sentence_text": "sincerely , lloyds tsb customer service please do not reply to this e mail",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4007,
+   "sentence_idx": 5,
+   "sentence_text": "copy lloyds tsb 2008",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4239,
+   "sentence_idx": 0,
+   "sentence_text": "re execution of legal brief re execution of legal brief tel 011 \\ ( 44 \\ ) 792 400 3287 18 08 2009 attn fernando result , i received your email contact requesting me to represent you at the o2 mobile review panel signing and collection of draft on your",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "[scenario] 假冒律师，称受委托处理 O2 评审事宜并索取材料; 截断前言"
+  },
+  {
+   "email_id": 4239,
+   "sentence_idx": 1,
+   "sentence_text": "however , i have communicated with the o2 mobile and have advised that i accept your offer",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4239,
+   "sentence_idx": 2,
+   "sentence_text": "consequently , i have contacted the o2 mobile review panel to verify the requirements for this purpose",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4239,
+   "sentence_idx": 3,
+   "sentence_text": "and please send the following",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "§1.3 索取后续信息（截断）"
+  },
+  {
+   "email_id": 4738,
+   "sentence_idx": 0,
+   "sentence_text": "after trying this you will never diet again !",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 减肥产品纯广告，无冒充无索取"
+  },
+  {
+   "email_id": 4738,
+   "sentence_idx": 1,
+   "sentence_text": "do you want your weight to come off and never return \\ ?",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4738,
+   "sentence_idx": 2,
+   "sentence_text": "i know how difficult it is to stick to healthy habits even when you see your first results",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4738,
+   "sentence_idx": 3,
+   "sentence_text": "but i also know a perfect cure helping to keep and further improve them",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4738,
+   "sentence_idx": 4,
+   "sentence_text": "no , it 's not a secret it 's the rare foreskin extract i bought here and put to my own test",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4738,
+   "sentence_idx": 5,
+   "sentence_text": "my results are rather impressive , i lost 47 lbs and even 1 , 5 years after i manage to wear the desired m size",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4738,
+   "sentence_idx": 6,
+   "sentence_text": "and i feel so sexy now !",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4330,
+   "sentence_idx": 0,
+   "sentence_text": "you are cordially advised to validate your mailbox for your security purpose",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "[scenario] 假冒 IT 服务台，要求验证邮箱避免账户被注销; §1.3 要求验证邮箱"
+  },
+  {
+   "email_id": 4330,
+   "sentence_idx": 1,
+   "sentence_text": "please comply to this special announcement to protect your mailbox from anonymous users",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "§2 泛化催促合规（判例12b）"
+  },
+  {
+   "email_id": 4330,
+   "sentence_idx": 2,
+   "sentence_text": "kindly click here to avoid cancellation of your account",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.5 点击避免账户注销（绑定施压）"
+  },
+  {
+   "email_id": 4330,
+   "sentence_idx": 3,
+   "sentence_text": "thank you for helping us protect you",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4330,
+   "sentence_idx": 4,
+   "sentence_text": "it service helpdesk",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6970,
+   "sentence_idx": 0,
+   "sentence_text": "lloyds bank on line banking user notification details update lloyds bank online banking customer details verification page daimio lloyds tsb bank customer , securitym3t and confidentiality art at the heart of the lloyds bank",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 假冒 Lloyds，要求点链接完成验证"
+  },
+  {
+   "email_id": 6970,
+   "sentence_idx": 1,
+   "sentence_text": "your details \\ ( and your6 money \\ ) is protected6 by a number of technologies , c including secure sockets layer \\ ( ssl \\ ) encryption",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6970,
+   "sentence_idx": 2,
+   "sentence_text": "we would like to notify you that lloyds carries outxk8 client details verification procedure that is compulsory for all our customers",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "§2 无索取的验证铺垫（判例9）"
+  },
+  {
+   "email_id": 6970,
+   "sentence_idx": 3,
+   "sentence_text": "or this procedure isk attributed to a routine cm banking software update",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6970,
+   "sentence_idx": 4,
+   "sentence_text": "please visit our client verification page using heal link below and follow0c the instructions on the screen",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.4 引导点击验证页链接"
+  },
+  {
+   "email_id": 6970,
+   "sentence_idx": 5,
+   "sentence_text": "http online business5 lloydstsb com customer ibc \\ ? ssid 29szkwcslrdwcjjtlctoldbhrokhovp lloyds customerl2 service",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "判例5 钓鱼URL 本身"
+  },
+  {
+   "email_id": 6654,
+   "sentence_idx": 0,
+   "sentence_text": "your account with us dear customer of the royal bank of scotland , we would like to inform you that we are currently carrying out scheduled maintenance",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 假冒 RBS 银行，称维护要求填表"
+  },
+  {
+   "email_id": 6654,
+   "sentence_idx": 1,
+   "sentence_text": "in order to guarantee the high level of security to our customers , we require you to complete rbs online form",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.3 要求完成在线表格"
+  },
+  {
+   "email_id": 6654,
+   "sentence_idx": 2,
+   "sentence_text": "please complete rbs online form using the link below http www rbs co uk global rbsform default aspx \\ ? refererident 75367732264837493949539853765751713626286499919284 amp cookieid 790801631784 this is auto generated email , please do not respond to this email",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.4 引导点击链接填表"
+  },
+  {
+   "email_id": 6654,
+   "sentence_idx": 3,
+   "sentence_text": "0x8 , 0x8 , 0x31268591 , 0x1555 , 0x811 , 0x42836176 , 0x7743 , 0x6014 , 0x7320 , 0x050 , 0x66 , 0x5200 rcs , tef 40r , 7z2",
+   "label": "?",
+   "confidence": "low",
+   "reason": "garbled"
+  },
+  {
+   "email_id": 6654,
+   "sentence_idx": 4,
+   "sentence_text": "eo0d 0x65990952 , 0x7 , 0x754 , 0x66 , 0x93 , 0x65 , 0x33 548893266377568147 0x7382 , 0x4 , 0x4 , 0x14 , 0x493 , 0x21795880 , 0x4046 , 0x273 , 0x901 , 0x707 , 0x0940 , 0x0 exe 0x5880 , 0x062 , 0x50180318 , 0x164 , 0x8625 , 0x09",
+   "label": "?",
+   "confidence": "low",
+   "reason": "garbled"
+  },
+  {
+   "email_id": 6654,
+   "sentence_idx": 5,
+   "sentence_text": "2lk4 0x3261 , 0x3 , 0x5 , 0x12484802 , 0x567 , 0x3070 , 0x22 , 0x9017 , 0x2 619585642646968594754 0x68 , 0x36 , 0x429 , 0x58 , 0x9564 , 0x4944 , 0x8147 , 0x64564934 , 0x7 , 0x642 , 0x99450765 , 0x884 , 0x1479 , 0x16 bhr type rev engine",
+   "label": "?",
+   "confidence": "low",
+   "reason": "garbled"
+  },
+  {
+   "email_id": 6654,
+   "sentence_idx": 6,
+   "sentence_text": "mb5 0x4336 , 0x300 , 0x670 , 0x6666 0x63832261 , 0x9043 , 0x507 , 0x2 , 0x5 , 0x31376609 6dq 0x22945731 , 0x19454027 , 0x91122530 , 0x5 , 0x07950878 , 0x44605219 , 0x251 , 0x97 , 0x5090 rev 0x0 , 0x806 0x480 , 0x362 , 0x38428889 , 0x00000950 , 0x32",
+   "label": "?",
+   "confidence": "low",
+   "reason": "garbled"
+  },
+  {
+   "email_id": 6654,
+   "sentence_idx": 7,
+   "sentence_text": "0x9 , 0x83 , 0x447 , 0x67881855 type 0x3755 , 0x37 , 0x037 , 0x25 , 0x4743 , 0x66181267 , 0x10979992 , 0x161 , 0x3711 , 0x58079635 , 0x1387 , 0x704 0x78589344 , 0x1 , 0x45547145 , 0x0830 , 0x814 , 0x89 , 0x71 , 0x80 dec hex 0x76 ,",
+   "label": "?",
+   "confidence": "low",
+   "reason": "garbled"
+  },
+  {
+   "email_id": 4440,
+   "sentence_idx": 0,
+   "sentence_text": "urgent contact dear friend , i am mrs elizabeth ga rang , the wife of the sudan 's vice president johngarag who was killed in a helicopter crash on august 1 , 2005",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 自称苏丹副总统遗孀，携2500万美元财宝，请求收件人代办领取并分成"
+  },
+  {
+   "email_id": 4440,
+   "sentence_idx": 1,
+   "sentence_text": "i am currently in kenya , where i am taken refugee with my son philip ga rang",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4440,
+   "sentence_idx": 2,
+   "sentence_text": "we ran from sudan because the incumbent government of sudan want my son and killed because my husband was striving hard for the liberation of southern sudan",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4440,
+   "sentence_idx": 3,
+   "sentence_text": "i want to confide in you if you can assist me to receive a trunk box of treasure box containing 25 , 000 , 000 , usd which my late husband deposited with a diplomatic courier service for onward delivery to purchase arms for the liberation army",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.1+§1.2 2500万美元诱饵并请求协助接收"
+  },
+  {
+   "email_id": 4440,
+   "sentence_idx": 4,
+   "sentence_text": "the diplomat is will deliver the trunk boxes in your country in a few day sand i want you to front as my beneficiary to claim this trunk box before i arrive to your country , and this deposit was made under my son 's name as the next of",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.1 请求充当受益人领取财宝"
+  },
+  {
+   "email_id": 4440,
+   "sentence_idx": 5,
+   "sentence_text": "this consignment was deposited under class u p c meaning undisputed private consignment that is to say the diplomatic courier service is ignorant of the true contents of the consignment because , the contents was declared as an african art",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4440,
+   "sentence_idx": 6,
+   "sentence_text": "upon request , i will scan and send to you the certificate of deposit for your perusal before the transaction commences",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4440,
+   "sentence_idx": 7,
+   "sentence_text": "considering the effort you will put in the transaction , we are willing to concede 25 of the money to you as compensation , while remaining 75 will be for i and my son philip",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.2 分成25%作报酬（金额诱饵）"
+  },
+  {
+   "email_id": 4440,
+   "sentence_idx": 8,
+   "sentence_text": "if you are ready you assist me , please send me your phone number and your resident address so that i can forward it to the diplomat as my son 's beneficiary as my i will instruct the officer in charge to deliver the consignment to you in your place",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.3 索取电话号码与地址"
+  },
+  {
+   "email_id": 4440,
+   "sentence_idx": 9,
+   "sentence_text": "you can visit this website to know more about my later husband",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4440,
+   "sentence_idx": 10,
+   "sentence_text": "http www sudantribune com article php3 \\ ? id article 11050 http www sudantribune com article impr php3 \\ ? id article 11050 http politics yahoo com photos ss events wl 080105sudangarangvp curphoto 1 http nazret com blogs blogs index php \\ ? title john garang more 1 c 1",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4440,
+   "sentence_idx": 11,
+   "sentence_text": "below",
+   "label": "N",
+   "confidence": "low",
+   "reason": "无实义片段"
+  },
+  {
+   "email_id": 4440,
+   "sentence_idx": 12,
+   "sentence_text": "elizabethg637 netscape net i await to hear from you soon",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4440,
+   "sentence_idx": 13,
+   "sentence_text": "thanks",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4440,
+   "sentence_idx": 14,
+   "sentence_text": "mrs elizabeth ga rang",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5314,
+   "sentence_idx": 0,
+   "sentence_text": "maintenance notice a computer database maintenance is currently going on our web mail message center",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 假冒系统管理员，称数据库维护遭病毒，诱导点击链接"
+  },
+  {
+   "email_id": 5314,
+   "sentence_idx": 1,
+   "sentence_text": "our message center needs to be re set because of the attempt of a trojan horse virus attack in our web mail database",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5314,
+   "sentence_idx": 2,
+   "sentence_text": "to protect your mailbox please click on the link below click here failure to secure your mailbox will render your mailbox unsafe our database",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.4+§1.5 点击链接否则邮箱不安全"
+  },
+  {
+   "email_id": 5314,
+   "sentence_idx": 3,
+   "sentence_text": "system administrator",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 7915,
+   "sentence_idx": 0,
+   "sentence_text": "diet in start on uw account the \\ ? unknown \\ ?",
+   "label": "?",
+   "confidence": "low",
+   "reason": "[scenario] 疑似 Rabobank 钓鱼，但全篇乱码无法解读; garbled"
+  },
+  {
+   "email_id": 7915,
+   "sentence_idx": 1,
+   "sentence_text": "q \\ ? verify eben \\ ? leachate plant , win zion diet in start on uw account the verified",
+   "label": "?",
+   "confidence": "low",
+   "reason": "garbled"
+  },
+  {
+   "email_id": 7915,
+   "sentence_idx": 2,
+   "sentence_text": "qlik hear on evening the verified",
+   "label": "?",
+   "confidence": "low",
+   "reason": "garbled"
+  },
+  {
+   "email_id": 7915,
+   "sentence_idx": 3,
+   "sentence_text": "customer service",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 7915,
+   "sentence_idx": 4,
+   "sentence_text": "2011 rabobank nederland \\ ( nl \\ )",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5962,
+   "sentence_idx": 0,
+   "sentence_text": "citizens bank n a",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 假冒 Citizens Bank，称需更新账户身份"
+  },
+  {
+   "email_id": 5962,
+   "sentence_idx": 1,
+   "sentence_text": "online banking update your account identity dear citizens bank money manager gps user !",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "§1.3 标题直接要求更新账户身份（判例1v1.3）"
+  },
+  {
+   "email_id": 5321,
+   "sentence_idx": 0,
+   "sentence_text": "important information",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 假冒 Monster，要求填雇主表格"
+  },
+  {
+   "email_id": 5321,
+   "sentence_idx": 1,
+   "sentence_text": "dear monster \\ ( jobs camp careers \\ ) customer , the added security measures require all monster customers to complete online employer form",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.3 要求完成在线雇主表格"
+  },
+  {
+   "email_id": 5321,
+   "sentence_idx": 2,
+   "sentence_text": "please use the hyperlink below to access online employer form online employer form we appreciate your business , and thank you for being a valued customer",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.4 引导用超链接填表"
+  },
+  {
+   "email_id": 5321,
+   "sentence_idx": 3,
+   "sentence_text": "copy 2008 monster all rights reserved 0x90 , 0x8 , 0x59953099 , 0x8984 , 0x0 , 0x7 , 0x2416 , 0x530 , 0x417 , 0x430 , 0x73 , 0x32 update , agk , tmp , cvs , create 0x09927453 , 0x93 , 0x3915 , 0x3 , 0x6743 , 0x13 ,",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5321,
+   "sentence_idx": 4,
+   "sentence_text": "s8g 0x77 , 0x59771208 , 0x65 8236806 48584988680411377 hex 0x699 , 0x4 , 0x718 0x074 , 0x9 , 0x912 , 0x39847417 , 0x59 , 0x6039 , 0x57 , 0x882 , 0x9 , 0x4262 start 0x06 , 0x991 , 0x6759 , 0x4163 , 0x3297",
+   "label": "?",
+   "confidence": "low",
+   "reason": "garbled"
+  },
+  {
+   "email_id": 5819,
+   "sentence_idx": 0,
+   "sentence_text": "u s treasury department important notification federal reserve bank important you 're getting this letter in connection with new directions issued by u s treasury department",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 假冒美国财政部/美联储，称钓鱼攻击致电汇受限，引导访问链接"
+  },
+  {
+   "email_id": 5819,
+   "sentence_idx": 1,
+   "sentence_text": "the directions concern u s federal wire online payments",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5819,
+   "sentence_idx": 2,
+   "sentence_text": "on november 3 , 2008 , a large scaled phishing attack started and has been still lasting",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5819,
+   "sentence_idx": 3,
+   "sentence_text": "a great number of banks and credit unions is affected by this attack and quantity of illegal wire transfers has reached an extremely high level",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5819,
+   "sentence_idx": 4,
+   "sentence_text": "u s treasury department , federal reserve and federal deposit insurance corporation \\ ( fdic \\ ) in common worked out a complex of immediate actions for the highest possible reduction of fraudulent operations",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5819,
+   "sentence_idx": 5,
+   "sentence_text": "we regret to inform you that definite restrictions will be applied to all federal wire transfers from november 4 till november 14",
+   "label": "N",
+   "confidence": "high",
+   "reason": "§2 泛化限制通告（判例12b）"
+  },
+  {
+   "email_id": 5819,
+   "sentence_idx": 6,
+   "sentence_text": "here you can get more detailed information regarding the affected banks and u s treasury department restrictions http phishing 911 tdbanks net bb 34451220 http fedwire fdic secure org 255253 federal reserve bank system administration",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "判例5 钓鱼URL 本身"
+  },
+  {
+   "email_id": 7985,
+   "sentence_idx": 0,
+   "sentence_text": "client nr 356533439677657 date sent 10 02 2011 dear applicant please calculate your tax refund for the last annual fiscal activity 2010 2011 your tax file number \\ ( tfn \\ ) 7 3 1 9 4 8 1 1 5 if you are not the intended recipient of this",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "[scenario] 假冒 HMRC，诱导计算退税并点击链接; §1.2 退税金额诱饵+索取计算"
+  },
+  {
+   "email_id": 7985,
+   "sentence_idx": 1,
+   "sentence_text": "click here https www hmrc gov uk refunds 2011 calculate jsp if you have any questions , please refer to our frequently asked questions \\ ( faqs \\ ) or visit our head office address can be found on our website at http www hmrc co uk yours sincerely ,",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.4 点击链接计算退税（假领奖）"
+  },
+  {
+   "email_id": 5278,
+   "sentence_idx": 0,
+   "sentence_text": "wachovia limited account !",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "[scenario] 假冒 Wachovia，称账户受限，诱导点击解决; §1.5+判例1v1.3③ 标题账户受限"
+  },
+  {
+   "email_id": 5278,
+   "sentence_idx": 1,
+   "sentence_text": "jan 26 , 2010 03 19 03 pdt receipt no 4421 8625 3274 72401 hello customer , your account has been temporarily limited",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.5 声称账户被临时限制"
+  },
+  {
+   "email_id": 5278,
+   "sentence_idx": 2,
+   "sentence_text": "limit and resolve the problem",
+   "label": "Y",
+   "confidence": "low",
+   "reason": "§1.3/§1.4 截断CTA要求解决账户问题"
+  },
+  {
+   "email_id": 5278,
+   "sentence_idx": 3,
+   "sentence_text": "thank you",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5278,
+   "sentence_idx": 4,
+   "sentence_text": "please do not reply to this email",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5278,
+   "sentence_idx": 5,
+   "sentence_text": "this mailbox is not monitored , and you will not receive a response",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4223,
+   "sentence_idx": 0,
+   "sentence_text": "client message your login in abbey e banking abbey national bank e banking details update site dear abbey digital banking customer !",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 假冒 Abbey National，称软件更新，要求登录确认"
+  },
+  {
+   "email_id": 4223,
+   "sentence_idx": 1,
+   "sentence_text": "our maintenance department is doing an arranged e banking software update by visiting the link below please begin the procedure of the member login confirmation http www6 abbeynational co uk servlet \\ ? host 27xadszedwcjjtlctoldbhrokhovp these directions are to be e mailed and followed by all customers of the abbey",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.4+判例5 钓鱼链接并请求登录确认"
+  },
+  {
+   "email_id": 4223,
+   "sentence_idx": 2,
+   "sentence_text": "if you are not customer of abbey bank line internet banking please disregard this email !",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4223,
+   "sentence_idx": 3,
+   "sentence_text": "this is an automated message please do not reply \\ ( c \\ ) '08 abbey personal and commercial",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4223,
+   "sentence_idx": 4,
+   "sentence_text": "all rights reserved",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 0,
+   "sentence_text": "urgent response needed from the ministry de la construction \\ ( mohamed nafta \\ ) western sahara 2006",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 自称西撒哈拉建设部长，请求收件人接收基金并承诺分成"
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 1,
+   "sentence_text": "attn ceo dear sir , i received encouraging information about you and how trusts worthy you are",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 2,
+   "sentence_text": "i am delighted with such useful information",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 3,
+   "sentence_text": "i am interested in the partnership investment program with your corporation",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.1 提出合伙投资交易"
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 4,
+   "sentence_text": "first permit me to introduce myself as mohamed nafta minister de la construction of western sahara state in the democratic republic \\ ( a tiny island desert \\ )",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 5,
+   "sentence_text": "being the executive minister of my state",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 6,
+   "sentence_text": "i awarded the contract of irrigation to portuguese firm worthy several millions of dollars",
+   "label": "N",
+   "confidence": "medium",
+   "reason": "§2 合同金额背景叙事（判例4）"
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 7,
+   "sentence_text": "in the execution of that project the portuguese firm discovered large amount of gold in one of the contract site",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 8,
+   "sentence_text": "i collaborated with the portuguese firm on a mutual agreement on to proceed of which i have received my share of 15 5musd",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.2 报告分得1550万美元（金额诱饵）"
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 9,
+   "sentence_text": "as the minister , i can not introduce or circulate these funds into the western sahara banking system considering my provisional duty and the considering the fact that i earn less than 1 , 000us dollars monthly coupled with the bureau of conduct guidelines and regulations for public civil servants",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 10,
+   "sentence_text": "the above situation prompted my decision to solicit your co operation to take delivery of this fund into your custody for my proposed investment , as you will be adequately compensated with 6 500 , 000 millions",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.1+§1.2 请求代收基金并承诺巨额报酬"
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 11,
+   "sentence_text": "i will arrange all necessary procedures in ensuring a smooth process for the funds to get to you",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 12,
+   "sentence_text": "i will appreciate you contact me once you receive this fax via my satellite phone above indicating your capability and willingness to enable me to give you more details of my modus operandi of getting this money to you hitch free",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "§1.3 索取回复表明能力与意愿"
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 13,
+   "sentence_text": "this matter requires your urgent attention and confidentiality whatever your decision",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6684,
+   "sentence_idx": 14,
+   "sentence_text": "best regards , minister , mohamed nafta",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 6214,
+   "sentence_idx": 0,
+   "sentence_text": "amazon com please verify your new e mail address verify your new e mail address dear i stride yahoo co uk , you recently changed your e mail address at amazon com",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "[scenario] 假冒 Amazon，诱导验证邮箱地址; §1.3 标题要求验证新邮箱"
+  },
+  {
+   "email_id": 6214,
+   "sentence_idx": 1,
+   "sentence_text": "since you are a subscriber of amazon com delivers e mail subscriptions , you will need to verify your new e mail address",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "§1.3 须验证邮箱才能继续"
+  },
+  {
+   "email_id": 6214,
+   "sentence_idx": 2,
+   "sentence_text": "please verify that the e mail address i stride yahoo co uk belongs to you",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "§1.3 要求确认邮箱归属"
+  },
+  {
+   "email_id": 6214,
+   "sentence_idx": 3,
+   "sentence_text": "you can click on the link below to complete the verification process",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.4 点击链接完成验证"
+  },
+  {
+   "email_id": 6214,
+   "sentence_idx": 4,
+   "sentence_text": "alternatively , you can type or paste t",
+   "label": "N",
+   "confidence": "low",
+   "reason": "§2 截断的操作说明"
+  },
+  {
+   "email_id": 7460,
+   "sentence_idx": 0,
+   "sentence_text": "your account access has been limited \\ ( pp 001 212 055 698 \\ ) we need your help dear valued paypal customer , we need your help resolving an issue with your account",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "[scenario] 假冒 PayPal，称账户受限，诱导填安全表单; §1.5 账户受限+求助"
+  },
+  {
+   "email_id": 7460,
+   "sentence_idx": 1,
+   "sentence_text": "to give us time to work together on this , we 've temporarily limited what you can do with your account until the issue is resolved",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.5 受限直到问题解决（绑定施压）"
+  },
+  {
+   "email_id": 7460,
+   "sentence_idx": 2,
+   "sentence_text": "what 's the problem \\ ?",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 7460,
+   "sentence_idx": 3,
+   "sentence_text": "we noticed some unusual activity on the credit card linked to your paypal account",
+   "label": "N",
+   "confidence": "high",
+   "reason": "§2 异常活动无索取前言（判例9）"
+  },
+  {
+   "email_id": 7460,
+   "sentence_idx": 4,
+   "sentence_text": "case id number pp 001 212 055 698 how you can help it 's usually pretty easy to take care of things like this",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 7460,
+   "sentence_idx": 5,
+   "sentence_text": "most of the time , we just need a little more information about your account",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.3 索取账户更多信息"
+  },
+  {
+   "email_id": 7460,
+   "sentence_idx": 6,
+   "sentence_text": "to help us with this and to find out what you can and ca n't do with your account until the issue is resolved , please proceed to our secure web form by clicking here",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.4 点击进入安全表单"
+  },
+  {
+   "email_id": 7460,
+   "sentence_idx": 7,
+   "sentence_text": "thanks , paypal please do not reply to this email",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 7460,
+   "sentence_idx": 8,
+   "sentence_text": "this mailbox is not monitored , and you will not receive a response",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 7460,
+   "sentence_idx": 9,
+   "sentence_text": "copyright 1999 2011 paypal",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 7460,
+   "sentence_idx": 10,
+   "sentence_text": "all rights reserved",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 5081,
+   "sentence_idx": 0,
+   "sentence_text": "highwayman com 98 mailbox full",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 假冒邮箱中心，称邮箱98%满，诱导升级加空间"
+  },
+  {
+   "email_id": 5081,
+   "sentence_idx": 1,
+   "sentence_text": "please upgrade hi richard highwayman com some of your mails are pending because you have used 98 of your storage",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "§1.3 要求升级"
+  },
+  {
+   "email_id": 5081,
+   "sentence_idx": 2,
+   "sentence_text": "to retrieve some of your pending emails , kindly richard highwayman com to add more space",
+   "label": "Y",
+   "confidence": "medium",
+   "reason": "§1.3 索取添加空间"
+  },
+  {
+   "email_id": 5081,
+   "sentence_idx": 3,
+   "sentence_text": "greetings highwayman com verification center html",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 7512,
+   "sentence_idx": 0,
+   "sentence_text": "hsbc internet banking dear hsbc customer , your internet banking security number was entered incorrectly more than 3 times",
+   "label": "N",
+   "confidence": "high",
+   "reason": "[scenario] 假冒 HSBC，称安全号输错账户被暂停，诱导重新登录"
+  },
+  {
+   "email_id": 7512,
+   "sentence_idx": 1,
+   "sentence_text": "for the protection of your account we have suspended access to it",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.5 声称账户访问被暂停"
+  },
+  {
+   "email_id": 7512,
+   "sentence_idx": 2,
+   "sentence_text": "to restore access please log on correctly",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.3 要求重新登录（索取凭据）"
+  },
+  {
+   "email_id": 7512,
+   "sentence_idx": 3,
+   "sentence_text": "previous notifications have been sent",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 7512,
+   "sentence_idx": 4,
+   "sentence_text": "thank you for choosing hsbc bank plc",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 7512,
+   "sentence_idx": 5,
+   "sentence_text": "copyright hsbc bank 2010",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 7512,
+   "sentence_idx": 6,
+   "sentence_text": "all rights reserved",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4845,
+   "sentence_idx": 0,
+   "sentence_text": "your paypal account has been limited !",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "[scenario] 假冒 PayPal，称账户受限并索取信息; §1.5 账户受限"
+  },
+  {
+   "email_id": 4845,
+   "sentence_idx": 1,
+   "sentence_text": "dear paypal member warning !",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4845,
+   "sentence_idx": 2,
+   "sentence_text": "your paypal account has been limited !",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.5 声称账户被限制"
+  },
+  {
+   "email_id": 4845,
+   "sentence_idx": 3,
+   "sentence_text": "as part of our security measures , we proceed regularly screen activity to learn paypal recently contacted you after having identified a problem on your account",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4845,
+   "sentence_idx": 4,
+   "sentence_text": "demand information from you for following reason our system detected unusual charges to a card credit linked to your paypal account",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.3 向收件人索取信息"
+  },
+  {
+   "email_id": 4845,
+   "sentence_idx": 5,
+   "sentence_text": "your paypal account cordialement , paypal email id 5138 8872 all copyright 1999 2013 paypal",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4695,
+   "sentence_idx": 0,
+   "sentence_text": "halifax online service notification dear customer , we want you to confirm your telephone contact details",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "[scenario] 假冒 Halifax，要求点链接确认电话信息; §1.3 要求确认联系方式"
+  },
+  {
+   "email_id": 4695,
+   "sentence_idx": 1,
+   "sentence_text": "if you have made any amendments to your contact details these have not been updated",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4695,
+   "sentence_idx": 2,
+   "sentence_text": "please note that if you hold any joint accounts , only your details will be updated",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4695,
+   "sentence_idx": 3,
+   "sentence_text": "this confirmation email has been sent as a security precaution",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4695,
+   "sentence_idx": 4,
+   "sentence_text": "if you have not changed confirm your contact details , please click on the reference below to confirm your telephone contact details https www halifax online co uk mem bin formslogin asp \\ ?",
+   "label": "Y",
+   "confidence": "high",
+   "reason": "§1.4+判例5 点击链接确认信息+钓鱼URL"
+  },
+  {
+   "email_id": 4695,
+   "sentence_idx": 5,
+   "sentence_text": "source halifaxcoukhome regards , halifax online helpdesk please do not reply to this email address as it is not monitored , and we will be unable to respond",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4695,
+   "sentence_idx": 6,
+   "sentence_text": "bank of scotland plc registered in scotland number sc327000 registered office the mound , edinburgh eh1 1yz",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4695,
+   "sentence_idx": 7,
+   "sentence_text": "authorized and regulated by financial services authority",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4695,
+   "sentence_idx": 8,
+   "sentence_text": "hbo is a carbon neutral company",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4695,
+   "sentence_idx": 9,
+   "sentence_text": "help keep it that way",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  },
+  {
+   "email_id": 4695,
+   "sentence_idx": 10,
+   "sentence_text": "please do n't print this message unless you really must",
+   "label": "N",
+   "confidence": "high",
+   "reason": ""
+  }
+ ]
+}

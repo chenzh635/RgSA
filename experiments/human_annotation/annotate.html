@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>钓鱼句子标注工具</title>
+<style>
+  :root {
+    --y: #c62828; --n: #2e7d32; --q: #ef6c00;
+    --bg: #fafafa; --panel: #fff; --line: #ddd; --ink: #222; --mut: #777;
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+         background: var(--bg); color: var(--ink); margin: 0; }
+  header { background: #263238; color: #fff; padding: 10px 18px;
+           display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+  header h1 { font-size: 16px; margin: 0; font-weight: 600; }
+  header .meta { font-size: 12px; color: #b0bec5; }
+  header .spacer { flex: 1; }
+  button { cursor: pointer; border: 1px solid var(--line); background: #fff;
+           border-radius: 6px; padding: 6px 12px; font-size: 13px; }
+  button:hover { background: #f0f0f0; }
+  button.primary { background: #1565c0; border-color: #1565c0; color: #fff; }
+  button.primary:hover { background: #0d47a1; }
+  #setup { max-width: 560px; margin: 80px auto; background: var(--panel);
+           border: 1px solid var(--line); border-radius: 10px; padding: 28px; }
+  #setup h2 { margin-top: 0; font-size: 18px; }
+  #setup input[type=text] { width: 100%; padding: 8px; font-size: 14px;
+           border: 1px solid var(--line); border-radius: 6px; margin: 6px 0 16px; }
+  #setup .hint { font-size: 12px; color: var(--mut); margin-bottom: 14px; }
+  #main { display: none; }
+  .wrap { display: flex; gap: 14px; padding: 14px; align-items: flex-start; }
+  #elist { width: 220px; flex-shrink: 0; background: var(--panel);
+           border: 1px solid var(--line); border-radius: 8px;
+           max-height: calc(100vh - 120px); overflow-y: auto; }
+  #elist .item { padding: 7px 10px; font-size: 12px; border-bottom: 1px solid #eee;
+           cursor: pointer; display: flex; justify-content: space-between; gap: 6px; }
+  #elist .item:hover { background: #f5f5f5; }
+  #elist .item.cur { background: #e3f2fd; }
+  #elist .st { font-weight: 600; }
+  .st.done { color: var(--n); } .st.part { color: var(--q); } .st.none { color: #aaa; }
+  #emailPanel { flex: 1; background: var(--panel); border: 1px solid var(--line);
+           border-radius: 8px; padding: 16px 18px; }
+  .ehead { display: flex; justify-content: space-between; align-items: baseline;
+           border-bottom: 1px solid var(--line); padding-bottom: 8px; margin-bottom: 10px; }
+  .ehead .no { font-size: 14px; font-weight: 600; }
+  .ehead .cnt { font-size: 12px; color: var(--mut); }
+  .sent { display: flex; gap: 10px; padding: 8px 10px; border-radius: 8px;
+          align-items: flex-start; border: 2px solid transparent; }
+  .sent.sel { border-color: #90caf9; background: #f3f9ff; }
+  .sent .txt { flex: 1; font-size: 15px; line-height: 1.5; cursor: pointer; }
+  .sent .zh { line-height: 1.5; }
+  .sent .orig { font-size: 12px; color: #888; margin-top: 2px; line-height: 1.45; }
+  .sent .btns { display: flex; gap: 4px; flex-shrink: 0; }
+  .lbl { border: 1px solid var(--line); border-radius: 5px; padding: 2px 10px;
+         font-size: 13px; font-weight: 600; background: #fff; cursor: pointer; }
+  .lbl.Y.on { background: var(--y); border-color: var(--y); color: #fff; }
+  .lbl.N.on { background: var(--n); border-color: var(--n); color: #fff; }
+  .lbl.Q.on { background: var(--q); border-color: var(--q); color: #fff; }
+  .reason { margin: 4px 0 8px 10px; }
+  .reason textarea { width: 100%; font-size: 13px; padding: 6px;
+         border: 1px solid var(--q); border-radius: 6px; }
+  .reason .rlabel { font-size: 12px; color: var(--q); }
+  #navrow { display: flex; gap: 10px; margin-top: 14px; align-items: center; }
+  details { background: var(--panel); border: 1px solid var(--line);
+            border-radius: 8px; margin: 0 14px 8px; padding: 8px 14px; font-size: 13px; }
+  details summary { cursor: pointer; font-weight: 600; }
+  details ul { margin: 6px 0; padding-left: 20px; line-height: 1.7; }
+  .bar { height: 6px; background: #eee; border-radius: 3px; width: 160px; overflow: hidden; }
+  .bar i { display: block; height: 100%; background: #66bb6a; }
+  #warn { color: var(--q); font-size: 12px; }
+  .kbd { background: #eceff1; border-radius: 4px; padding: 0 5px; font-family: monospace; font-size: 12px; }
+  #intro { max-width: 760px; margin: 24px auto; background: var(--panel);
+           border: 1px solid var(--line); border-radius: 10px; padding: 24px 30px;
+           line-height: 1.7; font-size: 14px; }
+  #intro h2 { margin: 0 0 4px; font-size: 18px; }
+  #intro .sub { color: var(--mut); font-size: 13px; margin-bottom: 14px; }
+  #intro h3 { font-size: 14px; margin: 16px 0 6px; }
+  #intro table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  #intro td, #intro th { border: 1px solid var(--line); padding: 5px 9px; text-align: left; }
+  #intro th { background: #f5f5f5; }
+  #intro .ytag { color: var(--y); font-weight: 600; }
+  #intro .ntag { color: var(--n); font-weight: 600; }
+  #intro ul { margin: 4px 0; padding-left: 20px; }
+  #intro .start-row { text-align: center; margin-top: 20px; }
+  #intro .start-row button { font-size: 15px; padding: 9px 28px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>钓鱼句子标注工具 <span style="font-weight:400">v2 · 盲标</span></h1>
+  <span class="meta" id="whoami"></span>
+  <div class="spacer"></div>
+  <div class="bar" title="完成进度"><i id="pbar" style="width:0%"></i></div>
+  <span class="meta" id="ptext">0/0</span>
+  <button id="expCsv">导出 CSV</button>
+  <button id="expJson">导出 JSON</button>
+</header>
+
+<div id="intro">
+  <h2>标注前必读：钓鱼句子定位</h2>
+  <div class="sub">预计 3 分钟 · 无需任何安全背景 · 读完点底部按钮开始</div>
+
+  <p><b>任务</b>：钓鱼邮件是伪装成银行、支付平台、公司、快递等可信身份，诱骗你点假链接、输密码、转账的邮件。
+  你要做的不是判断整封邮件，而是找出「<b>哪些句子</b>」让它成为钓鱼邮件——通常只有 1–3 句，其余是客套与伪装。
+  你的判断就是人工标准答案，工具里没有任何模型提示。</p>
+
+  <h3>钓鱼邮件的四段式结构（Y 集中在 ②③）</h3>
+  <table>
+    <tr><th style="width:90px">部分</th><th>内容</th><th style="width:170px">标注</th></tr>
+    <tr><td>① 开头</td><td>称呼 + 冒充身份（自称银行 / Apple / 公司财务 / 快递）</td><td>冒充句可标 Y；纯称呼 N</td></tr>
+    <tr><td>② 编理由</td><td>制造紧急或恐慌：账户被冻结、异地登录、未付款、涉嫌违法、密码过期</td><td class="ytag">几乎都是 Y</td></tr>
+    <tr><td>③ 给"出路"</td><td>点链接验证、输密码 / 卡号、下载附件、转账到"安全账户"</td><td class="ytag">几乎都是 Y</td></tr>
+    <tr><td>④ 收尾</td><td>致谢、签名、免责声明、版权声明</td><td class="ntag">一律 N（伪装）</td></tr>
+  </table>
+  <p style="font-size:13px;color:var(--mut)">常见剧本：银行/网银验证、PayPal 或 Apple ID 异常、包裹无法投递、老板紧急要求转账、中奖退税。</p>
+
+  <h3>快判</h3>
+  <ul>
+    <li><span class="ytag">标 Y</span>：紧迫感/恐慌（<i>immediately, within 24 hours, will be suspended, final notice</i>）；索取敏感信息（密码、卡号、身份证号）；诱导点击可疑链接；冒充官方口吻。<b>紧迫 + 威胁是最强信号。</b></li>
+    <li><span class="ntag">标 N</span>：纯称呼（dear customer）、签名、免责声明、版权页、致谢客套、系统套话；与诱骗无关的链接。</li>
+    <li><b>标 ?</b>：意图拿不准时——必须写一句理由，这比瞎猜更有价值。</li>
+  </ul>
+
+  <h3>四个易错点</h3>
+  <ul>
+    <li>有链接 ≠ 钓鱼：链接服务于诱骗（"点它验证/解锁/领奖"）才标 Y。</li>
+    <li>语法差 ≠ 不钓鱼：钓鱼邮件常文理不通，只看意图。</li>
+    <li>结合上下文：「follow the instructions below」若下文指令是点可疑链接输密码，这句也标 Y。</li>
+    <li>找不到任何钓鱼句 → 全部标 N，不要硬找。</li>
+  </ul>
+
+  <p style="font-size:13px;color:var(--mut)">每句附有中文参考译文（英文原文在下方小字）。译文仅供理解，判断以句子意图为准；若译文与原文明显不符或词不达意，按原文意图判断，拿不准就标 ? 并说明。
+  原文格式：全部小写、标点两侧有空格、偶见 \ ( 等转义符，照读即可。
+  操作：↑↓ 选句，Y/N/? 标注，←→ 换邮件；进度自动保存；标完导出 CSV + JSON 发回。</p>
+
+  <div class="start-row"><button class="primary" id="introBtn">我已了解，开始标注</button></div>
+</div>
+
+<div id="setup" style="display:none">
+  <h2>开始标注</h2>
+  <div class="hint">本工具不显示任何模型输出（注意力分数、规则分均被隐藏），请仅根据邮件内容判断。</div>
+  <label>你的名字（用于区分标注者）</label>
+  <input type="text" id="name" placeholder="例如：张三 / annotator_2">
+  <label>选择数据文件（如 pilot_30.json）</label>
+  <input type="file" id="file" accept=".json">
+  <p class="hint">进度自动保存在本机浏览器（localStorage）。换电脑/浏览器前请先导出。</p>
+  <button class="primary" id="startBtn">开始</button>
+  <p id="setupErr" style="color:var(--y);font-size:13px"></p>
+</div>
+
+<div id="main">
+  <details open>
+    <summary>判断标准（点击收起/展开）</summary>
+    <ul>
+      <li><b>标 Y（钓鱼句）</b>：制造紧迫感（"24 小时内验证否则冻结"）；冒充权威（伪装银行/公司/官方）；索取敏感信息（账号、密码、卡号、身份证号）；诱导点击欺骗性链接；其它社交操纵（冒充熟人、利益诱惑）。</li>
+      <li><b>标 N（非钓鱼）</b>：普通问候与客套；签名、免责声明、页脚；中性陈述。<b>签名/免责句一律 N。</b></li>
+      <li><b>标 ?（不确定）</b>：必须写一句理由，否则无法导出。</li>
+      <li>看意图而非关键词；结合上下文；一封邮件可有多句 Y；良性邮件应全部 N。</li>
+    </ul>
+    <p>快捷键：<span class="kbd">↑</span><span class="kbd">↓</span> 选句 ·
+       <span class="kbd">Y</span>/<span class="kbd">N</span>/<span class="kbd">?</span> 标注并跳到下一句 ·
+       <span class="kbd">←</span><span class="kbd">→</span> 换邮件</p>
+  </details>
+  <div class="wrap">
+    <div id="elist"></div>
+    <div id="emailPanel"></div>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var S = { annotator: "", fileName: "", batch: "", emails: [], labels: {}, reasons: {}, cur: 0, sel: 0 };
+
+  function $(id) { return document.getElementById(id); }
+  function key() { return "ann|" + S.annotator + "|" + (S.batch || S.fileName); }
+
+  function save() {
+    try {
+      localStorage.setItem(key(), JSON.stringify({ labels: S.labels, reasons: S.reasons, ts: Date.now() }));
+    } catch (e) { /* quota — unlikely at this size */ }
+  }
+  function loadSaved() {
+    var raw = localStorage.getItem(key());
+    if (!raw) return;
+    try {
+      var d = JSON.parse(raw);
+      S.labels = d.labels || {};
+      S.reasons = d.reasons || {};
+    } catch (e) { S.labels = {}; S.reasons = {}; }
+  }
+
+  // ---------- data loading (blinding enforced here) ----------
+  function ingest(obj, fileName) {
+    if (!obj || !Array.isArray(obj.emails)) throw new Error("JSON 缺少 emails 数组");
+    S.fileName = fileName;
+    S.batch = (obj.metadata && obj.metadata.batch) || fileName;
+    S.emails = obj.emails.map(function (e) {
+      return {
+        id: e.email_idx,
+        stratum: e.stratum || "",
+        sentences: (e.sentences || [])
+          .slice()
+          .sort(function (a, b) { return a.idx - b.idx; })
+          .map(function (s) { return { idx: s.idx, text: String(s.text),
+                                       zh: s.zh ? String(s.zh) : "" }; })
+      };
+    }).sort(function (a, b) { return a.id - b.id; });
+    S.cur = 0; S.sel = 0;
+  }
+
+  // ---------- status helpers ----------
+  function emailState(e) {
+    var lab = S.labels[e.id] || {};
+    var done = 0, hasQ = false, missingReason = 0;
+    e.sentences.forEach(function (s) {
+      var v = lab[s.idx];
+      if (v) done++;
+      if (v === "?") {
+        hasQ = true;
+        if (!(((S.reasons[e.id] || {})[s.idx] || "").trim())) missingReason++;
+      }
+    });
+    return { done: done, total: e.sentences.length, complete: done === e.sentences.length && e.sentences.length > 0,
+             hasQ: hasQ, missingReason: missingReason };
+  }
+  function totals() {
+    var c = 0;
+    S.emails.forEach(function (e) { if (emailState(e).complete) c++; });
+    return c;
+  }
+
+  // ---------- rendering ----------
+  function renderList() {
+    var el = $("elist"); el.innerHTML = "";
+    S.emails.forEach(function (e, i) {
+      var st = emailState(e);
+      var div = document.createElement("div");
+      div.className = "item" + (i === S.cur ? " cur" : "");
+      var cls = st.complete ? "done" : (st.done > 0 ? "part" : "none");
+      var txt = st.complete ? "✓" : st.done + "/" + st.total;
+      if (st.complete && st.missingReason > 0) txt = "✓!";
+      div.innerHTML = "<span># " + e.id + "</span><span class='st " + cls + "'>" + txt + "</span>";
+      div.onclick = function () { S.cur = i; S.sel = 0; renderAll(); };
+      el.appendChild(div);
+    });
+  }
+
+  function renderEmail() {
+    var e = S.emails[S.cur];
+    var st = emailState(e);
+    var p = $("emailPanel");
+    p.innerHTML = "";
+    var head = document.createElement("div");
+    head.className = "ehead";
+    head.innerHTML = "<span class='no'>邮件 #" + e.id + "（第 " + (S.cur + 1) + "/" + S.emails.length + " 封）</span>" +
+      "<span class='cnt'>已标 " + st.done + "/" + st.total + "</span>";
+    p.appendChild(head);
+
+    e.sentences.forEach(function (s, si) {
+      var lab = (S.labels[e.id] || {})[s.idx];
+      var row = document.createElement("div");
+      row.className = "sent" + (si === S.sel ? " sel" : "");
+      var txt = document.createElement("div");
+      txt.className = "txt";
+      if (s.zh) {
+        var zhEl = document.createElement("div");
+        zhEl.className = "zh";
+        zhEl.textContent = s.zh;
+        var origEl = document.createElement("div");
+        origEl.className = "orig";
+        origEl.textContent = s.text;
+        txt.appendChild(zhEl);
+        txt.appendChild(origEl);
+      } else {
+        txt.textContent = s.text;
+      }
+      txt.onclick = function () { S.sel = si; renderEmail(); };
+      var btns = document.createElement("div");
+      btns.className = "btns";
+      [["Y", "Y"], ["N", "N"], ["?", "?"]].forEach(function (pair) {
+        var b = document.createElement("button");
+        b.className = "lbl " + (pair[1] === "?" ? "Q" : pair[1]) + (lab === pair[0] ? " on" : "");
+        b.textContent = pair[0];
+        b.onclick = function () { assign(si, pair[0]); };
+        btns.appendChild(b);
+      });
+      row.appendChild(txt); row.appendChild(btns);
+      p.appendChild(row);
+
+      if (lab === "?") {
+        var rwrap = document.createElement("div");
+        rwrap.className = "reason";
+        var rl = document.createElement("div");
+        rl.className = "rlabel";
+        rl.textContent = "不确定理由（必填）：";
+        var ta = document.createElement("textarea");
+        ta.rows = 1;
+        ta.value = ((S.reasons[e.id] || {})[s.idx]) || "";
+        ta.oninput = function () {
+          S.reasons[e.id] = S.reasons[e.id] || {};
+          S.reasons[e.id][s.idx] = ta.value;
+          save();
+        };
+        rwrap.appendChild(rl); rwrap.appendChild(ta);
+        p.appendChild(rwrap);
+      }
+    });
+
+    var nav = document.createElement("div");
+    nav.id = "navrow";
+    var prev = document.createElement("button");
+    prev.textContent = "← 上一封"; prev.disabled = S.cur === 0;
+    prev.onclick = function () { S.cur--; S.sel = 0; renderAll(); };
+    var next = document.createElement("button");
+    next.textContent = "下一封 →"; next.disabled = S.cur === S.emails.length - 1;
+    next.onclick = function () { S.cur++; S.sel = 0; renderAll(); };
+    var warn = document.createElement("span");
+    warn.id = "warn";
+    var mr = totalMissingReasons();
+    warn.textContent = mr > 0 ? ("还有 " + mr + " 个 ? 缺理由，无法导出") : "";
+    nav.appendChild(prev); nav.appendChild(next); nav.appendChild(warn);
+    p.appendChild(nav);
+  }
+
+  function renderProgress() {
+    var c = totals();
+    $("ptext").textContent = c + "/" + S.emails.length;
+    $("pbar").style.width = (S.emails.length ? (100 * c / S.emails.length) : 0) + "%";
+    $("whoami").textContent = S.annotator + " · " + S.batch;
+  }
+  function totalMissingReasons() {
+    var m = 0;
+    S.emails.forEach(function (e) { m += emailState(e).missingReason; });
+    return m;
+  }
+  function renderAll() { renderList(); renderEmail(); renderProgress(); }
+
+  // ---------- actions ----------
+  function assign(si, val) {
+    var e = S.emails[S.cur];
+    var s = e.sentences[si];
+    S.labels[e.id] = S.labels[e.id] || {};
+    if (S.labels[e.id][s.idx] === val) { delete S.labels[e.id][s.idx]; }  // toggle off
+    else { S.labels[e.id][s.idx] = val; }
+    if (val !== "?" && S.reasons[e.id]) { delete S.reasons[e.id][s.idx]; }
+    save();
+    if (si + 1 < e.sentences.length) S.sel = si + 1;
+    renderAll();
+  }
+
+  function csvEsc(v) { return '"' + String(v).replace(/"/g, '""') + '"'; }
+
+  function buildRows() {
+    var rows = [];
+    S.emails.forEach(function (e) {
+      e.sentences.forEach(function (s) {
+        var lab = ((S.labels[e.id] || {})[s.idx]) || "";
+        var reason = ((S.reasons[e.id] || {})[s.idx]) || "";
+        rows.push({ email_id: e.id, stratum: e.stratum, sentence_idx: s.idx,
+                    sentence_text: s.text, label: lab, reason: reason });
+      });
+    });
+    return rows;
+  }
+
+  function download(name, mime, content) {
+    var blob = new Blob([content], { type: mime });
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = name;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 5000);
+  }
+
+  function tryExport(kind) {
+    var mr = totalMissingReasons();
+    if (mr > 0) { alert("还有 " + mr + " 个标 ? 的句子没写理由。请补齐后导出（左侧列表 ✓! 标记的邮件）。"); return; }
+    var rows = buildRows();
+    var stamp = new Date().toISOString().slice(0, 16).replace(/[:T]/g, "-");
+    var base = "annotations_" + S.annotator + "_" + S.batch + "_" + stamp;
+    if (kind === "csv") {
+      var lines = ["email_id,stratum,sentence_idx,sentence_text,is_phishing_sentence,reason"];
+      rows.forEach(function (r) {
+        lines.push([r.email_id, r.stratum, r.sentence_idx,
+                    csvEsc(r.sentence_text), r.label, csvEsc(r.reason)].join(","));
+      });
+      download(base + ".csv", "text/csv;charset=utf-8", "﻿" + lines.join("\n"));
+    } else {
+      download(base + ".json", "application/json", JSON.stringify({
+        annotator: S.annotator, batch: S.batch, exported_at: new Date().toISOString(),
+        n_emails: S.emails.length, annotations: rows
+      }, null, 1));
+    }
+  }
+
+  // ---------- keyboard ----------
+  document.addEventListener("keydown", function (ev) {
+    if ($("main").style.display === "none") return;
+    var tag = (ev.target.tagName || "").toLowerCase();
+    if (tag === "textarea" || tag === "input") return;  // don't hijack typing
+    var e = S.emails[S.cur];
+    if (ev.key === "ArrowDown") { S.sel = Math.min(S.sel + 1, e.sentences.length - 1); renderEmail(); ev.preventDefault(); }
+    else if (ev.key === "ArrowUp") { S.sel = Math.max(S.sel - 1, 0); renderEmail(); ev.preventDefault(); }
+    else if (ev.key === "y" || ev.key === "Y") { assign(S.sel, "Y"); ev.preventDefault(); }
+    else if (ev.key === "n" || ev.key === "N") { assign(S.sel, "N"); ev.preventDefault(); }
+    else if (ev.key === "?") { assign(S.sel, "?"); ev.preventDefault(); }
+    else if (ev.key === "ArrowRight" && S.cur < S.emails.length - 1) { S.cur++; S.sel = 0; renderAll(); ev.preventDefault(); }
+    else if (ev.key === "ArrowLeft" && S.cur > 0) { S.cur--; S.sel = 0; renderAll(); ev.preventDefault(); }
+  });
+
+  // ---------- boot ----------
+  $("startBtn").onclick = function () {
+    var name = $("name").value.trim();
+    var f = $("file").files[0];
+    var err = $("setupErr");
+    err.textContent = "";
+    if (!name) { err.textContent = "请填写你的名字"; return; }
+    if (!f) { err.textContent = "请选择 JSON 数据文件"; return; }
+    var reader = new FileReader();
+    reader.onload = function () {
+      try {
+        ingest(JSON.parse(reader.result), f.name.replace(/\.json$/i, ""));
+        S.annotator = name;
+        loadSaved();
+        $("setup").style.display = "none";
+        $("main").style.display = "block";
+        renderAll();
+      } catch (ex) { err.textContent = "解析失败：" + ex.message; }
+    };
+    reader.readAsText(f, "utf-8");
+  };
+  $("expCsv").onclick = function () { tryExport("csv"); };
+  $("expJson").onclick = function () { tryExport("json"); };
+  $("introBtn").onclick = function () {
+    $("intro").style.display = "none";
+    $("setup").style.display = "block";
+  };
+})();
+</script>
+</body>
+</html>

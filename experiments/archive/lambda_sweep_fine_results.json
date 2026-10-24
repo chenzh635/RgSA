@@ -1,0 +1,205 @@
+{
+  "0.1": {
+    "email_auprc": 0.999290125967754,
+    "email_f1": 0.9898610589560646,
+    "spearman_corr": 0.30967837225716743,
+    "attention_entropy": 0.8710210855705663,
+    "training_time_sec": 9338.5
+  },
+  "0.3": {
+    "email_auprc": 0.9991151085130097,
+    "email_f1": 0.98825,
+    "spearman_corr": 0.4577070616233753,
+    "attention_entropy": 0.7764796945775088,
+    "training_time_sec": 3937.1
+  },
+  "0.5": {
+    "email_auprc": 0.9989363095953031,
+    "email_f1": 0.9866099361782005,
+    "spearman_corr": 0.47008856784777536,
+    "attention_entropy": 0.5532784479802236,
+    "training_time_sec": 1258.4
+  },
+  "1.0": {
+    "email_auprc": 0.9992086106747629,
+    "email_f1": 0.9880698229310562,
+    "spearman_corr": 0.5630002323031629,
+    "attention_entropy": 0.5376725145443142,
+    "training_time_sec": 1261.3
+  },
+  "2.0": {
+    "email_auprc": 0.9985878568713111,
+    "email_f1": 0.9839051777916407,
+    "spearman_corr": 0.6562502237722141,
+    "attention_entropy": 0.484753456118607,
+    "training_time_sec": 1260.3
+  },
+  "1.1": {
+    "email_auprc": 0.9992491444066656,
+    "email_f1": 0.9886292640259903,
+    "spearman_corr": 0.4945059781546869,
+    "attention_entropy": 0.6716868429660316,
+    "training_time_sec": 2937.8
+  },
+  "1.2": {
+    "email_auprc": 0.998817930501763,
+    "email_f1": 0.9858590914779126,
+    "spearman_corr": 0.5746244492529899,
+    "attention_entropy": 0.5390723032058415,
+    "training_time_sec": 4643.6
+  },
+  "1.3": {
+    "email_auprc": 0.9991118136400624,
+    "email_f1": 0.9844893907432684,
+    "spearman_corr": 0.5640825195800151,
+    "attention_entropy": 0.6587385772431278,
+    "training_time_sec": 1333.3
+  },
+  "1.4": {
+    "email_auprc": 0.9990440938795238,
+    "email_f1": 0.9881353815411515,
+    "spearman_corr": 0.6042574087303388,
+    "attention_entropy": 0.6569559108028655,
+    "training_time_sec": 1258.4
+  },
+  "1.5": {
+    "email_auprc": 0.9987513220864204,
+    "email_f1": 0.9865134865134865,
+    "spearman_corr": 0.6220883506996784,
+    "attention_entropy": 0.6770834746727936,
+    "training_time_sec": 1259.2
+  },
+  "1.6": {
+    "email_auprc": 0.9987617050067176,
+    "email_f1": 0.986386911452479,
+    "spearman_corr": 0.6624805315518637,
+    "attention_entropy": 0.6497674300275019,
+    "training_time_sec": 1260.2
+  },
+  "1.7": {
+    "email_auprc": 0.998690134396478,
+    "email_f1": 0.9829872404303227,
+    "spearman_corr": 0.6106820806415212,
+    "attention_entropy": 0.5397838386034722,
+    "training_time_sec": 1258.4
+  },
+  "1.8": {
+    "email_auprc": 0.9986978027832171,
+    "email_f1": 0.9826173330022349,
+    "spearman_corr": 0.6536873891290718,
+    "attention_entropy": 0.6882955798741122,
+    "training_time_sec": 1258.6
+  },
+  "1.9": {
+    "email_auprc": 0.9978224586023738,
+    "email_f1": 0.9812555038369606,
+    "spearman_corr": 0.6618087779448194,
+    "attention_entropy": 0.42237805023621355,
+    "training_time_sec": 1259.2
+  },
+  "2.1": {
+    "email_auprc": 0.9980476278988302,
+    "email_f1": 0.983451536643026,
+    "spearman_corr": 0.6347306627731155,
+    "attention_entropy": 0.5395781785644603,
+    "training_time_sec": 1259.8
+  },
+  "2.2": {
+    "email_auprc": 0.998365935336961,
+    "email_f1": 0.9822886572038688,
+    "spearman_corr": 0.6096645917808392,
+    "attention_entropy": 0.5170531017091647,
+    "training_time_sec": 1288.2
+  },
+  "2.3": {
+    "email_auprc": 0.9986435887129033,
+    "email_f1": 0.9865,
+    "spearman_corr": 0.6390196717753296,
+    "attention_entropy": 0.5238409005825764,
+    "training_time_sec": 3573.1
+  },
+  "2.4": {
+    "email_auprc": 0.9981568181833818,
+    "email_f1": 0.9827240861291938,
+    "spearman_corr": 0.6344551025751314,
+    "attention_entropy": 0.4621552557507325,
+    "training_time_sec": 3176.2
+  },
+  "2.5": {
+    "email_auprc": 0.9984576727194445,
+    "email_f1": 0.9852056168505516,
+    "spearman_corr": 0.65449692189955,
+    "attention_entropy": 0.4285220414061512,
+    "training_time_sec": 1259.6
+  },
+  "2.6": {
+    "email_auprc": 0.9977142019279714,
+    "email_f1": 0.9816639640763378,
+    "spearman_corr": 0.6690240052610507,
+    "attention_entropy": 0.6152183666823818,
+    "training_time_sec": 1259.7
+  },
+  "2.7": {
+    "email_auprc": 0.998461183827876,
+    "email_f1": 0.9838163342115167,
+    "spearman_corr": 0.686494112066927,
+    "attention_entropy": 0.4871382488164759,
+    "training_time_sec": 1262.7
+  },
+  "2.8": {
+    "email_auprc": 0.9984905583691799,
+    "email_f1": 0.9837092731829574,
+    "spearman_corr": 0.7004891654429601,
+    "attention_entropy": 0.46822461288211337,
+    "training_time_sec": 1260.4
+  },
+  "2.9": {
+    "email_auprc": 0.9981242202533861,
+    "email_f1": 0.9827973074046372,
+    "spearman_corr": 0.6259891004036503,
+    "attention_entropy": 0.47284402447149376,
+    "training_time_sec": 1259.5
+  },
+  "3.0": {
+    "email_auprc": 0.998872617772685,
+    "email_f1": 0.9865965175998997,
+    "spearman_corr": 0.7037452741642151,
+    "attention_entropy": 0.5075507053161057,
+    "training_time_sec": 1261.0
+  },
+  "3.1": {
+    "email_auprc": 0.9980881064522289,
+    "email_f1": 0.9857357357357357,
+    "spearman_corr": 0.6932824153302606,
+    "attention_entropy": 0.4781318234933136,
+    "training_time_sec": 1308.6
+  },
+  "3.2": {
+    "email_auprc": 0.9983291445904956,
+    "email_f1": 0.9840991611368474,
+    "spearman_corr": 0.7159497921860496,
+    "attention_entropy": 0.48580299167315866,
+    "training_time_sec": 4047.0
+  },
+  "3.3": {
+    "email_auprc": 0.9981493610172564,
+    "email_f1": 0.9833145151173002,
+    "spearman_corr": 0.6971106667215776,
+    "attention_entropy": 0.5206196915225773,
+    "training_time_sec": 3029.7
+  },
+  "3.4": {
+    "email_auprc": 0.997639700337084,
+    "email_f1": 0.9813400125234816,
+    "spearman_corr": 0.7287098411297745,
+    "attention_entropy": 0.49291484356034404,
+    "training_time_sec": 1319.0
+  },
+  "3.5": {
+    "email_auprc": 0.9982259343335786,
+    "email_f1": 0.982176243300511,
+    "spearman_corr": 0.7120421913161081,
+    "attention_entropy": 0.4711984298191311,
+    "training_time_sec": 1307.5
+  }
+}

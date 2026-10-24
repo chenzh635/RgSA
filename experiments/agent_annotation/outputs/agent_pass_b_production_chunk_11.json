@@ -1,0 +1,224 @@
+{
+  "annotator": "agent_pass_b",
+  "batch": "production_chunk_11",
+  "exported_at": "2026-09-15T14:58:06.569400Z",
+  "n_emails": 8,
+  "annotations": [
+    {
+      "email_id": 7627,
+      "sentence_idx": 0,
+      "sentence_text": "hsbc bank security information dear hsbc customer , hsbc online bank has been receiving complaints from our customers for unauthorized use of their hsbc online accounts",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] 冒充 HSBC 安全团队，称账户出现未授权使用，诱使用户点击更新链接。判例9：无索取的纯 pretext。"
+    },
+    {
+      "email_id": 7627,
+      "sentence_idx": 1,
+      "sentence_text": "click here to update your account best regards , hsbc online head of customer communications hsbc banking group results 2010",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4 欺骗性引导；'click here to update your account' 指向钓鱼链接。"
+    },
+    {
+      "email_id": 7645,
+      "sentence_idx": 0,
+      "sentence_text": "your account has a problem your account has a problem dear client , we are sorry , but honda net br could not send your last message !",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] 冒充 Honda Net 邮件服务，称账号异常消息发送失败，引导点击页面。判例9：纯 pretext，本句无索取。"
+    },
+    {
+      "email_id": 7645,
+      "sentence_idx": 1,
+      "sentence_text": "for more information please see this page reference 001240 please note that this message was sent to the following e mail address harmanec1 onda net br please do not reply to this message",
+      "label": "Y",
+      "confidence": "medium",
+      "reason": "§1.4 欺骗性引导；'please see this page' 指向钓鱼页面以解决账号问题。"
+    },
+    {
+      "email_id": 7708,
+      "sentence_idx": 0,
+      "sentence_text": "notice of underreported income",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] 冒充英国税务机关，称收入漏报涉嫌欺诈，诱导点击链接查看。判例9：pretext 标题，无索取。"
+    },
+    {
+      "email_id": 7708,
+      "sentence_idx": 1,
+      "sentence_text": "taxpayer id sales 00000209085168uktax type income taxis sue unreported underreported income \\ ( fraud application \\ ) please review your tax statement on hm revenue and customs \\ ( hmrc \\ ) website \\ ( click on the link below \\ ) review tax statement for taxpayer id sales 00000209085168ukhm",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4 欺骗性引导；'click on the link below' 指向仿冒 HMRC 网站。"
+    },
+    {
+      "email_id": 7777,
+      "sentence_idx": 0,
+      "sentence_text": "natwest internet banking please confirm your data !",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "[scenario] 冒充 NatWest 网银，要求收件人确认银行资料。§1.3 索取；判例1② 直接索取的标题句。"
+    },
+    {
+      "email_id": 7777,
+      "sentence_idx": 1,
+      "sentence_text": "dear natwest private and business banking user !",
+      "label": "N",
+      "confidence": "high",
+      "reason": "判例2：仅礼貌称呼。"
+    },
+    {
+      "email_id": 7779,
+      "sentence_idx": 0,
+      "sentence_text": "apple assist validation sept icloud id censored this is the last observation to indicate you as of 21 sep 2016 that you have not yet updated your icloud id information",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] 冒充 Apple iCloud，警告未更新 ID 信息，施压用户完成验证。判例9：纯 pretext，本句未索取。"
+    },
+    {
+      "email_id": 7779,
+      "sentence_idx": 1,
+      "sentence_text": "under quot know your customer \\ ( kyc \\ ) quot modulation apple is cited by guidelines to implement a validation of your information , omission to do so will result in cessation of your apple id within the next three days",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.3+§1.5 索取并绑定威胁：不验证信息则三天内停用 Apple ID。"
+    },
+    {
+      "email_id": 7779,
+      "sentence_idx": 2,
+      "sentence_text": "please continue below to validate your itunes id sgt to interpose the cessation of your apple camp icloud please proceed to continue to your apple id profile prior to the programmed emotion time",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4 欺骗性引导；'continue below to validate your iTunes ID' 指向钓鱼链接。"
+    },
+    {
+      "email_id": 7779,
+      "sentence_idx": 3,
+      "sentence_text": "resolution validation request 0185642735 with regards , cloud resource my apple id support privacy policy copyright 2016 itunes sarl 31 33 , rue saint tithe , l 2763 luxembourg all rights reserved",
+      "label": "N",
+      "confidence": "high",
+      "reason": "签名档/页脚。"
+    },
+    {
+      "email_id": 7814,
+      "sentence_idx": 0,
+      "sentence_text": "jose monkey org update now",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] 通过可疑域名敦促用户 'update now'；本句无明确链接或索取。判例1/12b：裸指令标题。"
+    },
+    {
+      "email_id": 7814,
+      "sentence_idx": 1,
+      "sentence_text": "` a8y7d jose monkey org 0c b11necca5r30c07ne40cn05z7a ` a8v84u35 50ae b1 y82g9cla1g09zcbs73sd6m88f7l42 zcbs73sd6m88f7",
+      "label": "?",
+      "confidence": "low",
+      "reason": "garbled：乱码/混淆编码，语义无法解读。"
+    },
+    {
+      "email_id": 7820,
+      "sentence_idx": 0,
+      "sentence_text": "your account has been limited until we hear from you dear paypal user , you may have noticed that some limitations have been placed on your paypal account",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "[scenario] 冒充 PayPal，称账户被限制，诱导经仿冒链接登录解决。判例1③：账户限制式欺骗前提。"
+    },
+    {
+      "email_id": 7820,
+      "sentence_idx": 1,
+      "sentence_text": "as a valued paypal customer , we want to let you know what this means and how to resolve the situation",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "铺垫/过渡句，无索取。"
+    },
+    {
+      "email_id": 7820,
+      "sentence_idx": 2,
+      "sentence_text": "what does it mean to have limited access \\ ?",
+      "label": "N",
+      "confidence": "high",
+      "reason": "小节标题。"
+    },
+    {
+      "email_id": 7820,
+      "sentence_idx": 3,
+      "sentence_text": "your account may be restricted for a number of reasons you 'll find out when you next log in to paypal",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "pretext；'you'll find out when you next log in' 本句无链接或索取。"
+    },
+    {
+      "email_id": 7820,
+      "sentence_idx": 4,
+      "sentence_text": "as a result , you 'll notice that some of the following options are now unavailable send money to other paypal users request or receive money from other users edit or remove account details close how do i resolve the issue \\ ?",
+      "label": "N",
+      "confidence": "high",
+      "reason": "解释不可用功能，无索取。"
+    },
+    {
+      "email_id": 7820,
+      "sentence_idx": 5,
+      "sentence_text": "to assist us in our review , please log in to your account here",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4/§1.3 欺骗性引导；'log in to your account here' 指向仿冒登录链接。"
+    },
+    {
+      "email_id": 7820,
+      "sentence_idx": 6,
+      "sentence_text": "you will see a message explaining why your account has been restricted , with details of what to do next",
+      "label": "N",
+      "confidence": "high",
+      "reason": "解释说明，无链接或索取。"
+    },
+    {
+      "email_id": 7820,
+      "sentence_idx": 7,
+      "sentence_text": "click here to remove limitations account limitation process helps to maintain paypal as a safer way to buy and sell",
+      "label": "Y",
+      "confidence": "high",
+      "reason": "§1.4 欺骗性引导；'click here to remove limitations' 指向钓鱼链接。"
+    },
+    {
+      "email_id": 7820,
+      "sentence_idx": 8,
+      "sentence_text": "it 's similar to passing through a security checkpoint",
+      "label": "N",
+      "confidence": "high",
+      "reason": "安抚性比喻。"
+    },
+    {
+      "email_id": 7820,
+      "sentence_idx": 9,
+      "sentence_text": "when we limit an account we often simply ask the user to supply information to verify their identity , financial information or the merchandise they 're selling",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "pretext；概述索要身份/财务信息，非直接向收件人索取。"
+    },
+    {
+      "email_id": 7820,
+      "sentence_idx": 10,
+      "sentence_text": "yours sincerely , paypal",
+      "label": "N",
+      "confidence": "high",
+      "reason": "签名档。"
+    },
+    {
+      "email_id": 7945,
+      "sentence_idx": 0,
+      "sentence_text": "reactivate your online banking account !",
+      "label": "N",
+      "confidence": "medium",
+      "reason": "[scenario] 敦促收件人重新激活网银账户；本句无明确链接或凭据索取。判例1/12b：裸指令标题。"
+    },
+    {
+      "email_id": 7945,
+      "sentence_idx": 1,
+      "sentence_text": "protecting your account",
+      "label": "N",
+      "confidence": "high",
+      "reason": "安抚性标题，无索取。"
+    }
+  ]
+}

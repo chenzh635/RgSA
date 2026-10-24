@@ -1,0 +1,16 @@
+# Model checkpoints (deleted after backup; do not commit)
+*.pt
+*.ckpt
+
+# Caches
+__pycache__/
+*.pyc
+.DS_Store
+experiments/cache/
+
+# Raw corpus (AI2TALE dataset, not redistributed)
+phishingdata/*.mat
+phishingdata/*.pickle
+
+# Logs and temp
+*.log

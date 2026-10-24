@@ -1,0 +1,341 @@
+{
+  "exported_at": "2026-10-10T03:44:30.277Z",
+  "verdicts": {
+    "4050": {
+      "verdict": "c",
+      "note": "",
+      "index": 0,
+      "initial_guess": "b"
+    },
+    "4200": {
+      "verdict": "c",
+      "note": "",
+      "index": 1,
+      "initial_guess": "b"
+    },
+    "4203": {
+      "verdict": "c",
+      "note": "",
+      "index": 2,
+      "initial_guess": "c"
+    },
+    "4224": {
+      "verdict": "c",
+      "note": "",
+      "index": 3,
+      "initial_guess": "b"
+    },
+    "4423": {
+      "verdict": "b",
+      "note": "",
+      "index": 4,
+      "initial_guess": "b"
+    },
+    "4451": {
+      "verdict": "b",
+      "note": "",
+      "index": 5,
+      "initial_guess": "b"
+    },
+    "4480": {
+      "verdict": "c",
+      "note": "",
+      "index": 6,
+      "initial_guess": "b"
+    },
+    "4508": {
+      "verdict": "c",
+      "note": "",
+      "index": 7,
+      "initial_guess": "c"
+    },
+    "4649": {
+      "verdict": "c",
+      "note": "",
+      "index": 8,
+      "initial_guess": "b"
+    },
+    "4704": {
+      "verdict": "c",
+      "note": "",
+      "index": 9,
+      "initial_guess": "b"
+    },
+    "4738": {
+      "verdict": "a",
+      "note": "",
+      "index": 10,
+      "initial_guess": "b"
+    },
+    "4834": {
+      "verdict": "c",
+      "note": "",
+      "index": 11,
+      "initial_guess": "c"
+    },
+    "4876": {
+      "verdict": "b",
+      "note": "",
+      "index": 12,
+      "initial_guess": "b"
+    },
+    "4914": {
+      "verdict": "a",
+      "note": "",
+      "index": 13,
+      "initial_guess": "b"
+    },
+    "4952": {
+      "verdict": "c",
+      "note": "",
+      "index": 14,
+      "initial_guess": "c"
+    },
+    "5051": {
+      "verdict": "c",
+      "note": "",
+      "index": 15,
+      "initial_guess": "b"
+    },
+    "5119": {
+      "verdict": "a",
+      "note": "",
+      "index": 16,
+      "initial_guess": "b"
+    },
+    "5121": {
+      "verdict": "c",
+      "note": "",
+      "index": 17,
+      "initial_guess": "b"
+    },
+    "5169": {
+      "verdict": "c",
+      "note": "",
+      "index": 18,
+      "initial_guess": "b"
+    },
+    "5275": {
+      "verdict": "c",
+      "note": "",
+      "index": 19,
+      "initial_guess": "b"
+    },
+    "5365": {
+      "verdict": "c",
+      "note": "",
+      "index": 20,
+      "initial_guess": "c"
+    },
+    "5376": {
+      "verdict": "a",
+      "note": "",
+      "index": 21,
+      "initial_guess": "b"
+    },
+    "5449": {
+      "verdict": "c",
+      "note": "",
+      "index": 22,
+      "initial_guess": "b"
+    },
+    "5479": {
+      "verdict": "c",
+      "note": "",
+      "index": 23,
+      "initial_guess": "b"
+    },
+    "5482": {
+      "verdict": "a",
+      "note": "",
+      "index": 24,
+      "initial_guess": "b"
+    },
+    "5547": {
+      "verdict": "c",
+      "note": "",
+      "index": 25,
+      "initial_guess": "b"
+    },
+    "5704": {
+      "verdict": "c",
+      "note": "",
+      "index": 26,
+      "initial_guess": "b"
+    },
+    "5764": {
+      "verdict": "c",
+      "note": "",
+      "index": 27,
+      "initial_guess": "c"
+    },
+    "5917": {
+      "verdict": "c",
+      "note": "",
+      "index": 28,
+      "initial_guess": "b"
+    },
+    "5990": {
+      "verdict": "a",
+      "note": "",
+      "index": 29,
+      "initial_guess": "a"
+    },
+    "5998": {
+      "verdict": "b",
+      "note": "",
+      "index": 30,
+      "initial_guess": "c"
+    },
+    "6157": {
+      "verdict": "c",
+      "note": "",
+      "index": 31,
+      "initial_guess": "c"
+    },
+    "6178": {
+      "verdict": "c",
+      "note": "",
+      "index": 32,
+      "initial_guess": "c"
+    },
+    "6206": {
+      "verdict": "a",
+      "note": "",
+      "index": 33,
+      "initial_guess": "b"
+    },
+    "6227": {
+      "verdict": "c",
+      "note": "",
+      "index": 34,
+      "initial_guess": "b"
+    },
+    "6248": {
+      "verdict": "c",
+      "note": "",
+      "index": 35,
+      "initial_guess": "c"
+    },
+    "6490": {
+      "verdict": "c",
+      "note": "",
+      "index": 36,
+      "initial_guess": "c"
+    },
+    "6500": {
+      "verdict": "a",
+      "note": "",
+      "index": 37,
+      "initial_guess": "b"
+    },
+    "6543": {
+      "verdict": "c",
+      "note": "",
+      "index": 38,
+      "initial_guess": "c"
+    },
+    "6574": {
+      "verdict": "c",
+      "note": "",
+      "index": 39,
+      "initial_guess": "c"
+    },
+    "6638": {
+      "verdict": "c",
+      "note": "",
+      "index": 40,
+      "initial_guess": "b"
+    },
+    "6713": {
+      "verdict": "c",
+      "note": "",
+      "index": 41,
+      "initial_guess": "b"
+    },
+    "6913": {
+      "verdict": "a",
+      "note": "",
+      "index": 42,
+      "initial_guess": "b"
+    },
+    "7164": {
+      "verdict": "a",
+      "note": "",
+      "index": 43,
+      "initial_guess": "a"
+    },
+    "7165": {
+      "verdict": "c",
+      "note": "",
+      "index": 44,
+      "initial_guess": "b"
+    },
+    "7194": {
+      "verdict": "c",
+      "note": "",
+      "index": 45,
+      "initial_guess": "b"
+    },
+    "7284": {
+      "verdict": "a",
+      "note": "",
+      "index": 46,
+      "initial_guess": "b"
+    },
+    "7287": {
+      "verdict": "a",
+      "note": "",
+      "index": 47,
+      "initial_guess": "a"
+    },
+    "7456": {
+      "verdict": "a",
+      "note": "",
+      "index": 48,
+      "initial_guess": "b"
+    },
+    "7515": {
+      "verdict": "c",
+      "note": "",
+      "index": 49,
+      "initial_guess": "b"
+    },
+    "7517": {
+      "verdict": "c",
+      "note": "",
+      "index": 50,
+      "initial_guess": "b"
+    },
+    "7533": {
+      "verdict": "b",
+      "note": "",
+      "index": 51,
+      "initial_guess": "b"
+    },
+    "7573": {
+      "verdict": "c",
+      "note": "",
+      "index": 52,
+      "initial_guess": "c"
+    },
+    "7615": {
+      "verdict": "c",
+      "note": "",
+      "index": 53,
+      "initial_guess": "b"
+    },
+    "7814": {
+      "verdict": "c",
+      "note": "",
+      "index": 54,
+      "initial_guess": "c"
+    },
+    "7915": {
+      "verdict": "a",
+      "note": "",
+      "index": 55,
+      "initial_guess": "a"
+    }
+  }
+}

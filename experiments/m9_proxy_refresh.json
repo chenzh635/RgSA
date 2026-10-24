@@ -1,0 +1,30 @@
+{
+ "clean_lam3": {
+  "spearman": 0.7028175544702377,
+  "entropy": 0.48774176802825175,
+  "n_spearman": 3121,
+  "n_entropy": 8000
+ },
+ "m9_fixed": {
+  "spearman": 0.5683218707442187,
+  "entropy": 0.7718286561142418,
+  "n_spearman": 3121,
+  "n_entropy": 8000
+ },
+ "m9_stoch": {
+  "spearman": 0.5743537355605991,
+  "entropy": 0.8463128040132477,
+  "n_spearman": 3121,
+  "n_entropy": 8000
+ },
+ "__retention__": {
+  "m9_fixed": {
+   "spearman_retention": 0.8086335737197148,
+   "entropy_ratio": 1.5824534758104511
+  },
+  "m9_stoch": {
+   "spearman_retention": 0.8172159786098816,
+   "entropy_ratio": 1.7351657362348887
+  }
+ }
+}

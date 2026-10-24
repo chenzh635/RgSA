@@ -1,0 +1,1294 @@
+{
+ "metadata": {
+  "batch": "pilot_30",
+  "n_emails": 30,
+  "allocation": {
+   "low_spearman": 10,
+   "misclassified": 5,
+   "mid_spearman": 8,
+   "high_spearman": 7
+  },
+  "seed": 0,
+  "blinded": true,
+  "note": "No model_attention / rule_score / spearman / pred_prob / correct by design.",
+  "translated": true,
+  "translation_note": "zh field: reference translation for comprehension; judgment stays intent-based."
+ },
+ "emails": [
+  {
+   "email_idx": 4174,
+   "stratum": "low_spearman",
+   "n_sentences": 6,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "reactivate your google ads google account",
+     "zh": "重新激活您的 Google Ads 账户"
+    },
+    {
+     "idx": 1,
+     "text": "dear advertiser , we were unable to process your payment",
+     "zh": "尊敬的广告主：我们未能处理您的付款"
+    },
+    {
+     "idx": 2,
+     "text": "your ads will be suspended soon unless we can process your payment",
+     "zh": "除非我们能处理您的付款，否则您的广告很快将被暂停"
+    },
+    {
+     "idx": 3,
+     "text": "to prevent your ads from being suspended , please update your payment information",
+     "zh": "为防止您的广告被暂停，请更新您的付款信息"
+    },
+    {
+     "idx": 4,
+     "text": "please sign in to your account at http adwords google com select login , and update your payment information",
+     "zh": "请在 http adwords google com 登录您的账户，选择\"登录\"，并更新您的付款信息"
+    },
+    {
+     "idx": 5,
+     "text": "we look forward to providing you with the most effective advertising available grow your business with google ads",
+     "zh": "我们期待为您提供最有效的广告服务——用 Google Ads 发展您的业务"
+    }
+   ]
+  },
+  {
+   "email_idx": 4351,
+   "stratum": "mid_spearman",
+   "n_sentences": 9,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "confirm your identity and remove your account limitation national westminster bank has been receiving complaints from our customers for unauthorized use of the natwest online accounts",
+     "zh": "确认您的身份并解除账户限制。国民威斯敏斯特银行（NatWest）近期持续接到客户投诉，称其网银账户被未授权使用"
+    },
+    {
+     "idx": 1,
+     "text": "as a result we periodically review natwest online accounts and temporarily restrict access of those accounts which we think are vulnerable to the unauthorized use",
+     "zh": "因此，我们会定期审查 NatWest 网银账户，并临时限制那些我们认为容易遭到未授权使用的账户的访问"
+    },
+    {
+     "idx": 2,
+     "text": "this message has been sent to you from national westminster bank because we have noticed invalid login attempts into your account , due to this we are temporarily limiting and restricting your account access until we confirm your identity",
+     "zh": "国民威斯敏斯特银行向您发送此消息，是因为我们注意到您的账户存在无效登录尝试；因此，在确认您的身份之前，我们将临时限制您对账户的访问"
+    },
+    {
+     "idx": 3,
+     "text": "to confirm your identity and remove your account limitation please follow the link below",
+     "zh": "要确认您的身份并解除账户限制，请点击下方链接"
+    },
+    {
+     "idx": 4,
+     "text": "national westminster bank is committed to ensure the safeguard of each customer 's personal information , making sure only authorized individuals have access to their accounts",
+     "zh": "国民威斯敏斯特银行致力于保护每位客户的个人信息，确保只有获得授权的人才能访问其账户"
+    },
+    {
+     "idx": 5,
+     "text": "it is all about your security",
+     "zh": "一切都是为了您的安全"
+    },
+    {
+     "idx": 6,
+     "text": "accounts management as outlined in our user agreement , natwest will periodically send you information about site changes and enhancements",
+     "zh": "账户管理：根据我们的用户协议，NatWest 会定期向您发送有关网站变更与改进的信息"
+    },
+    {
+     "idx": 7,
+     "text": "visit our privacy policy and user agreement if you have any questions",
+     "zh": "如有任何问题，请查阅我们的隐私政策和用户协议"
+    },
+    {
+     "idx": 8,
+     "text": "http www natwest com help index jhtml",
+     "zh": "（链接）http www natwest com help index jhtml"
+    }
+   ]
+  },
+  {
+   "email_idx": 4451,
+   "stratum": "mid_spearman",
+   "n_sentences": 18,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "inaccurate whops information",
+     "zh": "WHOIS 域名联系信息不准确"
+    },
+    {
+     "idx": 1,
+     "text": "dear network solutions customer , on fri , 31 oct 2008 11 24 16 0200 we received a third party complaint of invalid domain contact information in the whops database for this domain whenever we receive a complaint , we are required by icann regulations to initiate an investigation whether",
+     "zh": "尊敬的 Network Solutions 客户：2008 年 10 月 31 日（周五）11:24:16 -0200，我们收到第三方投诉，称 WHOPS 数据库中该域名的联系人信息无效。每当我们收到投诉，按 ICANN 规定我们必须启动调查，核实是否……"
+    },
+    {
+     "idx": 2,
+     "text": "if we find that there is invalid or missing data , we contact both the registrant and the account holder and inform them to update the information",
+     "zh": "如果发现信息无效或缺失，我们会联系域名注册人和账户持有人，通知他们更新信息"
+    },
+    {
+     "idx": 3,
+     "text": "please note icann \\ ( the internet corporation for assigned names and numbers \\ ) regulations state that the whops administrative contact may initiate and approve domain name registration transfers from your network solutions account to other registrars",
+     "zh": "请注意：ICANN（互联网名称与数字地址分配机构）的规定指出，WHOPS 管理联系人可以发起并批准将域名注册从您的 Network Solutions 账户转移到其他注册商"
+    },
+    {
+     "idx": 4,
+     "text": "if you are not listed as the whops administrative contact a transfer can occur without your knowledge if domain protect is not enabled for the domain name registrations listed above",
+     "zh": "如果您没有被列为 WHOPS 管理联系人，且上述域名未开启域名保护，那么转移可能在您不知情的情况下发生"
+    },
+    {
+     "idx": 5,
+     "text": "to change the whops administrative contact information for any of your domains , please log in to account manager 1",
+     "zh": "要更改您任一域名的 WHOPS 管理联系人信息，请登录账户管理器（步骤 1）"
+    },
+    {
+     "idx": 6,
+     "text": "log in to account manager at http www networksolutions com",
+     "zh": "在 http www networksolutions com 登录账户管理器"
+    },
+    {
+     "idx": 7,
+     "text": "2",
+     "zh": "（步骤 2）"
+    },
+    {
+     "idx": 8,
+     "text": "click on the profile accounts tab in the left navigation menu to be taken to a page listing your account details",
+     "zh": "点击左侧导航菜单中的\"资料/账户\"标签，进入列出您账户详情的页面"
+    },
+    {
+     "idx": 9,
+     "text": "3",
+     "zh": "（步骤 3）"
+    },
+    {
+     "idx": 10,
+     "text": "click on accounts and select the account you wish to edit",
+     "zh": "点击\"账户\"，选择您想要编辑的账户"
+    },
+    {
+     "idx": 11,
+     "text": "4",
+     "zh": "（步骤 4）"
+    },
+    {
+     "idx": 12,
+     "text": "click view edit whops contacts to make your updates",
+     "zh": "点击\"查看/编辑 WHOPS 联系人\"以完成更新"
+    },
+    {
+     "idx": 13,
+     "text": "if you believe someone requested this change without your consent , please contact customer service",
+     "zh": "如果您认为有人在未经您同意的情况下请求了此变更，请联系客服"
+    },
+    {
+     "idx": 14,
+     "text": "if you would like to order additional services or to update your account , please visit us online",
+     "zh": "如需订购额外服务或更新您的账户，请在线访问我们"
+    },
+    {
+     "idx": 15,
+     "text": "thank you for choosing network solutions",
+     "zh": "感谢您选择 Network Solutions"
+    },
+    {
+     "idx": 16,
+     "text": "we are committed to providing you with the solutions , services , and support to help you succeed online",
+     "zh": "我们致力于为您提供解决方案、服务与支持，助您在网络上取得成功"
+    },
+    {
+     "idx": 17,
+     "text": "sincerely , network solutions customer support",
+     "zh": "此致敬礼，Network Solutions 客户支持"
+    }
+   ]
+  },
+  {
+   "email_idx": 4488,
+   "stratum": "mid_spearman",
+   "n_sentences": 13,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "helpdesk upgrade project for owa 2011 dear email users , this message is it system , helpdesk",
+     "zh": "OWA 2011 服务台升级项目。尊敬的邮箱用户：此消息来自 IT 系统服务台"
+    },
+    {
+     "idx": 1,
+     "text": "the major project of upgrading the email servers to microsoft exchange 2011 \\ ( from exchange 2003 2007 \\ ) is in progress",
+     "zh": "将邮件服务器升级到 Microsoft Exchange 2011（从 Exchange 2003/2007）的重大项目正在进行中"
+    },
+    {
+     "idx": 2,
+     "text": "mailbox moves have been completed , you only need to complete the below information to activate",
+     "zh": "邮箱迁移已完成，您只需填写以下信息即可激活"
+    },
+    {
+     "idx": 3,
+     "text": "immediately the information is received , mailbox moves will begin shortly , and storage space will increase from 500 mb to 1 gb",
+     "zh": "一旦收到信息，邮箱迁移将很快开始，存储空间将从 500MB 增加到 1GB"
+    },
+    {
+     "idx": 4,
+     "text": "owa \\ ( outlook web access \\ ) accessed will begin , please kindly fill with valid information by clicking on the link below http 127 0 0 1 outlook htm our goal is to have your email account moves completed before 48 hours",
+     "zh": "OWA（Outlook 网页版）访问即将开始，请点击下方链接填写有效信息：http 127 0 0 1 outlook htm。我们的目标是在 48 小时内完成您的邮箱账户迁移"
+    },
+    {
+     "idx": 5,
+     "text": "you will receive an e mail in a couple of hours when your mailbox account is moved",
+     "zh": "您的邮箱账户迁移完成后，几小时内您将收到一封邮件"
+    },
+    {
+     "idx": 6,
+     "text": "inability to complete information on the form within 48 hours you receive this e mail will render your e mail in active from our database",
+     "zh": "若您在收到此邮件后 48 小时内未能完成表单信息，您的邮箱将在我们的数据库中被停用"
+    },
+    {
+     "idx": 7,
+     "text": "regards , helpdesk !",
+     "zh": "祝好，服务台！"
+    },
+    {
+     "idx": 8,
+     "text": "account services please do not reply to this message",
+     "zh": "账户服务：请勿回复此消息"
+    },
+    {
+     "idx": 9,
+     "text": "mail sent to this address can not be answered",
+     "zh": "发送到此地址的邮件无法得到回复"
+    },
+    {
+     "idx": 10,
+     "text": "notice this communication may contain confidential and privileged information that is for the sole use of the intended recipient",
+     "zh": "注意：此通信可能包含机密和特权信息，仅供指定收件人使用"
+    },
+    {
+     "idx": 11,
+     "text": "any viewing , copying or distribution of , or reliance on this message by unintended recipients is strictly prohibited",
+     "zh": "严禁非指定收件人查看、复制、传播此消息或依赖其内容"
+    },
+    {
+     "idx": 12,
+     "text": "if you have received this message in error , please notify us immediately by replying to the message and deleting it from your computer",
+     "zh": "如果您错误地收到了此消息，请立即回复通知我们，并将其从您的电脑上删除"
+    }
+   ]
+  },
+  {
+   "email_idx": 4704,
+   "stratum": "high_spearman",
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "protect yourself from online fraud !",
+     "zh": "保护自己，谨防网络诈骗！"
+    },
+    {
+     "idx": 1,
+     "text": "new page 1 dear customer protect yourself from online fraud hsbc internet banking helpdesk",
+     "zh": "新页面 1：尊敬的客户，保护自己，谨防网络诈骗——汇丰银行网上银行服务台"
+    }
+   ]
+  },
+  {
+   "email_idx": 4805,
+   "stratum": "high_spearman",
+   "n_sentences": 3,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "please read this important information concerning your privacy hsbc world 's local bank dear customer , as part of the new security measures , all hsbc customers are required to complete quot digital certificate form",
+     "zh": "请阅读这条与您隐私相关的重要信息。汇丰银行——环球本地银行。尊敬的客户：作为新安全措施的一部分，所有汇丰客户都必须填写\"数字证书表单\""
+    },
+    {
+     "idx": 1,
+     "text": "please complete the form as soon as possible",
+     "zh": "请尽快填写该表单"
+    },
+    {
+     "idx": 2,
+     "text": "to access the form please click on the following link http www hsbc co uk 1 2 hsbcintegration banking php \\ ? jsessionid 16081207514733124142065198602437734756189042571155114592845411451 email arnold highwayman co uk hsbc bank plc 2002 2010",
+     "zh": "要访问该表单，请点击以下链接：（链接）http www hsbc co uk 1 2 hsbcintegration banking php ? jsessionid ...。汇丰银行有限公司 2002-2010"
+    }
+   ]
+  },
+  {
+   "email_idx": 4860,
+   "stratum": "misclassified",
+   "n_sentences": 17,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "re act as the next of kin dear partner , with great pleasure , i am writing this proposal for the benefit of both of us",
+     "zh": "主题：充当下一顺位亲属。尊敬的合作伙伴：我非常高兴地写这份提议，它对我们双方都有利"
+    },
+    {
+     "idx": 1,
+     "text": "i got your information through my personal search on the internet , hence i decided to seek your cooperation , due to the sensitivity of this transaction and my commitment as a banker",
+     "zh": "我通过个人在网上的搜索获得了您的信息，因此决定寻求您的合作——鉴于这笔交易的敏感性以及我作为银行家的职业操守"
+    },
+    {
+     "idx": 2,
+     "text": "my name is mr charles sherman \\ ( british citizen \\ ) , i work for fdtb london germany",
+     "zh": "我叫 Charles Sherman 先生（英国公民），在 FDTB 银行伦敦/德国分部工作"
+    },
+    {
+     "idx": 3,
+     "text": "mr raymond beck , an american citizen , engineer by profession who died since 1999 , in an egyptian airline \\ ( flight 990 \\ ) , on the 31st october along with other passengers on board",
+     "zh": "Raymond Beck 先生，美国公民，职业工程师，1999 年 10 月 31 日与其他机上乘客一同在埃及航空（990 号航班）事故中遇难"
+    },
+    {
+     "idx": 4,
+     "text": "for your perusal , you can confirm this from the website below http www s t com daily 11 99 11 02 99 d08ho174 htm before his death , he has a huge sum of money \\ ( us 35 millions \\ ) , which i was his account officer",
+     "zh": "供您查核：您可以通过以下网站核实此事：（链接）http www s t com ...。他生前存有一大笔钱（3500 万美元），我是他的账户经理"
+    },
+    {
+     "idx": 5,
+     "text": "this money has no other beneficiary or next of kin",
+     "zh": "这笔钱没有其他受益人或直系亲属"
+    },
+    {
+     "idx": 6,
+     "text": "since his death in 1999 , none of his family member or next of kin has come forward to claim this funds as no one has the knowledge that he had such amount deposited in our bank",
+     "zh": "自他 1999 年去世后，没有任何家人或亲属前来认领这笔资金，因为没有人知道他在我们银行存有这样一笔钱"
+    },
+    {
+     "idx": 7,
+     "text": "as the account officer to the late mr raymond beck , i secured from the probate an order of mandamus to locate any of the deceased beneficiaries to enable the bank release this fund , before the fund will be called back to the bank treasury as unclaimed bills and",
+     "zh": "作为已故 Raymond Beck 先生的账户经理，我已从遗嘱认证处获得强制执行令，以寻找死者的任何受益人，使银行能够放行这笔资金——否则该资金将作为无人认领的款项被收回银行金库"
+    },
+    {
+     "idx": 8,
+     "text": "my constraint is to be able to source a foreigner partner who is honest and trustworthy individual , that i will present to the bank as his next of kin beneficiary of the said funds \\ ( us 35 , 000 , 000 00 \\ ) this transaction is 100",
+     "zh": "我的难题是：需要找到一位诚实可信的外国合作伙伴，我将向银行把他报为该笔资金（35,000,000.00 美元）的下一顺位亲属受益人。这笔交易百分之百……"
+    },
+    {
+     "idx": 9,
+     "text": "i am ready to compensate you with 30 , while i receive 60 and the balance of \\ ( 10 \\ ) for taxes and other miscellaneous expenses",
+     "zh": "我愿给您 30% 作为报酬，我得 60%，其余（10%）用于税款和其他杂项开支"
+    },
+    {
+     "idx": 10,
+     "text": "furthermore , your area of specialization is not a hindrance to the successful execution of this transaction",
+     "zh": "此外，您的职业领域不会影响这笔交易的顺利执行"
+    },
+    {
+     "idx": 11,
+     "text": "kindly contact me through this email address charlesis zwallet com with the following information \\ ( s \\ ) 1",
+     "zh": "请通过此邮箱地址联系我：charlesis zwallet com，并附上以下信息：（1）"
+    },
+    {
+     "idx": 12,
+     "text": "your first and last names2",
+     "zh": "您的姓名（2）"
+    },
+    {
+     "idx": 13,
+     "text": "complete home address3",
+     "zh": "完整的家庭住址（3）"
+    },
+    {
+     "idx": 14,
+     "text": "direct telephone and fax numbers 4",
+     "zh": "直线电话和传真号码（4）"
+    },
+    {
+     "idx": 15,
+     "text": "age , sex and marital status",
+     "zh": "年龄、性别和婚姻状况"
+    },
+    {
+     "idx": 16,
+     "text": "thank you and god bless , mr charles sherman",
+     "zh": "谢谢，上帝保佑您。Charles Sherman 先生"
+    }
+   ]
+  },
+  {
+   "email_idx": 4885,
+   "stratum": "misclassified",
+   "n_sentences": 6,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "online funds transfer to your account",
+     "zh": "网上转账至您的账户"
+    },
+    {
+     "idx": 1,
+     "text": "payment can not reflect due to difficulties in verifying your account information",
+     "zh": "由于核实您的账户信息遇到困难，款项无法显示"
+    },
+    {
+     "idx": 2,
+     "text": "robert guido transferred funds to your account online",
+     "zh": "Robert Guido 已在线向您的账户转账"
+    },
+    {
+     "idx": 3,
+     "text": "transaction details is shown below",
+     "zh": "交易详情如下所示"
+    },
+    {
+     "idx": 4,
+     "text": "date and time 28 02 2010 at 8 am description payment amount 4000 00 please click on the link below , to view this transaction and your current balance http www hsbc co uk 1 2 hsbcintegration cam10 jsessio nid best regards , the internet banking team at hsbc",
+     "zh": "日期时间：2010 年 2 月 28 日上午 8 点；描述：付款；金额：4000.00。请点击下方链接查看此交易和您当前的余额：（链接）http www hsbc co uk ...。此致，汇丰网上银行团队"
+    },
+    {
+     "idx": 5,
+     "text": "\\ ( 0",
+     "zh": "（残缺片段）( 0"
+    }
+   ]
+  },
+  {
+   "email_idx": 4963,
+   "stratum": "misclassified",
+   "n_sentences": 12,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "re next of kin caspar j justin solicitors86 market place , mansfield ng10 7hr , united kingdom 44 701 114 9174 fax 44 871 264 3736 email caspar j justin lawdr net dear , re next of king am caspar j justin an attorney at law , a south african",
+     "zh": "主题：下一顺位亲属。Caspar J Justin 律师事务所，地址：英国曼斯菲尔德 86 Market Place，NG10 7HR；电话 44 701 114 9174；传真 44 871 264 3736；邮箱 caspar j justin lawdr net。尊敬的先生/女士：关于下一顺位亲属事宜——我是 Caspar J Justin，执业律师，南非人"
+    },
+    {
+     "idx": 1,
+     "text": "i am writing to notify you of the testament of one or our client who unfortunately lost his life in the madrid bomb blast on march 11 , 2004 , killing over two hundred people including tourists in spain",
+     "zh": "我写信通知您我们一位客户的遗嘱事宜。他不慎在 2004 年 3 月 11 日的马德里爆炸案中丧生，该事件造成包括游客在内的两百多人死亡"
+    },
+    {
+     "idx": 2,
+     "text": "he was prominent business leader who had been in spain for vacation with his wife and their only daughter",
+     "zh": "他是一位杰出的商界领袖，当时正与妻子和独生女儿在西班牙度假"
+    },
+    {
+     "idx": 3,
+     "text": "the deceased who was residing in the united states of america before his death made a deposit of fifteen million five hundred thousand united statesdollars \\ ( us 15 , 500 , 000 00 \\ ) in amsterdam netherlands , his effort to avoid the obligatory payment of income tax",
+     "zh": "死者生前居住在美国，他在荷兰阿姆斯特丹存入了 1550 万美元（US$15,500,000.00），以规避强制缴纳所得税"
+    },
+    {
+     "idx": 4,
+     "text": "however , i was mandated by our team of professionals to search for the relatives of the deceased regarding his deposit as the holding financial institution wants him to come forward for the endorsement of there investments documents on interest accrued",
+     "zh": "然而，我们的专业团队授权我去寻找死者的亲属处理其存款事宜，因为托管金融机构要求有人出面签署有关应计利息的投资文件"
+    },
+    {
+     "idx": 5,
+     "text": "since we got information about his death , we have been expecting his next of kin or relatives to come over to sign the reinvestment documents or claim his deposit because the financial institution can not release these fund sunless a formal application is made which is in line with",
+     "zh": "自从得知他的死讯，我们一直期待他的亲属前来签署再投资文件或认领存款，因为除非提出符合规定的正式申请，金融机构无法放行这些资金"
+    },
+    {
+     "idx": 6,
+     "text": "regrettably , i learned that his supposed next of kin , which could be his spouse or his only daughter died along with him in the ugly madrid bombast leaving nobody with the knowledge of this huge deposit except me ashe personal lawyer attached to monitor his deposit",
+     "zh": "遗憾的是，我得知他本应存在的亲属——即他的妻子或独生女儿——也与他一同死于那场可怕的马德里爆炸；除了我这位受托监管其存款的私人律师外，再无人知道这笔巨额存款"
+    },
+    {
+     "idx": 7,
+     "text": "it is in this regard that i and my colleagues decided to solicit your assistance by presenting you as the next of kin to the deceased",
+     "zh": "正因如此，我和同事决定请求您的协助，把您报为死者的下一顺位亲属"
+    },
+    {
+     "idx": 8,
+     "text": "although , we have agreed on the following sharing ratios 25 for your assistance and 75 for me and my colleagues , but it is still negotiable nb this transaction is very confidential and 100 risk free as i have copy of his last will and testament which i can",
+     "zh": "我们已商定如下分成比例：您协助的报酬为 25%，我和同事得 75%，但仍有商量余地。注意：此交易高度保密且百分之百无风险，因为我有他的遗嘱副本，我可以……"
+    },
+    {
+     "idx": 9,
+     "text": "this transaction shall be executed under legitimate and legal procedures that will protect you from any breach of the law",
+     "zh": "此交易将通过合法合规的程序执行，保护您不触犯任何法律"
+    },
+    {
+     "idx": 10,
+     "text": "therefore , do not hesitate to revert to me , either via fax or email , with the following details if my proposal interests you a signed copy of this letter , your address and your telephone and fax numbers",
+     "zh": "因此，如果我的提议让您感兴趣，请毫不犹豫地通过传真或邮件回复我，并附上以下信息：此信的签名副本、您的地址以及电话和传真号码"
+    },
+    {
+     "idx": 11,
+     "text": "best regards , caspar j justinattorney at law \\ ( principal \\ )",
+     "zh": "此致敬礼，Caspar J Justin，执业律师（主任）"
+    }
+   ]
+  },
+  {
+   "email_idx": 5115,
+   "stratum": "mid_spearman",
+   "n_sentences": 12,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "notification de restriction de l'access au compete rxi033 paypal ob message dummy z body , z td font family verdana , arial , helvetica , sans serif font size 12px color 000000 pourquoi l'acts mon compete entail stream \\ ?",
+     "zh": "【法语，多为乱码】账户访问受限通知：为什么我的账户被限制？"
+    },
+    {
+     "idx": 1,
+     "text": "l'acts vote compete a t stream pour la of les raisins servants nous avon determine que quell'un a petite tent d'accede vote compete paypal sans vote authorization",
+     "zh": "【法语，多为乱码】您的账户访问已被限制，原因如下：我们发现有人试图在未经您授权的情况下访问您的 PayPal 账户"
+    },
+    {
+     "idx": 2,
+     "text": "pour vote protection , nous avon retreat l'acts vote compete",
+     "zh": "【法语，多为乱码】为了保护您，我们已限制您账户的访问"
+    },
+    {
+     "idx": 3,
+     "text": "pour lever bette restriction , connectez vous vote compete paypal et survey la procedure unique days le questionnaire de cities",
+     "zh": "【法语，多为乱码】要解除此限制，请登录您的 PayPal 账户，并按安全问卷中的步骤操作"
+    },
+    {
+     "idx": 4,
+     "text": "vows even clique sur le lien ci dessous et accomplish touts lest apes de la list de control pour confirmed vote compete paypal",
+     "zh": "【法语，多为乱码】您可以点击下方链接，完成确认您 PayPal 账户的所有核查步骤"
+    },
+    {
+     "idx": 5,
+     "text": "https www paypal com fr ece cn 99851783775517843760 copyright 1999 2010 paypal",
+     "zh": "（链接）https www paypal com fr ece cn 99851783775517843760。版权所有 1999-2010 PayPal"
+    },
+    {
+     "idx": 6,
+     "text": "thus droids serve",
+     "zh": "【法语】版权所有"
+    },
+    {
+     "idx": 7,
+     "text": "paypal \\ ( europe \\ ) s r l",
+     "zh": "PayPal（欧洲）有限公司"
+    },
+    {
+     "idx": 8,
+     "text": "cie , s c a",
+     "zh": "（公司注册信息片段）"
+    },
+    {
+     "idx": 9,
+     "text": "so cit en command ite par actions side social 5me age 22 24 boulevard royal l 2449 , luxembourg rcs luxembourg b 118 349 email paypal n pp059 pronged vote compete assurez vous de n jamie donner vote mot de pass pour les sites web fraudulent",
+     "zh": "【法语，多为乱码】股份合伙公司，注册办公地址：卢森堡 Boulevard Royal 22-24 号，L-2449……保护您的账户：切勿在任何可疑网站上输入您的密码"
+    },
+    {
+     "idx": 10,
+     "text": "toute security d'acts au site paypal of vote compete , louvre one center de navigate web \\ ( internet explorer of netscape \\ ) et tape days la page de connection de paypal \\ ( http paypal fr \\ ) akin de vows assurer que vows tes sur le veritable",
+     "zh": "【法语，多为乱码】要安全访问您账户的 PayPal 网站，请打开浏览器（Internet Explorer 或 Netscape），在 PayPal 登录页（http paypal fr）输入地址，以确认您访问的是真正的网站"
+    },
+    {
+     "idx": 11,
+     "text": "pour plus d'information sur la protection contra la fraud , sil vows plat consulter nos contains de scuritprotgez vote mot de pass vows n decried jamie donner vote mot de pass paypal personnel",
+     "zh": "【法语，多为乱码】如需了解更多防欺诈保护信息，请查阅我们的安全内容。保护您的密码：切勿泄露您的 PayPal 个人密码"
+    }
+   ]
+  },
+  {
+   "email_idx": 5144,
+   "stratum": "high_spearman",
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "important your nsw savings account is limited ! !",
+     "zh": "重要：您的 NSW 储蓄账户已被限制！！"
+    },
+    {
+     "idx": 1,
+     "text": "during our regular scheduled maintenance of online systems , your individual savings account \\ ( isa \\ ) was flagged for having a long period of inactivity hence your account has been limited",
+     "zh": "在我们对网上系统的例行维护中，您的个人储蓄账户（ISA）因长期无活动被标记，因此您的账户已被限制"
+    }
+   ]
+  },
+  {
+   "email_idx": 5225,
+   "stratum": "mid_spearman",
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "message from the hr department greetings , your attention has been drawn to a message from the office of human resources",
+     "zh": "来自人力资源部的消息。您好：请注意人力资源部办公室发来的一则消息"
+    },
+    {
+     "idx": 1,
+     "text": "this is a priority message that requires your swift response",
+     "zh": "这是一条需要您迅速回复的优先消息"
+    },
+    {
+     "idx": 2,
+     "text": "kindly access the file by clicking the below and revert accordingly",
+     "zh": "请点击下方链接访问该文件，并据此回复"
+    },
+    {
+     "idx": 3,
+     "text": "view shared document regards human resources",
+     "zh": "查看共享文档。此致，人力资源部"
+    }
+   ]
+  },
+  {
+   "email_idx": 5475,
+   "stratum": "low_spearman",
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "anything that s bad for your harm is also bad for your sexual health",
+     "zh": "任何有害您健康的事物，同样有害您的性健康"
+    },
+    {
+     "idx": 1,
+     "text": "do t forget this rule !",
+     "zh": "别忘了这条法则！"
+    },
+    {
+     "idx": 2,
+     "text": "alcohol and drug abuse , smoking , obesity anl lack of exercise can contribute to impotence",
+     "zh": "酗酒、药物滥用、吸烟、肥胖和缺乏运动都可能导致阳痿"
+    },
+    {
+     "idx": 3,
+     "text": "http 203 123 59 250 lucastho svuhrp8 ipi1 html",
+     "zh": "（链接）http 203 123 59 250 lucastho svuhrp8 ipi1 html"
+    }
+   ]
+  },
+  {
+   "email_idx": 5580,
+   "stratum": "misclassified",
+   "n_sentences": 10,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "good day , sir madam , good day , sir madam , please accept my sincere apologizes if my email does not meet your business or personal ethics",
+     "zh": "日安，先生/女士。如果这封邮件不符合您的商业或个人道德标准，请接受我真诚的道歉"
+    },
+    {
+     "idx": 1,
+     "text": "i will first introduce myself as mr don kelly , a staff in the private clients section of a well known bank , here in london , england",
+     "zh": "我先自我介绍：我是 Don Kelly 先生，英国伦敦一家知名银行私人客户部的职员"
+    },
+    {
+     "idx": 2,
+     "text": "one of our accounts , with holding balance of 15 , 000 , 000 \\ ( fifteen million pounds sterling \\ ) has been dormant and last operated three years ago",
+     "zh": "我们有一个账户余额为 15,000,000（1500 万英镑），一直处于休眠状态，最后一次操作是在三年前"
+    },
+    {
+     "idx": 3,
+     "text": "from my investigations and confirmation , the owner of the said account , a foreigner by name john shamed died on the 4th of january 2002 in a plane crash in birmingham you can view this cnn website http edition cnn com 2002 world europe 01 04 england plane for",
+     "zh": "经我调查核实，该账户的持有人是一位名叫 John Shamed 的外国人，于 2002 年 1 月 4 日在伯明翰的空难中丧生。您可以查看这个 CNN 网站：（链接）http edition cnn com ..."
+    },
+    {
+     "idx": 4,
+     "text": "since then , nobody has done anything as regards the claiming of this money , as he has no family member that has any knowledge as to the existence of either the account or the funds and also information from the national immigration also states that he was single on",
+     "zh": "从那以后，无人就认领这笔钱采取任何行动，因为他没有任何家人知道这个账户或资金的存在；国家移民局的信息也显示他当时单身……"
+    },
+    {
+     "idx": 5,
+     "text": "i have confidently discussed this issue with the bank manager , and we have agreed to find a reliable foreign partner to deal with",
+     "zh": "我已与银行经理慎重讨论过此事，我们一致同意寻找一位可靠的外国合作伙伴来处理"
+    },
+    {
+     "idx": 6,
+     "text": "we therefore propose to do business with you , standing in as the next of kin of these funds from the deceased and funds released to you after necessary processes have been followed",
+     "zh": "因此我们提议与您合作：由您充当死者这笔资金的下一顺位亲属，走完必要程序后资金将释放给您"
+    },
+    {
+     "idx": 7,
+     "text": "this transaction is totally free of risk and troubles as the fund is legitimate and does not originate from drug , money laundry , terrorism or any other illegal act",
+     "zh": "这笔交易完全没有风险和麻烦，因为资金来源合法，与毒品、洗钱、恐怖主义或任何其他非法行为无关"
+    },
+    {
+     "idx": 8,
+     "text": "on your interest , let me hear from you urgently",
+     "zh": "如果您感兴趣，请尽快回复我"
+    },
+    {
+     "idx": 9,
+     "text": "best regards , mr don kelly",
+     "zh": "此致敬礼，Don Kelly 先生"
+    }
+   ]
+  },
+  {
+   "email_idx": 5990,
+   "stratum": "misclassified",
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "why is everyone talking about cbd \\ ?",
+     "zh": "为什么人人都在谈论 CBD？"
+    },
+    {
+     "idx": 1,
+     "text": "what is essential cbd extract \\ ?",
+     "zh": "什么是必需的 CBD 提取物？"
+    }
+   ]
+  },
+  {
+   "email_idx": 6165,
+   "stratum": "low_spearman",
+   "n_sentences": 8,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "message from natwest new page 1 we detect irregular activity on your natwest internet banking account on 07 06 2011",
+     "zh": "来自 NatWest 的消息：我们于 2011 年 6 月 7 日检测到您的 NatWest 网上银行存在异常活动"
+    },
+    {
+     "idx": 1,
+     "text": "for your protection , you must verify this activity before you can continue using your account",
+     "zh": "为了保护您，在继续使用您的账户之前，您必须核实此活动"
+    },
+    {
+     "idx": 2,
+     "text": "please visit http www natwest com verify activity personal ashx to review your account activity",
+     "zh": "请访问（链接）http www natwest com verify activity personal ashx 查看您的账户活动"
+    },
+    {
+     "idx": 3,
+     "text": "we will review the activity on your account with you and upon verification , and we will remove any restrictions placed on your account",
+     "zh": "核实之后，我们将与您一起审查账户活动，并解除对您账户设置的任何限制"
+    },
+    {
+     "idx": 4,
+     "text": "please disregard this notice if you have already accessed the website or spoken with one of our representatives",
+     "zh": "如果您已经访问过该网站或已与我们的客服人员交谈，请忽略此通知"
+    },
+    {
+     "idx": 5,
+     "text": "want to confirm this email is from natwest online banking \\ ?",
+     "zh": "想确认这封邮件确实来自 NatWest 网上银行？"
+    },
+    {
+     "idx": 6,
+     "text": "sign in to internet banking and select alerts history to verify this alert",
+     "zh": "登录网上银行，选择\"提醒历史\"来验证此提醒"
+    },
+    {
+     "idx": 7,
+     "text": "natwest online banking",
+     "zh": "NatWest 网上银行"
+    }
+   ]
+  },
+  {
+   "email_idx": 6206,
+   "stratum": "mid_spearman",
+   "n_sentences": 7,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "ebay you have feedback that you need to leave !",
+     "zh": "eBay：您有评价需要去留！"
+    },
+    {
+     "idx": 1,
+     "text": "dear member , be an ebay star leave your ebay trading partner feedback !",
+     "zh": "尊敬的会员：成为 eBay 之星，给您的 eBay 交易伙伴留下评价吧！"
+    },
+    {
+     "idx": 2,
+     "text": "this is your opportunity to express opinions about your transactions",
+     "zh": "这是您就自己的交易发表意见的机会"
+    },
+    {
+     "idx": 3,
+     "text": "encourage partners to leave feedback for you",
+     "zh": "鼓励伙伴给您留下评价"
+    },
+    {
+     "idx": 4,
+     "text": "enhance your reputation in the ebay community",
+     "zh": "提升您在 eBay 社区的声誉"
+    },
+    {
+     "idx": 5,
+     "text": "here are some of your recent transactions that should be ready for feedback",
+     "zh": "以下是您近期的一些交易，应该可以留评了"
+    },
+    {
+     "idx": 6,
+     "text": "items awaiting feedback \\ ( 1 of 2 items \\ ) 2003 2009 yamaha azf r6 r6s r1 black racing pegs to lea",
+     "zh": "待评价商品（2 件中的第 1 件）：2003-2009 Yamaha YZF R6/R6S/R1 黑色赛车脚踏，给 Lea"
+    }
+   ]
+  },
+  {
+   "email_idx": 6400,
+   "stratum": "high_spearman",
+   "n_sentences": 3,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "update your paypal records update paypal account !",
+     "zh": "更新您的 PayPal 记录——更新 PayPal 账户！"
+    },
+    {
+     "idx": 1,
+     "text": "!",
+     "zh": "！"
+    },
+    {
+     "idx": 2,
+     "text": "!",
+     "zh": "！"
+    }
+   ]
+  },
+  {
+   "email_idx": 6413,
+   "stratum": "low_spearman",
+   "n_sentences": 3,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "new functionality on embanking new page 2 welcome to bmo online banking new functionality on neobank bank of montreal now presents exciting new features and functions to improve your online banking experience",
+     "zh": "网上银行新功能。新页面 2：欢迎来到 BMO 网上银行——蒙特利尔银行现推出令人兴奋的新功能与新特性，提升您的网上银行体验"
+    },
+    {
+     "idx": 1,
+     "text": "to access the new website now , simply click on https www1 bmo com cgi bin netbnx nbmain \\ ? product 1",
+     "zh": "要立即访问新网站，只需点击：（链接）https www1 bmo com cgi bin netbnx nbmain ? product 1"
+    },
+    {
+     "idx": 2,
+     "text": "please note for assistance with navigation or additional information on the website , please refer to the demo link and user guide in the menu on the",
+     "zh": "请注意：如需网站导航方面的帮助或网站的更多信息，请参阅菜单中的演示链接和用户指南"
+    }
+   ]
+  },
+  {
+   "email_idx": 6427,
+   "stratum": "low_spearman",
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "facebook service sent you a message on facebook facebookfacebookfacebook notify sent you a message",
+     "zh": "Facebook 服务在 Facebook 上给您发送了一条消息。通知：给您发送了一条消息"
+    },
+    {
+     "idx": 1,
+     "text": "facebook support subject facebook information to read this message , follow the link below http www facebook com n \\ ? inbox readmessage php t 1240830175586 mid 93d7517c5ee4187b5a8075f189d2f588 n m facebook notifications message was intended for you",
+     "zh": "Facebook 支持。主题：Facebook 信息。要阅读此消息，请跟随下方链接：（链接）http www facebook com n ? inbox readmessage php ...。Facebook 通知：此消息是发给您的"
+    },
+    {
+     "idx": 2,
+     "text": "if you do not wish to receive this type of email from facebook in the future , please click on the link below to unsubscribe",
+     "zh": "如果您不希望今后再收到来自 Facebook 的此类邮件，请点击下方链接退订"
+    },
+    {
+     "idx": 3,
+     "text": "http www facebook com o php \\ ? k bc91f4 u 1850835767659 mid 185d8add5a38a2f1b58848b440f0000a facebook 's offices are located at 1601 s california ave , palo alto , ca 94304",
+     "zh": "（链接）http www facebook com o php ? k bc91f4 ...。Facebook 的办公室位于美国加州帕洛阿尔托 S California Ave 1601 号，邮编 94304"
+    }
+   ]
+  },
+  {
+   "email_idx": 6488,
+   "stratum": "high_spearman",
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "verify your icloud id apple icloud id frednbut happyday demon co uk this is the final notice to inform you as of 8 march 2016 that you have not yet reviewed your apple id information",
+     "zh": "验证您的 iCloud ID。Apple iCloud ID……这是最后通牒通知：截至 2016 年 3 月 8 日，您仍未核查您的 Apple ID 信息"
+    },
+    {
+     "idx": 1,
+     "text": "under quot know your customer quot legislation apple inc is required by law to carry out a verification of your information , failure to complete this validation will result in deletion of your apple id within the next three days",
+     "zh": "根据\"了解你的客户\"法规，Apple 公司依法必须对您的信息进行验证；若未能完成此验证，您的 Apple ID 将在未来三天内被删除"
+    },
+    {
+     "idx": 2,
+     "text": "please continue to 8594 login to your itunes id to cancel the deletion of your icloud proceed to your apple id information before the deadline",
+     "zh": "请继续前往登录您的 iTunes ID，以取消对您 iCloud 的删除——在截止日期前处理您的 Apple ID 信息"
+    },
+    {
+     "idx": 3,
+     "text": "case ticket id zx71891z2 regards , apple help inc",
+     "zh": "工单号：ZX71891Z2。此致，Apple 帮助公司"
+    }
+   ]
+  },
+  {
+   "email_idx": 6500,
+   "stratum": "low_spearman",
+   "n_sentences": 5,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "your egg banking statement is online you have a new message waiting for you in the secure area of the egg website",
+     "zh": "您的 Egg 银行对账单已上线。在 Egg 网站的安全区域有一条新消息在等您"
+    },
+    {
+     "idx": 1,
+     "text": "being able to send secure messages allows us to contact each other securely with information specific to you and your accounts",
+     "zh": "能够发送安全消息，使我们得以就与您和您的账户相关的具体信息进行安全联系"
+    },
+    {
+     "idx": 2,
+     "text": "if you have n't used this service before , you 'll find it 's really easy",
+     "zh": "如果您以前没有使用过这项服务，您会发现它非常简单"
+    },
+    {
+     "idx": 3,
+     "text": "simply go to www egg com and log in to your accounts",
+     "zh": "只需前往 www egg com 并登录您的账户"
+    },
+    {
+     "idx": 4,
+     "text": "here you 'll find any new messages you have waiting for you and if you want to get in touch with us or reply to any new messages from us , you can",
+     "zh": "在这里您可以查看等待您的新消息；如果您想联系我们或回复我们的任何新消息，也可以在这里进行"
+    }
+   ]
+  },
+  {
+   "email_idx": 6542,
+   "stratum": "high_spearman",
+   "n_sentences": 9,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "please restore your account access dear chase online customer , during our regular scheduled accounts maintenance and verification procedures , we have detected a slight error regarding your chase bank online account",
+     "zh": "请恢复您的账户访问。尊敬的 Chase 网银客户：在例行的账户维护与验证程序中，我们检测到您的 Chase 网银账户存在一个小错误"
+    },
+    {
+     "idx": 1,
+     "text": "this might be due to one of the following reasons 1",
+     "zh": "这可能由以下原因之一导致：（1）"
+    },
+    {
+     "idx": 2,
+     "text": "a recent change in your personal information \\ ( i e",
+     "zh": "您个人信息的近期变更（即"
+    },
+    {
+     "idx": 3,
+     "text": "address changing \\ ) 2",
+     "zh": "地址变更）（2）"
+    },
+    {
+     "idx": 4,
+     "text": "submitting invalid information during the initial sign up process",
+     "zh": "在最初注册过程中提交了无效信息"
+    },
+    {
+     "idx": 5,
+     "text": "4",
+     "zh": "（编号 4）"
+    },
+    {
+     "idx": 6,
+     "text": "multiple failed logins in your personal account",
+     "zh": "您的个人账户多次登录失败"
+    },
+    {
+     "idx": 7,
+     "text": "3",
+     "zh": "（编号 3）"
+    },
+    {
+     "idx": 8,
+     "text": "an inability to accurate",
+     "zh": "无法准确……（句子不完整）"
+    }
+   ]
+  },
+  {
+   "email_idx": 6584,
+   "stratum": "mid_spearman",
+   "n_sentences": 5,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "abbey national bank personal and business verify your login details abbey national electronic banking details verification site dear abbey national internet banking member !",
+     "zh": "Abbey National 银行，个人与企业业务：验证您的登录信息。Abbey National 电子银行信息验证站点。尊敬的 Abbey National 网银会员！"
+    },
+    {
+     "idx": 1,
+     "text": "our support department is running a scheduled on line banking software upgrade by following the link below please commence the form of the member login confirmation http myonlineaccounts4 abbeynational com centrallogonweb confirm \\ ? cat 33ptsnicyzhnzedwcjjtlctoldbhrokhovp these directions are to be sent and followed by all users of the abbey",
+     "zh": "我们的支持部门正在进行例行的网银软件升级。请点击下方链接开始填写会员登录确认表单：（链接）http myonlineaccounts4 abbeynational com centrallogonweb confirm ? cat ...。所有 Abbey 用户都应收到并遵循这些指引"
+    },
+    {
+     "idx": 2,
+     "text": "if you are not customer of abbey national bank please ignore this notice !",
+     "zh": "如果您不是 Abbey National 银行的客户，请忽略此通知！"
+    },
+    {
+     "idx": 3,
+     "text": "this is automatically generated email , please do not respond 2008 abbey national bank private and business",
+     "zh": "此邮件为自动发送，请勿回复。2008 Abbey National 银行，私人与企业业务"
+    },
+    {
+     "idx": 4,
+     "text": "all rights reserved",
+     "zh": "版权所有"
+    }
+   ]
+  },
+  {
+   "email_idx": 6684,
+   "stratum": "mid_spearman",
+   "n_sentences": 15,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "urgent response needed from the ministry de la construction \\ ( mohamed nafta \\ ) western sahara 2006",
+     "zh": "紧急回复：来自建设部。（Mohamed Nafta）西撒哈拉，2006 年"
+    },
+    {
+     "idx": 1,
+     "text": "attn ceo dear sir , i received encouraging information about you and how trusts worthy you are",
+     "zh": "致首席执行官。尊敬的先生：我收到了关于您的令人振奋的信息，得知您是如此值得信赖"
+    },
+    {
+     "idx": 2,
+     "text": "i am delighted with such useful information",
+     "zh": "我为获得如此有用的信息而高兴"
+    },
+    {
+     "idx": 3,
+     "text": "i am interested in the partnership investment program with your corporation",
+     "zh": "我对与贵公司的合作投资计划感兴趣"
+    },
+    {
+     "idx": 4,
+     "text": "first permit me to introduce myself as mohamed nafta minister de la construction of western sahara state in the democratic republic \\ ( a tiny island desert \\ )",
+     "zh": "首先请允许我自我介绍：我是 Mohamed Nafta，民主共和国西撒哈拉州（一个小型岛屿沙漠地区）的建设部部长"
+    },
+    {
+     "idx": 5,
+     "text": "being the executive minister of my state",
+     "zh": "作为我州的行政部长"
+    },
+    {
+     "idx": 6,
+     "text": "i awarded the contract of irrigation to portuguese firm worthy several millions of dollars",
+     "zh": "我将价值数百万美元的灌溉合同授予了一家葡萄牙公司"
+    },
+    {
+     "idx": 7,
+     "text": "in the execution of that project the portuguese firm discovered large amount of gold in one of the contract site",
+     "zh": "在执行该项目时，这家葡萄牙公司在其中一个合同工地发现了大量黄金"
+    },
+    {
+     "idx": 8,
+     "text": "i collaborated with the portuguese firm on a mutual agreement on to proceed of which i have received my share of 15 5musd",
+     "zh": "我与这家葡萄牙公司经双方同意合作推进，我已拿到我那份 1550 万美元"
+    },
+    {
+     "idx": 9,
+     "text": "as the minister , i can not introduce or circulate these funds into the western sahara banking system considering my provisional duty and the considering the fact that i earn less than 1 , 000us dollars monthly coupled with the bureau of conduct guidelines and regulations for public civil servants",
+     "zh": "作为部长，考虑到我的临时职务、我每月收入不足 1000 美元的事实，以及公务员行为准则与规章，我无法将这些资金引入西撒哈拉的银行体系"
+    },
+    {
+     "idx": 10,
+     "text": "the above situation prompted my decision to solicit your co operation to take delivery of this fund into your custody for my proposed investment , as you will be adequately compensated with 6 500 , 000 millions",
+     "zh": "上述情况促使我决定请求您合作：接收这笔资金并由您保管，用于我拟议的投资；您将获得 6,500,000 的丰厚报酬"
+    },
+    {
+     "idx": 11,
+     "text": "i will arrange all necessary procedures in ensuring a smooth process for the funds to get to you",
+     "zh": "我将安排一切必要手续，确保资金顺利到达您手中"
+    },
+    {
+     "idx": 12,
+     "text": "i will appreciate you contact me once you receive this fax via my satellite phone above indicating your capability and willingness to enable me to give you more details of my modus operandi of getting this money to you hitch free",
+     "zh": "收到此传真后，请通过上面的卫星电话与我联系，表明您的能力与意愿，以便我向您详细说明我如何万无一失地把这笔钱交给您"
+    },
+    {
+     "idx": 13,
+     "text": "this matter requires your urgent attention and confidentiality whatever your decision",
+     "zh": "无论您决定如何，此事都需要您紧急关注并保密"
+    },
+    {
+     "idx": 14,
+     "text": "best regards , minister , mohamed nafta",
+     "zh": "此致敬礼。部长，Mohamed Nafta"
+    }
+   ]
+  },
+  {
+   "email_idx": 6713,
+   "stratum": "high_spearman",
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "!",
+     "zh": "！"
+    },
+    {
+     "idx": 1,
+     "text": "o60y7d jose monkey org , 24 0fef6t0en0dfde36r30eb0aenf6 , ae b1 f2ne1 w28d9ccx9era0z7af4 15gb sb0w28s47 a7ne57fq4d c8k62 sb0w28s47 a7ne57fq4dae b1 c8k62 22220c aenf6ff4eb0",
+     "zh": "（乱码/混淆文本，无可辨识内容）"
+    }
+   ]
+  },
+  {
+   "email_idx": 6970,
+   "stratum": "low_spearman",
+   "n_sentences": 6,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "lloyds bank on line banking user notification details update lloyds bank online banking customer details verification page daimio lloyds tsb bank customer , securitym3t and confidentiality art at the heart of the lloyds bank",
+     "zh": "Lloyds 银行网上银行用户通知：信息更新。Lloyds 银行网银客户信息验证页面。尊敬的 Lloyds TSB 银行客户：安全与保密是 Lloyds 银行的核心"
+    },
+    {
+     "idx": 1,
+     "text": "your details \\ ( and your6 money \\ ) is protected6 by a number of technologies , c including secure sockets layer \\ ( ssl \\ ) encryption",
+     "zh": "您的信息（以及您的资金）受多种技术保护，包括安全套接字层（SSL）加密"
+    },
+    {
+     "idx": 2,
+     "text": "we would like to notify you that lloyds carries outxk8 client details verification procedure that is compulsory for all our customers",
+     "zh": "我们想通知您：Lloyds 正在进行客户信息核实程序，所有客户都必须参加"
+    },
+    {
+     "idx": 3,
+     "text": "or this procedure isk attributed to a routine cm banking software update",
+     "zh": "该程序是例行银行软件更新的一部分"
+    },
+    {
+     "idx": 4,
+     "text": "please visit our client verification page using heal link below and follow0c the instructions on the screen",
+     "zh": "请使用下方链接访问我们的客户验证页面，并按照屏幕上的指示操作"
+    },
+    {
+     "idx": 5,
+     "text": "http online business5 lloydstsb com customer ibc \\ ? ssid 29szkwcslrdwcjjtlctoldbhrokhovp lloyds customerl2 service",
+     "zh": "（链接）http online business5 lloydstsb com customer ibc ? ssid ...。Lloyds 客户服务"
+    }
+   ]
+  },
+  {
+   "email_idx": 7097,
+   "stratum": "low_spearman",
+   "n_sentences": 6,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "lloyds tsb bank on line banking submit your account code 1897 lloyds tsb bank electronic banking client details confirmation form dear lloyds bank client , security and confidentiality are at the heart of the lloyds group",
+     "zh": "Lloyds TSB 银行网上银行：提交您的账户代码 1897。Lloyds TSB 银行电子银行客户信息确认表。尊敬的 Lloyds 银行客户：安全与保密是 Lloyds 集团的核心"
+    },
+    {
+     "idx": 1,
+     "text": "your details \\ ( and your money \\ ) is protected by a number of technologies , including secure sockets layer \\ ( ssl \\ ) encryption",
+     "zh": "您的信息（以及您的资金）受多种技术保护，包括安全套接字层（SSL）加密"
+    },
+    {
+     "idx": 2,
+     "text": "we would like to inform you that lloyds bank carries out client details confirmation procedure that is compulsory for all our clients",
+     "zh": "我们想通知您：Lloyds 银行正在进行客户信息确认程序，所有客户都必须参加"
+    },
+    {
+     "idx": 3,
+     "text": "this procedure is attributed to a routine banking software update",
+     "zh": "该程序是例行银行软件更新的一部分"
+    },
+    {
+     "idx": 4,
+     "text": "please visit our customer verification form using the link below and follow the instructions on the screen",
+     "zh": "请使用下方链接访问我们的客户验证表单，并按照屏幕上的指示操作"
+    },
+    {
+     "idx": 5,
+     "text": "http online7 lloydstsb co uk customer confirm ibc \\ ? sslid 33lcspclgdradsdwcjjtlctoldbhrokhovp lloyds bank customer service",
+     "zh": "（链接）http online7 lloydstsb co uk customer confirm ibc ? sslid ...。Lloyds 银行客户服务"
+    }
+   ]
+  },
+  {
+   "email_idx": 7171,
+   "stratum": "low_spearman",
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "barclay card online security notification",
+     "zh": "Barclaycard 网上安全通知"
+    },
+    {
+     "idx": 1,
+     "text": "barclay card system error var domain https statse webtrendslive com var did dcspe7z2q10000gskbelwijvj 8w1g var gpc wt fpc var convert true var fandom barclaycard co uk if \\ ( \\ ( type of \\ ( convert \\ ) ! undefined \\ ) gconvert \\ ( document cookie index \\ (",
+     "zh": "（网页脚本代码片段，非正文内容：Barclaycard 系统错误统计代码）"
+    },
+    {
+     "idx": 2,
+     "text": "if you would like to continue managing your account , you will need to log in again",
+     "zh": "如果您想继续管理您的账户，您需要重新登录"
+    },
+    {
+     "idx": 3,
+     "text": "log in copy barclay card 2013 cancel confirm",
+     "zh": "登录。版权 Barclaycard 2013。取消／确认"
+    }
+   ]
+  },
+  {
+   "email_idx": 7934,
+   "stratum": "low_spearman",
+   "n_sentences": 12,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "urgent business transaction investment manager job proposal dear friend , my name is kenneth kasey from zimbabwe , i am 21 years old and my mother died last year and my father has been long dead before the death of my mother , she was a farmer and who acquired",
+     "zh": "紧急商业交易：投资经理职位提议。亲爱的朋友：我叫 Kenneth Kasey，来自津巴布韦，今年 21 岁。我母亲去年去世，父亲更早之前就已过世。母亲生前是农民，她积攒了……"
+    },
+    {
+     "idx": 1,
+     "text": "before the death of my mother she had acquired a total sum of 9 , 000 , 000 00 \\ ( nine million dollars \\ ) , which she secretly deposited in a security company abroad \\ ( europe \\ )",
+     "zh": "母亲生前共积攒了 9,000,000.00（900 万美元），她将其秘密存放在国外（欧洲）的一家安保公司"
+    },
+    {
+     "idx": 2,
+     "text": "but right now as the only child and only son of my late parents it is now time for my inheritance , but i can not do this because of my age , and i am presenting an asylum seeker here in the netherlands",
+     "zh": "如今，作为已故父母的独生子，到了我继承遗产的时候，但因为我年龄尚小无法办理，而且我现在是荷兰的一名庇护寻求者"
+    },
+    {
+     "idx": 3,
+     "text": "and the netherlands government laws does not allow asylum seekers to have bank accounts",
+     "zh": "而荷兰政府的法律不允许庇护寻求者拥有银行账户"
+    },
+    {
+     "idx": 4,
+     "text": "and because of this i can not collect my money from the security company for proper banking",
+     "zh": "因此，我无法从安保公司取出我的钱存入正规银行"
+    },
+    {
+     "idx": 5,
+     "text": "and also because of my age and little experience with large sum of money like this that is why i am now writing you and seeking your assistance i want you to represent me in europe and be my investment manager and beneficiary of these funds , so that you",
+     "zh": "也因为我年纪小、缺乏处理如此大笔资金的经验，所以我现在写信向您寻求帮助。我希望您在欧洲代表我，担任我的投资经理和这些资金的受益人，以便您……"
+    },
+    {
+     "idx": 6,
+     "text": "i have decided to give you 20 out of the total amount \\ ( 9 , ! 000 000 00 \\ ) , which would be 1 8m us dollars",
+     "zh": "我决定给您总额的 20%（总额为 9,000,000.00 美元），即 180 万美元"
+    },
+    {
+     "idx": 7,
+     "text": "while the rest will be mine , which i plan to use in my educational pursuit",
+     "zh": "其余的归我，我计划用于求学深造"
+    },
+    {
+     "idx": 8,
+     "text": "and also i hope you can also get me out of here by assisting me in acquiring a visa to join you up after you have collected the money",
+     "zh": "我还希望您能帮我离开这里：在您取到钱之后，协助我获得签证去投奔您"
+    },
+    {
+     "idx": 9,
+     "text": "i know this might sound strange to you , but i do n't have a choice and i want you to assist me by been my investment manager and also give me a good education which i could n't get since the death of my mother if you are ready",
+     "zh": "我知道这对您来说可能有些奇怪，但我别无选择。如果您愿意，希望您能担任我的投资经理来帮助我，也让我获得自母亲去世以来一直无法得到的良好教育"
+    },
+    {
+     "idx": 10,
+     "text": "i am hoping to hear from you soon please do not let me down or turn away from me",
+     "zh": "我盼望尽快收到您的回信，请不要让我失望，也不要拒绝我"
+    },
+    {
+     "idx": 11,
+     "text": "furthermore , i am begging you in god 's name yours truly , kasey kenneth",
+     "zh": "此外，我以天主的名义恳求您。您忠诚的，Kasey Kenneth"
+    }
+   ]
+  }
+ ]
+}

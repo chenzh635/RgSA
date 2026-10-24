@@ -1,0 +1,165 @@
+{
+ "metadata": {
+  "batch": "production_chunk_11",
+  "n": 8,
+  "note": "Blinded supplement emails (spec failure-mode strata). Sentences: idx/text only."
+ },
+ "emails": [
+  {
+   "email_idx": 7627,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "hsbc bank security information dear hsbc customer , hsbc online bank has been receiving complaints from our customers for unauthorized use of their hsbc online accounts"
+    },
+    {
+     "idx": 1,
+     "text": "click here to update your account best regards , hsbc online head of customer communications hsbc banking group results 2010"
+    }
+   ]
+  },
+  {
+   "email_idx": 7645,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "your account has a problem your account has a problem dear client , we are sorry , but honda net br could not send your last message !"
+    },
+    {
+     "idx": 1,
+     "text": "for more information please see this page reference 001240 please note that this message was sent to the following e mail address harmanec1 onda net br please do not reply to this message"
+    }
+   ]
+  },
+  {
+   "email_idx": 7708,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "notice of underreported income"
+    },
+    {
+     "idx": 1,
+     "text": "taxpayer id sales 00000209085168uktax type income taxis sue unreported underreported income \\ ( fraud application \\ ) please review your tax statement on hm revenue and customs \\ ( hmrc \\ ) website \\ ( click on the link below \\ ) review tax statement for taxpayer id sales 00000209085168ukhm"
+    }
+   ]
+  },
+  {
+   "email_idx": 7777,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "natwest internet banking please confirm your data !"
+    },
+    {
+     "idx": 1,
+     "text": "dear natwest private and business banking user !"
+    }
+   ]
+  },
+  {
+   "email_idx": 7779,
+   "n_sentences": 4,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "apple assist validation sept icloud id censored this is the last observation to indicate you as of 21 sep 2016 that you have not yet updated your icloud id information"
+    },
+    {
+     "idx": 1,
+     "text": "under quot know your customer \\ ( kyc \\ ) quot modulation apple is cited by guidelines to implement a validation of your information , omission to do so will result in cessation of your apple id within the next three days"
+    },
+    {
+     "idx": 2,
+     "text": "please continue below to validate your itunes id sgt to interpose the cessation of your apple camp icloud please proceed to continue to your apple id profile prior to the programmed emotion time"
+    },
+    {
+     "idx": 3,
+     "text": "resolution validation request 0185642735 with regards , cloud resource my apple id support privacy policy copyright 2016 itunes sarl 31 33 , rue saint tithe , l 2763 luxembourg all rights reserved"
+    }
+   ]
+  },
+  {
+   "email_idx": 7814,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "jose monkey org update now"
+    },
+    {
+     "idx": 1,
+     "text": "` a8y7d jose monkey org 0c b11necca5r30c07ne40cn05z7a ` a8v84u35 50ae b1 y82g9cla1g09zcbs73sd6m88f7l42 zcbs73sd6m88f7"
+    }
+   ]
+  },
+  {
+   "email_idx": 7820,
+   "n_sentences": 11,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "your account has been limited until we hear from you dear paypal user , you may have noticed that some limitations have been placed on your paypal account"
+    },
+    {
+     "idx": 1,
+     "text": "as a valued paypal customer , we want to let you know what this means and how to resolve the situation"
+    },
+    {
+     "idx": 2,
+     "text": "what does it mean to have limited access \\ ?"
+    },
+    {
+     "idx": 3,
+     "text": "your account may be restricted for a number of reasons you 'll find out when you next log in to paypal"
+    },
+    {
+     "idx": 4,
+     "text": "as a result , you 'll notice that some of the following options are now unavailable send money to other paypal users request or receive money from other users edit or remove account details close how do i resolve the issue \\ ?"
+    },
+    {
+     "idx": 5,
+     "text": "to assist us in our review , please log in to your account here"
+    },
+    {
+     "idx": 6,
+     "text": "you will see a message explaining why your account has been restricted , with details of what to do next"
+    },
+    {
+     "idx": 7,
+     "text": "click here to remove limitations account limitation process helps to maintain paypal as a safer way to buy and sell"
+    },
+    {
+     "idx": 8,
+     "text": "it 's similar to passing through a security checkpoint"
+    },
+    {
+     "idx": 9,
+     "text": "when we limit an account we often simply ask the user to supply information to verify their identity , financial information or the merchandise they 're selling"
+    },
+    {
+     "idx": 10,
+     "text": "yours sincerely , paypal"
+    }
+   ]
+  },
+  {
+   "email_idx": 7945,
+   "n_sentences": 2,
+   "sentences": [
+    {
+     "idx": 0,
+     "text": "reactivate your online banking account !"
+    },
+    {
+     "idx": 1,
+     "text": "protecting your account"
+    }
+   ]
+  }
+ ]
+}
